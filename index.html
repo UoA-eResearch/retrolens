@@ -21,6 +21,9 @@
 
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
+    <script src="https://unpkg.com/leaflet-spin@1.1.0/leaflet.spin.min.js"></script>
+
     <style>
         html,
         body {
@@ -30,16 +33,43 @@
             width: 100%;
         }
 
+        .legend {
+            color: white;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 5px;
+        }
+
         #map,
         #timeline {
             width: 100%;
             height: 50%;
+        }
+
+        #title {
+            position: absolute;
+            top: 30;
+            left: 0;
+            right: 0;
+            margin: auto;
+            z-index: 1000;
+            width: 50%;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px #000000;
+            font-weight: normal;
+            font-size: 1rem;
         }
     </style>
 </head>
 
 <body>
 
+    <h1 id="title">Retrolens alternative interface</h1>
     <div id="map"></div>
     <div id="timeline"></div>
 
@@ -65,6 +95,7 @@
         var imageOverlays = L.layerGroup([], {
             attribution: "<a href='http://retrolens.nz'>Retrolens (LINZ CC-BY 3.0)</a>",
         }).addTo(map);
+        map.spin(true, { color: "white" });
         var featureLayer = L.esri.featureLayer({
             url: 'https://api-proxy.auckland-cer.cloud.edu.au/Retrolens',
             attribution: "<a href='http://retrolens.nz'>Retrolens (LINZ CC-BY 3.0)</a>",
@@ -97,13 +128,13 @@
                     size: "M12",
                 }
             }];
-            var options = {
+            var layout = {
                 title: "Images over time",
                 xaxis: { title: "Date" },
                 yaxis: { title: "Number of images" }
             }
-            Plotly.newPlot('timeline', plotData, options)
-            timeline.on('plotly_hover', function (data) {
+            Plotly.newPlot('timeline', plotData, layout, { responsive: true })
+            timeline.on("plotly_hover", function (data) {
                 console.log(data)
                 var d = new Date(data.points[0].x);
                 featureLayer.setStyle(function (feature) {
@@ -122,6 +153,10 @@
                         opacity: .2,
                     }
                 });
+            })
+            timeline.on('plotly_click', function (data) {
+                console.log(data)
+                var d = new Date(data.points[0].x);
                 for (var i in window.images) {
                     var image = window.images[i];
                     if (image.start.getFullYear() == d.getFullYear()) {
@@ -131,6 +166,7 @@
                     }
                 }
             })
+            map.spin(false);
         }).addTo(map);
 
         L.control.layers({}, {
@@ -138,6 +174,15 @@
             "Image overlays": imageOverlays,
             "Town labels": imageryLabels
         }).addTo(map);
+
+
+        var legend = L.control({ position: 'bottomright' });
+        legend.onAdd = function (map) {
+            var div = L.DomUtil.create('div', 'info legend');
+            div.innerHTML = "Hover over the timeline to view extents for a given year, click to load images";
+            return div;
+        };
+        legend.addTo(map);
     </script>
 
 </body>
