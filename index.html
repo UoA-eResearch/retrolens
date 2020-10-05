@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Retrolens alternative interface</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+    <!-- Load Leaflet from CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+    <!-- Load Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@2.5.1/dist/esri-leaflet.js"
+        integrity="sha512-q7X96AASUF0hol5Ih7AeZpRF6smJS55lcvy+GLWzJfZN+31/BQ8cgNx2FGF+IQSA4z2jHwB20vml+drmooqzzQ=="
+        crossorigin=""></script>
+
+    <script type="text/javascript"
+        src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
+
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        #map {
+            width: 100%;
+            height: 85%;
+        }
+
+        #timeline {
+            width: 100%;
+            height: 15%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="map"></div>
+    <div id="timeline"></div>
+
+    <script>
+
+        // Timeline
+        const container = document.getElementById("timeline");
+
+        // Create a DataSet (allows two way data-binding)
+        const items = new vis.DataSet();
+        const options = {
+          min: "1900",
+          max: "2020",
+          format: {
+            minorLabels: {
+              //year: "YYYY"
+            }
+          },
+          type: 'point',
+          width: "100%",
+          maxHeight: "100%",
+          zoomable: true,
+          zoomMin: 1000 * 60 * 60 * 24 * 7,
+          //stack: false
+        };
+        const timeline = new vis.Timeline(container, items, options);
+
+        // Map
+
+        var map = L.map('map', {
+            zoom: 10,
+            minZoom: 6,
+            //maxZoom: 14,
+            center: { lat: -39.11407918425644, lng: 177.703857421875 }
+        });
+        var bounds = map.getBounds();
+        bounds._northEast.lat += 10;
+        bounds._northEast.lng += 10;
+        bounds._southWest.lat -= 10;
+        bounds._southWest.lng -= 10;
+        map.setMaxBounds(bounds);
+
+        L.esri.basemapLayer('Imagery').addTo(map);
+        L.esri.basemapLayer('ImageryLabels').addTo(map);
+        var featureLayer = L.esri.featureLayer({
+            url: 'https://api-proxy.auckland-cer.cloud.edu.au/Retrolens',
+            attribution: "<a href='http://retrolens.nz'>Retrolens (LINZ CC-BY 3.0)</a>",
+            minZoom: 10,
+            style: {
+                fill: false,
+                weight: .5,
+                color: "red"
+            },
+            onEachFeature: function(feature, layer) {
+                if (!window.debug) {
+                    console.log(feature, layer)
+                    window.debug = true;
+                }
+                var dt = new Date(feature.properties.Date)
+                //items.add({id: feature.id, start: feature.properties.Date, feature: feature})
+            }
+        }).addTo(map);
+        //https://files.interpret.co.nz/Retrolens/Imagery/SN[Survey]/[COPYRIGHT]_[Survey]_[Run]_[Photo_Number]/[image size].jpg
+    </script>
+
+</body>
+
+</html>
