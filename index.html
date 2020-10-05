@@ -59,9 +59,12 @@
         bounds._southWest.lng -= 10;
         map.setMaxBounds(bounds);
 
-        L.esri.basemapLayer('Imagery').addTo(map);
-        L.esri.basemapLayer('ImageryLabels').addTo(map);
-        window.images = []
+        var imagery = L.esri.basemapLayer('Imagery').addTo(map);
+        var imageryLabels = L.esri.basemapLayer('ImageryLabels').addTo(map);
+        window.images = {}
+        var imageOverlays = L.layerGroup([], {
+            attribution: "<a href='http://retrolens.nz'>Retrolens (LINZ CC-BY 3.0)</a>",
+        }).addTo(map);
         var featureLayer = L.esri.featureLayer({
             url: 'https://api-proxy.auckland-cer.cloud.edu.au/Retrolens',
             attribution: "<a href='http://retrolens.nz'>Retrolens (LINZ CC-BY 3.0)</a>",
@@ -69,15 +72,26 @@
             style: {
                 fill: false,
                 weight: .5,
-                color: "red"
+                color: "red",
+                opacity: 1
             },
+            timeField: "Date",
             onEachFeature: function (feature, layer) {
-                window.images.push({ id: feature.id, start: new Date(feature.properties.Date), feature: feature })
+                var p = feature.properties;
+                var imageUrl = `https://files.interpret.co.nz/Retrolens/Imagery/SN${p.Survey}/${p.COPYRIGHT}_${p.Survey}_${p.Run}_${p.Photo_Number}/thumbnail.jpg`;
+                var bounds = layer.getBounds();
+                window.images[feature.id] = {
+                    start: new Date(p.Date),
+                    feature: feature,
+                    imageUrl: imageUrl,
+                    bounds: bounds,
+                    imageOverlay: L.imageOverlay(imageUrl, bounds)
+                }
             }
         }).on("load", function () {
             console.log("loaded", window.images);
             var plotData = [{
-                x: window.images.map(image => image.start),
+                x: Object.values(window.images).map(image => image.start),
                 type: 'histogram',
                 xbins: {
                     size: "M12",
@@ -88,9 +102,42 @@
                 xaxis: { title: "Date" },
                 yaxis: { title: "Number of images" }
             }
-            Plotly.newPlot('timeline', plotData, options);
+            Plotly.newPlot('timeline', plotData, options)
+            timeline.on('plotly_hover', function (data) {
+                console.log(data)
+                var d = new Date(data.points[0].x);
+                featureLayer.setStyle(function (feature) {
+                    if (new Date(feature.properties.Date).getFullYear() == d.getFullYear()) {
+                        return {
+                            fill: false,
+                            weight: .5,
+                            color: "red",
+                            opacity: 1
+                        }
+                    }
+                    return {
+                        fill: false,
+                        weight: .5,
+                        color: "gray",
+                        opacity: .2,
+                    }
+                });
+                for (var i in window.images) {
+                    var image = window.images[i];
+                    if (image.start.getFullYear() == d.getFullYear()) {
+                        image.imageOverlay.addTo(imageOverlays);
+                    } else {
+                        image.imageOverlay.removeFrom(imageOverlays);
+                    }
+                }
+            })
         }).addTo(map);
-        //https://files.interpret.co.nz/Retrolens/Imagery/SN[Survey]/[COPYRIGHT]_[Survey]_[Run]_[Photo_Number]/[image size].jpg
+
+        L.control.layers({}, {
+            "Image extents": featureLayer,
+            "Image overlays": imageOverlays,
+            "Town labels": imageryLabels
+        }).addTo(map);
     </script>
 
 </body>
