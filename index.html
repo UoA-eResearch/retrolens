@@ -116,6 +116,12 @@
                 imageOverlay.on("click", function() {
                     imageOverlay.removeFrom(imageOverlays);
                 })
+                imageOverlay.on("mouseover", function(event) {
+                    L.popup()
+                        .setLatLng(event.latlng)
+                        .setContent(`Date taken: ${new Date(p.Date).toLocaleDateString()}<br>Altitude: ${p.Altitude}`)
+                        .openOn(map);
+                })
                 window.images[feature.id] = {
                     start: new Date(p.Date),
                     feature: feature,
