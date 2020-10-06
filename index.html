@@ -111,12 +111,16 @@
                 var p = feature.properties;
                 var imageUrl = `https://files.interpret.co.nz/Retrolens/Imagery/SN${p.Survey}/${p.COPYRIGHT}_${p.Survey}_${p.Run}_${p.Photo_Number}/thumbnail.jpg`;
                 var bounds = layer.getBounds();
+                var imageOverlay = L.imageOverlay(imageUrl, bounds, {opacity:1, interactive: true});
+                imageOverlay.on("click", function() {
+                    imageOverlay.removeFrom(imageOverlays);
+                })
                 window.images[feature.id] = {
                     start: new Date(p.Date),
                     feature: feature,
                     imageUrl: imageUrl,
                     bounds: bounds,
-                    imageOverlay: L.imageOverlay(imageUrl, bounds)
+                    imageOverlay: imageOverlay
                 }
             }
         }).on("load", function () {
