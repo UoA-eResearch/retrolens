@@ -6,7 +6,6 @@ import os
 from tqdm.auto import tqdm # Progress bar
 
 df = pd.read_csv("TZ_trial.csv")
-df = df.drop_duplicates("Released_F")
 
 for i,row in tqdm(df.iterrows(), total=df.shape[0]):
     url = f"https://files.interpret.co.nz/Retrolens/Imagery/SN{row.Survey}/{row.Released_F}/High.jpg"
