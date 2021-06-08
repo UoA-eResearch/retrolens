@@ -110,6 +110,8 @@
                     transparent: true,
                     maxZoom: 23,
                 })
+                var b = wmsLayer.LatLonBoundingBox
+                layer.bounds = [[b[1], b[0]], [b[3], b[2]]]
                 if (!layerByArea[location]) {
                     layerByArea[location] = {}
                 }
@@ -130,6 +132,11 @@
             }
             console.log(overlays)
             L.control.layers(basemaps, overlays).addTo(map);
+
+            map.on("overlayadd", function(e) {
+                console.log("Added " + e.name)
+                map.flyToBounds(e.layer.bounds)
+            })
         })
     </script>
 
