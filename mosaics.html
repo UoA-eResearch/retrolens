@@ -143,11 +143,11 @@
 
         map.attributionControl.addAttribution("<a href='http://retrolens.nz'>Retrolens (LINZ CC-BY 3.0)</a>");
 
-        var legend = L.control({position: 'bottomright'});
+        var legend = L.control({position: 'topright'});
         legend.onAdd = function (map) {
 
             var div = L.DomUtil.create('div', 'info legend');
-            div.innerHTML = `Use the layer chooser in the top right to enable or disable imagery layers.<br>
+            div.innerHTML = `Use the layer chooser to enable or disable imagery layers.<br>
             Fly to layer bounds on layer add: <input id="fly" type="checkbox" checked/>
             `;
             return div;
