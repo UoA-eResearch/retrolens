@@ -98,13 +98,12 @@
             var cap = new WMSCapabilities().parse(xml);
             var layers = cap.Capability.Layer.Layer;
             console.log(layers);
-            var overlays = {}
             var layerByArea = {}
             for (wmsLayer of layers) {
-                console.log(wmsLayer.Name)
-                var bits = wmsLayer.Name.split("_");
-                var location = bits[0]
-                var date = bits[1]
+                var name = wmsLayer.Name.replace("_mosaic", "").replace("_mosiac", "")
+                console.log(name)
+                var location = name.split("_")[0]
+                var date = name.slice(-4)
                 var layer = L.tileLayer.wms('https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv', {
                     layers: wmsLayer.Name,
                     format: 'image/png',
@@ -112,13 +111,24 @@
                     maxZoom: 23,
                 })
                 if (!layerByArea[location]) {
-                    layer.addTo(map);
                     layerByArea[location] = {}
                 }
                 layerByArea[location][date] = layer
-                overlays[wmsLayer.Name] = layer;
             }
             console.log(layerByArea)
+            var overlays = {}
+            for (location in layerByArea) {
+                var added = false
+                for (date in layerByArea[location]) {
+                    var layer = layerByArea[location][date]
+                    overlays[location + " " + date] = layer
+                    if (!added) {
+                        layer.addTo(map)
+                        added = true
+                    }
+                }
+            }
+            console.log(overlays)
             L.control.layers(basemaps, overlays).addTo(map);
         })
     </script>
