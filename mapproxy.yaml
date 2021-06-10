@@ -1,0 +1,1028 @@
+# MapProxy configuration automatically generated from:
+#   https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv
+#
+# NOTE: The generated configuration can be highly inefficient,
+#       especially when multiple layers and caches are requested at once.
+#       Make sure you understand the generated configuration!
+#
+# Created on 2021-06-10 15:33:15.533151 with:
+# /usr/local/bin/mapproxy-util autoconfig --capabilities https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv --output=mapproxy.yaml --force --base mapproxy_base.yaml
+
+base: mapproxy_base.yaml
+caches:
+  CoalRiver_14MAR1990_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [CoalRiver_14MAR1990_mosaic_wms]
+  CoalRiver_18MAR1965_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [CoalRiver_18MAR1965_mosaic_wms]
+  CoalRiver_19FEB1991_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [CoalRiver_19FEB1991_mosaic_wms]
+  ColacBay_03MAR1967_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [ColacBay_03MAR1967_mosaic_wms]
+  ColacBay_08OCT1985_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [ColacBay_08OCT1985_mosaic_wms]
+  ColacBay_10MAR1963_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [ColacBay_10MAR1963_mosaic_wms]
+  ColacBay_11FEB1978_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [ColacBay_11FEB1978_mosaic_wms]
+  ColacBay_11MAR1971_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [ColacBay_11MAR1971_mosaic_wms]
+  ColacBay_12FEB1969_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [ColacBay_12FEB1969_mosaic_wms]
+  ColacBay_15FEB1952_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [ColacBay_15FEB1952_mosaic_wms]
+  ColacBay_19MAR1981_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [ColacBay_19MAR1981_mosaic_wms]
+  ColacBay_27FEB1976_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [ColacBay_27FEB1976_mosaic_wms]
+  CosyNook_08OCT1985_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [CosyNook_08OCT1985_mosaic_wms]
+  CosyNook_10MAR1963_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [CosyNook_10MAR1963_mosaic_wms]
+  CosyNook_15FEB1952_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [CosyNook_15FEB1952_mosaic_wms]
+  CosyNook_27FEB1976_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [CosyNook_27FEB1976_mosaic_wms]
+  CurioBay_15APR1948_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [CurioBay_15APR1948_mosaic_wms]
+  CurioBay_17OCT1985_mosiac_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [CurioBay_17OCT1985_mosiac_wms]
+  CurioBay_21FEB1967_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [CurioBay_21FEB1967_mosaic_wms]
+  CurioBay_25FEB1978_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [CurioBay_25FEB1978_mosaic_wms]
+  DoughboyBay_10FEB1958_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [DoughboyBay_10FEB1958_mosaic_wms]
+  DoughboyBay_25FEB1977_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [DoughboyBay_25FEB1977_mosaic_wms]
+  DoughboyBay_25FEB1978_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [DoughboyBay_25FEB1978_mosaic_wms]
+  HaldaneBay_07OCT1985_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [HaldaneBay_07OCT1985_mosaic_wms]
+  HaldaneBay_15APR1948_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [HaldaneBay_15APR1948_mosaic_wms]
+  HaldaneBay_21FEB1967_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [HaldaneBay_21FEB1967_mosaic_wms]
+  HaldaneBay_25FEB1978_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [HaldaneBay_25FEB1978_mosaic_wms]
+  HaldaneBay_LDS_05FEB2007_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [HaldaneBay_LDS_05FEB2007_mosaic_wms]
+  KawakaputaBay_10MAR1963_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [KawakaputaBay_10MAR1963_mosaic_wms]
+  KawakaputaBay_11FEB1978_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [KawakaputaBay_11FEB1978_mosaic_wms]
+  KawakaputaBay_12FEB1969_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [KawakaputaBay_12FEB1969_mosaic_wms]
+  KawakaputaBay_18OCT1985_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [KawakaputaBay_18OCT1985_mosaic_wms]
+  KawakaputaBay_27FEB1976_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [KawakaputaBay_27FEB1976_mosaic_wms]
+  MS_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [MS_wms]
+  OretiBeach_MiddleWest_01MAR1956_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [OretiBeach_MiddleWest_01MAR1956_mosaic_wms]
+  OretiBeach_MiddleWest_07APRL1964_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [OretiBeach_MiddleWest_07APRL1964_mosaic_wms]
+  OretiBeach_MiddleWest_11FEB1978_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [OretiBeach_MiddleWest_11FEB1978_mosaic_wms]
+  OretiBeach_MiddleWest_15FEB1976_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [OretiBeach_MiddleWest_15FEB1976_mosaic_wms]
+  OretiBeach_MiddleWest_21FEB1967_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [OretiBeach_MiddleWest_21FEB1967_mosaic_wms]
+  OretiBeach_MiddleWest_28NOV1998_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [OretiBeach_MiddleWest_28NOV1998_mosaic_wms]
+  OretiBeach_MiddleWest_2NOV1984_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [OretiBeach_MiddleWest_2NOV1984_mosaic_wms]
+  Riverton_10DEC1958_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [Riverton_10DEC1958_mosaic_wms]
+  Riverton_11FEB1978_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [Riverton_11FEB1978_mosaic_wms]
+  Riverton_15FEB1952_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [Riverton_15FEB1952_mosaic_wms]
+  Riverton_21FEB1967_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [Riverton_21FEB1967_mosaic_wms]
+  Riverton_24FEB1968_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [Riverton_24FEB1968_mosaic_wms]
+  Riverton_27FEB1976_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [Riverton_27FEB1976_mosaic_wms]
+  Riverton_8OCT1985_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [Riverton_8OCT1985_mosaic_wms]
+  WaipapaPoint_07OCT1985_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [WaipapaPoint_07OCT1985_mosaic_wms]
+  WaipapaPoint_15APR1948_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [WaipapaPoint_15APR1948_mosaic_wms]
+  WaipapaPoint_21FEB1967_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [WaipapaPoint_21FEB1967_mosaic_wms]
+  WaipapaPoint_25FEB1978_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [WaipapaPoint_25FEB1978_mosaic_wms]
+  WaipapaPoint_LDS_05FEB2007_mosaic_cache:
+    grids: [webmercator]
+    cache:
+      type: redis
+      default_ttl: 0
+    sources: [WaipapaPoint_LDS_05FEB2007_mosaic_wms]
+layers:
+- layers:
+  - name: CosyNook_10MAR1963_mosaic
+    sources: [CosyNook_10MAR1963_mosaic_cache]
+    title: CosyNook_10MAR1963_mosaic
+  - name: CosyNook_27FEB1976_mosaic
+    sources: [CosyNook_27FEB1976_mosaic_cache]
+    title: CosyNook_27FEB1976_mosaic
+  - name: CosyNook_08OCT1985_mosaic
+    sources: [CosyNook_08OCT1985_mosaic_cache]
+    title: CosyNook_08OCT1985_mosaic
+  - name: CosyNook_15FEB1952_mosaic
+    sources: [CosyNook_15FEB1952_mosaic_cache]
+    title: CosyNook_15FEB1952_mosaic
+  - name: OretiBeach_MiddleWest_07APRL1964_mosaic
+    sources: [OretiBeach_MiddleWest_07APRL1964_mosaic_cache]
+    title: OretiBeach_MiddleWest_07APRL1964_mosaic
+  - name: OretiBeach_MiddleWest_15FEB1976_mosaic
+    sources: [OretiBeach_MiddleWest_15FEB1976_mosaic_cache]
+    title: OretiBeach_MiddleWest_15FEB1976_mosaic
+  - name: OretiBeach_MiddleWest_28NOV1998_mosaic
+    sources: [OretiBeach_MiddleWest_28NOV1998_mosaic_cache]
+    title: OretiBeach_MiddleWest_28NOV1998_mosaic
+  - name: OretiBeach_MiddleWest_11FEB1978_mosaic
+    sources: [OretiBeach_MiddleWest_11FEB1978_mosaic_cache]
+    title: OretiBeach_MiddleWest_11FEB1978_mosaic
+  - name: OretiBeach_MiddleWest_2NOV1984_mosaic
+    sources: [OretiBeach_MiddleWest_2NOV1984_mosaic_cache]
+    title: OretiBeach_MiddleWest_2NOV1984_mosaic
+  - name: OretiBeach_MiddleWest_21FEB1967_mosaic
+    sources: [OretiBeach_MiddleWest_21FEB1967_mosaic_cache]
+    title: OretiBeach_MiddleWest_21FEB1967_mosaic
+  - name: OretiBeach_MiddleWest_01MAR1956_mosaic
+    sources: [OretiBeach_MiddleWest_01MAR1956_mosaic_cache]
+    title: OretiBeach_MiddleWest_01MAR1956_mosaic
+  - name: Riverton_10DEC1958_mosaic
+    sources: [Riverton_10DEC1958_mosaic_cache]
+    title: Riverton_10DEC1958_mosaic
+  - name: Riverton_8OCT1985_mosaic
+    sources: [Riverton_8OCT1985_mosaic_cache]
+    title: Riverton_8OCT1985_mosaic
+  - name: Riverton_24FEB1968_mosaic
+    sources: [Riverton_24FEB1968_mosaic_cache]
+    title: Riverton_24FEB1968_mosaic
+  - name: Riverton_27FEB1976_mosaic
+    sources: [Riverton_27FEB1976_mosaic_cache]
+    title: Riverton_27FEB1976_mosaic
+  - name: Riverton_15FEB1952_mosaic
+    sources: [Riverton_15FEB1952_mosaic_cache]
+    title: Riverton_15FEB1952_mosaic
+  - name: Riverton_11FEB1978_mosaic
+    sources: [Riverton_11FEB1978_mosaic_cache]
+    title: Riverton_11FEB1978_mosaic
+  - name: Riverton_21FEB1967_mosaic
+    sources: [Riverton_21FEB1967_mosaic_cache]
+    title: Riverton_21FEB1967_mosaic
+  - name: CurioBay_21FEB1967_mosaic
+    sources: [CurioBay_21FEB1967_mosaic_cache]
+    title: CurioBay_21FEB1967_mosaic
+  - name: CurioBay_15APR1948_mosaic
+    sources: [CurioBay_15APR1948_mosaic_cache]
+    title: CurioBay_15APR1948_mosaic
+  - name: CurioBay_17OCT1985_mosiac
+    sources: [CurioBay_17OCT1985_mosiac_cache]
+    title: CurioBay_17OCT1985_mosiac
+  - name: CurioBay_25FEB1978_mosaic
+    sources: [CurioBay_25FEB1978_mosaic_cache]
+    title: CurioBay_25FEB1978_mosaic
+  - name: CoalRiver_18MAR1965_mosaic
+    sources: [CoalRiver_18MAR1965_mosaic_cache]
+    title: CoalRiver_18MAR1965_mosaic
+  - name: CoalRiver_19FEB1991_mosaic
+    sources: [CoalRiver_19FEB1991_mosaic_cache]
+    title: CoalRiver_19FEB1991_mosaic
+  - name: CoalRiver_14MAR1990_mosaic
+    sources: [CoalRiver_14MAR1990_mosaic_cache]
+    title: CoalRiver_14MAR1990_mosaic
+  - name: KawakaputaBay_11FEB1978_mosaic
+    sources: [KawakaputaBay_11FEB1978_mosaic_cache]
+    title: KawakaputaBay_11FEB1978_mosaic
+  - name: KawakaputaBay_18OCT1985_mosaic
+    sources: [KawakaputaBay_18OCT1985_mosaic_cache]
+    title: KawakaputaBay_18OCT1985_mosaic
+  - name: KawakaputaBay_10MAR1963_mosaic
+    sources: [KawakaputaBay_10MAR1963_mosaic_cache]
+    title: KawakaputaBay_10MAR1963_mosaic
+  - name: KawakaputaBay_12FEB1969_mosaic
+    sources: [KawakaputaBay_12FEB1969_mosaic_cache]
+    title: KawakaputaBay_12FEB1969_mosaic
+  - name: KawakaputaBay_27FEB1976_mosaic
+    sources: [KawakaputaBay_27FEB1976_mosaic_cache]
+    title: KawakaputaBay_27FEB1976_mosaic
+  - name: HaldaneBay_LDS_05FEB2007_mosaic
+    sources: [HaldaneBay_LDS_05FEB2007_mosaic_cache]
+    title: HaldaneBay_LDS_05FEB2007_mosaic
+  - name: HaldaneBay_25FEB1978_mosaic
+    sources: [HaldaneBay_25FEB1978_mosaic_cache]
+    title: HaldaneBay_25FEB1978_mosaic
+  - name: HaldaneBay_21FEB1967_mosaic
+    sources: [HaldaneBay_21FEB1967_mosaic_cache]
+    title: HaldaneBay_21FEB1967_mosaic
+  - name: HaldaneBay_07OCT1985_mosaic
+    sources: [HaldaneBay_07OCT1985_mosaic_cache]
+    title: HaldaneBay_07OCT1985_mosaic
+  - name: HaldaneBay_15APR1948_mosaic
+    sources: [HaldaneBay_15APR1948_mosaic_cache]
+    title: HaldaneBay_15APR1948_mosaic
+  - name: DoughboyBay_10FEB1958_mosaic
+    sources: [DoughboyBay_10FEB1958_mosaic_cache]
+    title: DoughboyBay_10FEB1958_mosaic
+  - name: DoughboyBay_25FEB1978_mosaic
+    sources: [DoughboyBay_25FEB1978_mosaic_cache]
+    title: DoughboyBay_25FEB1978_mosaic
+  - name: DoughboyBay_25FEB1977_mosaic
+    sources: [DoughboyBay_25FEB1977_mosaic_cache]
+    title: DoughboyBay_25FEB1977_mosaic
+  - name: ColacBay_03MAR1967_mosaic
+    sources: [ColacBay_03MAR1967_mosaic_cache]
+    title: ColacBay_03MAR1967_mosaic
+  - name: ColacBay_27FEB1976_mosaic
+    sources: [ColacBay_27FEB1976_mosaic_cache]
+    title: ColacBay_27FEB1976_mosaic
+  - name: ColacBay_08OCT1985_mosaic
+    sources: [ColacBay_08OCT1985_mosaic_cache]
+    title: ColacBay_08OCT1985_mosaic
+  - name: ColacBay_10MAR1963_mosaic
+    sources: [ColacBay_10MAR1963_mosaic_cache]
+    title: ColacBay_10MAR1963_mosaic
+  - name: ColacBay_12FEB1969_mosaic
+    sources: [ColacBay_12FEB1969_mosaic_cache]
+    title: ColacBay_12FEB1969_mosaic
+  - name: ColacBay_19MAR1981_mosaic
+    sources: [ColacBay_19MAR1981_mosaic_cache]
+    title: ColacBay_19MAR1981_mosaic
+  - name: ColacBay_15FEB1952_mosaic
+    sources: [ColacBay_15FEB1952_mosaic_cache]
+    title: ColacBay_15FEB1952_mosaic
+  - name: ColacBay_11FEB1978_mosaic
+    sources: [ColacBay_11FEB1978_mosaic_cache]
+    title: ColacBay_11FEB1978_mosaic
+  - name: ColacBay_11MAR1971_mosaic
+    sources: [ColacBay_11MAR1971_mosaic_cache]
+    title: ColacBay_11MAR1971_mosaic
+  - name: WaipapaPoint_07OCT1985_mosaic
+    sources: [WaipapaPoint_07OCT1985_mosaic_cache]
+    title: WaipapaPoint_07OCT1985_mosaic
+  - name: WaipapaPoint_15APR1948_mosaic
+    sources: [WaipapaPoint_15APR1948_mosaic_cache]
+    title: WaipapaPoint_15APR1948_mosaic
+  - name: WaipapaPoint_LDS_05FEB2007_mosaic
+    sources: [WaipapaPoint_LDS_05FEB2007_mosaic_cache]
+    title: WaipapaPoint_LDS_05FEB2007_mosaic
+  - name: WaipapaPoint_25FEB1978_mosaic
+    sources: [WaipapaPoint_25FEB1978_mosaic_cache]
+    title: WaipapaPoint_25FEB1978_mosaic
+  - name: WaipapaPoint_21FEB1967_mosaic
+    sources: [WaipapaPoint_21FEB1967_mosaic_cache]
+    title: WaipapaPoint_21FEB1967_mosaic
+  md:
+    abstract: MS
+  name: MS
+  sources: [MS_cache]
+  title: NZ Coastal Mosaic Server
+services:
+  wms:
+    md:
+      title: NZ Coastal Mosaic Server
+sources:
+  CoalRiver_14MAR1990_mosaic_wms:
+    coverage:
+      bbox: [166.691, -45.5086, 166.734, -45.484]
+      srs: EPSG:4326
+    req:
+      layers: CoalRiver_14MAR1990_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  CoalRiver_18MAR1965_mosaic_wms:
+    coverage:
+      bbox: [166.683, -45.5133, 166.741, -45.4771]
+      srs: EPSG:4326
+    req:
+      layers: CoalRiver_18MAR1965_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  CoalRiver_19FEB1991_mosaic_wms:
+    coverage:
+      bbox: [166.688, -45.5085, 166.736, -45.4815]
+      srs: EPSG:4326
+    req:
+      layers: CoalRiver_19FEB1991_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  ColacBay_03MAR1967_mosaic_wms:
+    coverage:
+      bbox: [167.871, -46.3712, 167.933, -46.3497]
+      srs: EPSG:4326
+    req:
+      layers: ColacBay_03MAR1967_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  ColacBay_08OCT1985_mosaic_wms:
+    coverage:
+      bbox: [167.855, -46.3806, 167.991, -46.3366]
+      srs: EPSG:4326
+    req:
+      layers: ColacBay_08OCT1985_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  ColacBay_10MAR1963_mosaic_wms:
+    coverage:
+      bbox: [167.854, -46.3966, 167.946, -46.3463]
+      srs: EPSG:4326
+    req:
+      layers: ColacBay_10MAR1963_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  ColacBay_11FEB1978_mosaic_wms:
+    coverage:
+      bbox: [167.863, -46.3994, 167.958, -46.3465]
+      srs: EPSG:4326
+    req:
+      layers: ColacBay_11FEB1978_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  ColacBay_11MAR1971_mosaic_wms:
+    coverage:
+      bbox: [167.842, -46.4088, 168.007, -46.3145]
+      srs: EPSG:4326
+    req:
+      layers: ColacBay_11MAR1971_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  ColacBay_12FEB1969_mosaic_wms:
+    coverage:
+      bbox: [167.853, -46.4034, 167.962, -46.3372]
+      srs: EPSG:4326
+    req:
+      layers: ColacBay_12FEB1969_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  ColacBay_15FEB1952_mosaic_wms:
+    coverage:
+      bbox: [167.861, -46.3815, 167.997, -46.3504]
+      srs: EPSG:4326
+    req:
+      layers: ColacBay_15FEB1952_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  ColacBay_19MAR1981_mosaic_wms:
+    coverage:
+      bbox: [167.869, -46.3701, 167.949, -46.3465]
+      srs: EPSG:4326
+    req:
+      layers: ColacBay_19MAR1981_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  ColacBay_27FEB1976_mosaic_wms:
+    coverage:
+      bbox: [167.867, -46.3833, 167.977, -46.3465]
+      srs: EPSG:4326
+    req:
+      layers: ColacBay_27FEB1976_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  CosyNook_08OCT1985_mosaic_wms:
+    coverage:
+      bbox: [167.687, -46.3543, 167.74, -46.3245]
+      srs: EPSG:4326
+    req:
+      layers: CosyNook_08OCT1985_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  CosyNook_10MAR1963_mosaic_wms:
+    coverage:
+      bbox: [167.697, -46.3475, 167.742, -46.3246]
+      srs: EPSG:4326
+    req:
+      layers: CosyNook_10MAR1963_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  CosyNook_15FEB1952_mosaic_wms:
+    coverage:
+      bbox: [167.69, -46.3488, 167.74, -46.3222]
+      srs: EPSG:4326
+    req:
+      layers: CosyNook_15FEB1952_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  CosyNook_27FEB1976_mosaic_wms:
+    coverage:
+      bbox: [167.693, -46.348, 167.741, -46.3247]
+      srs: EPSG:4326
+    req:
+      layers: CosyNook_27FEB1976_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  CurioBay_15APR1948_mosaic_wms:
+    coverage:
+      bbox: [169.09, -46.6743, 169.156, -46.6282]
+      srs: EPSG:4326
+    req:
+      layers: CurioBay_15APR1948_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  CurioBay_17OCT1985_mosiac_wms:
+    coverage:
+      bbox: [169.097, -46.6679, 169.148, -46.6332]
+      srs: EPSG:4326
+    req:
+      layers: CurioBay_17OCT1985_mosiac
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  CurioBay_21FEB1967_mosaic_wms:
+    coverage:
+      bbox: [169.093, -46.6666, 169.147, -46.6358]
+      srs: EPSG:4326
+    req:
+      layers: CurioBay_21FEB1967_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  CurioBay_25FEB1978_mosaic_wms:
+    coverage:
+      bbox: [169.095, -46.667, 169.148, -46.6356]
+      srs: EPSG:4326
+    req:
+      layers: CurioBay_25FEB1978_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  DoughboyBay_10FEB1958_mosaic_wms:
+    coverage:
+      bbox: [167.676, -47.0575, 167.734, -47.0271]
+      srs: EPSG:4326
+    req:
+      layers: DoughboyBay_10FEB1958_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  DoughboyBay_25FEB1977_mosaic_wms:
+    coverage:
+      bbox: [167.687, -47.0565, 167.733, -47.0276]
+      srs: EPSG:4326
+    req:
+      layers: DoughboyBay_25FEB1977_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  DoughboyBay_25FEB1978_mosaic_wms:
+    coverage:
+      bbox: [167.686, -47.0542, 167.73, -47.0262]
+      srs: EPSG:4326
+    req:
+      layers: DoughboyBay_25FEB1978_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  HaldaneBay_07OCT1985_mosaic_wms:
+    coverage:
+      bbox: [169.016, -46.6777, 169.072, -46.6504]
+      srs: EPSG:4326
+    req:
+      layers: HaldaneBay_07OCT1985_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  HaldaneBay_15APR1948_mosaic_wms:
+    coverage:
+      bbox: [169.021, -46.6763, 169.074, -46.649]
+      srs: EPSG:4326
+    req:
+      layers: HaldaneBay_15APR1948_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  HaldaneBay_21FEB1967_mosaic_wms:
+    coverage:
+      bbox: [169.017, -46.6778, 169.077, -46.6497]
+      srs: EPSG:4326
+    req:
+      layers: HaldaneBay_21FEB1967_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  HaldaneBay_25FEB1978_mosaic_wms:
+    coverage:
+      bbox: [169.021, -46.6754, 169.066, -46.6522]
+      srs: EPSG:4326
+    req:
+      layers: HaldaneBay_25FEB1978_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  HaldaneBay_LDS_05FEB2007_mosaic_wms:
+    coverage:
+      bbox: [169.013, -46.6808, 169.076, -46.6482]
+      srs: EPSG:4326
+    req:
+      layers: HaldaneBay_LDS_05FEB2007_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  KawakaputaBay_10MAR1963_mosaic_wms:
+    coverage:
+      bbox: [167.788, -46.392, 167.876, -46.3587]
+      srs: EPSG:4326
+    req:
+      layers: KawakaputaBay_10MAR1963_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  KawakaputaBay_11FEB1978_mosaic_wms:
+    coverage:
+      bbox: [167.793, -46.3962, 167.884, -46.3545]
+      srs: EPSG:4326
+    req:
+      layers: KawakaputaBay_11FEB1978_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  KawakaputaBay_12FEB1969_mosaic_wms:
+    coverage:
+      bbox: [167.797, -46.3936, 167.869, -46.3613]
+      srs: EPSG:4326
+    req:
+      layers: KawakaputaBay_12FEB1969_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  KawakaputaBay_18OCT1985_mosaic_wms:
+    coverage:
+      bbox: [167.786, -46.3991, 167.877, -46.3578]
+      srs: EPSG:4326
+    req:
+      layers: KawakaputaBay_18OCT1985_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  KawakaputaBay_27FEB1976_mosaic_wms:
+    coverage:
+      bbox: [167.796, -46.3911, 167.875, -46.3572]
+      srs: EPSG:4326
+    req:
+      layers: KawakaputaBay_27FEB1976_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  MS_wms:
+    coverage:
+      bbox: [-8.98315e-06, -8.98315e-06, -8.98315e-06, -8.98315e-06]
+      srs: EPSG:4326
+    req:
+      layers: MS
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:3857']
+    type: wms
+  OretiBeach_MiddleWest_01MAR1956_mosaic_wms:
+    coverage:
+      bbox: [168.132, -46.4123, 168.222, -46.349]
+      srs: EPSG:4326
+    req:
+      layers: OretiBeach_MiddleWest_01MAR1956_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  OretiBeach_MiddleWest_07APRL1964_mosaic_wms:
+    coverage:
+      bbox: [168.129, -46.4157, 168.231, -46.3444]
+      srs: EPSG:4326
+    req:
+      layers: OretiBeach_MiddleWest_07APRL1964_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  OretiBeach_MiddleWest_11FEB1978_mosaic_wms:
+    coverage:
+      bbox: [168.122, -46.4134, 168.226, -46.3413]
+      srs: EPSG:4326
+    req:
+      layers: OretiBeach_MiddleWest_11FEB1978_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  OretiBeach_MiddleWest_15FEB1976_mosaic_wms:
+    coverage:
+      bbox: [168.135, -46.4139, 168.226, -46.3514]
+      srs: EPSG:4326
+    req:
+      layers: OretiBeach_MiddleWest_15FEB1976_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  OretiBeach_MiddleWest_21FEB1967_mosaic_wms:
+    coverage:
+      bbox: [168.131, -46.4123, 168.227, -46.3459]
+      srs: EPSG:4326
+    req:
+      layers: OretiBeach_MiddleWest_21FEB1967_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  OretiBeach_MiddleWest_28NOV1998_mosaic_wms:
+    coverage:
+      bbox: [168.129, -46.4126, 168.227, -46.3443]
+      srs: EPSG:4326
+    req:
+      layers: OretiBeach_MiddleWest_28NOV1998_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  OretiBeach_MiddleWest_2NOV1984_mosaic_wms:
+    coverage:
+      bbox: [168.134, -46.4105, 168.22, -46.3503]
+      srs: EPSG:4326
+    req:
+      layers: OretiBeach_MiddleWest_2NOV1984_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  Riverton_10DEC1958_mosaic_wms:
+    coverage:
+      bbox: [168.016, -46.3557, 168.125, -46.3245]
+      srs: EPSG:4326
+    req:
+      layers: Riverton_10DEC1958_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  Riverton_11FEB1978_mosaic_wms:
+    coverage:
+      bbox: [168.0, -46.3914, 168.104, -46.328]
+      srs: EPSG:4326
+    req:
+      layers: Riverton_11FEB1978_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  Riverton_15FEB1952_mosaic_wms:
+    coverage:
+      bbox: [168.007, -46.3811, 168.078, -46.3303]
+      srs: EPSG:4326
+    req:
+      layers: Riverton_15FEB1952_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  Riverton_21FEB1967_mosaic_wms:
+    coverage:
+      bbox: [168.001, -46.3769, 168.084, -46.3311]
+      srs: EPSG:4326
+    req:
+      layers: Riverton_21FEB1967_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  Riverton_24FEB1968_mosaic_wms:
+    coverage:
+      bbox: [167.997, -46.3878, 168.1, -46.3199]
+      srs: EPSG:4326
+    req:
+      layers: Riverton_24FEB1968_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  Riverton_27FEB1976_mosaic_wms:
+    coverage:
+      bbox: [168.002, -46.3913, 168.105, -46.3246]
+      srs: EPSG:4326
+    req:
+      layers: Riverton_27FEB1976_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  Riverton_8OCT1985_mosaic_wms:
+    coverage:
+      bbox: [167.992, -46.3805, 168.113, -46.3286]
+      srs: EPSG:4326
+    req:
+      layers: Riverton_8OCT1985_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  WaipapaPoint_07OCT1985_mosaic_wms:
+    coverage:
+      bbox: [168.819, -46.6731, 168.97, -46.6283]
+      srs: EPSG:4326
+    req:
+      layers: WaipapaPoint_07OCT1985_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  WaipapaPoint_15APR1948_mosaic_wms:
+    coverage:
+      bbox: [168.826, -46.6705, 168.953, -46.6422]
+      srs: EPSG:4326
+    req:
+      layers: WaipapaPoint_15APR1948_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  WaipapaPoint_21FEB1967_mosaic_wms:
+    coverage:
+      bbox: [168.814, -46.68, 168.98, -46.6217]
+      srs: EPSG:4326
+    req:
+      layers: WaipapaPoint_21FEB1967_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  WaipapaPoint_25FEB1978_mosaic_wms:
+    coverage:
+      bbox: [168.806, -46.6762, 168.978, -46.6337]
+      srs: EPSG:4326
+    req:
+      layers: WaipapaPoint_25FEB1978_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
+  WaipapaPoint_LDS_05FEB2007_mosaic_wms:
+    coverage:
+      bbox: [168.817, -46.677, 168.966, -46.6183]
+      srs: EPSG:4326
+    req:
+      layers: WaipapaPoint_LDS_05FEB2007_mosaic
+      transparent: true
+      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
+    supported_srs: ['EPSG:2193', 'EPSG:3857']
+    type: wms
