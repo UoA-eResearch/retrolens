@@ -103,7 +103,7 @@
                 console.log(name)
                 var location = name.split("_")[0]
                 var date = name.slice(-4)
-                var layer = L.tileLayer(`https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/tiles/${wmsLayer.Name}/webmercator/{z}/{x}/{y}.png?origin=nw`, {
+                var layer = L.tileLayer(`https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/tiles/${wmsLayer.Name}/webmercator/{z}/{x}/{y}.png`, {
                     maxZoom: 23,
                 })
                 var b = wmsLayer.LatLonBoundingBox
