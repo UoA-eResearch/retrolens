@@ -97,13 +97,22 @@
         }
         var layerChooser = L.control.layers(basemaps, {}).addTo(map);
 
-        $.getJSON("geojson/TiwaiPoint.geojson", function(data) {
+        $.getJSON("shorelines.geojson", function(data) {
             console.log(data)
-            var scale = chroma.scale('OrRd').colors(data.features.length);
-            for (var i in data.features) {
-                data.features[i].properties.color = scale[i]
+            var data_by_site = {}
+            for (var feature of data.features) {
+                var p = feature.properties;
+                if (!data_by_site[p.Site]) data_by_site[p.Site] = []
+                data_by_site[p.Site].push(feature)
             }
-            console.log(scale)
+            for (var site in data_by_site) {
+                data_by_site[site] = data_by_site[site].sort((a, b) => new Date(a.properties.Date) - new Date(b.properties.Date))
+                var scale = chroma.scale('OrRd').colors(data_by_site[site].length);
+                for (var i in data_by_site[site]) {
+                    data_by_site[site][i].properties.color = scale[i]
+                }
+            }
+            console.log(data_by_site)
             var geojsonLayer = L.geoJSON(data, {
                 style: function(feature) {
                     return {color: feature.properties.color}
@@ -112,7 +121,7 @@
                     layer.bindTooltip(feature.properties.Date, {sticky: true});
                 }
             }).addTo(map)
-            layerChooser.addOverlay(geojsonLayer, "Tiwai Point shoreline vectors")
+            layerChooser.addOverlay(geojsonLayer, "Shoreline vectors")
         })
 
         $.get("https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities", function(xml) {
