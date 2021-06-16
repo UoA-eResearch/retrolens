@@ -21,6 +21,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
     <script src="https://unpkg.com/leaflet-spin@1.1.0/leaflet.spin.min.js"></script>
     <script src="https://unpkg.com/wms-capabilities@0.5.0/dist/wms-capabilities.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"
+        integrity="sha512-yocoLferfPbcwpCMr8v/B0AB4SWpJlouBwgE0D3ZHaiP1nuu5djZclFEIj9znuqghaZ3tdCMRrreLoM8km+jIQ=="
+        crossorigin="anonymous"></script>
 
     <style>
         html,
@@ -92,6 +95,25 @@
                 subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
             }).addTo(map)
         }
+        var layerChooser = L.control.layers(basemaps, {}).addTo(map);
+
+        $.getJSON("geojson/TiwaiPoint.geojson", function(data) {
+            console.log(data)
+            var scale = chroma.scale('OrRd').colors(data.features.length);
+            for (var i in data.features) {
+                data.features[i].properties.color = scale[i]
+            }
+            console.log(scale)
+            var geojsonLayer = L.geoJSON(data, {
+                style: function(feature) {
+                    return {color: feature.properties.color}
+                },
+                onEachFeature: function(feature, layer) {
+                    layer.bindTooltip(feature.properties.Date, {sticky: true});
+                }
+            }).addTo(map)
+            layerChooser.addOverlay(geojsonLayer, "Tiwai Point shoreline vectors")
+        })
 
         $.get("https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities", function(xml) {
             var cap = new WMSCapabilities().parse(xml);
@@ -100,7 +122,7 @@
             var layerByArea = {}
             for (wmsLayer of layers) {
                 var name = wmsLayer.Name.replace("_mosaic", "").replace("_mosiac", "")
-                console.log(name)
+                //console.log(name)
                 var location = name.split("_")[0]
                 var date = name.slice(-4)
                 var layer = L.tileLayer(`https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/tiles/${wmsLayer.Name}/webmercator/{z}/{x}/{y}.png`, {
@@ -114,36 +136,32 @@
                 layerByArea[location][date] = layer
             }
             console.log(layerByArea)
-            var overlays = {}
             for (location in layerByArea) {
                 var added = false
                 for (date in layerByArea[location]) {
                     var layer = layerByArea[location][date]
-                    overlays[location + " " + date] = layer
+                    layerChooser.addOverlay(layer, location + " " + date)
                     if (!added) {
                         layer.addTo(map)
                         added = true
                     }
                 }
             }
-            console.log(overlays)
-            L.control.layers(basemaps, overlays).addTo(map);
-
             map.on("overlayadd", function(e) {
                 console.log("Added " + e.name)
                 if ($("#fly").is(':checked')) {
-                    map.flyToBounds(e.layer.bounds)
+                    map.flyToBounds(e.layer.bounds || e.layer.getBounds())
                 }
             })
         })
 
         map.attributionControl.addAttribution("<a href='http://retrolens.nz'>Retrolens (LINZ CC-BY 3.0)</a>");
 
-        var legend = L.control({position: 'topright'});
+        var legend = L.control({position: 'bottomleft'});
         legend.onAdd = function (map) {
 
             var div = L.DomUtil.create('div', 'info legend');
-            div.innerHTML = `Use the layer chooser to enable or disable imagery layers.<br>
+            div.innerHTML = `Use the layer chooser to enable or disable raster or vector layers.<br>
             Fly to layer bounds on layer add: <input id="fly" type="checkbox" checked/>
             `;
             return div;
