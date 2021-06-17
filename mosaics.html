@@ -13,7 +13,9 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://unpkg.com/leaflet-providers@1.3.0/leaflet-providers.js"></script>
 
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
@@ -24,6 +26,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"
         integrity="sha512-yocoLferfPbcwpCMr8v/B0AB4SWpJlouBwgE0D3ZHaiP1nuu5djZclFEIj9znuqghaZ3tdCMRrreLoM8km+jIQ=="
         crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw@1.0.3/dist/leaflet.draw.css" />
+    <script src="https://unpkg.com/leaflet-draw@1.0.3/dist/leaflet.draw.js"></script>
 
     <style>
         html,
@@ -73,7 +77,7 @@
             zoom: 13,
             minZoom: 6,
             //maxZoom: 14,
-            center: {lat: -46.376129104882956, lng: 167.8580474853516}
+            center: { lat: -46.376129104882956, lng: 167.8580474853516 }
         });
         var bounds = map.getBounds();
         bounds._northEast.lat += 10;
@@ -81,6 +85,59 @@
         bounds._southWest.lat -= 10;
         bounds._southWest.lng -= 10;
         map.setMaxBounds(bounds);
+
+        var editableLayers = new L.FeatureGroup();
+        map.addLayer(editableLayers);
+
+        var options = {
+            position: 'topleft',
+            draw: {
+                polyline: {
+                    shapeOptions: {
+                        color: '#f357a1',
+                    }
+                },
+                polygon: {
+                    allowIntersection: true, // Restricts shapes to simple polygons
+                    shapeOptions: {
+                        color: '#bada55'
+                    }
+                },
+                rectangle: {
+                    showArea: true,
+                    metric: ["km"],
+                },
+            },
+            edit: {
+                featureGroup: editableLayers, //REQUIRED!!
+                remove: true
+            }
+        };
+
+        var drawControl = new L.Control.Draw(options);
+        map.addControl(drawControl);
+
+        map.on(L.Draw.Event.CREATED, function (e) {
+            console.log("created", e)
+            var type = e.layerType,
+                layer = e.layer;
+
+            if (type === 'marker') {
+                layer.bindPopup('A popup!');
+            }
+
+            editableLayers.addLayer(layer);
+        });
+        map.on(L.Draw.Event.EDITSTART, function () {
+            console.log("editstart");
+            var drawBounds = editableLayers.getBounds();
+            if (!map.getBounds().contains(drawBounds)) {
+                map.flyToBounds(drawBounds);
+            }
+        });
+        map.on(L.Draw.Event.EDITED, function (e) {
+            console.log("edited", e)
+        });
 
         var basemaps = {
             "LINZ Basemap": L.tileLayer("https://basemaps.linz.govt.nz/v1/tiles/aerial/EPSG:3857/{z}/{x}/{y}.webp?api=d01eyvkkr9erajj4zpeqykezbgn", {
@@ -95,9 +152,12 @@
                 subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
             }).addTo(map)
         }
-        var layerChooser = L.control.layers(basemaps, {}).addTo(map);
+        var overlays = {
+            "Drawn items": editableLayers
+        }
+        var layerChooser = L.control.layers(basemaps, overlays).addTo(map);
 
-        $.getJSON("shorelines.geojson", function(data) {
+        $.getJSON("shorelines.geojson", function (data) {
             console.log(data)
             var data_by_site = {}
             for (var feature of data.features) {
@@ -114,17 +174,17 @@
             }
             console.log(data_by_site)
             var geojsonLayer = L.geoJSON(data, {
-                style: function(feature) {
-                    return {color: feature.properties.color}
+                style: function (feature) {
+                    return { color: feature.properties.color }
                 },
-                onEachFeature: function(feature, layer) {
-                    layer.bindTooltip(feature.properties.Date, {sticky: true});
+                onEachFeature: function (feature, layer) {
+                    layer.bindTooltip(feature.properties.Date, { sticky: true });
                 }
             }).addTo(map)
             layerChooser.addOverlay(geojsonLayer, "Shoreline vectors")
         })
 
-        $.get("https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities", function(xml) {
+        $.get("https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities", function (xml) {
             var cap = new WMSCapabilities().parse(xml);
             var layers = cap.Capability.Layer.Layer;
             console.log(layers);
@@ -156,17 +216,18 @@
                     }
                 }
             }
-            map.on("overlayadd", function(e) {
+            map.on("overlayadd", function (e) {
                 console.log("Added " + e.name)
-                if ($("#fly").is(':checked')) {
-                    map.flyToBounds(e.layer.bounds || e.layer.getBounds())
+                var bounds = e.layer.bounds || e.layer.getBounds()
+                if ($("#fly").is(':checked') && !map.getBounds().contains(bounds)) {
+                    map.flyToBounds(bounds)
                 }
             })
         })
 
         map.attributionControl.addAttribution("<a href='http://retrolens.nz'>Retrolens (LINZ CC-BY 3.0)</a>");
 
-        var legend = L.control({position: 'bottomleft'});
+        var legend = L.control({ position: 'bottomleft' });
         legend.onAdd = function (map) {
 
             var div = L.DomUtil.create('div', 'info legend');
