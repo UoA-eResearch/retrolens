@@ -125,6 +125,94 @@ MAP
     END
 
     LAYER
+        NAME "BigBay_02APRL1953_mosaic"
+        DATA "/mnt/coastal/BigBay/BigBay_02APRL1953_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "BigBay_17MAR1979_mosaic"
+        DATA "/mnt/coastal/BigBay/BigBay_17MAR1979_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "BigBay_30DEC1984_mosaic"
+        DATA "/mnt/coastal/BigBay/BigBay_30DEC1984_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "BigBay_15FEB1952_mosaic"
+        DATA "/mnt/coastal/BigBay/BigBay_15FEB1952_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "BigBay_09MAR1985_mosaic"
+        DATA "/mnt/coastal/BigBay/BigBay_09MAR1985_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "BigBay_17FEB1975_mosaic"
+        DATA "/mnt/coastal/BigBay/BigBay_17FEB1975_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "BigBay_21FEB1967_mosaic"
+        DATA "/mnt/coastal/BigBay/BigBay_21FEB1967_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "BigBay_18FEB1988_mosaic"
+        DATA "/mnt/coastal/BigBay/BigBay_18FEB1988_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
         NAME "Riverton_10DEC1958_mosaic"
         DATA "/mnt/coastal/Riverton/Riverton_10DEC1958_mosaic.tif"
         TYPE RASTER
@@ -202,6 +290,17 @@ MAP
     END
 
     LAYER
+        NAME "ToetoesBay_west_15MAR1951_mosaic"
+        DATA "/mnt/coastal/ToetoesBay_west/ToetoesBay_west_15MAR1951_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
         NAME "CurioBay_21FEB1967_mosaic"
         DATA "/mnt/coastal/CurioBay/CurioBay_21FEB1967_mosaic.tif"
         TYPE RASTER
@@ -246,6 +345,72 @@ MAP
     END
 
     LAYER
+        NAME "OretiBeach_west_21FEB1967_mosaic"
+        DATA "/mnt/coastal/OretiBeach_west/OretiBeach_west_21FEB1967_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "OretiBeach_west_18OCT1985_mosaic"
+        DATA "/mnt/coastal/OretiBeach_west/OretiBeach_west_18OCT1985_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "OretiBeach_west_15FEB1976_mosaic"
+        DATA "/mnt/coastal/OretiBeach_west/OretiBeach_west_15FEB1976_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "OretiBeach_west_28NOV1998_mosaic"
+        DATA "/mnt/coastal/OretiBeach_west/OretiBeach_west_28NOV1998_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "OretiBeach_west_11FEB1978_mosaic"
+        DATA "/mnt/coastal/OretiBeach_west/OretiBeach_west_11FEB1978_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "OretiBeach_west_10DEC1958_mosaic"
+        DATA "/mnt/coastal/OretiBeach_west/OretiBeach_west_10DEC1958_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
         NAME "CoalRiver_18MAR1965_mosaic"
         DATA "/mnt/coastal/CoalRiver/CoalRiver_18MAR1965_mosaic.tif"
         TYPE RASTER
@@ -270,6 +435,61 @@ MAP
     LAYER
         NAME "CoalRiver_14MAR1990_mosaic"
         DATA "/mnt/coastal/CoalRiver/CoalRiver_14MAR1990_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "MartinsBay_17MAR1979_mosaic"
+        DATA "/mnt/coastal/MartinsBay/MartinsBay_17MAR1979_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "MartinsBay_02APRL1953_mosaic"
+        DATA "/mnt/coastal/MartinsBay/MartinsBay_02APRL1953_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "MartinsBay_17FEB1975_mosaic"
+        DATA "/mnt/coastal/MartinsBay/MartinsBay_17FEB1975_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "MartinsBay_30DEC1984_mosaic"
+        DATA "/mnt/coastal/MartinsBay/MartinsBay_30DEC1984_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "MartinsBay_12MAR1966_mosaic"
+        DATA "/mnt/coastal/MartinsBay/MartinsBay_12MAR1966_mosaic.tif"
         TYPE RASTER
         PROJECTION
             "init=epsg:2193"
@@ -521,6 +741,127 @@ MAP
     END
 
     LAYER
+        NAME "OretiBeachMid_15FEB1952_mosaic"
+        DATA "/mnt/coastal/OretiBeachMid/OretiBeachMid_15FEB1952_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "OretiBeachMid_28NOV1998_mosaic"
+        DATA "/mnt/coastal/OretiBeachMid/OretiBeachMid_28NOV1998_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "OretiBeachMid_12FEB1969_mosaic"
+        DATA "/mnt/coastal/OretiBeachMid/OretiBeachMid_12FEB1969_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "OretiBeachMid_28FEB1962_mosaic"
+        DATA "/mnt/coastal/OretiBeachMid/OretiBeachMid_28FEB1962_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "OretiBeachMid_15NOV1985_mosaic"
+        DATA "/mnt/coastal/OretiBeachMid/OretiBeachMid_15NOV1985_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "OretiBeachMid_2NOV1984_mosaic"
+        DATA "/mnt/coastal/OretiBeachMid/OretiBeachMid_2NOV1984_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "OretiBeachMid_11FEB1978_mosaic"
+        DATA "/mnt/coastal/OretiBeachMid/OretiBeachMid_11FEB1978_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "FlaxyHead_15APR1948_mosaic"
+        DATA "/mnt/coastal/FlaxyHead/FlaxyHead_15APR1948_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "FlaxyHead_25FEB1978_mosaic"
+        DATA "/mnt/coastal/FlaxyHead/FlaxyHead_25FEB1978_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "FlaxyHead_21FEB1967_mosaic"
+        DATA "/mnt/coastal/FlaxyHead/FlaxyHead_21FEB1967_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "FlaxyHead_17OCT1985_mosaic"
+        DATA "/mnt/coastal/FlaxyHead/FlaxyHead_17OCT1985_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
         NAME "WaipapaPoint_07OCT1985_mosaic"
         DATA "/mnt/coastal/WaipapaPoint/WaipapaPoint_07OCT1985_mosaic.tif"
         TYPE RASTER
@@ -567,6 +908,138 @@ MAP
     LAYER
         NAME "WaipapaPoint_21FEB1967_mosaic"
         DATA "/mnt/coastal/WaipapaPoint/WaipapaPoint_21FEB1967_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "Toetoes_HarbourEast_25FEB1978_mosaic"
+        DATA "/mnt/coastal/Toetoes_HarbourEast/Toetoes_HarbourEast_25FEB1978_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "Toetoes_HarbourEast_15APRL1948_mosaic"
+        DATA "/mnt/coastal/Toetoes_HarbourEast/Toetoes_HarbourEast_15APRL1948_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "Toetoes_HarbourEast_21FEB1967_mosaic"
+        DATA "/mnt/coastal/Toetoes_HarbourEast/Toetoes_HarbourEast_21FEB1967_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "Toetoes_HarbourEast_01MAR1962_mosaic"
+        DATA "/mnt/coastal/Toetoes_HarbourEast/Toetoes_HarbourEast_01MAR1962_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "Toetoes_HarbourEast_25FEB1983_mosaic"
+        DATA "/mnt/coastal/Toetoes_HarbourEast/Toetoes_HarbourEast_25FEB1983_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "TeWaewaeBay_East1_10MAR1963_mosaic"
+        DATA "/mnt/coastal/TeWaewaeBay_East1/TeWaewaeBay_East1_10MAR1963_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "TeWaewaeBay_East1_22MAR1946_mosaic"
+        DATA "/mnt/coastal/TeWaewaeBay_East1/TeWaewaeBay_East1_22MAR1946_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "TeWaewaeBay_East1_22MAR1946"
+        DATA "/mnt/coastal/TeWaewaeBay_East1/TeWaewaeBay_East1_22MAR1946.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "SmokyBeach_16FEB1959_mosaic"
+        DATA "/mnt/coastal/SmokyBeach/SmokyBeach_16FEB1959_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "SmokyBeach_25FEB1972_mosaic"
+        DATA "/mnt/coastal/SmokyBeach/SmokyBeach_25FEB1972_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "SmokyBeach_25FEB1978_mosaic"
+        DATA "/mnt/coastal/SmokyBeach/SmokyBeach_25FEB1978_mosaic.tif"
+        TYPE RASTER
+        PROJECTION
+            "init=epsg:2193"
+        END
+        STATUS ON
+        OFFSITE 255 255 255
+    END
+
+    LAYER
+        NAME "SmokyBeach_20FEB1953_mosaic"
+        DATA "/mnt/coastal/SmokyBeach/SmokyBeach_20FEB1953_mosaic.tif"
         TYPE RASTER
         PROJECTION
             "init=epsg:2193"
