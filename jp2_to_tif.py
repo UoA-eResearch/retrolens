@@ -14,11 +14,16 @@ for f in files:
 sites = sorted(sites)
 print(f"Found {len(sites)} sites: {sites}")
 
+options = gdal.TranslateOptions(
+    format = 'GTiff',
+    creationOptions = ['TILED=YES', 'COMPRESS=LZW']
+)
+
 for site in tqdm(sites):
     os.makedirs(f"/mnt/coastal/{site}", exist_ok=True)
     files_for_site = [f for f in files if f"/{site}_" in f]
     for f in tqdm(files_for_site):
         ds = gdal.Open(f)
         outfile = f"/mnt/coastal/{site}/{os.path.splitext(os.path.basename(f))[0]}.tif"
-        ds = gdal.Translate(outfile, ds)
+        ds = gdal.Translate(outfile, ds, options=options)
         ds = None
