@@ -178,7 +178,8 @@
                     return { color: feature.properties.color }
                 },
                 onEachFeature: function (feature, layer) {
-                    layer.bindTooltip(feature.properties.Date, { sticky: true });
+                    var p = feature.properties;
+                    layer.bindTooltip(p.Site + " " + p.Date, { sticky: true });
                 }
             }).addTo(map)
             layerChooser.addOverlay(geojsonLayer, "Shoreline vectors")
@@ -190,26 +191,28 @@
             console.log(layers);
             var layerByArea = {}
             for (wmsLayer of layers) {
-                var name = wmsLayer.Name.replace("_mosaic", "").replace("_mosiac", "")
+                var name = wmsLayer.Name.replace("_mosaic", "").replace("_mosiac", "").replace("_LDS", "")
                 //console.log(name)
-                var location = name.split("_")[0]
+                var location = name.split("_").slice(0, -1).join(" ")
                 var date = name.slice(-4)
                 var layer = L.tileLayer(`https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/tiles/${wmsLayer.Name}/webmercator/{z}/{x}/{y}.png`, {
                     maxZoom: 23,
                 })
                 var b = wmsLayer.LatLonBoundingBox
-                layer.bounds = [[b[1], b[0]], [b[3], b[2]]]
+                layer.bounds = L.latLngBounds([[b[1], b[0]], [b[3], b[2]]])
+                layer.name = location + " " + date
                 if (!layerByArea[location]) {
                     layerByArea[location] = {}
                 }
                 layerByArea[location][date] = layer
             }
             console.log(layerByArea)
-            for (location in layerByArea) {
+            var locations = Object.keys(layerByArea).sort()
+            for (location of locations) {
                 var added = false
                 for (date in layerByArea[location]) {
                     var layer = layerByArea[location][date]
-                    layerChooser.addOverlay(layer, location + " " + date)
+                    layerChooser.addOverlay(layer, layer.name)
                     if (!added) {
                         layer.addTo(map)
                         added = true
@@ -222,6 +225,17 @@
                 if ($("#fly").is(':checked') && !map.getBounds().contains(bounds)) {
                     map.flyToBounds(bounds)
                 }
+            })
+
+            map.on("click", function(event) {
+                map.eachLayer(function (layer) {
+                    if (layer.bounds && layer.bounds.contains(event.latlng)) {
+                        L.popup()
+                            .setLatLng(event.latlng)
+                            .setContent(layer.name)
+                            .openOn(map);
+                    }
+                });
             })
         })
 
