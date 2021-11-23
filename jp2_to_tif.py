@@ -6,24 +6,21 @@ import re
 from tqdm import tqdm
 from osgeo import gdal
 
-files = glob("/mnt/coastal_raw/Stack/*.jp2")
-sites = set()
-for f in files:
-    match = re.search('(\w+?)_(\d|LDS)', f)
-    sites.add(match.group(1))
-sites = sorted(sites)
-print(f"Found {len(sites)} sites: {sites}")
-
 options = gdal.TranslateOptions(
     format = 'GTiff',
     creationOptions = ['TILED=YES', 'COMPRESS=LZW']
 )
 
-for site in tqdm(sites):
+for filename in tqdm(glob("/mnt/coastal_raw/*.jp2")):
+    f = filename.replace("1TorrentBay", "TorrentBay")
+    site = re.search('(\w+?)_(\d|LDS)', f).group(1)
     os.makedirs(f"/mnt/coastal/{site}", exist_ok=True)
-    files_for_site = [f for f in files if f"/{site}_" in f]
-    for f in tqdm(files_for_site):
-        ds = gdal.Open(f)
-        outfile = f"/mnt/coastal/{site}/{os.path.splitext(os.path.basename(f))[0]}.tif"
-        ds = gdal.Translate(outfile, ds, options=options)
-        ds = None
+    f = os.path.splitext(os.path.basename(f))[0]
+    outfile = f"/mnt/coastal/{site}/{f}.tif"
+    print(f"{filename} -> {outfile}")
+    if os.path.isfile(outfile):
+        print(f"{outfile} exists, skipping")
+        continue
+    ds = gdal.Open(filename)
+    ds = gdal.Translate(outfile, ds, options=options)
+    ds = None
