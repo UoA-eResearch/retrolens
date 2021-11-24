@@ -5,7 +5,7 @@
 #       especially when multiple layers and caches are requested at once.
 #       Make sure you understand the generated configuration!
 #
-# Created on 2021-11-25 10:25:41.243890 with:
+# Created on 2021-11-25 11:28:44.997810 with:
 # /usr/local/bin/mapproxy-util autoconfig --capabilities https://api- \
 #    proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv --base \
 #    mapproxy_base.yaml
@@ -1116,12 +1116,12 @@ caches:
       type: redis
       default_ttl: 0
     sources: [MoutereSpit_19MAY1958_mosaic_wms]
-  MoutereSpit_21FEB2002_mosaic.jp2_cache:
+  MoutereSpit_21FEB2002_mosaic_cache:
     grids: [webmercator]
     cache:
       type: redis
       default_ttl: 0
-    sources: [MoutereSpit_21FEB2002_mosaic.jp2_wms]
+    sources: [MoutereSpit_21FEB2002_mosaic_wms]
   MoutereSpit_22FEB1940_mosaic_cache:
     grids: [webmercator]
     cache:
@@ -1716,12 +1716,6 @@ caches:
       type: redis
       default_ttl: 0
     sources: [Riverton_27FEB1976_mosaic_wms]
-  Riverton_8OCT1985_mosaic_cache:
-    grids: [webmercator]
-    cache:
-      type: redis
-      default_ttl: 0
-    sources: [Riverton_8OCT1985_mosaic_wms]
   RuataniwhaInlet_07NOV1984_mosaic_cache:
     grids: [webmercator]
     cache:
@@ -1968,12 +1962,6 @@ caches:
       type: redis
       default_ttl: 0
     sources: [TaieriBeach_Mouth_26FEB1946_mosaic_wms]
-  TaieriBech_Mouth_01MAR1973_mosaic_cache:
-    grids: [webmercator]
-    cache:
-      type: redis
-      default_ttl: 0
-    sources: [TaieriBech_Mouth_01MAR1973_mosaic_wms]
   Taieri_Brighton_02MAR1962_mosaic_cache:
     grids: [webmercator]
     cache:
@@ -2112,12 +2100,6 @@ caches:
       type: redis
       default_ttl: 0
     sources: [TeWaewaeBay_East1_21FEB1976_mosaic_wms]
-  TeWaewaeBay_East1_22MAR1946_cache:
-    grids: [webmercator]
-    cache:
-      type: redis
-      default_ttl: 0
-    sources: [TeWaewaeBay_East1_22MAR1946_wms]
   TeWaewaeBay_East1_22MAR1946_mosaic_cache:
     grids: [webmercator]
     cache:
@@ -2957,9 +2939,9 @@ layers:
   - name: MoutereSpit_19MAY1958_mosaic
     sources: [MoutereSpit_19MAY1958_mosaic_cache]
     title: MoutereSpit_19MAY1958_mosaic
-  - name: MoutereSpit_21FEB2002_mosaic.jp2
-    sources: [MoutereSpit_21FEB2002_mosaic.jp2_cache]
-    title: MoutereSpit_21FEB2002_mosaic.jp2
+  - name: MoutereSpit_21FEB2002_mosaic
+    sources: [MoutereSpit_21FEB2002_mosaic_cache]
+    title: MoutereSpit_21FEB2002_mosaic
   - name: MoutereSpit_22FEB1940_mosaic
     sources: [MoutereSpit_22FEB1940_mosaic_cache]
     title: MoutereSpit_22FEB1940_mosaic
@@ -3257,9 +3239,6 @@ layers:
   - name: Riverton_27FEB1976_mosaic
     sources: [Riverton_27FEB1976_mosaic_cache]
     title: Riverton_27FEB1976_mosaic
-  - name: Riverton_8OCT1985_mosaic
-    sources: [Riverton_8OCT1985_mosaic_cache]
-    title: Riverton_8OCT1985_mosaic
   - name: RuataniwhaInlet_07NOV1984_mosaic
     sources: [RuataniwhaInlet_07NOV1984_mosaic_cache]
     title: RuataniwhaInlet_07NOV1984_mosaic
@@ -3383,9 +3362,6 @@ layers:
   - name: TaieriBeach_Mouth_26FEB1946_mosaic
     sources: [TaieriBeach_Mouth_26FEB1946_mosaic_cache]
     title: TaieriBeach_Mouth_26FEB1946_mosaic
-  - name: TaieriBech_Mouth_01MAR1973_mosaic
-    sources: [TaieriBech_Mouth_01MAR1973_mosaic_cache]
-    title: TaieriBech_Mouth_01MAR1973_mosaic
   - name: Taieri_Brighton_02MAR1962_mosaic
     sources: [Taieri_Brighton_02MAR1962_mosaic_cache]
     title: Taieri_Brighton_02MAR1962_mosaic
@@ -3455,9 +3431,6 @@ layers:
   - name: TeWaewaeBay_East1_21FEB1976_mosaic
     sources: [TeWaewaeBay_East1_21FEB1976_mosaic_cache]
     title: TeWaewaeBay_East1_21FEB1976_mosaic
-  - name: TeWaewaeBay_East1_22MAR1946
-    sources: [TeWaewaeBay_East1_22MAR1946_cache]
-    title: TeWaewaeBay_East1_22MAR1946
   - name: TeWaewaeBay_East1_22MAR1946_mosaic
     sources: [TeWaewaeBay_East1_22MAR1946_mosaic_cache]
     title: TeWaewaeBay_East1_22MAR1946_mosaic
@@ -5452,12 +5425,12 @@ sources:
       url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
     supported_srs: ['EPSG:2193', 'EPSG:3857']
     type: wms
-  MoutereSpit_21FEB2002_mosaic.jp2_wms:
+  MoutereSpit_21FEB2002_mosaic_wms:
     coverage:
       bbox: [173.019, -41.139, 173.041, -41.1046]
       srs: EPSG:4326
     req:
-      layers: MoutereSpit_21FEB2002_mosaic.jp2
+      layers: MoutereSpit_21FEB2002_mosaic
       transparent: true
       url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
     supported_srs: ['EPSG:2193', 'EPSG:3857']
@@ -6452,16 +6425,6 @@ sources:
       url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
     supported_srs: ['EPSG:2193', 'EPSG:3857']
     type: wms
-  Riverton_8OCT1985_mosaic_wms:
-    coverage:
-      bbox: [167.992, -46.3805, 168.113, -46.3286]
-      srs: EPSG:4326
-    req:
-      layers: Riverton_8OCT1985_mosaic
-      transparent: true
-      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
-    supported_srs: ['EPSG:2193', 'EPSG:3857']
-    type: wms
   RuataniwhaInlet_07NOV1984_mosaic_wms:
     coverage:
       bbox: [172.667, -40.7382, 172.711, -40.5795]
@@ -6872,16 +6835,6 @@ sources:
       url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
     supported_srs: ['EPSG:2193', 'EPSG:3857']
     type: wms
-  TaieriBech_Mouth_01MAR1973_mosaic_wms:
-    coverage:
-      bbox: [170.19, -46.0938, 170.239, -46.0179]
-      srs: EPSG:4326
-    req:
-      layers: TaieriBech_Mouth_01MAR1973_mosaic
-      transparent: true
-      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
-    supported_srs: ['EPSG:2193', 'EPSG:3857']
-    type: wms
   Taieri_Brighton_02MAR1962_mosaic_wms:
     coverage:
       bbox: [170.23, -46.0268, 170.34, -45.9413]
@@ -7118,16 +7071,6 @@ sources:
       srs: EPSG:4326
     req:
       layers: TeWaewaeBay_East1_22MAR1946_mosaic
-      transparent: true
-      url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
-    supported_srs: ['EPSG:2193', 'EPSG:3857']
-    type: wms
-  TeWaewaeBay_East1_22MAR1946_wms:
-    coverage:
-      bbox: [167.694, -46.3132, 167.748, -46.2552]
-      srs: EPSG:4326
-    req:
-      layers: TeWaewaeBay_East1_22MAR1946
       transparent: true
       url: https://api-proxy.auckland-cer.cloud.edu.au/cgi-bin/mapserv?
     supported_srs: ['EPSG:2193', 'EPSG:3857']
