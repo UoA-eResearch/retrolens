@@ -4,12 +4,7 @@ from glob import glob
 import os
 import re
 from tqdm import tqdm
-from osgeo import gdal
-
-options = gdal.TranslateOptions(
-    format = 'GTiff',
-    creationOptions = ['TILED=YES', 'COMPRESS=LZW']
-)
+import rasterio as rio
 
 for filename in tqdm(glob("/mnt/coastal_raw/*.jp2")):
     f = filename.replace("1TorrentBay", "TorrentBay").replace("TaieriBech_Mouth", "TaieriBeach_Mouth")
@@ -21,6 +16,7 @@ for filename in tqdm(glob("/mnt/coastal_raw/*.jp2")):
     if os.path.isfile(outfile):
         print(f"{outfile} exists, skipping")
         continue
-    ds = gdal.Open(filename)
-    ds = gdal.Translate(outfile, ds, options=options)
-    ds = None
+    src = rio.open(filename)
+    kwargs = {**src.profile, **{"driver": "GTiff", "compress": "LZW", "tiled": True}}
+    with rio.open(outfile, "w", **kwargs) as dst:
+        dst.write(src.read())
