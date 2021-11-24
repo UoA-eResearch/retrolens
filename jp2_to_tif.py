@@ -10,7 +10,7 @@ for filename in tqdm(glob("/mnt/coastal_raw/*.jp2")):
     f = filename.replace("1TorrentBay", "TorrentBay").replace("TaieriBech_Mouth", "TaieriBeach_Mouth")
     site = re.search('(\w+?)_(\d|LDS)', f).group(1)
     os.makedirs(f"/mnt/coastal/{site}", exist_ok=True)
-    f = os.path.splitext(os.path.basename(f))[0]
+    f = os.path.basename(f).replace(".jp2", "")
     outfile = f"/mnt/coastal/{site}/{f}.tif"
     print(f"{filename} -> {outfile}")
     if os.path.isfile(outfile):
