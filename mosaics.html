@@ -73,10 +73,11 @@
     <div id="map"></div>
 
     <script>
+        const MAX_ZOOM = 26
         var map = L.map('map', {
             zoom: 13,
             minZoom: 6,
-            //maxZoom: 14,
+            maxZoom: MAX_ZOOM,
             center: { lat: -46.376129104882956, lng: 167.8580474853516 }
         });
         var bounds = map.getBounds();
@@ -141,14 +142,15 @@
 
         var basemaps = {
             "LINZ Basemap": L.tileLayer("https://basemaps.linz.govt.nz/v1/tiles/aerial/EPSG:3857/{z}/{x}/{y}.webp?api=d01eyvkkr9erajj4zpeqykezbgn", {
-                maxZoom: 23,
+                maxZoom: MAX_ZOOM,
                 maxNativeZoom: 22,
                 subdomains: 'abcd',
                 attribution: 'Aerial imagery &copy; <a href="//www.linz.govt.nz/data/linz-data/linz-basemaps/data-attribution">LINZ</a>'
             }),
             "ESRI WorldImagery": L.tileLayer.provider("Esri.WorldImagery"),
             "Google Hybrid": L.tileLayer('http://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', {
-                maxZoom: 20,
+                maxZoom: MAX_ZOOM,
+                maxNativeZoom: 20,
                 subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
             }).addTo(map)
         }
@@ -206,7 +208,8 @@
                     var b = wmsLayer.LatLonBoundingBox
                     var bounds = L.latLngBounds([[b[1], b[0]], [b[3], b[2]]])
                     var layer = L.tileLayer(`https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/tiles/${wmsLayer.Name}/webmercator/{z}/{x}/{y}.png`, {
-                        maxZoom: 23,
+                        maxZoom: MAX_ZOOM,
+                        maxNativeZoom: 19,
                         bounds: bounds
                     })
                     layer.bounds = bounds
