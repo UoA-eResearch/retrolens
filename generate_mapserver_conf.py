@@ -2,7 +2,7 @@
 
 from glob import glob
 from os.path import basename, splitext
-files = glob("/mnt/coastal/*/*.tif")
+files = sorted(glob("/mnt/coastal/*/*.tif"))
 
 print("""MAP
     PROJECTION
