@@ -2017,8 +2017,8 @@ MAP
     END
 
     LAYER
-        NAME "MoutereSpit_21FEB2002_mosaic.jp2"
-        DATA "/mnt/coastal/MoutereSpit/MoutereSpit_21FEB2002_mosaic.jp2.tif"
+        NAME "MoutereSpit_21FEB2002_mosaic"
+        DATA "/mnt/coastal/MoutereSpit/MoutereSpit_21FEB2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
             "init=epsg:2193"
@@ -3117,17 +3117,6 @@ MAP
     END
 
     LAYER
-        NAME "Riverton_8OCT1985_mosaic"
-        DATA "/mnt/coastal/Riverton/Riverton_8OCT1985_mosaic.tif"
-        TYPE RASTER
-        PROJECTION
-            "init=epsg:2193"
-        END
-        STATUS ON
-        OFFSITE 255 255 255
-    END
-
-    LAYER
         NAME "RuataniwhaInlet_07NOV1984_mosaic"
         DATA "/mnt/coastal/RuataniwhaInlet/RuataniwhaInlet_07NOV1984_mosaic.tif"
         TYPE RASTER
@@ -3579,17 +3568,6 @@ MAP
     END
 
     LAYER
-        NAME "TaieriBech_Mouth_01MAR1973_mosaic"
-        DATA "/mnt/coastal/TaieriBech_Mouth/TaieriBech_Mouth_01MAR1973_mosaic.tif"
-        TYPE RASTER
-        PROJECTION
-            "init=epsg:2193"
-        END
-        STATUS ON
-        OFFSITE 255 255 255
-    END
-
-    LAYER
         NAME "Taieri_Brighton_02MAR1962_mosaic"
         DATA "/mnt/coastal/Taieri_Brighton/Taieri_Brighton_02MAR1962_mosaic.tif"
         TYPE RASTER
@@ -3834,17 +3812,6 @@ MAP
     LAYER
         NAME "TeWaewaeBay_East1_21FEB1976_mosaic"
         DATA "/mnt/coastal/TeWaewaeBay_East1/TeWaewaeBay_East1_21FEB1976_mosaic.tif"
-        TYPE RASTER
-        PROJECTION
-            "init=epsg:2193"
-        END
-        STATUS ON
-        OFFSITE 255 255 255
-    END
-
-    LAYER
-        NAME "TeWaewaeBay_East1_22MAR1946"
-        DATA "/mnt/coastal/TeWaewaeBay_East1/TeWaewaeBay_East1_22MAR1946.tif"
         TYPE RASTER
         PROJECTION
             "init=epsg:2193"
