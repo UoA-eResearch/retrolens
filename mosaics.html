@@ -155,7 +155,6 @@
         var overlays = {
             "Drawn items": editableLayers
         }
-        var layerChooser = L.control.layers(basemaps, overlays).addTo(map);
 
         $.getJSON("shorelines.geojson", function (data) {
             console.log(data)
@@ -182,7 +181,7 @@
                     layer.bindTooltip(p.Site + " " + p.Date, { sticky: true });
                 }
             }).addTo(map)
-            layerChooser.addOverlay(geojsonLayer, "Shoreline vectors")
+            overlays["Shoreline vectors"] = geojsonLayer
         })
 
         $.get("filelist.txt", function(filepaths) {
@@ -217,19 +216,18 @@
                 }
                 console.log(layerByArea)
                 var locations = Object.keys(layerByArea).sort()
-                var layers_added = 0;
                 for (location of locations) {
-                    var added = false
+                    var added = false;
                     for (date in layerByArea[location]) {
                         var layer = layerByArea[location][date]
-                        layerChooser.addOverlay(layer, layer.name)
                         if (!added) {
-                            layer.addTo(map)
-                            added = true
-                            layers_added++
+                            layer.addTo(map);
+                            added = true;
                         }
+                        overlays[layer.name] = layer
                     }
                 }
+                var layerChooser = L.control.layers(basemaps, overlays).addTo(map);
                 map.on("overlayadd", function (e) {
                     console.log("Added " + e.name)
                     var bounds = e.layer.bounds || e.layer.getBounds()
