@@ -190,71 +190,62 @@
             overlays["Shoreline vectors"] = geojsonLayer
         })
 
-        $.get("filelist.txt", function(filepaths) {
-            var region_lookup = {}
-            for (line of filepaths.split("\n")) {
-                line = line.replace("1TorrentBay", "TorrentBay").replace("TaieriBech_Mouth", "TaieriBeach_Mouth")
-                var bits = line.split("/")
-                region_lookup[bits[3]] = bits[0]
+        $.get("https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities", function (xml) {
+            var cap = new WMSCapabilities().parse(xml);
+            var layers = cap.Capability.Layer.Layer;
+            console.log(layers);
+            var layerByArea = {}
+            for (wmsLayer of layers) {
+                var name = wmsLayer.Name.replace("_mosaic", "").replace("_mosiac", "").replace("_LDS", "")
+                console.log(wmsLayer)
+                //console.log(name)
+                var location = name.split("_").slice(0, -1).join(" ")
+                var date = name.slice(-4)
+                var b = wmsLayer.LatLonBoundingBox
+                var bounds = L.latLngBounds([[b[1], b[0]], [b[3], b[2]]])
+                var layer = L.tileLayer(`https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/tiles/${wmsLayer.Name}/webmercator/{z}/{x}/{y}.png`, {
+                    maxZoom: MAX_ZOOM,
+                    maxNativeZoom: 19,
+                    bounds: bounds
+                })
+                layer.bounds = bounds
+                layer.name = location + " " + date
+                if (!layerByArea[location]) {
+                    layerByArea[location] = {}
+                }
+                layerByArea[location][date] = layer
             }
-            console.log(region_lookup)
-            $.get("https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetCapabilities", function (xml) {
-                var cap = new WMSCapabilities().parse(xml);
-                var layers = cap.Capability.Layer.Layer;
-                console.log(layers);
-                var layerByArea = {}
-                for (wmsLayer of layers) {
-                    var name = wmsLayer.Name.replace("_mosaic", "").replace("_mosiac", "").replace("_LDS", "")
-                    //console.log(name)
-                    var location = name.split("_").slice(0, -1).join(" ")
-                    location = region_lookup[wmsLayer.Name] + " - " + location
-                    var date = name.slice(-4)
-                    var b = wmsLayer.LatLonBoundingBox
-                    var bounds = L.latLngBounds([[b[1], b[0]], [b[3], b[2]]])
-                    var layer = L.tileLayer(`https://api-proxy.auckland-cer.cloud.edu.au/mapproxy/tiles/${wmsLayer.Name}/webmercator/{z}/{x}/{y}.png`, {
-                        maxZoom: MAX_ZOOM,
-                        maxNativeZoom: 19,
-                        bounds: bounds
-                    })
-                    layer.bounds = bounds
-                    layer.name = location + " " + date
-                    if (!layerByArea[location]) {
-                        layerByArea[location] = {}
+            console.log(layerByArea)
+            var locations = Object.keys(layerByArea).sort()
+            for (location of locations) {
+                var added = false;
+                for (date in layerByArea[location]) {
+                    var layer = layerByArea[location][date]
+                    if (!added) {
+                        layer.addTo(map);
+                        added = true;
                     }
-                    layerByArea[location][date] = layer
+                    overlays[layer.name] = layer
                 }
-                console.log(layerByArea)
-                var locations = Object.keys(layerByArea).sort()
-                for (location of locations) {
-                    var added = false;
-                    for (date in layerByArea[location]) {
-                        var layer = layerByArea[location][date]
-                        if (!added) {
-                            layer.addTo(map);
-                            added = true;
-                        }
-                        overlays[layer.name] = layer
-                    }
+            }
+            var layerChooser = L.control.layers(basemaps, overlays).addTo(map);
+            map.on("overlayadd", function (e) {
+                console.log("Added " + e.name)
+                var bounds = e.layer.bounds || e.layer.getBounds()
+                if ($("#fly").is(':checked') && !map.getBounds().contains(bounds)) {
+                    map.flyToBounds(bounds)
                 }
-                var layerChooser = L.control.layers(basemaps, overlays).addTo(map);
-                map.on("overlayadd", function (e) {
-                    console.log("Added " + e.name)
-                    var bounds = e.layer.bounds || e.layer.getBounds()
-                    if ($("#fly").is(':checked') && !map.getBounds().contains(bounds)) {
-                        map.flyToBounds(bounds)
-                    }
-                })
+            })
 
-                map.on("click", function(event) {
-                    map.eachLayer(function (layer) {
-                        if (layer.bounds && layer.bounds.contains(event.latlng)) {
-                            L.popup()
-                                .setLatLng(event.latlng)
-                                .setContent(layer.name)
-                                .openOn(map);
-                        }
-                    });
-                })
+            map.on("click", function(event) {
+                map.eachLayer(function (layer) {
+                    if (layer.bounds && layer.bounds.contains(event.latlng)) {
+                        L.popup()
+                            .setLatLng(event.latlng)
+                            .setContent(layer.name)
+                            .openOn(map);
+                    }
+                });
             })
         })
 
