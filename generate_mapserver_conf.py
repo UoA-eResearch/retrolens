@@ -2,7 +2,7 @@
 
 from glob import glob
 from os.path import basename, splitext
-files = sorted(glob("/mnt/coastal/*/*.tif"))
+files = sorted(glob("/mnt/coastal/**/*.tif", recursive=True))
 
 print("""MAP
     PROJECTION
@@ -10,7 +10,7 @@ print("""MAP
     END""")
 
 for filepath in files:
-    name = splitext(basename(filepath))[0]
+    name = filepath.replace("/mnt/coastal/", "").replace(".tif", "")
     print(f"""
     LAYER
         NAME "{name}"

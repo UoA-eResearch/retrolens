@@ -7,12 +7,13 @@ from tqdm import tqdm
 import shutil
 import rasterio as rio
 
-for filename in tqdm(glob("/mnt/coastal_raw/*.jp2")):
-    f = filename.replace("1TorrentBay", "TorrentBay").replace("TaieriBech_Mouth", "TaieriBeach_Mouth")
+for filename in tqdm(glob("/mnt/coastal_raw/**/*.jp2", recursive=True)):
+    f = filename.replace("1TorrentBay", "TorrentBay").replace("TaieriBech_Mouth", "TaieriBeach_Mouth").replace("/Stack", "").replace("coastal_raw", "coastal")
     site = re.search('(\w+?)_(\d|LDS)', f).group(1)
-    os.makedirs(f"/mnt/coastal/{site}", exist_ok=True)
+    dirname = os.path.dirname(f)
+    os.makedirs(f, exist_ok=True)
     f = os.path.basename(f).replace(".jp2", "")
-    outfile = f"/mnt/coastal/{site}/{f}.tif"
+    outfile = f"{dirname}/{f}.tif"
     print(f"{filename} -> {outfile}")
     if os.path.isfile(outfile):
         print(f"{outfile} exists, skipping")
@@ -22,10 +23,9 @@ for filename in tqdm(glob("/mnt/coastal_raw/*.jp2")):
     with rio.open(outfile, "w", **kwargs) as dst:
         dst.write(src.read())
 
-for filename in tqdm(glob("/mnt/coastal_raw/*.tif")):
-    site = re.search('(\w+?)_(\d|LDS)', filename).group(1)
-    os.makedirs(f"/mnt/coastal/{site}", exist_ok=True)
-    outfile = f"/mnt/coastal/{site}/{os.path.basename(filename)}"
+for filename in tqdm(glob("/mnt/coastal_raw/**/*.tif", recursive=True)):
+    outfile = filename.replace("/Stack", "").replace("coastal_raw", "coastal")
+    os.makedirs(os.path.dirname(outfile), exist_ok=True)
     print(f"{filename} -> {outfile}")
     if os.path.isfile(outfile):
         print(f"{outfile} exists, skipping")
