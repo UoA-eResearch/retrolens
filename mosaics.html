@@ -163,6 +163,10 @@
             var data_by_site = {}
             for (var feature of data.features) {
                 var p = feature.properties;
+                if (!p.Date && p.Date2) p.Date = p.Date2;
+                if (!p.Site) {
+                    [p.Region, p.Site, ...rest] = p.filename.split("/")
+                }
                 if (!data_by_site[p.Site]) data_by_site[p.Site] = []
                 data_by_site[p.Site].push(feature)
             }
