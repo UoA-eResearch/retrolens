@@ -4,6 +4,7 @@ from glob import glob
 import os
 import re
 from tqdm import tqdm
+import shutil
 import rasterio as rio
 
 for filename in tqdm(glob("/mnt/coastal_raw/*.jp2")):
@@ -20,3 +21,13 @@ for filename in tqdm(glob("/mnt/coastal_raw/*.jp2")):
     kwargs = {**src.profile, **{"driver": "GTiff", "compress": "LZW", "tiled": True}}
     with rio.open(outfile, "w", **kwargs) as dst:
         dst.write(src.read())
+
+for filename in tqdm(glob("/mnt/coastal_raw/*.tif")):
+    site = re.search('(\w+?)_(\d|LDS)', filename).group(1)
+    os.makedirs(f"/mnt/coastal/{site}", exist_ok=True)
+    outfile = f"/mnt/coastal/{site}/{os.path.basename(filename)}"
+    print(f"{filename} -> {outfile}")
+    if os.path.isfile(outfile):
+        print(f"{outfile} exists, skipping")
+        continue
+    shutil.copy(filename, outfile)
