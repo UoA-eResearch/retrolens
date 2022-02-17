@@ -10,7 +10,8 @@ print("""MAP
     END""")
 
 for filepath in files:
-    name = filepath.replace("/mnt/coastal/", "").replace(".tif", "").replace("/", " - ")
+    bits = filepath.replace("/mnt/coastal/", "").replace(".tif", "").split("/")
+    name = bits[0] + " - " + bits[-1]
     print(f"""
     LAYER
         NAME "{name}"

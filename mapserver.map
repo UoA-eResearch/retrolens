@@ -4,7 +4,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach - PakiriBeach_07FEB1982_mosaic"
+        NAME "Auckland - PakiriBeach_07FEB1982_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach/PakiriBeach_07FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -15,7 +15,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach - PakiriBeach_09FEB1982_mosaic"
+        NAME "Auckland - PakiriBeach_09FEB1982_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach/PakiriBeach_09FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -26,7 +26,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach - PakiriBeach_12MAR1995_mosaic"
+        NAME "Auckland - PakiriBeach_12MAR1995_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach/PakiriBeach_12MAR1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -37,7 +37,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach - PakiriBeach_15JAN1977_mosaic"
+        NAME "Auckland - PakiriBeach_15JAN1977_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach/PakiriBeach_15JAN1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -48,7 +48,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach - PakiriBeach_24OCT1953_mosaic"
+        NAME "Auckland - PakiriBeach_24OCT1953_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach/PakiriBeach_24OCT1953_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -59,7 +59,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach - PakiriBeach_29FEB1992_mosaic"
+        NAME "Auckland - PakiriBeach_29FEB1992_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach/PakiriBeach_29FEB1992_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -70,7 +70,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach_North - PakiriBeach_North_02MAY1996_mosaic"
+        NAME "Auckland - PakiriBeach_North_02MAY1996_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach_North/PakiriBeach_North_02MAY1996_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -81,7 +81,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach_North - PakiriBeach_North_09FEB1982_mosaic"
+        NAME "Auckland - PakiriBeach_North_09FEB1982_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach_North/PakiriBeach_North_09FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -92,7 +92,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach_North - PakiriBeach_North_12MAR1995_mosaic"
+        NAME "Auckland - PakiriBeach_North_12MAR1995_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach_North/PakiriBeach_North_12MAR1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -103,7 +103,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach_North - PakiriBeach_North_15JAN1977_mosaic"
+        NAME "Auckland - PakiriBeach_North_15JAN1977_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach_North/PakiriBeach_North_15JAN1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -114,7 +114,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach_North - PakiriBeach_North_20MAR1961_mosaic"
+        NAME "Auckland - PakiriBeach_North_20MAR1961_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach_North/PakiriBeach_North_20MAR1961_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -125,7 +125,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - PakiriBeach_North - PakiriBeach_North_24OCT1953_mosaic"
+        NAME "Auckland - PakiriBeach_North_24OCT1953_mosaic"
         DATA "/mnt/coastal/Auckland/PakiriBeach_North/PakiriBeach_North_24OCT1953_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -136,7 +136,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - TeArai - TeArai_05FEB1996_mosaic"
+        NAME "Auckland - TeArai_05FEB1996_mosaic"
         DATA "/mnt/coastal/Auckland/TeArai/TeArai_05FEB1996_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -147,7 +147,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - TeArai - TeArai_06JAN1978_mosaic"
+        NAME "Auckland - TeArai_06JAN1978_mosaic"
         DATA "/mnt/coastal/Auckland/TeArai/TeArai_06JAN1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -158,7 +158,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - TeArai - TeArai_07FEB1982_mosaic"
+        NAME "Auckland - TeArai_07FEB1982_mosaic"
         DATA "/mnt/coastal/Auckland/TeArai/TeArai_07FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -169,7 +169,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - TeArai - TeArai_09FEB1982_mosaic"
+        NAME "Auckland - TeArai_09FEB1982_mosaic"
         DATA "/mnt/coastal/Auckland/TeArai/TeArai_09FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -180,7 +180,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - TeArai - TeArai_10JAN1983_mosaic"
+        NAME "Auckland - TeArai_10JAN1983_mosaic"
         DATA "/mnt/coastal/Auckland/TeArai/TeArai_10JAN1983_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -191,7 +191,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - TeArai - TeArai_12MAR1995_mosaic"
+        NAME "Auckland - TeArai_12MAR1995_mosaic"
         DATA "/mnt/coastal/Auckland/TeArai/TeArai_12MAR1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -202,7 +202,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - TeArai - TeArai_15JAN1977_mosaic"
+        NAME "Auckland - TeArai_15JAN1977_mosaic"
         DATA "/mnt/coastal/Auckland/TeArai/TeArai_15JAN1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -213,7 +213,7 @@ MAP
     END
 
     LAYER
-        NAME "Auckland - TeArai - TeArai_20MAR1961_mosaic"
+        NAME "Auckland - TeArai_20MAR1961_mosaic"
         DATA "/mnt/coastal/Auckland/TeArai/TeArai_20MAR1961_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -224,7 +224,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - BoulderBank - BoulderBank_06FEB1967_mosaic"
+        NAME "Nelson - BoulderBank_06FEB1967_mosaic"
         DATA "/mnt/coastal/Nelson/BoulderBank/BoulderBank_06FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -235,7 +235,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - BoulderBank - BoulderBank_13JAN2000_mosaic"
+        NAME "Nelson - BoulderBank_13JAN2000_mosaic"
         DATA "/mnt/coastal/Nelson/BoulderBank/BoulderBank_13JAN2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -246,7 +246,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - BoulderBank - BoulderBank_14MAR1948_mosaic"
+        NAME "Nelson - BoulderBank_14MAR1948_mosaic"
         DATA "/mnt/coastal/Nelson/BoulderBank/BoulderBank_14MAR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -257,7 +257,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - BoulderBank - BoulderBank_17JAN1957_mosaic"
+        NAME "Nelson - BoulderBank_17JAN1957_mosaic"
         DATA "/mnt/coastal/Nelson/BoulderBank/BoulderBank_17JAN1957_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -268,7 +268,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - BoulderBank - BoulderBank_20NOV1983_mosaic"
+        NAME "Nelson - BoulderBank_20NOV1983_mosaic"
         DATA "/mnt/coastal/Nelson/BoulderBank/BoulderBank_20NOV1983_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -279,7 +279,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - BoulderBank - BoulderBank_22SEP1969_mosaic"
+        NAME "Nelson - BoulderBank_22SEP1969_mosaic"
         DATA "/mnt/coastal/Nelson/BoulderBank/BoulderBank_22SEP1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -290,7 +290,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - BoulderBank - BoulderBank_23JAN1977_mosaic"
+        NAME "Nelson - BoulderBank_23JAN1977_mosaic"
         DATA "/mnt/coastal/Nelson/BoulderBank/BoulderBank_23JAN1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -301,7 +301,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - BoulderBank - BoulderBay_01FEB1960_mosaic"
+        NAME "Nelson - BoulderBay_01FEB1960_mosaic"
         DATA "/mnt/coastal/Nelson/BoulderBank/BoulderBay_01FEB1960_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -312,7 +312,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Glenduan_North - Glenduan_North_17JAN1957_mosaic"
+        NAME "Nelson - Glenduan_North_17JAN1957_mosaic"
         DATA "/mnt/coastal/Nelson/Glenduan_North/Glenduan_North_17JAN1957_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -323,7 +323,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Glenduan_North - Glenduan_North_20NOV1983_mosaic"
+        NAME "Nelson - Glenduan_North_20NOV1983_mosaic"
         DATA "/mnt/coastal/Nelson/Glenduan_North/Glenduan_North_20NOV1983_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -334,7 +334,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Glenduan_North - Glenduan_North_22SEP1969_mosaic"
+        NAME "Nelson - Glenduan_North_22SEP1969_mosaic"
         DATA "/mnt/coastal/Nelson/Glenduan_North/Glenduan_North_22SEP1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -345,7 +345,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Glenduan_North - Glenduan_North_29APR1943_mosaic"
+        NAME "Nelson - Glenduan_North_29APR1943_mosaic"
         DATA "/mnt/coastal/Nelson/Glenduan_North/Glenduan_North_29APR1943_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -356,7 +356,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Nelson - Nelson_01FEB1960_mosaic"
+        NAME "Nelson - Nelson_01FEB1960_mosaic"
         DATA "/mnt/coastal/Nelson/Nelson/Nelson_01FEB1960_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -367,7 +367,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Nelson - Nelson_05DEC1983_mosaic"
+        NAME "Nelson - Nelson_05DEC1983_mosaic"
         DATA "/mnt/coastal/Nelson/Nelson/Nelson_05DEC1983_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -378,7 +378,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Nelson - Nelson_06FEB1967_mosaic"
+        NAME "Nelson - Nelson_06FEB1967_mosaic"
         DATA "/mnt/coastal/Nelson/Nelson/Nelson_06FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -389,7 +389,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Nelson - Nelson_11JAN1981_mosaic"
+        NAME "Nelson - Nelson_11JAN1981_mosaic"
         DATA "/mnt/coastal/Nelson/Nelson/Nelson_11JAN1981_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -400,7 +400,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Nelson - Nelson_13JAN2000_mosaic"
+        NAME "Nelson - Nelson_13JAN2000_mosaic"
         DATA "/mnt/coastal/Nelson/Nelson/Nelson_13JAN2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -411,7 +411,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Nelson - Nelson_13SEP1985_mosaic"
+        NAME "Nelson - Nelson_13SEP1985_mosaic"
         DATA "/mnt/coastal/Nelson/Nelson/Nelson_13SEP1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -422,7 +422,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Nelson - Nelson_14MAR1948_mosaic"
+        NAME "Nelson - Nelson_14MAR1948_mosaic"
         DATA "/mnt/coastal/Nelson/Nelson/Nelson_14MAR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -433,7 +433,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Nelson - Nelson_22SEP1969_mosaic"
+        NAME "Nelson - Nelson_22SEP1969_mosaic"
         DATA "/mnt/coastal/Nelson/Nelson/Nelson_22SEP1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -444,7 +444,7 @@ MAP
     END
 
     LAYER
-        NAME "Nelson - Nelson - Nelson_23JAN1977_mosaic"
+        NAME "Nelson - Nelson_23JAN1977_mosaic"
         DATA "/mnt/coastal/Nelson/Nelson/Nelson_23JAN1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -455,7 +455,7 @@ MAP
     END
 
     LAYER
-        NAME "Northland - Mangawhai - Mangawhai_05FEB1996_mosaic"
+        NAME "Northland - Mangawhai_05FEB1996_mosaic"
         DATA "/mnt/coastal/Northland/Mangawhai/Mangawhai_05FEB1996_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -466,7 +466,7 @@ MAP
     END
 
     LAYER
-        NAME "Northland - Mangawhai - Mangawhai_06JAN1978_mosaic"
+        NAME "Northland - Mangawhai_06JAN1978_mosaic"
         DATA "/mnt/coastal/Northland/Mangawhai/Mangawhai_06JAN1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -477,7 +477,7 @@ MAP
     END
 
     LAYER
-        NAME "Northland - Mangawhai - Mangawhai_07FEB1982_mosaic"
+        NAME "Northland - Mangawhai_07FEB1982_mosaic"
         DATA "/mnt/coastal/Northland/Mangawhai/Mangawhai_07FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -488,7 +488,7 @@ MAP
     END
 
     LAYER
-        NAME "Northland - Mangawhai - Mangawhai_10JAN1983_mosaic"
+        NAME "Northland - Mangawhai_10JAN1983_mosaic"
         DATA "/mnt/coastal/Northland/Mangawhai/Mangawhai_10JAN1983_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -499,7 +499,7 @@ MAP
     END
 
     LAYER
-        NAME "Northland - Mangawhai - Mangawhai_12MAR1995_mosaic"
+        NAME "Northland - Mangawhai_12MAR1995_mosaic"
         DATA "/mnt/coastal/Northland/Mangawhai/Mangawhai_12MAR1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -510,7 +510,7 @@ MAP
     END
 
     LAYER
-        NAME "Northland - Mangawhai - Mangawhai_15JAN1977_mosaic"
+        NAME "Northland - Mangawhai_15JAN1977_mosaic"
         DATA "/mnt/coastal/Northland/Mangawhai/Mangawhai_15JAN1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -521,7 +521,7 @@ MAP
     END
 
     LAYER
-        NAME "Northland - Mangawhai - Mangawhai_16APR1986_mosaic"
+        NAME "Northland - Mangawhai_16APR1986_mosaic"
         DATA "/mnt/coastal/Northland/Mangawhai/Mangawhai_16APR1986_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -532,7 +532,7 @@ MAP
     END
 
     LAYER
-        NAME "Northland - Mangawhai - Mangawhai_20MAR1961_mosaic"
+        NAME "Northland - Mangawhai_20MAR1961_mosaic"
         DATA "/mnt/coastal/Northland/Mangawhai/Mangawhai_20MAR1961_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -543,7 +543,7 @@ MAP
     END
 
     LAYER
-        NAME "Northland - Mangawhai - Mangawhai_20MAY1963_mosaic"
+        NAME "Northland - Mangawhai_20MAY1963_mosaic"
         DATA "/mnt/coastal/Northland/Mangawhai/Mangawhai_20MAY1963_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -554,7 +554,7 @@ MAP
     END
 
     LAYER
-        NAME "Northland - Owhata - Owhata_18NOV1977_mosaic"
+        NAME "Northland - Owhata_18NOV1977_mosaic"
         DATA "/mnt/coastal/Northland/Owhata/Owhata_18NOV1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -565,7 +565,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - AllansBeach - AllansBeach_09MAR1982_mosaic"
+        NAME "Otago - AllansBeach_09MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/AllansBeach/AllansBeach_09MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -576,7 +576,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - AllansBeach - AllansBeach_15OCT1942_mosaic"
+        NAME "Otago - AllansBeach_15OCT1942_mosaic"
         DATA "/mnt/coastal/Otago/AllansBeach/AllansBeach_15OCT1942_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -587,7 +587,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - AllansBeach - AllansBeach_16FEB1985_mosaic"
+        NAME "Otago - AllansBeach_16FEB1985_mosaic"
         DATA "/mnt/coastal/Otago/AllansBeach/AllansBeach_16FEB1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -598,7 +598,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - AllansBeach - AllansBeach_17MAR2000_mosaic"
+        NAME "Otago - AllansBeach_17MAR2000_mosaic"
         DATA "/mnt/coastal/Otago/AllansBeach/AllansBeach_17MAR2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -609,7 +609,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - AllansBeach - AllansBeach_18FEB1970_mosaic"
+        NAME "Otago - AllansBeach_18FEB1970_mosaic"
         DATA "/mnt/coastal/Otago/AllansBeach/AllansBeach_18FEB1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -620,7 +620,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - AllansBeach - AllansBeach_20FEB1967_mosaic"
+        NAME "Otago - AllansBeach_20FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/AllansBeach/AllansBeach_20FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -631,7 +631,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - AllansBeach - AllansBeach_24FEB1958_mosaic"
+        NAME "Otago - AllansBeach_24FEB1958_mosaic"
         DATA "/mnt/coastal/Otago/AllansBeach/AllansBeach_24FEB1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -642,7 +642,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - AllansBeach - AllansBeach_7MAR1975_mosaic"
+        NAME "Otago - AllansBeach_7MAR1975_mosaic"
         DATA "/mnt/coastal/Otago/AllansBeach/AllansBeach_7MAR1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -653,7 +653,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Aramoana - Aramoana_07MAR1975_mosaic"
+        NAME "Otago - Aramoana_07MAR1975_mosaic"
         DATA "/mnt/coastal/Otago/Aramoana/Aramoana_07MAR1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -664,7 +664,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Aramoana - Aramoana_08MAR1956_mosaic"
+        NAME "Otago - Aramoana_08MAR1956_mosaic"
         DATA "/mnt/coastal/Otago/Aramoana/Aramoana_08MAR1956_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -675,7 +675,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Aramoana - Aramoana_09MAR1982_mosaic"
+        NAME "Otago - Aramoana_09MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/Aramoana/Aramoana_09MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -686,7 +686,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Aramoana - Aramoana_14FEB1972_mosaic"
+        NAME "Otago - Aramoana_14FEB1972_mosaic"
         DATA "/mnt/coastal/Otago/Aramoana/Aramoana_14FEB1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -697,7 +697,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Aramoana - Aramoana_16FEB1985_mosaic"
+        NAME "Otago - Aramoana_16FEB1985_mosaic"
         DATA "/mnt/coastal/Otago/Aramoana/Aramoana_16FEB1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -708,7 +708,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Aramoana - Aramoana_17MAR2000_mosaic"
+        NAME "Otago - Aramoana_17MAR2000_mosaic"
         DATA "/mnt/coastal/Otago/Aramoana/Aramoana_17MAR2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -719,7 +719,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Aramoana - Aramoana_20FEB1967_mosaic"
+        NAME "Otago - Aramoana_20FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/Aramoana/Aramoana_20FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -730,7 +730,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - BoulderBeach_SandflyBay - BoulderBeach_17MAR2000_mosaic"
+        NAME "Otago - BoulderBeach_17MAR2000_mosaic"
         DATA "/mnt/coastal/Otago/BoulderBeach_SandflyBay/BoulderBeach_17MAR2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -741,7 +741,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - BoulderBeach_SandflyBay - BoulderBeach_SandflyBay_07MAR1975_mosaic"
+        NAME "Otago - BoulderBeach_SandflyBay_07MAR1975_mosaic"
         DATA "/mnt/coastal/Otago/BoulderBeach_SandflyBay/BoulderBeach_SandflyBay_07MAR1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -752,7 +752,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - BoulderBeach_SandflyBay - BoulderBeach_SandflyBay_09MAR1982_mosaic"
+        NAME "Otago - BoulderBeach_SandflyBay_09MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/BoulderBeach_SandflyBay/BoulderBeach_SandflyBay_09MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -763,7 +763,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - BoulderBeach_SandflyBay - BoulderBeach_SandflyBay_15OCT1942_mosaic"
+        NAME "Otago - BoulderBeach_SandflyBay_15OCT1942_mosaic"
         DATA "/mnt/coastal/Otago/BoulderBeach_SandflyBay/BoulderBeach_SandflyBay_15OCT1942_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -774,7 +774,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - BoulderBeach_SandflyBay - BoulderBeach_SandflyBay_16FEB1985_mosaic"
+        NAME "Otago - BoulderBeach_SandflyBay_16FEB1985_mosaic"
         DATA "/mnt/coastal/Otago/BoulderBeach_SandflyBay/BoulderBeach_SandflyBay_16FEB1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -785,7 +785,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - BoulderBeach_SandflyBay - BoulderBeach_SandflyBay_18FEB1970_mosaic"
+        NAME "Otago - BoulderBeach_SandflyBay_18FEB1970_mosaic"
         DATA "/mnt/coastal/Otago/BoulderBeach_SandflyBay/BoulderBeach_SandflyBay_18FEB1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -796,7 +796,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - BoulderBeach_SandflyBay - BoulderBeach_SandflyBay_20FEB1967_mosaic"
+        NAME "Otago - BoulderBeach_SandflyBay_20FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/BoulderBeach_SandflyBay/BoulderBeach_SandflyBay_20FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -807,7 +807,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - BoulderBeach_SandflyBay - BoulderBeach_SandflyBay_24FEB1958_mosaic"
+        NAME "Otago - BoulderBeach_SandflyBay_24FEB1958_mosaic"
         DATA "/mnt/coastal/Otago/BoulderBeach_SandflyBay/BoulderBeach_SandflyBay_24FEB1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -818,7 +818,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - ChrystallsBeach - ChrystallsBeach_03NOV1995_mosaic"
+        NAME "Otago - ChrystallsBeach_03NOV1995_mosaic"
         DATA "/mnt/coastal/Otago/ChrystallsBeach/ChrystallsBeach_03NOV1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -829,7 +829,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - ChrystallsBeach - ChrystallsBeach_08MAR1982_mosaic"
+        NAME "Otago - ChrystallsBeach_08MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/ChrystallsBeach/ChrystallsBeach_08MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -840,7 +840,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - ChrystallsBeach - ChrystallsBeach_15FEB1979_mosaic"
+        NAME "Otago - ChrystallsBeach_15FEB1979_mosaic"
         DATA "/mnt/coastal/Otago/ChrystallsBeach/ChrystallsBeach_15FEB1979_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -851,7 +851,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - ChrystallsBeach - ChrystallsBeach_21FEB1968_mosaic"
+        NAME "Otago - ChrystallsBeach_21FEB1968_mosaic"
         DATA "/mnt/coastal/Otago/ChrystallsBeach/ChrystallsBeach_21FEB1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -862,7 +862,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - ChrystallsBeach - ChrystallsBeach_24FEB1973_mosaic"
+        NAME "Otago - ChrystallsBeach_24FEB1973_mosaic"
         DATA "/mnt/coastal/Otago/ChrystallsBeach/ChrystallsBeach_24FEB1973_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -873,7 +873,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - ChrystallsBeach - ChrystallsBeach_26FEB1946_mosaic"
+        NAME "Otago - ChrystallsBeach_26FEB1946_mosaic"
         DATA "/mnt/coastal/Otago/ChrystallsBeach/ChrystallsBeach_26FEB1946_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -884,7 +884,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - ChrystallsBeach - ChrystallsBeach_26FEB1975_mosaic"
+        NAME "Otago - ChrystallsBeach_26FEB1975_mosaic"
         DATA "/mnt/coastal/Otago/ChrystallsBeach/ChrystallsBeach_26FEB1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -895,7 +895,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - ChrystallsBeach - ChrystallsBeach_28FEB1962_mosaic"
+        NAME "Otago - ChrystallsBeach_28FEB1962_mosaic"
         DATA "/mnt/coastal/Otago/ChrystallsBeach/ChrystallsBeach_28FEB1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -906,7 +906,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - CoalPoint_SmithsBeach - CoalPoint_SmithsBeach_01MAR1962_mosaic"
+        NAME "Otago - CoalPoint_SmithsBeach_01MAR1962_mosaic"
         DATA "/mnt/coastal/Otago/CoalPoint_SmithsBeach/CoalPoint_SmithsBeach_01MAR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -917,7 +917,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - CoalPoint_SmithsBeach - CoalPoint_SmithsBeach_01MAR1962_mosaic_part1"
+        NAME "Otago - CoalPoint_SmithsBeach_01MAR1962_mosaic_part1"
         DATA "/mnt/coastal/Otago/CoalPoint_SmithsBeach/CoalPoint_SmithsBeach_01MAR1962_mosaic_part1.tif"
         TYPE RASTER
         PROJECTION
@@ -928,7 +928,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - CoalPoint_SmithsBeach - CoalPoint_SmithsBeach_01MAR1962_mosaic_part2"
+        NAME "Otago - CoalPoint_SmithsBeach_01MAR1962_mosaic_part2"
         DATA "/mnt/coastal/Otago/CoalPoint_SmithsBeach/CoalPoint_SmithsBeach_01MAR1962_mosaic_part2.tif"
         TYPE RASTER
         PROJECTION
@@ -939,7 +939,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - CoalPoint_SmithsBeach - CoalPoint_SmithsBeach_03NOV1995_mosaic"
+        NAME "Otago - CoalPoint_SmithsBeach_03NOV1995_mosaic"
         DATA "/mnt/coastal/Otago/CoalPoint_SmithsBeach/CoalPoint_SmithsBeach_03NOV1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -950,7 +950,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - CoalPoint_SmithsBeach - CoalPoint_SmithsBeach_16APR1982_mosaic"
+        NAME "Otago - CoalPoint_SmithsBeach_16APR1982_mosaic"
         DATA "/mnt/coastal/Otago/CoalPoint_SmithsBeach/CoalPoint_SmithsBeach_16APR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -961,7 +961,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - CoalPoint_SmithsBeach - CoalPoint_SmithsBeach_20FEB1975_mosaic"
+        NAME "Otago - CoalPoint_SmithsBeach_20FEB1975_mosaic"
         DATA "/mnt/coastal/Otago/CoalPoint_SmithsBeach/CoalPoint_SmithsBeach_20FEB1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -972,7 +972,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - CoalPoint_SmithsBeach - CoalPoint_SmithsBeach_21FEB1968_mosaic"
+        NAME "Otago - CoalPoint_SmithsBeach_21FEB1968_mosaic"
         DATA "/mnt/coastal/Otago/CoalPoint_SmithsBeach/CoalPoint_SmithsBeach_21FEB1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -983,7 +983,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - CoalPoint_SmithsBeach - CoalPoint_SmithsBeach_26FEB1946_mosaic"
+        NAME "Otago - CoalPoint_SmithsBeach_26FEB1946_mosaic"
         DATA "/mnt/coastal/Otago/CoalPoint_SmithsBeach/CoalPoint_SmithsBeach_26FEB1946_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -994,7 +994,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Dunedin_clifftop - Dunedin_clifftop_02MAR1962_mosaic"
+        NAME "Otago - Dunedin_clifftop_02MAR1962_mosaic"
         DATA "/mnt/coastal/Otago/Dunedin_clifftop/Dunedin_clifftop_02MAR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1005,7 +1005,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Dunedin_clifftop - Dunedin_clifftop_07MAR1975_mosaic"
+        NAME "Otago - Dunedin_clifftop_07MAR1975_mosaic"
         DATA "/mnt/coastal/Otago/Dunedin_clifftop/Dunedin_clifftop_07MAR1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1016,7 +1016,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Dunedin_clifftop - Dunedin_clifftop_09MAR1982_mosaic"
+        NAME "Otago - Dunedin_clifftop_09MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/Dunedin_clifftop/Dunedin_clifftop_09MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1027,7 +1027,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Dunedin_clifftop - Dunedin_clifftop_13MAY1950_mosaic"
+        NAME "Otago - Dunedin_clifftop_13MAY1950_mosaic"
         DATA "/mnt/coastal/Otago/Dunedin_clifftop/Dunedin_clifftop_13MAY1950_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1038,7 +1038,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Dunedin_clifftop - Dunedin_clifftop_15OCT1942_mosaic"
+        NAME "Otago - Dunedin_clifftop_15OCT1942_mosaic"
         DATA "/mnt/coastal/Otago/Dunedin_clifftop/Dunedin_clifftop_15OCT1942_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1049,7 +1049,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Dunedin_clifftop - Dunedin_clifftop_16FEB1985_mosaic"
+        NAME "Otago - Dunedin_clifftop_16FEB1985_mosaic"
         DATA "/mnt/coastal/Otago/Dunedin_clifftop/Dunedin_clifftop_16FEB1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1060,7 +1060,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Dunedin_clifftop - Dunedin_clifftop_17MAR2000_mosaic"
+        NAME "Otago - Dunedin_clifftop_17MAR2000_mosaic"
         DATA "/mnt/coastal/Otago/Dunedin_clifftop/Dunedin_clifftop_17MAR2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1071,7 +1071,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Dunedin_clifftop - Dunedin_clifftop_18FEB1970_mosaic"
+        NAME "Otago - Dunedin_clifftop_18FEB1970_mosaic"
         DATA "/mnt/coastal/Otago/Dunedin_clifftop/Dunedin_clifftop_18FEB1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1082,7 +1082,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Dunedin_clifftop - Dunedin_clifftop_20FEB1967_mosaic"
+        NAME "Otago - Dunedin_clifftop_20FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/Dunedin_clifftop/Dunedin_clifftop_20FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1093,7 +1093,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Dunedin_clifftop - Dunedin_clifftop_24FEB1958_mosaic"
+        NAME "Otago - Dunedin_clifftop_24FEB1958_mosaic"
         DATA "/mnt/coastal/Otago/Dunedin_clifftop/Dunedin_clifftop_24FEB1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1104,7 +1104,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Dunedin_clifftop - Dunedin_clifftop_29MAR1947_mosaic"
+        NAME "Otago - Dunedin_clifftop_29MAR1947_mosaic"
         DATA "/mnt/coastal/Otago/Dunedin_clifftop/Dunedin_clifftop_29MAR1947_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1115,7 +1115,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Jacks_Surat_CannibalBay - Jacks_Surat_CannibalBay_03NOV1995_mosaic"
+        NAME "Otago - Jacks_Surat_CannibalBay_03NOV1995_mosaic"
         DATA "/mnt/coastal/Otago/Jacks_Surat_CannibalBay/Jacks_Surat_CannibalBay_03NOV1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1126,7 +1126,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Jacks_Surat_CannibalBay - Jacks_Surat_CannibalBay_10FEB1978_mosaic"
+        NAME "Otago - Jacks_Surat_CannibalBay_10FEB1978_mosaic"
         DATA "/mnt/coastal/Otago/Jacks_Surat_CannibalBay/Jacks_Surat_CannibalBay_10FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1137,7 +1137,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Jacks_Surat_CannibalBay - Jacks_Surat_CannibalBay_13FEB1982_mosaic"
+        NAME "Otago - Jacks_Surat_CannibalBay_13FEB1982_mosaic"
         DATA "/mnt/coastal/Otago/Jacks_Surat_CannibalBay/Jacks_Surat_CannibalBay_13FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1148,7 +1148,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Jacks_Surat_CannibalBay - Jacks_Surat_CannibalBay_15APR1948_mosaic"
+        NAME "Otago - Jacks_Surat_CannibalBay_15APR1948_mosaic"
         DATA "/mnt/coastal/Otago/Jacks_Surat_CannibalBay/Jacks_Surat_CannibalBay_15APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1159,7 +1159,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Jacks_Surat_CannibalBay - Jacks_Surat_CannibalBay_15NOV1985_mosaic"
+        NAME "Otago - Jacks_Surat_CannibalBay_15NOV1985_mosaic"
         DATA "/mnt/coastal/Otago/Jacks_Surat_CannibalBay/Jacks_Surat_CannibalBay_15NOV1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1170,7 +1170,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Jacks_Surat_CannibalBay - Jacks_Surat_CannibalBay_21FEB1967_mosaic"
+        NAME "Otago - Jacks_Surat_CannibalBay_21FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/Jacks_Surat_CannibalBay/Jacks_Surat_CannibalBay_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1181,7 +1181,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Jacks_Surat_CannibalBay - Jacks_Surat_CannibalBay_26FEB1975_mosaic"
+        NAME "Otago - Jacks_Surat_CannibalBay_26FEB1975_mosaic"
         DATA "/mnt/coastal/Otago/Jacks_Surat_CannibalBay/Jacks_Surat_CannibalBay_26FEB1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1192,7 +1192,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_02MAR1962_mosaic"
+        NAME "Otago - Kaikorai_02MAR1962_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_02MAR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1203,7 +1203,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_03NOV1995_mosaic"
+        NAME "Otago - Kaikorai_03NOV1995_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_03NOV1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1214,7 +1214,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_07MAR1975_mosaic"
+        NAME "Otago - Kaikorai_07MAR1975_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_07MAR1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1225,7 +1225,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_08MAR1982_mosaic"
+        NAME "Otago - Kaikorai_08MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_08MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1236,7 +1236,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_13MAY1950_mosaic"
+        NAME "Otago - Kaikorai_13MAY1950_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_13MAY1950_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1247,7 +1247,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_15OCT1942_mosaic"
+        NAME "Otago - Kaikorai_15OCT1942_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_15OCT1942_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1258,7 +1258,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_16FEB1985_mosaic"
+        NAME "Otago - Kaikorai_16FEB1985_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_16FEB1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1269,7 +1269,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_17MAR2000_mosaic"
+        NAME "Otago - Kaikorai_17MAR2000_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_17MAR2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1280,7 +1280,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_18FEB1970_mosaic"
+        NAME "Otago - Kaikorai_18FEB1970_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_18FEB1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1291,7 +1291,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_20FEB1958_mosaic"
+        NAME "Otago - Kaikorai_20FEB1958_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_20FEB1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1302,7 +1302,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_20FEB1967_mosaic"
+        NAME "Otago - Kaikorai_20FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_20FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1313,7 +1313,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Kaikorai - Kaikorai_29MAR1947_mosaic"
+        NAME "Otago - Kaikorai_29MAR1947_mosaic"
         DATA "/mnt/coastal/Otago/Kaikorai/Kaikorai_29MAR1947_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1324,7 +1324,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - LongBeach_PurakaunuiBay - LongBeach_PurakaunuiBay_07MAR1975_mosaic"
+        NAME "Otago - LongBeach_PurakaunuiBay_07MAR1975_mosaic"
         DATA "/mnt/coastal/Otago/LongBeach_PurakaunuiBay/LongBeach_PurakaunuiBay_07MAR1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1335,7 +1335,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - LongBeach_PurakaunuiBay - LongBeach_PurakaunuiBay_08MAR1956_mosaic"
+        NAME "Otago - LongBeach_PurakaunuiBay_08MAR1956_mosaic"
         DATA "/mnt/coastal/Otago/LongBeach_PurakaunuiBay/LongBeach_PurakaunuiBay_08MAR1956_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1346,7 +1346,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - LongBeach_PurakaunuiBay - LongBeach_PurakaunuiBay_09MAR1982_mosaic"
+        NAME "Otago - LongBeach_PurakaunuiBay_09MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/LongBeach_PurakaunuiBay/LongBeach_PurakaunuiBay_09MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1357,7 +1357,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - LongBeach_PurakaunuiBay - LongBeach_PurakaunuiBay_14FEB1972_mosaic"
+        NAME "Otago - LongBeach_PurakaunuiBay_14FEB1972_mosaic"
         DATA "/mnt/coastal/Otago/LongBeach_PurakaunuiBay/LongBeach_PurakaunuiBay_14FEB1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1368,7 +1368,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - LongBeach_PurakaunuiBay - LongBeach_PurakaunuiBay_16FEB1985_mosaic"
+        NAME "Otago - LongBeach_PurakaunuiBay_16FEB1985_mosaic"
         DATA "/mnt/coastal/Otago/LongBeach_PurakaunuiBay/LongBeach_PurakaunuiBay_16FEB1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1379,7 +1379,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - LongBeach_PurakaunuiBay - LongBeach_PurakaunuiBay_17MAR2000_mosaic"
+        NAME "Otago - LongBeach_PurakaunuiBay_17MAR2000_mosaic"
         DATA "/mnt/coastal/Otago/LongBeach_PurakaunuiBay/LongBeach_PurakaunuiBay_17MAR2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1390,7 +1390,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - LongBeach_PurakaunuiBay - LongBeach_PurakaunuiBay_19FEB1971_mosaic"
+        NAME "Otago - LongBeach_PurakaunuiBay_19FEB1971_mosaic"
         DATA "/mnt/coastal/Otago/LongBeach_PurakaunuiBay/LongBeach_PurakaunuiBay_19FEB1971_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1401,7 +1401,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - LongBeach_PurakaunuiBay - LongBeach_PurakaunuiBay_20FEB1967_mosaic"
+        NAME "Otago - LongBeach_PurakaunuiBay_20FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/LongBeach_PurakaunuiBay/LongBeach_PurakaunuiBay_20FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1412,7 +1412,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - MeaslyBeach - MeaslyBeach_01MAR1962_mosaic"
+        NAME "Otago - MeaslyBeach_01MAR1962_mosaic"
         DATA "/mnt/coastal/Otago/MeaslyBeach/MeaslyBeach_01MAR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1423,7 +1423,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - MeaslyBeach - MeaslyBeach_08MAR1982_mosaic"
+        NAME "Otago - MeaslyBeach_08MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/MeaslyBeach/MeaslyBeach_08MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1434,7 +1434,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - MeaslyBeach - MeaslyBeach_10DEC1995_mosaic"
+        NAME "Otago - MeaslyBeach_10DEC1995_mosaic"
         DATA "/mnt/coastal/Otago/MeaslyBeach/MeaslyBeach_10DEC1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1445,7 +1445,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - MeaslyBeach - MeaslyBeach_20FEB1975_mosaic"
+        NAME "Otago - MeaslyBeach_20FEB1975_mosaic"
         DATA "/mnt/coastal/Otago/MeaslyBeach/MeaslyBeach_20FEB1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1456,7 +1456,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - MeaslyBeach - MeaslyBeach_21FEB1968_mosaic"
+        NAME "Otago - MeaslyBeach_21FEB1968_mosaic"
         DATA "/mnt/coastal/Otago/MeaslyBeach/MeaslyBeach_21FEB1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1467,7 +1467,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - MeaslyBeach - MeaslyBeach_26FEB1946_mosaic"
+        NAME "Otago - MeaslyBeach_26FEB1946_mosaic"
         DATA "/mnt/coastal/Otago/MeaslyBeach/MeaslyBeach_26FEB1946_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1478,7 +1478,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - NorthOamaru - NorthOamaru_09MAY1955_mosaic"
+        NAME "Otago - NorthOamaru_09MAY1955_mosaic"
         DATA "/mnt/coastal/Otago/NorthOamaru/NorthOamaru_09MAY1955_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1489,7 +1489,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - NorthOamaru - NorthOamaru_14FEB1969_mosaic"
+        NAME "Otago - NorthOamaru_14FEB1969_mosaic"
         DATA "/mnt/coastal/Otago/NorthOamaru/NorthOamaru_14FEB1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1500,7 +1500,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - NorthOamaru - NorthOamaru_14FEB1982_mosaic"
+        NAME "Otago - NorthOamaru_14FEB1982_mosaic"
         DATA "/mnt/coastal/Otago/NorthOamaru/NorthOamaru_14FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1511,7 +1511,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - NorthOamaru - NorthOamaru_17FEB1978_mosaic"
+        NAME "Otago - NorthOamaru_17FEB1978_mosaic"
         DATA "/mnt/coastal/Otago/NorthOamaru/NorthOamaru_17FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1522,7 +1522,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - NorthOamaru - NorthOamaru_24FEB1984_mosaic"
+        NAME "Otago - NorthOamaru_24FEB1984_mosaic"
         DATA "/mnt/coastal/Otago/NorthOamaru/NorthOamaru_24FEB1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1533,7 +1533,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - NorthOamaru - NorthOamaru_26OCT1966_mosaic"
+        NAME "Otago - NorthOamaru_26OCT1966_mosaic"
         DATA "/mnt/coastal/Otago/NorthOamaru/NorthOamaru_26OCT1966_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1544,7 +1544,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - NorthOamaru - NorthOamaru_27FEB1972_mosaic"
+        NAME "Otago - NorthOamaru_27FEB1972_mosaic"
         DATA "/mnt/coastal/Otago/NorthOamaru/NorthOamaru_27FEB1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1555,7 +1555,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Oamaru - Oamaru_09FEB1973_mosaic"
+        NAME "Otago - Oamaru_09FEB1973_mosaic"
         DATA "/mnt/coastal/Otago/Oamaru/Oamaru_09FEB1973_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1566,7 +1566,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Oamaru - Oamaru_14FEB1969_mosaic"
+        NAME "Otago - Oamaru_14FEB1969_mosaic"
         DATA "/mnt/coastal/Otago/Oamaru/Oamaru_14FEB1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1577,7 +1577,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Oamaru - Oamaru_14FEB1982_mosaic"
+        NAME "Otago - Oamaru_14FEB1982_mosaic"
         DATA "/mnt/coastal/Otago/Oamaru/Oamaru_14FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1588,7 +1588,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Oamaru - Oamaru_17FEB1978_mosaic"
+        NAME "Otago - Oamaru_17FEB1978_mosaic"
         DATA "/mnt/coastal/Otago/Oamaru/Oamaru_17FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1599,7 +1599,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Oamaru - Oamaru_18MAR1979_mosaic"
+        NAME "Otago - Oamaru_18MAR1979_mosaic"
         DATA "/mnt/coastal/Otago/Oamaru/Oamaru_18MAR1979_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1610,7 +1610,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Oamaru - Oamaru_21FEB1971_mosaic"
+        NAME "Otago - Oamaru_21FEB1971_mosaic"
         DATA "/mnt/coastal/Otago/Oamaru/Oamaru_21FEB1971_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1621,7 +1621,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Oamaru - Oamaru_21MAR2002_mosaic"
+        NAME "Otago - Oamaru_21MAR2002_mosaic"
         DATA "/mnt/coastal/Otago/Oamaru/Oamaru_21MAR2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1632,7 +1632,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Oamaru - Oamaru_27FEB1972_mosaic"
+        NAME "Otago - Oamaru_27FEB1972_mosaic"
         DATA "/mnt/coastal/Otago/Oamaru/Oamaru_27FEB1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1643,7 +1643,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Oamaru - Oamaru_30AUG1955_mosaic"
+        NAME "Otago - Oamaru_30AUG1955_mosaic"
         DATA "/mnt/coastal/Otago/Oamaru/Oamaru_30AUG1955_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1654,7 +1654,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PapanuiBeach_WickliffeBay - PapanuiBeach_WickliffeBay_07MAR1975_mosaic"
+        NAME "Otago - PapanuiBeach_WickliffeBay_07MAR1975_mosaic"
         DATA "/mnt/coastal/Otago/PapanuiBeach_WickliffeBay/PapanuiBeach_WickliffeBay_07MAR1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1665,7 +1665,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PapanuiBeach_WickliffeBay - PapanuiBeach_WickliffeBay_09MAR1982_mosaic"
+        NAME "Otago - PapanuiBeach_WickliffeBay_09MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/PapanuiBeach_WickliffeBay/PapanuiBeach_WickliffeBay_09MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1676,7 +1676,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PapanuiBeach_WickliffeBay - PapanuiBeach_WickliffeBay_15OCT1942_mosaic"
+        NAME "Otago - PapanuiBeach_WickliffeBay_15OCT1942_mosaic"
         DATA "/mnt/coastal/Otago/PapanuiBeach_WickliffeBay/PapanuiBeach_WickliffeBay_15OCT1942_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1687,7 +1687,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PapanuiBeach_WickliffeBay - PapanuiBeach_WickliffeBay_16FEB1985_mosaic"
+        NAME "Otago - PapanuiBeach_WickliffeBay_16FEB1985_mosaic"
         DATA "/mnt/coastal/Otago/PapanuiBeach_WickliffeBay/PapanuiBeach_WickliffeBay_16FEB1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1698,7 +1698,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PapanuiBeach_WickliffeBay - PapanuiBeach_WickliffeBay_17MAR2000_mosaic"
+        NAME "Otago - PapanuiBeach_WickliffeBay_17MAR2000_mosaic"
         DATA "/mnt/coastal/Otago/PapanuiBeach_WickliffeBay/PapanuiBeach_WickliffeBay_17MAR2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1709,7 +1709,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PapanuiBeach_WickliffeBay - PapanuiBeach_WickliffeBay_18FEB1970_mosaic"
+        NAME "Otago - PapanuiBeach_WickliffeBay_18FEB1970_mosaic"
         DATA "/mnt/coastal/Otago/PapanuiBeach_WickliffeBay/PapanuiBeach_WickliffeBay_18FEB1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1720,7 +1720,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PapanuiBeach_WickliffeBay - PapanuiBeach_WickliffeBay_20FEB1967_mosaic"
+        NAME "Otago - PapanuiBeach_WickliffeBay_20FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/PapanuiBeach_WickliffeBay/PapanuiBeach_WickliffeBay_20FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1731,7 +1731,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PapanuiBeach_WickliffeBay - PapanuiBeach_WickliffeBay_24FEB1958_mosaic"
+        NAME "Otago - PapanuiBeach_WickliffeBay_24FEB1958_mosaic"
         DATA "/mnt/coastal/Otago/PapanuiBeach_WickliffeBay/PapanuiBeach_WickliffeBay_24FEB1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1742,7 +1742,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PleasantRiver - PleasantRiver_08MAR1982_mosaic"
+        NAME "Otago - PleasantRiver_08MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/PleasantRiver/PleasantRiver_08MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1753,7 +1753,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PleasantRiver - PleasantRiver_14NOV1998_mosaic"
+        NAME "Otago - PleasantRiver_14NOV1998_mosaic"
         DATA "/mnt/coastal/Otago/PleasantRiver/PleasantRiver_14NOV1998_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1764,7 +1764,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PleasantRiver - PleasantRiver_20FEB1975_mosaic"
+        NAME "Otago - PleasantRiver_20FEB1975_mosaic"
         DATA "/mnt/coastal/Otago/PleasantRiver/PleasantRiver_20FEB1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1775,7 +1775,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PleasantRiver - PleasantRiver_20MAR1987_mosaic"
+        NAME "Otago - PleasantRiver_20MAR1987_mosaic"
         DATA "/mnt/coastal/Otago/PleasantRiver/PleasantRiver_20MAR1987_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1786,7 +1786,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PleasantRiver - PleasantRiver_21MAR2002_mosaic"
+        NAME "Otago - PleasantRiver_21MAR2002_mosaic"
         DATA "/mnt/coastal/Otago/PleasantRiver/PleasantRiver_21MAR2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1797,7 +1797,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PleasantRiver - PleasantRiver_23FEB1959_mosaic"
+        NAME "Otago - PleasantRiver_23FEB1959_mosaic"
         DATA "/mnt/coastal/Otago/PleasantRiver/PleasantRiver_23FEB1959_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1808,7 +1808,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - PleasantRiver - PleasantRiver_24FEB1958_mosaic"
+        NAME "Otago - PleasantRiver_24FEB1958_mosaic"
         DATA "/mnt/coastal/Otago/PleasantRiver/PleasantRiver_24FEB1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1819,7 +1819,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach - Ryans_Pipikaretu_Penguin_TeRauoneBeach_07MAR1975_mosaic"
+        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach_07MAR1975_mosaic"
         DATA "/mnt/coastal/Otago/Ryans_Pipikaretu_Penguin_TeRauoneBeach/Ryans_Pipikaretu_Penguin_TeRauoneBeach_07MAR1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1830,7 +1830,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach - Ryans_Pipikaretu_Penguin_TeRauoneBeach_08MAR1956_mosaic"
+        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach_08MAR1956_mosaic"
         DATA "/mnt/coastal/Otago/Ryans_Pipikaretu_Penguin_TeRauoneBeach/Ryans_Pipikaretu_Penguin_TeRauoneBeach_08MAR1956_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1841,7 +1841,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach - Ryans_Pipikaretu_Penguin_TeRauoneBeach_09MAR1982_mosaic"
+        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach_09MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/Ryans_Pipikaretu_Penguin_TeRauoneBeach/Ryans_Pipikaretu_Penguin_TeRauoneBeach_09MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1852,7 +1852,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach - Ryans_Pipikaretu_Penguin_TeRauoneBeach_14FEB1972_mosaic"
+        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach_14FEB1972_mosaic"
         DATA "/mnt/coastal/Otago/Ryans_Pipikaretu_Penguin_TeRauoneBeach/Ryans_Pipikaretu_Penguin_TeRauoneBeach_14FEB1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1863,7 +1863,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach - Ryans_Pipikaretu_Penguin_TeRauoneBeach_16FEB1985_mosaic"
+        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach_16FEB1985_mosaic"
         DATA "/mnt/coastal/Otago/Ryans_Pipikaretu_Penguin_TeRauoneBeach/Ryans_Pipikaretu_Penguin_TeRauoneBeach_16FEB1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1874,7 +1874,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach - Ryans_Pipikaretu_Penguin_TeRauoneBeach_17MAR2000_mosaic"
+        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach_17MAR2000_mosaic"
         DATA "/mnt/coastal/Otago/Ryans_Pipikaretu_Penguin_TeRauoneBeach/Ryans_Pipikaretu_Penguin_TeRauoneBeach_17MAR2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1885,7 +1885,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach - Ryans_Pipikaretu_Penguin_TeRauoneBeach_20FEB1967_mosaic"
+        NAME "Otago - Ryans_Pipikaretu_Penguin_TeRauoneBeach_20FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/Ryans_Pipikaretu_Penguin_TeRauoneBeach/Ryans_Pipikaretu_Penguin_TeRauoneBeach_20FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1896,7 +1896,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - StKilda_Tomahawk_SmaillsBeach - StKilda_Tomahawk_SmaillsBeach_07MAR1975_mosaic"
+        NAME "Otago - StKilda_Tomahawk_SmaillsBeach_07MAR1975_mosaic"
         DATA "/mnt/coastal/Otago/StKilda_Tomahawk_SmaillsBeach/StKilda_Tomahawk_SmaillsBeach_07MAR1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1907,7 +1907,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - StKilda_Tomahawk_SmaillsBeach - StKilda_Tomahawk_SmaillsBeach_09MAR1982_mosaic"
+        NAME "Otago - StKilda_Tomahawk_SmaillsBeach_09MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/StKilda_Tomahawk_SmaillsBeach/StKilda_Tomahawk_SmaillsBeach_09MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1918,7 +1918,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - StKilda_Tomahawk_SmaillsBeach - StKilda_Tomahawk_SmaillsBeach_15OCT1942_mosaic"
+        NAME "Otago - StKilda_Tomahawk_SmaillsBeach_15OCT1942_mosaic"
         DATA "/mnt/coastal/Otago/StKilda_Tomahawk_SmaillsBeach/StKilda_Tomahawk_SmaillsBeach_15OCT1942_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1929,7 +1929,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - StKilda_Tomahawk_SmaillsBeach - StKilda_Tomahawk_SmaillsBeach_16FEB1985_mosaic"
+        NAME "Otago - StKilda_Tomahawk_SmaillsBeach_16FEB1985_mosaic"
         DATA "/mnt/coastal/Otago/StKilda_Tomahawk_SmaillsBeach/StKilda_Tomahawk_SmaillsBeach_16FEB1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1940,7 +1940,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - StKilda_Tomahawk_SmaillsBeach - StKilda_Tomahawk_SmaillsBeach_17MAR2000_mosaic"
+        NAME "Otago - StKilda_Tomahawk_SmaillsBeach_17MAR2000_mosaic"
         DATA "/mnt/coastal/Otago/StKilda_Tomahawk_SmaillsBeach/StKilda_Tomahawk_SmaillsBeach_17MAR2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1951,7 +1951,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - StKilda_Tomahawk_SmaillsBeach - StKilda_Tomahawk_SmaillsBeach_18FEB1970_mosaic"
+        NAME "Otago - StKilda_Tomahawk_SmaillsBeach_18FEB1970_mosaic"
         DATA "/mnt/coastal/Otago/StKilda_Tomahawk_SmaillsBeach/StKilda_Tomahawk_SmaillsBeach_18FEB1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1962,7 +1962,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - StKilda_Tomahawk_SmaillsBeach - StKilda_Tomahawk_SmaillsBeach_20FEB1967_mosaic"
+        NAME "Otago - StKilda_Tomahawk_SmaillsBeach_20FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/StKilda_Tomahawk_SmaillsBeach/StKilda_Tomahawk_SmaillsBeach_20FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1973,7 +1973,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - StKilda_Tomahawk_SmaillsBeach - StKilda_Tomahawk_SmaillsBeach_24FEB1958_mosaic"
+        NAME "Otago - StKilda_Tomahawk_SmaillsBeach_24FEB1958_mosaic"
         DATA "/mnt/coastal/Otago/StKilda_Tomahawk_SmaillsBeach/StKilda_Tomahawk_SmaillsBeach_24FEB1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1984,7 +1984,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - StKilda_Tomahawk_SmaillsBeach - StKilda_Tomahawk_SmaillsBeach_29MAR1947_mosaic"
+        NAME "Otago - StKilda_Tomahawk_SmaillsBeach_29MAR1947_mosaic"
         DATA "/mnt/coastal/Otago/StKilda_Tomahawk_SmaillsBeach/StKilda_Tomahawk_SmaillsBeach_29MAR1947_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -1995,7 +1995,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TahakopaBay - TahakopaBay_03NOV1995_mosaic"
+        NAME "Otago - TahakopaBay_03NOV1995_mosaic"
         DATA "/mnt/coastal/Otago/TahakopaBay/TahakopaBay_03NOV1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2006,7 +2006,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TahakopaBay - TahakopaBay_10FEB1978_mosaic"
+        NAME "Otago - TahakopaBay_10FEB1978_mosaic"
         DATA "/mnt/coastal/Otago/TahakopaBay/TahakopaBay_10FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2017,7 +2017,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TahakopaBay - TahakopaBay_13FEB1982_mosaid"
+        NAME "Otago - TahakopaBay_13FEB1982_mosaid"
         DATA "/mnt/coastal/Otago/TahakopaBay/TahakopaBay_13FEB1982_mosaid.tif"
         TYPE RASTER
         PROJECTION
@@ -2028,7 +2028,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TahakopaBay - TahakopaBay_15APR1948_mosaic"
+        NAME "Otago - TahakopaBay_15APR1948_mosaic"
         DATA "/mnt/coastal/Otago/TahakopaBay/TahakopaBay_15APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2039,7 +2039,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TahakopaBay - TahakopaBay_17OCT1985_mosaic"
+        NAME "Otago - TahakopaBay_17OCT1985_mosaic"
         DATA "/mnt/coastal/Otago/TahakopaBay/TahakopaBay_17OCT1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2050,7 +2050,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TahakopaBay - TahakopaBay_21FEB1967_mosaic"
+        NAME "Otago - TahakopaBay_21FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/TahakopaBay/TahakopaBay_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2061,7 +2061,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TahakopaBay - TahakopaBay_26FEB1975_mosaic"
+        NAME "Otago - TahakopaBay_26FEB1975_mosaic"
         DATA "/mnt/coastal/Otago/TahakopaBay/TahakopaBay_26FEB1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2072,7 +2072,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TaieriBeach_Mouth - TaieriBeach_Mouth_01MAR1973_mosaic"
+        NAME "Otago - TaieriBeach_Mouth_01MAR1973_mosaic"
         DATA "/mnt/coastal/Otago/TaieriBeach_Mouth/TaieriBeach_Mouth_01MAR1973_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2083,7 +2083,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TaieriBeach_Mouth - TaieriBeach_Mouth_02MAR1962_mosaic"
+        NAME "Otago - TaieriBeach_Mouth_02MAR1962_mosaic"
         DATA "/mnt/coastal/Otago/TaieriBeach_Mouth/TaieriBeach_Mouth_02MAR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2094,7 +2094,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TaieriBeach_Mouth - TaieriBeach_Mouth_03NOV1984_mosaic"
+        NAME "Otago - TaieriBeach_Mouth_03NOV1984_mosaic"
         DATA "/mnt/coastal/Otago/TaieriBeach_Mouth/TaieriBeach_Mouth_03NOV1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2105,7 +2105,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TaieriBeach_Mouth - TaieriBeach_Mouth_08MAR1982_mosaic"
+        NAME "Otago - TaieriBeach_Mouth_08MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/TaieriBeach_Mouth/TaieriBeach_Mouth_08MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2116,7 +2116,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TaieriBeach_Mouth - TaieriBeach_Mouth_10DEC1995_mosaic"
+        NAME "Otago - TaieriBeach_Mouth_10DEC1995_mosaic"
         DATA "/mnt/coastal/Otago/TaieriBeach_Mouth/TaieriBeach_Mouth_10DEC1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2127,7 +2127,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TaieriBeach_Mouth - TaieriBeach_Mouth_15FEB1979_mosaic"
+        NAME "Otago - TaieriBeach_Mouth_15FEB1979_mosaic"
         DATA "/mnt/coastal/Otago/TaieriBeach_Mouth/TaieriBeach_Mouth_15FEB1979_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2138,7 +2138,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - TaieriBeach_Mouth - TaieriBeach_Mouth_26FEB1946_mosaic"
+        NAME "Otago - TaieriBeach_Mouth_26FEB1946_mosaic"
         DATA "/mnt/coastal/Otago/TaieriBeach_Mouth/TaieriBeach_Mouth_26FEB1946_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2149,7 +2149,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Taieri_Brighton - Taieri_Brighton_02MAR1962_mosaic"
+        NAME "Otago - Taieri_Brighton_02MAR1962_mosaic"
         DATA "/mnt/coastal/Otago/Taieri_Brighton/Taieri_Brighton_02MAR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2160,7 +2160,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Taieri_Brighton - Taieri_Brighton_03NOV1995_mosaic"
+        NAME "Otago - Taieri_Brighton_03NOV1995_mosaic"
         DATA "/mnt/coastal/Otago/Taieri_Brighton/Taieri_Brighton_03NOV1995_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2171,7 +2171,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Taieri_Brighton - Taieri_Brighton_08MAR1982_mosaic"
+        NAME "Otago - Taieri_Brighton_08MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/Taieri_Brighton/Taieri_Brighton_08MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2182,7 +2182,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Taieri_Brighton - Taieri_Brighton_10MAR1949_mosaic"
+        NAME "Otago - Taieri_Brighton_10MAR1949_mosaic"
         DATA "/mnt/coastal/Otago/Taieri_Brighton/Taieri_Brighton_10MAR1949_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2193,7 +2193,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Taieri_Brighton - Taieri_Brighton_15FEB1979_mosaic"
+        NAME "Otago - Taieri_Brighton_15FEB1979_mosaic"
         DATA "/mnt/coastal/Otago/Taieri_Brighton/Taieri_Brighton_15FEB1979_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2204,7 +2204,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Taieri_Brighton - Taieri_Brighton_15OCT1942_mosaic"
+        NAME "Otago - Taieri_Brighton_15OCT1942_mosaic"
         DATA "/mnt/coastal/Otago/Taieri_Brighton/Taieri_Brighton_15OCT1942_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2215,7 +2215,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Taieri_Brighton - Taieri_Brighton_20FEB1967_mosaic"
+        NAME "Otago - Taieri_Brighton_20FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/Taieri_Brighton/Taieri_Brighton_20FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2226,7 +2226,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Taieri_Brighton - Taieri_Brighton_26FEB1970_mosaic"
+        NAME "Otago - Taieri_Brighton_26FEB1970_mosaic"
         DATA "/mnt/coastal/Otago/Taieri_Brighton/Taieri_Brighton_26FEB1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2237,7 +2237,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Tautuku_Beach - Tautuku_Beach_13FEB1982_mosaic"
+        NAME "Otago - Tautuku_Beach_13FEB1982_mosaic"
         DATA "/mnt/coastal/Otago/Tautuku_Beach/Tautuku_Beach_13FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2248,7 +2248,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Tautuku_Beach - Tautuku_Beach_15APR1948_mosaic"
+        NAME "Otago - Tautuku_Beach_15APR1948_mosaic"
         DATA "/mnt/coastal/Otago/Tautuku_Beach/Tautuku_Beach_15APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2259,7 +2259,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Tautuku_Beach - Tautuku_Beach_17OCT1985_mosaic"
+        NAME "Otago - Tautuku_Beach_17OCT1985_mosaic"
         DATA "/mnt/coastal/Otago/Tautuku_Beach/Tautuku_Beach_17OCT1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2270,7 +2270,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Tautuku_Beach - Tautuku_Beach_21FEB1967_mosaic"
+        NAME "Otago - Tautuku_Beach_21FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/Tautuku_Beach/Tautuku_Beach_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2281,7 +2281,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Waikouaiti - Waikouaiti_01MAR1969_mosaic"
+        NAME "Otago - Waikouaiti_01MAR1969_mosaic"
         DATA "/mnt/coastal/Otago/Waikouaiti/Waikouaiti_01MAR1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2292,7 +2292,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Waikouaiti - Waikouaiti_08MAR1982_mosaic"
+        NAME "Otago - Waikouaiti_08MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/Waikouaiti/Waikouaiti_08MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2303,7 +2303,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Waikouaiti - Waikouaiti_14NOV1998_mosaic"
+        NAME "Otago - Waikouaiti_14NOV1998_mosaic"
         DATA "/mnt/coastal/Otago/Waikouaiti/Waikouaiti_14NOV1998_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2314,7 +2314,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Waikouaiti - Waikouaiti_18FEB1975_mosaic"
+        NAME "Otago - Waikouaiti_18FEB1975_mosaic"
         DATA "/mnt/coastal/Otago/Waikouaiti/Waikouaiti_18FEB1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2325,7 +2325,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Waikouaiti - Waikouaiti_20MAR1987_mosaic"
+        NAME "Otago - Waikouaiti_20MAR1987_mosaic"
         DATA "/mnt/coastal/Otago/Waikouaiti/Waikouaiti_20MAR1987_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2336,7 +2336,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Waikouaiti - Waikouaiti_21MAR2002_mosaic"
+        NAME "Otago - Waikouaiti_21MAR2002_mosaic"
         DATA "/mnt/coastal/Otago/Waikouaiti/Waikouaiti_21MAR2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2347,7 +2347,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Waikouaiti - Waikouaiti_24FEB1958_mosaic"
+        NAME "Otago - Waikouaiti_24FEB1958_mosaic"
         DATA "/mnt/coastal/Otago/Waikouaiti/Waikouaiti_24FEB1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2358,7 +2358,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Warrington - Warrington_07MAR1975_mosaic"
+        NAME "Otago - Warrington_07MAR1975_mosaic"
         DATA "/mnt/coastal/Otago/Warrington/Warrington_07MAR1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2369,7 +2369,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Warrington - Warrington_08MAR1956_mosaic"
+        NAME "Otago - Warrington_08MAR1956_mosaic"
         DATA "/mnt/coastal/Otago/Warrington/Warrington_08MAR1956_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2380,7 +2380,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Warrington - Warrington_09MAR1982_mosaic"
+        NAME "Otago - Warrington_09MAR1982_mosaic"
         DATA "/mnt/coastal/Otago/Warrington/Warrington_09MAR1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2391,7 +2391,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Warrington - Warrington_16FEB1985_mosaic"
+        NAME "Otago - Warrington_16FEB1985_mosaic"
         DATA "/mnt/coastal/Otago/Warrington/Warrington_16FEB1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2402,7 +2402,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Warrington - Warrington_17MAR2000_mosaic"
+        NAME "Otago - Warrington_17MAR2000_mosaic"
         DATA "/mnt/coastal/Otago/Warrington/Warrington_17MAR2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2413,7 +2413,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Warrington - Warrington_19FEB1971_mosaic"
+        NAME "Otago - Warrington_19FEB1971_mosaic"
         DATA "/mnt/coastal/Otago/Warrington/Warrington_19FEB1971_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2424,7 +2424,7 @@ MAP
     END
 
     LAYER
-        NAME "Otago - Warrington - Warrington_20FEB1967_mosaic"
+        NAME "Otago - Warrington_20FEB1967_mosaic"
         DATA "/mnt/coastal/Otago/Warrington/Warrington_20FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2435,7 +2435,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - BigBay - BigBay_02APRL1953_mosaic"
+        NAME "Southland - BigBay_02APRL1953_mosaic"
         DATA "/mnt/coastal/Southland/BigBay/BigBay_02APRL1953_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2446,7 +2446,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - BigBay - BigBay_09MAR1985_mosaic"
+        NAME "Southland - BigBay_09MAR1985_mosaic"
         DATA "/mnt/coastal/Southland/BigBay/BigBay_09MAR1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2457,7 +2457,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - BigBay - BigBay_15FEB1952_mosaic"
+        NAME "Southland - BigBay_15FEB1952_mosaic"
         DATA "/mnt/coastal/Southland/BigBay/BigBay_15FEB1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2468,7 +2468,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - BigBay - BigBay_17FEB1975_mosaic"
+        NAME "Southland - BigBay_17FEB1975_mosaic"
         DATA "/mnt/coastal/Southland/BigBay/BigBay_17FEB1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2479,7 +2479,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - BigBay - BigBay_17MAR1979_mosaic"
+        NAME "Southland - BigBay_17MAR1979_mosaic"
         DATA "/mnt/coastal/Southland/BigBay/BigBay_17MAR1979_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2490,7 +2490,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - BigBay - BigBay_18FEB1988_mosaic"
+        NAME "Southland - BigBay_18FEB1988_mosaic"
         DATA "/mnt/coastal/Southland/BigBay/BigBay_18FEB1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2501,7 +2501,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - BigBay - BigBay_21FEB1967_mosaic"
+        NAME "Southland - BigBay_21FEB1967_mosaic"
         DATA "/mnt/coastal/Southland/BigBay/BigBay_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2512,7 +2512,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - BigBay - BigBay_30DEC1984_mosaic"
+        NAME "Southland - BigBay_30DEC1984_mosaic"
         DATA "/mnt/coastal/Southland/BigBay/BigBay_30DEC1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2523,7 +2523,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - CoalRiver - CoalRiver_14MAR1990_mosaic"
+        NAME "Southland - CoalRiver_14MAR1990_mosaic"
         DATA "/mnt/coastal/Southland/CoalRiver/CoalRiver_14MAR1990_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2534,7 +2534,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - CoalRiver - CoalRiver_18MAR1965_mosaic"
+        NAME "Southland - CoalRiver_18MAR1965_mosaic"
         DATA "/mnt/coastal/Southland/CoalRiver/CoalRiver_18MAR1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2545,7 +2545,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - CoalRiver - CoalRiver_19FEB1991_mosaic"
+        NAME "Southland - CoalRiver_19FEB1991_mosaic"
         DATA "/mnt/coastal/Southland/CoalRiver/CoalRiver_19FEB1991_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2556,7 +2556,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - ColacBay - ColacBay_03MAR1967_mosaic"
+        NAME "Southland - ColacBay_03MAR1967_mosaic"
         DATA "/mnt/coastal/Southland/ColacBay/ColacBay_03MAR1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2567,7 +2567,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - ColacBay - ColacBay_08OCT1985_mosaic"
+        NAME "Southland - ColacBay_08OCT1985_mosaic"
         DATA "/mnt/coastal/Southland/ColacBay/ColacBay_08OCT1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2578,7 +2578,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - ColacBay - ColacBay_10MAR1963_mosaic"
+        NAME "Southland - ColacBay_10MAR1963_mosaic"
         DATA "/mnt/coastal/Southland/ColacBay/ColacBay_10MAR1963_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2589,7 +2589,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - ColacBay - ColacBay_11FEB1978_mosaic"
+        NAME "Southland - ColacBay_11FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/ColacBay/ColacBay_11FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2600,7 +2600,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - ColacBay - ColacBay_11MAR1971_mosaic"
+        NAME "Southland - ColacBay_11MAR1971_mosaic"
         DATA "/mnt/coastal/Southland/ColacBay/ColacBay_11MAR1971_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2611,7 +2611,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - ColacBay - ColacBay_12FEB1969_mosaic"
+        NAME "Southland - ColacBay_12FEB1969_mosaic"
         DATA "/mnt/coastal/Southland/ColacBay/ColacBay_12FEB1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2622,7 +2622,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - ColacBay - ColacBay_15FEB1952_mosaic"
+        NAME "Southland - ColacBay_15FEB1952_mosaic"
         DATA "/mnt/coastal/Southland/ColacBay/ColacBay_15FEB1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2633,7 +2633,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - ColacBay - ColacBay_19MAR1981_mosaic"
+        NAME "Southland - ColacBay_19MAR1981_mosaic"
         DATA "/mnt/coastal/Southland/ColacBay/ColacBay_19MAR1981_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2644,7 +2644,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - ColacBay - ColacBay_27FEB1976_mosaic"
+        NAME "Southland - ColacBay_27FEB1976_mosaic"
         DATA "/mnt/coastal/Southland/ColacBay/ColacBay_27FEB1976_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2655,7 +2655,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - CosyNook - CosyNook_08OCT1985_mosaic"
+        NAME "Southland - CosyNook_08OCT1985_mosaic"
         DATA "/mnt/coastal/Southland/CosyNook/CosyNook_08OCT1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2666,7 +2666,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - CosyNook - CosyNook_10MAR1963_mosaic"
+        NAME "Southland - CosyNook_10MAR1963_mosaic"
         DATA "/mnt/coastal/Southland/CosyNook/CosyNook_10MAR1963_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2677,7 +2677,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - CosyNook - CosyNook_15FEB1952_mosaic"
+        NAME "Southland - CosyNook_15FEB1952_mosaic"
         DATA "/mnt/coastal/Southland/CosyNook/CosyNook_15FEB1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2688,7 +2688,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - CosyNook - CosyNook_27FEB1976_mosaic"
+        NAME "Southland - CosyNook_27FEB1976_mosaic"
         DATA "/mnt/coastal/Southland/CosyNook/CosyNook_27FEB1976_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2699,7 +2699,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - CurioBay - CurioBay_15APR1948_mosaic"
+        NAME "Southland - CurioBay_15APR1948_mosaic"
         DATA "/mnt/coastal/Southland/CurioBay/CurioBay_15APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2710,7 +2710,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - CurioBay - CurioBay_17OCT1985_mosiac"
+        NAME "Southland - CurioBay_17OCT1985_mosiac"
         DATA "/mnt/coastal/Southland/CurioBay/CurioBay_17OCT1985_mosiac.tif"
         TYPE RASTER
         PROJECTION
@@ -2721,7 +2721,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - CurioBay - CurioBay_21FEB1967_mosaic"
+        NAME "Southland - CurioBay_21FEB1967_mosaic"
         DATA "/mnt/coastal/Southland/CurioBay/CurioBay_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2732,7 +2732,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - CurioBay - CurioBay_25FEB1978_mosaic"
+        NAME "Southland - CurioBay_25FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/CurioBay/CurioBay_25FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2743,7 +2743,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - DoughboyBay - DoughboyBay_10FEB1958_mosaic"
+        NAME "Southland - DoughboyBay_10FEB1958_mosaic"
         DATA "/mnt/coastal/Southland/DoughboyBay/DoughboyBay_10FEB1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2754,7 +2754,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - DoughboyBay - DoughboyBay_25FEB1977_mosaic"
+        NAME "Southland - DoughboyBay_25FEB1977_mosaic"
         DATA "/mnt/coastal/Southland/DoughboyBay/DoughboyBay_25FEB1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2765,7 +2765,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - DoughboyBay - DoughboyBay_25FEB1978_mosaic"
+        NAME "Southland - DoughboyBay_25FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/DoughboyBay/DoughboyBay_25FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2776,7 +2776,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - FlaxyHead - FlaxyHead_15APR1948_mosaic"
+        NAME "Southland - FlaxyHead_15APR1948_mosaic"
         DATA "/mnt/coastal/Southland/FlaxyHead/FlaxyHead_15APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2787,7 +2787,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - FlaxyHead - FlaxyHead_17OCT1985_mosaic"
+        NAME "Southland - FlaxyHead_17OCT1985_mosaic"
         DATA "/mnt/coastal/Southland/FlaxyHead/FlaxyHead_17OCT1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2798,7 +2798,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - FlaxyHead - FlaxyHead_21FEB1967_mosaic"
+        NAME "Southland - FlaxyHead_21FEB1967_mosaic"
         DATA "/mnt/coastal/Southland/FlaxyHead/FlaxyHead_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2809,7 +2809,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - FlaxyHead - FlaxyHead_25FEB1978_mosaic"
+        NAME "Southland - FlaxyHead_25FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/FlaxyHead/FlaxyHead_25FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2820,7 +2820,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - HaldaneBay - HaldaneBay_07OCT1985_mosaic"
+        NAME "Southland - HaldaneBay_07OCT1985_mosaic"
         DATA "/mnt/coastal/Southland/HaldaneBay/HaldaneBay_07OCT1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2831,7 +2831,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - HaldaneBay - HaldaneBay_15APR1948_mosaic"
+        NAME "Southland - HaldaneBay_15APR1948_mosaic"
         DATA "/mnt/coastal/Southland/HaldaneBay/HaldaneBay_15APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2842,7 +2842,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - HaldaneBay - HaldaneBay_21FEB1967_mosaic"
+        NAME "Southland - HaldaneBay_21FEB1967_mosaic"
         DATA "/mnt/coastal/Southland/HaldaneBay/HaldaneBay_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2853,7 +2853,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - HaldaneBay - HaldaneBay_25FEB1978_mosaic"
+        NAME "Southland - HaldaneBay_25FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/HaldaneBay/HaldaneBay_25FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2864,7 +2864,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - HaldaneBay - HaldaneBay_LDS_05FEB2007_mosaic"
+        NAME "Southland - HaldaneBay_LDS_05FEB2007_mosaic"
         DATA "/mnt/coastal/Southland/HaldaneBay/HaldaneBay_LDS_05FEB2007_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2875,7 +2875,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - KawakaputaBay - KawakaputaBay_10MAR1963_mosaic"
+        NAME "Southland - KawakaputaBay_10MAR1963_mosaic"
         DATA "/mnt/coastal/Southland/KawakaputaBay/KawakaputaBay_10MAR1963_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2886,7 +2886,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - KawakaputaBay - KawakaputaBay_11FEB1978_mosaic"
+        NAME "Southland - KawakaputaBay_11FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/KawakaputaBay/KawakaputaBay_11FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2897,7 +2897,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - KawakaputaBay - KawakaputaBay_12FEB1969_mosaic"
+        NAME "Southland - KawakaputaBay_12FEB1969_mosaic"
         DATA "/mnt/coastal/Southland/KawakaputaBay/KawakaputaBay_12FEB1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2908,7 +2908,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - KawakaputaBay - KawakaputaBay_18OCT1985_mosaic"
+        NAME "Southland - KawakaputaBay_18OCT1985_mosaic"
         DATA "/mnt/coastal/Southland/KawakaputaBay/KawakaputaBay_18OCT1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2919,7 +2919,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - KawakaputaBay - KawakaputaBay_27FEB1976_mosaic"
+        NAME "Southland - KawakaputaBay_27FEB1976_mosaic"
         DATA "/mnt/coastal/Southland/KawakaputaBay/KawakaputaBay_27FEB1976_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2930,7 +2930,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - MartinsBay - MartinsBay_02APRL1953_mosaic"
+        NAME "Southland - MartinsBay_02APRL1953_mosaic"
         DATA "/mnt/coastal/Southland/MartinsBay/MartinsBay_02APRL1953_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2941,7 +2941,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - MartinsBay - MartinsBay_12MAR1966_mosaic"
+        NAME "Southland - MartinsBay_12MAR1966_mosaic"
         DATA "/mnt/coastal/Southland/MartinsBay/MartinsBay_12MAR1966_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2952,7 +2952,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - MartinsBay - MartinsBay_17FEB1975_mosaic"
+        NAME "Southland - MartinsBay_17FEB1975_mosaic"
         DATA "/mnt/coastal/Southland/MartinsBay/MartinsBay_17FEB1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2963,7 +2963,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - MartinsBay - MartinsBay_17MAR1979_mosaic"
+        NAME "Southland - MartinsBay_17MAR1979_mosaic"
         DATA "/mnt/coastal/Southland/MartinsBay/MartinsBay_17MAR1979_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2974,7 +2974,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - MartinsBay - MartinsBay_30DEC1984_mosaic"
+        NAME "Southland - MartinsBay_30DEC1984_mosaic"
         DATA "/mnt/coastal/Southland/MartinsBay/MartinsBay_30DEC1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2985,7 +2985,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - MasonsBay - MasonsBay_25FEB1978_mosaic"
+        NAME "Southland - MasonsBay_25FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/MasonsBay/MasonsBay_25FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -2996,7 +2996,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeachMid - OretiBeachMid_11FEB1978_mosaic"
+        NAME "Southland - OretiBeachMid_11FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeachMid/OretiBeachMid_11FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3007,7 +3007,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeachMid - OretiBeachMid_12FEB1969_mosaic"
+        NAME "Southland - OretiBeachMid_12FEB1969_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeachMid/OretiBeachMid_12FEB1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3018,7 +3018,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeachMid - OretiBeachMid_15FEB1952_mosaic"
+        NAME "Southland - OretiBeachMid_15FEB1952_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeachMid/OretiBeachMid_15FEB1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3029,7 +3029,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeachMid - OretiBeachMid_15NOV1985_mosaic"
+        NAME "Southland - OretiBeachMid_15NOV1985_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeachMid/OretiBeachMid_15NOV1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3040,7 +3040,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeachMid - OretiBeachMid_28FEB1962_mosaic"
+        NAME "Southland - OretiBeachMid_28FEB1962_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeachMid/OretiBeachMid_28FEB1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3051,7 +3051,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeachMid - OretiBeachMid_28NOV1998_mosaic"
+        NAME "Southland - OretiBeachMid_28NOV1998_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeachMid/OretiBeachMid_28NOV1998_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3062,7 +3062,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeachMid - OretiBeachMid_2NOV1984_mosaic"
+        NAME "Southland - OretiBeachMid_2NOV1984_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeachMid/OretiBeachMid_2NOV1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3073,7 +3073,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_MiddleWest - OretiBeach_MiddleWest_01MAR1956_mosaic"
+        NAME "Southland - OretiBeach_MiddleWest_01MAR1956_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_MiddleWest/OretiBeach_MiddleWest_01MAR1956_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3084,7 +3084,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_MiddleWest - OretiBeach_MiddleWest_07APRL1964_mosaic"
+        NAME "Southland - OretiBeach_MiddleWest_07APRL1964_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_MiddleWest/OretiBeach_MiddleWest_07APRL1964_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3095,7 +3095,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_MiddleWest - OretiBeach_MiddleWest_11FEB1978_mosaic"
+        NAME "Southland - OretiBeach_MiddleWest_11FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_MiddleWest/OretiBeach_MiddleWest_11FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3106,7 +3106,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_MiddleWest - OretiBeach_MiddleWest_15FEB1976_mosaic"
+        NAME "Southland - OretiBeach_MiddleWest_15FEB1976_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_MiddleWest/OretiBeach_MiddleWest_15FEB1976_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3117,7 +3117,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_MiddleWest - OretiBeach_MiddleWest_21FEB1967_mosaic"
+        NAME "Southland - OretiBeach_MiddleWest_21FEB1967_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_MiddleWest/OretiBeach_MiddleWest_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3128,7 +3128,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_MiddleWest - OretiBeach_MiddleWest_28NOV1998_mosaic"
+        NAME "Southland - OretiBeach_MiddleWest_28NOV1998_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_MiddleWest/OretiBeach_MiddleWest_28NOV1998_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3139,7 +3139,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_MiddleWest - OretiBeach_MiddleWest_2NOV1984_mosaic"
+        NAME "Southland - OretiBeach_MiddleWest_2NOV1984_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_MiddleWest/OretiBeach_MiddleWest_2NOV1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3150,7 +3150,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_West - OretiBeach_west_10DEC1958_mosaic"
+        NAME "Southland - OretiBeach_west_10DEC1958_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_West/OretiBeach_west_10DEC1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3161,7 +3161,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_West - OretiBeach_west_11FEB1978_mosaic"
+        NAME "Southland - OretiBeach_west_11FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_West/OretiBeach_west_11FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3172,7 +3172,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_West - OretiBeach_west_15FEB1976_mosaic"
+        NAME "Southland - OretiBeach_west_15FEB1976_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_West/OretiBeach_west_15FEB1976_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3183,7 +3183,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_West - OretiBeach_west_18OCT1985_mosaic"
+        NAME "Southland - OretiBeach_west_18OCT1985_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_West/OretiBeach_west_18OCT1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3194,7 +3194,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_West - OretiBeach_west_21FEB1967_mosaic"
+        NAME "Southland - OretiBeach_west_21FEB1967_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_West/OretiBeach_west_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3205,7 +3205,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - OretiBeach_West - OretiBeach_west_28NOV1998_mosaic"
+        NAME "Southland - OretiBeach_west_28NOV1998_mosaic"
         DATA "/mnt/coastal/Southland/OretiBeach_West/OretiBeach_west_28NOV1998_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3216,7 +3216,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Riverton - Riverton_10DEC1958_mosaic"
+        NAME "Southland - Riverton_10DEC1958_mosaic"
         DATA "/mnt/coastal/Southland/Riverton/Riverton_10DEC1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3227,7 +3227,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Riverton - Riverton_11FEB1978_mosaic"
+        NAME "Southland - Riverton_11FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/Riverton/Riverton_11FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3238,7 +3238,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Riverton - Riverton_15FEB1952_mosaic"
+        NAME "Southland - Riverton_15FEB1952_mosaic"
         DATA "/mnt/coastal/Southland/Riverton/Riverton_15FEB1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3249,7 +3249,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Riverton - Riverton_18OCT1984_mosaic"
+        NAME "Southland - Riverton_18OCT1984_mosaic"
         DATA "/mnt/coastal/Southland/Riverton/Riverton_18OCT1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3260,7 +3260,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Riverton - Riverton_21FEB1967_mosaic"
+        NAME "Southland - Riverton_21FEB1967_mosaic"
         DATA "/mnt/coastal/Southland/Riverton/Riverton_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3271,7 +3271,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Riverton - Riverton_24FEB1968_mosaic"
+        NAME "Southland - Riverton_24FEB1968_mosaic"
         DATA "/mnt/coastal/Southland/Riverton/Riverton_24FEB1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3282,7 +3282,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Riverton - Riverton_27FEB1976_mosaic"
+        NAME "Southland - Riverton_27FEB1976_mosaic"
         DATA "/mnt/coastal/Southland/Riverton/Riverton_27FEB1976_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3293,7 +3293,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - SmokyBeach - SmokyBeach_16FEB1959_mosaic"
+        NAME "Southland - SmokyBeach_16FEB1959_mosaic"
         DATA "/mnt/coastal/Southland/SmokyBeach/SmokyBeach_16FEB1959_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3304,7 +3304,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - SmokyBeach - SmokyBeach_20FEB1953_mosaic"
+        NAME "Southland - SmokyBeach_20FEB1953_mosaic"
         DATA "/mnt/coastal/Southland/SmokyBeach/SmokyBeach_20FEB1953_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3315,7 +3315,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - SmokyBeach - SmokyBeach_25FEB1972_mosaic"
+        NAME "Southland - SmokyBeach_25FEB1972_mosaic"
         DATA "/mnt/coastal/Southland/SmokyBeach/SmokyBeach_25FEB1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3326,7 +3326,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - SmokyBeach - SmokyBeach_25FEB1978_mosaic"
+        NAME "Southland - SmokyBeach_25FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/SmokyBeach/SmokyBeach_25FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3337,7 +3337,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - TeWaewaeBay_East1 - TeWaewaeBay_East1_10MAR1963_mosaic"
+        NAME "Southland - TeWaewaeBay_East1_10MAR1963_mosaic"
         DATA "/mnt/coastal/Southland/TeWaewaeBay_East1/TeWaewaeBay_East1_10MAR1963_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3348,7 +3348,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - TeWaewaeBay_East1 - TeWaewaeBay_East1_11FEB1978_mosaic"
+        NAME "Southland - TeWaewaeBay_East1_11FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/TeWaewaeBay_East1/TeWaewaeBay_East1_11FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3359,7 +3359,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - TeWaewaeBay_East1 - TeWaewaeBay_East1_12FEB1969_mosaic"
+        NAME "Southland - TeWaewaeBay_East1_12FEB1969_mosaic"
         DATA "/mnt/coastal/Southland/TeWaewaeBay_East1/TeWaewaeBay_East1_12FEB1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3370,7 +3370,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - TeWaewaeBay_East1 - TeWaewaeBay_East1_18OCT1985_mosaic"
+        NAME "Southland - TeWaewaeBay_East1_18OCT1985_mosaic"
         DATA "/mnt/coastal/Southland/TeWaewaeBay_East1/TeWaewaeBay_East1_18OCT1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3381,7 +3381,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - TeWaewaeBay_East1 - TeWaewaeBay_East1_19MAR1981_mosaic"
+        NAME "Southland - TeWaewaeBay_East1_19MAR1981_mosaic"
         DATA "/mnt/coastal/Southland/TeWaewaeBay_East1/TeWaewaeBay_East1_19MAR1981_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3392,7 +3392,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - TeWaewaeBay_East1 - TeWaewaeBay_East1_21FEB1976_mosaic"
+        NAME "Southland - TeWaewaeBay_East1_21FEB1976_mosaic"
         DATA "/mnt/coastal/Southland/TeWaewaeBay_East1/TeWaewaeBay_East1_21FEB1976_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3403,7 +3403,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - TeWaewaeBay_East1 - TeWaewaeBay_East1_22MAR1946_mosaic"
+        NAME "Southland - TeWaewaeBay_East1_22MAR1946_mosaic"
         DATA "/mnt/coastal/Southland/TeWaewaeBay_East1/TeWaewaeBay_East1_22MAR1946_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3414,7 +3414,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - TeWaewaeBay_East1 - TeWaewaeBay_East1_3MAR1967_mosaic"
+        NAME "Southland - TeWaewaeBay_East1_3MAR1967_mosaic"
         DATA "/mnt/coastal/Southland/TeWaewaeBay_East1/TeWaewaeBay_East1_3MAR1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3425,7 +3425,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Tiwai_Point - TiwaiPoint_01MAR1962_mosaic"
+        NAME "Southland - TiwaiPoint_01MAR1962_mosaic"
         DATA "/mnt/coastal/Southland/Tiwai_Point/TiwaiPoint_01MAR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3436,7 +3436,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Tiwai_Point - TiwaiPoint_15MAR1951_mosaic"
+        NAME "Southland - TiwaiPoint_15MAR1951_mosaic"
         DATA "/mnt/coastal/Southland/Tiwai_Point/TiwaiPoint_15MAR1951_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3447,7 +3447,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Tiwai_Point - TiwaiPoint_28NOV1998_mosaic"
+        NAME "Southland - TiwaiPoint_28NOV1998_mosaic"
         DATA "/mnt/coastal/Southland/Tiwai_Point/TiwaiPoint_28NOV1998_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3458,7 +3458,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - ToetoeBay_west - ToetoesBay_west_15MAR1951_mosaic"
+        NAME "Southland - ToetoesBay_west_15MAR1951_mosaic"
         DATA "/mnt/coastal/Southland/ToetoeBay_west/ToetoesBay_west_15MAR1951_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3469,7 +3469,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Toetoes_HarbourEast - Toetoes_HarbourEast_01MAR1962_mosaic"
+        NAME "Southland - Toetoes_HarbourEast_01MAR1962_mosaic"
         DATA "/mnt/coastal/Southland/Toetoes_HarbourEast/Toetoes_HarbourEast_01MAR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3480,7 +3480,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Toetoes_HarbourEast - Toetoes_HarbourEast_15APRL1948_mosaic"
+        NAME "Southland - Toetoes_HarbourEast_15APRL1948_mosaic"
         DATA "/mnt/coastal/Southland/Toetoes_HarbourEast/Toetoes_HarbourEast_15APRL1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3491,7 +3491,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Toetoes_HarbourEast - Toetoes_HarbourEast_21FEB1967_mosaic"
+        NAME "Southland - Toetoes_HarbourEast_21FEB1967_mosaic"
         DATA "/mnt/coastal/Southland/Toetoes_HarbourEast/Toetoes_HarbourEast_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3502,7 +3502,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Toetoes_HarbourEast - Toetoes_HarbourEast_25FEB1978_mosaic"
+        NAME "Southland - Toetoes_HarbourEast_25FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/Toetoes_HarbourEast/Toetoes_HarbourEast_25FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3513,7 +3513,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - Toetoes_HarbourEast - Toetoes_HarbourEast_25FEB1983_mosaic"
+        NAME "Southland - Toetoes_HarbourEast_25FEB1983_mosaic"
         DATA "/mnt/coastal/Southland/Toetoes_HarbourEast/Toetoes_HarbourEast_25FEB1983_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3524,7 +3524,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - WaipapaPoint - WaipapaPoint_07OCT1985_mosaic"
+        NAME "Southland - WaipapaPoint_07OCT1985_mosaic"
         DATA "/mnt/coastal/Southland/WaipapaPoint/WaipapaPoint_07OCT1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3535,7 +3535,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - WaipapaPoint - WaipapaPoint_15APR1948_mosaic"
+        NAME "Southland - WaipapaPoint_15APR1948_mosaic"
         DATA "/mnt/coastal/Southland/WaipapaPoint/WaipapaPoint_15APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3546,7 +3546,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - WaipapaPoint - WaipapaPoint_21FEB1967_mosaic"
+        NAME "Southland - WaipapaPoint_21FEB1967_mosaic"
         DATA "/mnt/coastal/Southland/WaipapaPoint/WaipapaPoint_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3557,7 +3557,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - WaipapaPoint - WaipapaPoint_25FEB1978_mosaic"
+        NAME "Southland - WaipapaPoint_25FEB1978_mosaic"
         DATA "/mnt/coastal/Southland/WaipapaPoint/WaipapaPoint_25FEB1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3568,7 +3568,7 @@ MAP
     END
 
     LAYER
-        NAME "Southland - WaipapaPoint - WaipapaPoint_LDS_05FEB2007_mosaic"
+        NAME "Southland - WaipapaPoint_LDS_05FEB2007_mosaic"
         DATA "/mnt/coastal/Southland/WaipapaPoint/WaipapaPoint_LDS_05FEB2007_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3579,7 +3579,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Kakaramea_04FEB1982_mosaic"
+        NAME "Taranaki - Kakaramea_04FEB1982_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Kakaramea_04FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3590,7 +3590,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Kakaramea_07SEP1967_mosaic"
+        NAME "Taranaki - Kakaramea_07SEP1967_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Kakaramea_07SEP1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3601,7 +3601,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Kakaramea_08MAY1951_mosaic"
+        NAME "Taranaki - Kakaramea_08MAY1951_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Kakaramea_08MAY1951_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3612,7 +3612,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Kakaramea_15OCT1965_mosaic"
+        NAME "Taranaki - Kakaramea_15OCT1965_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Kakaramea_15OCT1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3623,7 +3623,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Kakaramea_19MAR1984_mosaic"
+        NAME "Taranaki - Kakaramea_19MAR1984_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Kakaramea_19MAR1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3634,7 +3634,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Kakaramea_28AUG1972_mosaic"
+        NAME "Taranaki - Kakaramea_28AUG1972_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Kakaramea_28AUG1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3645,7 +3645,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Kakaramea_5APR1962_mosaic"
+        NAME "Taranaki - Kakaramea_5APR1962_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Kakaramea_5APR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3656,7 +3656,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - ManaBay_04FEB1982_mosaic"
+        NAME "Taranaki - ManaBay_04FEB1982_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/ManaBay_04FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3667,7 +3667,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - ManaBay_05APR1962_mosaic"
+        NAME "Taranaki - ManaBay_05APR1962_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/ManaBay_05APR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3678,7 +3678,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - ManaBay_07APR1949_mosaic"
+        NAME "Taranaki - ManaBay_07APR1949_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/ManaBay_07APR1949_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3689,7 +3689,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - ManaBay_07SEP1967_mosaic"
+        NAME "Taranaki - ManaBay_07SEP1967_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/ManaBay_07SEP1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3700,7 +3700,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - ManaBay_15OCT1965_mosaic"
+        NAME "Taranaki - ManaBay_15OCT1965_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/ManaBay_15OCT1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3711,7 +3711,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Manutahi_04FEB1982_mosaic"
+        NAME "Taranaki - Manutahi_04FEB1982_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Manutahi_04FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3722,7 +3722,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Manutahi_08MAY1951_mosaic"
+        NAME "Taranaki - Manutahi_08MAY1951_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Manutahi_08MAY1951_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3733,7 +3733,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Manutahi_15OCT1965_mosaic"
+        NAME "Taranaki - Manutahi_15OCT1965_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Manutahi_15OCT1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3744,7 +3744,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Manutahi_19MAR1984_mosaic"
+        NAME "Taranaki - Manutahi_19MAR1984_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Manutahi_19MAR1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3755,7 +3755,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Manutahi_28AUG1972_mosaic"
+        NAME "Taranaki - Manutahi_28AUG1972_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Manutahi_28AUG1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3766,7 +3766,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - Manutahi__07SEP1967_mosaic"
+        NAME "Taranaki - Manutahi__07SEP1967_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/Manutahi__07SEP1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3777,7 +3777,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - OhaweBeach_04FEB1982_mosaic"
+        NAME "Taranaki - OhaweBeach_04FEB1982_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/OhaweBeach_04FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3788,7 +3788,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - OhaweBeach_08MAY1951_mosaic"
+        NAME "Taranaki - OhaweBeach_08MAY1951_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/OhaweBeach_08MAY1951_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3799,7 +3799,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - OhaweBeach_15OCT1965_mosaic"
+        NAME "Taranaki - OhaweBeach_15OCT1965_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/OhaweBeach_15OCT1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3810,7 +3810,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - OhaweBeach_19MAR1984_mosaic"
+        NAME "Taranaki - OhaweBeach_19MAR1984_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/OhaweBeach_19MAR1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3821,7 +3821,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - OhaweBeach_28AUG1972_mosaic"
+        NAME "Taranaki - OhaweBeach_28AUG1972_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/OhaweBeach_28AUG1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3832,7 +3832,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - OpunakeBeach_03APR1979_mosaic"
+        NAME "Taranaki - OpunakeBeach_03APR1979_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/OpunakeBeach_03APR1979_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3843,7 +3843,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - WainuiBeach_04FEB1982_mosaic"
+        NAME "Taranaki - WainuiBeach_04FEB1982_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/WainuiBeach_04FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3854,7 +3854,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - WainuiBeach_07SEP1967_mosaic"
+        NAME "Taranaki - WainuiBeach_07SEP1967_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/WainuiBeach_07SEP1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3865,7 +3865,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - WainuiBeach_15OCT1965_mosaic"
+        NAME "Taranaki - WainuiBeach_15OCT1965_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/WainuiBeach_15OCT1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3876,7 +3876,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - WainuiBeach_16APR1953_mosaic"
+        NAME "Taranaki - WainuiBeach_16APR1953_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/WainuiBeach_16APR1953_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3887,7 +3887,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - WainuiBeach_27MAR1962_mosaic"
+        NAME "Taranaki - WainuiBeach_27MAR1962_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/WainuiBeach_27MAR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3898,7 +3898,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - WaipipiBeach_04FEB1982_mosaic"
+        NAME "Taranaki - WaipipiBeach_04FEB1982_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/WaipipiBeach_04FEB1982_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3909,7 +3909,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - WaipipiBeach_07APR1949_mosaic"
+        NAME "Taranaki - WaipipiBeach_07APR1949_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/WaipipiBeach_07APR1949_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3920,7 +3920,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - WaipipiBeach_07SEP1967_mosaic"
+        NAME "Taranaki - WaipipiBeach_07SEP1967_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/WaipipiBeach_07SEP1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3931,7 +3931,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - WaipipiBeach_15OCT1965_mosaic"
+        NAME "Taranaki - WaipipiBeach_15OCT1965_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/WaipipiBeach_15OCT1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3942,7 +3942,7 @@ MAP
     END
 
     LAYER
-        NAME "Taranaki - South Taranaki - WaipipiBeach_27MAR1962_mosaic"
+        NAME "Taranaki - WaipipiBeach_27MAR1962_mosaic"
         DATA "/mnt/coastal/Taranaki/South Taranaki/WaipipiBeach_27MAR1962_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3953,7 +3953,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TakakaRiver_North - TakakaRiver_07NOV1984_mosaic"
+        NAME "Tasman - TakakaRiver_07NOV1984_mosaic"
         DATA "/mnt/coastal/Tasman/ TakakaRiver_North/TakakaRiver_07NOV1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3964,7 +3964,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TakakaRiver_North - TakakaRiver_08FEB1952_mosaic"
+        NAME "Tasman - TakakaRiver_08FEB1952_mosaic"
         DATA "/mnt/coastal/Tasman/ TakakaRiver_North/TakakaRiver_08FEB1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3975,7 +3975,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TakakaRiver_North - TakakaRiver_09APR1965_mosaic"
+        NAME "Tasman - TakakaRiver_09APR1965_mosaic"
         DATA "/mnt/coastal/Tasman/ TakakaRiver_North/TakakaRiver_09APR1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3986,7 +3986,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TakakaRiver_North - TakakaRiver_11OCT1950_mosaic"
+        NAME "Tasman - TakakaRiver_11OCT1950_mosaic"
         DATA "/mnt/coastal/Tasman/ TakakaRiver_North/TakakaRiver_11OCT1950_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -3997,7 +3997,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TakakaRiver_North - TakakaRiver_17FEB1968_mosaic"
+        NAME "Tasman - TakakaRiver_17FEB1968_mosaic"
         DATA "/mnt/coastal/Tasman/ TakakaRiver_North/TakakaRiver_17FEB1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4008,7 +4008,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TakakaRiver_North - TakakaRiver_21FEB2002_mosaic"
+        NAME "Tasman - TakakaRiver_21FEB2002_mosaic"
         DATA "/mnt/coastal/Tasman/ TakakaRiver_North/TakakaRiver_21FEB2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4019,7 +4019,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TakakaRiver_North - TakakaRiver_27MAR1938_mosaic"
+        NAME "Tasman - TakakaRiver_27MAR1938_mosaic"
         DATA "/mnt/coastal/Tasman/ TakakaRiver_North/TakakaRiver_27MAR1938_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4030,7 +4030,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TakakaRiver_North - TakakaRiver_29OCT1972_mosaic"
+        NAME "Tasman - TakakaRiver_29OCT1972_mosaic"
         DATA "/mnt/coastal/Tasman/ TakakaRiver_North/TakakaRiver_29OCT1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4041,7 +4041,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TakakaRiver_North - TakakaRiver_31JAN1980_mosaic"
+        NAME "Tasman - TakakaRiver_31JAN1980_mosaic"
         DATA "/mnt/coastal/Tasman/ TakakaRiver_North/TakakaRiver_31JAN1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4052,7 +4052,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TorrentBay - TorrentBay_04MAY1944_mosaic"
+        NAME "Tasman - TorrentBay_04MAY1944_mosaic"
         DATA "/mnt/coastal/Tasman/ TorrentBay/TorrentBay_04MAY1944_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4063,7 +4063,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TorrentBay - TorrentBay_07NOV1952_mosaic"
+        NAME "Tasman - TorrentBay_07NOV1952_mosaic"
         DATA "/mnt/coastal/Tasman/ TorrentBay/TorrentBay_07NOV1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4074,7 +4074,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TorrentBay - TorrentBay_09APR1965_mosaic"
+        NAME "Tasman - TorrentBay_09APR1965_mosaic"
         DATA "/mnt/coastal/Tasman/ TorrentBay/TorrentBay_09APR1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4085,7 +4085,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TorrentBay - TorrentBay_17FEB1968_mosaic"
+        NAME "Tasman - TorrentBay_17FEB1968_mosaic"
         DATA "/mnt/coastal/Tasman/ TorrentBay/TorrentBay_17FEB1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4096,7 +4096,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TorrentBay - TorrentBay_21FEB2002_mosaic"
+        NAME "Tasman - TorrentBay_21FEB2002_mosaic"
         DATA "/mnt/coastal/Tasman/ TorrentBay/TorrentBay_21FEB2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4107,7 +4107,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TorrentBay - TorrentBay_26JAN1974_mosaic"
+        NAME "Tasman - TorrentBay_26JAN1974_mosaic"
         DATA "/mnt/coastal/Tasman/ TorrentBay/TorrentBay_26JAN1974_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4118,7 +4118,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman -  TorrentBay - TorrentBay_31JAN1980_mosaic"
+        NAME "Tasman - TorrentBay_31JAN1980_mosaic"
         DATA "/mnt/coastal/Tasman/ TorrentBay/TorrentBay_31JAN1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4129,7 +4129,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Mapua - Mapua_11JAN1981_mosaic"
+        NAME "Tasman - Mapua_11JAN1981_mosaic"
         DATA "/mnt/coastal/Tasman/Mapua/Mapua_11JAN1981_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4140,7 +4140,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Mapua - Mapua_13JAN2000_mosaic"
+        NAME "Tasman - Mapua_13JAN2000_mosaic"
         DATA "/mnt/coastal/Tasman/Mapua/Mapua_13JAN2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4151,7 +4151,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Mapua - Mapua_13SEP1985_mosaic"
+        NAME "Tasman - Mapua_13SEP1985_mosaic"
         DATA "/mnt/coastal/Tasman/Mapua/Mapua_13SEP1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4162,7 +4162,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Mapua - Mapua_16OCT1974"
+        NAME "Tasman - Mapua_16OCT1974"
         DATA "/mnt/coastal/Tasman/Mapua/Mapua_16OCT1974.tif"
         TYPE RASTER
         PROJECTION
@@ -4173,7 +4173,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Mapua - Mapua_16OCT1974_mosaic"
+        NAME "Tasman - Mapua_16OCT1974_mosaic"
         DATA "/mnt/coastal/Tasman/Mapua/Mapua_16OCT1974_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4184,7 +4184,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Mapua - Mapua_22FEB1940"
+        NAME "Tasman - Mapua_22FEB1940"
         DATA "/mnt/coastal/Tasman/Mapua/Mapua_22FEB1940.tif"
         TYPE RASTER
         PROJECTION
@@ -4195,7 +4195,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Mapua - Mapua_22SEP1969_mosaic"
+        NAME "Tasman - Mapua_22SEP1969_mosaic"
         DATA "/mnt/coastal/Tasman/Mapua/Mapua_22SEP1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4206,7 +4206,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Mapua - Mapua_6DEC1946_mosaic"
+        NAME "Tasman - Mapua_6DEC1946_mosaic"
         DATA "/mnt/coastal/Tasman/Mapua/Mapua_6DEC1946_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4217,7 +4217,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Mapua - Mapua_6FE1967_mosaic"
+        NAME "Tasman - Mapua_6FE1967_mosaic"
         DATA "/mnt/coastal/Tasman/Mapua/Mapua_6FE1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4228,7 +4228,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Motueka - Motueka_04FEB1967_mosaic"
+        NAME "Tasman - Motueka_04FEB1967_mosaic"
         DATA "/mnt/coastal/Tasman/Motueka/Motueka_04FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4239,7 +4239,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Motueka - Motueka_08APR1963_mosaic"
+        NAME "Tasman - Motueka_08APR1963_mosaic"
         DATA "/mnt/coastal/Tasman/Motueka/Motueka_08APR1963_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4250,7 +4250,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Motueka - Motueka_19MAY1958_mosaic"
+        NAME "Tasman - Motueka_19MAY1958_mosaic"
         DATA "/mnt/coastal/Tasman/Motueka/Motueka_19MAY1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4261,7 +4261,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Motueka - Motueka_20122013_LDS_mosaic"
+        NAME "Tasman - Motueka_20122013_LDS_mosaic"
         DATA "/mnt/coastal/Tasman/Motueka/Motueka_20122013_LDS_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4272,7 +4272,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Motueka - Motueka_20152016_LDS_mosaic"
+        NAME "Tasman - Motueka_20152016_LDS_mosaic"
         DATA "/mnt/coastal/Tasman/Motueka/Motueka_20152016_LDS_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4283,7 +4283,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Motueka - Motueka_21FEB2002_mosaic"
+        NAME "Tasman - Motueka_21FEB2002_mosaic"
         DATA "/mnt/coastal/Tasman/Motueka/Motueka_21FEB2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4294,7 +4294,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Motueka - Motueka_22FEB1940_mosaic"
+        NAME "Tasman - Motueka_22FEB1940_mosaic"
         DATA "/mnt/coastal/Tasman/Motueka/Motueka_22FEB1940_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4305,7 +4305,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Motueka - Motueka_22SEP1969_mosaic"
+        NAME "Tasman - Motueka_22SEP1969_mosaic"
         DATA "/mnt/coastal/Tasman/Motueka/Motueka_22SEP1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4316,7 +4316,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Motueka - Motueka_27MAR1947_mosaic"
+        NAME "Tasman - Motueka_27MAR1947_mosaic"
         DATA "/mnt/coastal/Tasman/Motueka/Motueka_27MAR1947_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4327,7 +4327,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Motueka - Motueka_30DEC1937_mosaic"
+        NAME "Tasman - Motueka_30DEC1937_mosaic"
         DATA "/mnt/coastal/Tasman/Motueka/Motueka_30DEC1937_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4338,7 +4338,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Motueka - Motueka_31JAN1980_mosaic"
+        NAME "Tasman - Motueka_31JAN1980_mosaic"
         DATA "/mnt/coastal/Tasman/Motueka/Motueka_31JAN1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4349,7 +4349,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereRiver - MoutereRiver_04FEB1967_mosaic"
+        NAME "Tasman - MoutereRiver_04FEB1967_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereRiver/MoutereRiver_04FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4360,7 +4360,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereRiver - MoutereRiver_06DEC1946_mosaic"
+        NAME "Tasman - MoutereRiver_06DEC1946_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereRiver/MoutereRiver_06DEC1946_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4371,7 +4371,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereRiver - MoutereRiver_13JAN2000_mosaic"
+        NAME "Tasman - MoutereRiver_13JAN2000_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereRiver/MoutereRiver_13JAN2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4382,7 +4382,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereRiver - MoutereRiver_13SEP1985_mosaic"
+        NAME "Tasman - MoutereRiver_13SEP1985_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereRiver/MoutereRiver_13SEP1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4393,7 +4393,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereRiver - MoutereRiver_19MAY1958_mosaic"
+        NAME "Tasman - MoutereRiver_19MAY1958_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereRiver/MoutereRiver_19MAY1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4404,7 +4404,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereRiver - MoutereRiver_21FEB2002_mosaic"
+        NAME "Tasman - MoutereRiver_21FEB2002_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereRiver/MoutereRiver_21FEB2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4415,7 +4415,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereRiver - MoutereRiver_22FEB1940_mosaic"
+        NAME "Tasman - MoutereRiver_22FEB1940_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereRiver/MoutereRiver_22FEB1940_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4426,7 +4426,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereRiver - MoutereRiver_22SEP1969_mosaic"
+        NAME "Tasman - MoutereRiver_22SEP1969_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereRiver/MoutereRiver_22SEP1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4437,7 +4437,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereRiver - MoutereRiver_22SEP1969_mosaicV2"
+        NAME "Tasman - MoutereRiver_22SEP1969_mosaicV2"
         DATA "/mnt/coastal/Tasman/MoutereRiver/MoutereRiver_22SEP1969_mosaicV2.tif"
         TYPE RASTER
         PROJECTION
@@ -4448,7 +4448,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereRiver - MoutereRiver_27MAR1947_mosaic"
+        NAME "Tasman - MoutereRiver_27MAR1947_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereRiver/MoutereRiver_27MAR1947_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4459,7 +4459,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereRiver - MoutereRiver_31JAN1980_mosaic"
+        NAME "Tasman - MoutereRiver_31JAN1980_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereRiver/MoutereRiver_31JAN1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4470,7 +4470,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereSpit - MoutereSpit_04FEB1967_mosaic"
+        NAME "Tasman - MoutereSpit_04FEB1967_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereSpit/MoutereSpit_04FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4481,7 +4481,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereSpit - MoutereSpit_13JAN2000_mosaic"
+        NAME "Tasman - MoutereSpit_13JAN2000_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereSpit/MoutereSpit_13JAN2000_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4492,7 +4492,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereSpit - MoutereSpit_18SEP1985_mosaic"
+        NAME "Tasman - MoutereSpit_18SEP1985_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereSpit/MoutereSpit_18SEP1985_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4503,7 +4503,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereSpit - MoutereSpit_19MAY1958_mosaic"
+        NAME "Tasman - MoutereSpit_19MAY1958_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereSpit/MoutereSpit_19MAY1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4514,7 +4514,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereSpit - MoutereSpit_21FEB2002_mosaic"
+        NAME "Tasman - MoutereSpit_21FEB2002_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereSpit/MoutereSpit_21FEB2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4525,7 +4525,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereSpit - MoutereSpit_22FEB1940_mosaic"
+        NAME "Tasman - MoutereSpit_22FEB1940_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereSpit/MoutereSpit_22FEB1940_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4536,7 +4536,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereSpit - MoutereSpit_22SEP1969_mosaic"
+        NAME "Tasman - MoutereSpit_22SEP1969_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereSpit/MoutereSpit_22SEP1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4547,7 +4547,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereSpit - MoutereSpit_27MAR1947_mosaic"
+        NAME "Tasman - MoutereSpit_27MAR1947_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereSpit/MoutereSpit_27MAR1947_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4558,7 +4558,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - MoutereSpit - MoutereSpit_31JAN1980_mosaic"
+        NAME "Tasman - MoutereSpit_31JAN1980_mosaic"
         DATA "/mnt/coastal/Tasman/MoutereSpit/MoutereSpit_31JAN1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4569,7 +4569,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PoharaBeach - PoharaBeach_02APR1973_mosaic"
+        NAME "Tasman - PoharaBeach_02APR1973_mosaic"
         DATA "/mnt/coastal/Tasman/PoharaBeach/PoharaBeach_02APR1973_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4580,7 +4580,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PoharaBeach - PoharaBeach_02APR1973_mosaicV2"
+        NAME "Tasman - PoharaBeach_02APR1973_mosaicV2"
         DATA "/mnt/coastal/Tasman/PoharaBeach/PoharaBeach_02APR1973_mosaicV2.tif"
         TYPE RASTER
         PROJECTION
@@ -4591,7 +4591,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PoharaBeach - PoharaBeach_08FEB1952_mosaic"
+        NAME "Tasman - PoharaBeach_08FEB1952_mosaic"
         DATA "/mnt/coastal/Tasman/PoharaBeach/PoharaBeach_08FEB1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4602,7 +4602,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PoharaBeach - PoharaBeach_09APR1965.mosaic"
+        NAME "Tasman - PoharaBeach_09APR1965.mosaic"
         DATA "/mnt/coastal/Tasman/PoharaBeach/PoharaBeach_09APR1965.mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4613,7 +4613,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PoharaBeach - PoharaBeach_09APR1965_mosaicV2"
+        NAME "Tasman - PoharaBeach_09APR1965_mosaicV2"
         DATA "/mnt/coastal/Tasman/PoharaBeach/PoharaBeach_09APR1965_mosaicV2.tif"
         TYPE RASTER
         PROJECTION
@@ -4624,7 +4624,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PoharaBeach - PoharaBeach_17FEB1968_mosaic"
+        NAME "Tasman - PoharaBeach_17FEB1968_mosaic"
         DATA "/mnt/coastal/Tasman/PoharaBeach/PoharaBeach_17FEB1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4635,7 +4635,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PoharaBeach - PoharaBeach_21FEB2002_mosaic"
+        NAME "Tasman - PoharaBeach_21FEB2002_mosaic"
         DATA "/mnt/coastal/Tasman/PoharaBeach/PoharaBeach_21FEB2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4646,7 +4646,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PoharaBeach - PoharaBeach_21FEB2002_mosaicV2"
+        NAME "Tasman - PoharaBeach_21FEB2002_mosaicV2"
         DATA "/mnt/coastal/Tasman/PoharaBeach/PoharaBeach_21FEB2002_mosaicV2.tif"
         TYPE RASTER
         PROJECTION
@@ -4657,7 +4657,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PoharaBeach - PoharaBeach_29OCT1972_mosaic"
+        NAME "Tasman - PoharaBeach_29OCT1972_mosaic"
         DATA "/mnt/coastal/Tasman/PoharaBeach/PoharaBeach_29OCT1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4668,7 +4668,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PoharaBeach - PoharaBeach_31JAN1980_mosaic"
+        NAME "Tasman - PoharaBeach_31JAN1980_mosaic"
         DATA "/mnt/coastal/Tasman/PoharaBeach/PoharaBeach_31JAN1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4679,7 +4679,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PortPuponga - PortPuponga_06FEB1977_mosaic"
+        NAME "Tasman - PortPuponga_06FEB1977_mosaic"
         DATA "/mnt/coastal/Tasman/PortPuponga/PortPuponga_06FEB1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4690,7 +4690,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PortPuponga - PortPuponga_07NOV1984_mosaic"
+        NAME "Tasman - PortPuponga_07NOV1984_mosaic"
         DATA "/mnt/coastal/Tasman/PortPuponga/PortPuponga_07NOV1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4701,7 +4701,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PortPuponga - PortPuponga_11OCT1950_mosaic"
+        NAME "Tasman - PortPuponga_11OCT1950_mosaic"
         DATA "/mnt/coastal/Tasman/PortPuponga/PortPuponga_11OCT1950_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4712,7 +4712,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PortPuponga - PortPuponga_16SEP1954_mosaic"
+        NAME "Tasman - PortPuponga_16SEP1954_mosaic"
         DATA "/mnt/coastal/Tasman/PortPuponga/PortPuponga_16SEP1954_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4723,7 +4723,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PortPuponga - PortPuponga_20OCT1975_mosaic"
+        NAME "Tasman - PortPuponga_20OCT1975_mosaic"
         DATA "/mnt/coastal/Tasman/PortPuponga/PortPuponga_20OCT1975_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4734,7 +4734,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PortPuponga - PortPuponga_21NOV1970_mosaic"
+        NAME "Tasman - PortPuponga_21NOV1970_mosaic"
         DATA "/mnt/coastal/Tasman/PortPuponga/PortPuponga_21NOV1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4745,7 +4745,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PortPuponga - PortPuponga_25FEB1967_mosaic"
+        NAME "Tasman - PortPuponga_25FEB1967_mosaic"
         DATA "/mnt/coastal/Tasman/PortPuponga/PortPuponga_25FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4756,7 +4756,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PortPuponga - PortPuponga_29OCT1972_mosaic"
+        NAME "Tasman - PortPuponga_29OCT1972_mosaic"
         DATA "/mnt/coastal/Tasman/PortPuponga/PortPuponga_29OCT1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4767,7 +4767,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - PortPuponga - PortPuponga_30JAN1980_mosaic"
+        NAME "Tasman - PortPuponga_30JAN1980_mosaic"
         DATA "/mnt/coastal/Tasman/PortPuponga/PortPuponga_30JAN1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4778,7 +4778,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - RuataniwhaInlet - RuataniwhaInlet_07NOV1984_mosaic"
+        NAME "Tasman - RuataniwhaInlet_07NOV1984_mosaic"
         DATA "/mnt/coastal/Tasman/RuataniwhaInlet/RuataniwhaInlet_07NOV1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4789,7 +4789,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - RuataniwhaInlet - RuataniwhaInlet_10OCT1967_mosaic"
+        NAME "Tasman - RuataniwhaInlet_10OCT1967_mosaic"
         DATA "/mnt/coastal/Tasman/RuataniwhaInlet/RuataniwhaInlet_10OCT1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4800,7 +4800,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - RuataniwhaInlet - RuataniwhaInlet_11OCT1950_mosaic"
+        NAME "Tasman - RuataniwhaInlet_11OCT1950_mosaic"
         DATA "/mnt/coastal/Tasman/RuataniwhaInlet/RuataniwhaInlet_11OCT1950_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4811,7 +4811,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - RuataniwhaInlet - RuataniwhaInlet_29OCT1972_mosaic"
+        NAME "Tasman - RuataniwhaInlet_29OCT1972_mosaic"
         DATA "/mnt/coastal/Tasman/RuataniwhaInlet/RuataniwhaInlet_29OCT1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4822,7 +4822,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - RuataniwhaInlet - RuataniwhaInlet_30JAN1980_mosaic"
+        NAME "Tasman - RuataniwhaInlet_30JAN1980_mosaic"
         DATA "/mnt/coastal/Tasman/RuataniwhaInlet/RuataniwhaInlet_30JAN1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4833,7 +4833,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - SandyBay - SandyBay_17FEB1968_mosaic"
+        NAME "Tasman - SandyBay_17FEB1968_mosaic"
         DATA "/mnt/coastal/Tasman/SandyBay/SandyBay_17FEB1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4844,7 +4844,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - SandyBay - SandyBay_17NOV1952_mosaic_"
+        NAME "Tasman - SandyBay_17NOV1952_mosaic_"
         DATA "/mnt/coastal/Tasman/SandyBay/SandyBay_17NOV1952_mosaic_.tif"
         TYPE RASTER
         PROJECTION
@@ -4855,7 +4855,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - SandyBay - SandyBay_19MAY1958_mosaic"
+        NAME "Tasman - SandyBay_19MAY1958_mosaic"
         DATA "/mnt/coastal/Tasman/SandyBay/SandyBay_19MAY1958_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4866,7 +4866,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - SandyBay - SandyBay_21FEB2002_mosaic"
+        NAME "Tasman - SandyBay_21FEB2002_mosaic"
         DATA "/mnt/coastal/Tasman/SandyBay/SandyBay_21FEB2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4877,7 +4877,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - SandyBay - SandyBay_26JAN1974_mosaic"
+        NAME "Tasman - SandyBay_26JAN1974_mosaic"
         DATA "/mnt/coastal/Tasman/SandyBay/SandyBay_26JAN1974_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4888,7 +4888,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - SandyBay - SandyBay_27MAR1947_mosaic"
+        NAME "Tasman - SandyBay_27MAR1947_mosaic"
         DATA "/mnt/coastal/Tasman/SandyBay/SandyBay_27MAR1947_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4899,7 +4899,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - SandyBay - SandyBay_31JAN1980_mosaic"
+        NAME "Tasman - SandyBay_31JAN1980_mosaic"
         DATA "/mnt/coastal/Tasman/SandyBay/SandyBay_31JAN1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4910,7 +4910,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - SandyBay - SandyBay_4MAY1944_mosaic"
+        NAME "Tasman - SandyBay_4MAY1944_mosaic"
         DATA "/mnt/coastal/Tasman/SandyBay/SandyBay_4MAY1944_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4921,7 +4921,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - SandyBay - SandyBay_9APR_1965_mosaic"
+        NAME "Tasman - SandyBay_9APR_1965_mosaic"
         DATA "/mnt/coastal/Tasman/SandyBay/SandyBay_9APR_1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4932,7 +4932,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Totaranui - Totaranui_08FEB1952_mosaic"
+        NAME "Tasman - Totaranui_08FEB1952_mosaic"
         DATA "/mnt/coastal/Tasman/Totaranui/Totaranui_08FEB1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4943,7 +4943,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Totaranui - Totaranui_09APR1965_mosaic"
+        NAME "Tasman - Totaranui_09APR1965_mosaic"
         DATA "/mnt/coastal/Tasman/Totaranui/Totaranui_09APR1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4954,7 +4954,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Totaranui - Totaranui_17FEB1968_mosaic"
+        NAME "Tasman - Totaranui_17FEB1968_mosaic"
         DATA "/mnt/coastal/Tasman/Totaranui/Totaranui_17FEB1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4965,7 +4965,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Totaranui - Totaranui_21FEB2002_mosaic"
+        NAME "Tasman - Totaranui_21FEB2002_mosaic"
         DATA "/mnt/coastal/Tasman/Totaranui/Totaranui_21FEB2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4976,7 +4976,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Totaranui - Totaranui_26JAN1974_mosaic"
+        NAME "Tasman - Totaranui_26JAN1974_mosaic"
         DATA "/mnt/coastal/Tasman/Totaranui/Totaranui_26JAN1974_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4987,7 +4987,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - Totaranui - Totaranui_31JAN1980_mosaic"
+        NAME "Tasman - Totaranui_31JAN1980_mosaic"
         DATA "/mnt/coastal/Tasman/Totaranui/Totaranui_31JAN1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -4998,7 +4998,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - WainuiBay - WainuiBay_02APR1973_mosaic"
+        NAME "Tasman - WainuiBay_02APR1973_mosaic"
         DATA "/mnt/coastal/Tasman/WainuiBay/WainuiBay_02APR1973_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5009,7 +5009,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - WainuiBay - WainuiBay_08FEB1952_mosaic"
+        NAME "Tasman - WainuiBay_08FEB1952_mosaic"
         DATA "/mnt/coastal/Tasman/WainuiBay/WainuiBay_08FEB1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5020,7 +5020,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - WainuiBay - WainuiBay_09APR1965_mosaic"
+        NAME "Tasman - WainuiBay_09APR1965_mosaic"
         DATA "/mnt/coastal/Tasman/WainuiBay/WainuiBay_09APR1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5031,7 +5031,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - WainuiBay - WainuiBay_17FEB1968_mosaic"
+        NAME "Tasman - WainuiBay_17FEB1968_mosaic"
         DATA "/mnt/coastal/Tasman/WainuiBay/WainuiBay_17FEB1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5042,7 +5042,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - WainuiBay - WainuiBay_21FEB2002_mosaic"
+        NAME "Tasman - WainuiBay_21FEB2002_mosaic"
         DATA "/mnt/coastal/Tasman/WainuiBay/WainuiBay_21FEB2002_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5053,7 +5053,7 @@ MAP
     END
 
     LAYER
-        NAME "Tasman - WainuiBay - WainuiBay_31JAN1980_mosaic"
+        NAME "Tasman - WainuiBay_31JAN1980_mosaic"
         DATA "/mnt/coastal/Tasman/WainuiBay/WainuiBay_31JAN1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5064,7 +5064,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_01AUG1942_mosaic"
+        NAME "Wellington - KapitiMid_01AUG1942_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_01AUG1942_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5075,7 +5075,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_05FEB1977_mosaic"
+        NAME "Wellington - KapitiMid_05FEB1977_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_05FEB1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5086,7 +5086,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_05FEB1991_mosaic"
+        NAME "Wellington - KapitiMid_05FEB1991_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_05FEB1991_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5097,7 +5097,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_06OCT1980_mosaic"
+        NAME "Wellington - KapitiMid_06OCT1980_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_06OCT1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5108,7 +5108,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_11DEC1964_mosaic"
+        NAME "Wellington - KapitiMid_11DEC1964_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_11DEC1964_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5119,7 +5119,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_15APR1966_mosaic"
+        NAME "Wellington - KapitiMid_15APR1966_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_15APR1966_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5130,7 +5130,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_15JAN1957_mosaic"
+        NAME "Wellington - KapitiMid_15JAN1957_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_15JAN1957_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5141,7 +5141,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_17APR1952_mosaic"
+        NAME "Wellington - KapitiMid_17APR1952_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_17APR1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5152,7 +5152,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_20NOV1987_mosaic"
+        NAME "Wellington - KapitiMid_20NOV1987_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_20NOV1987_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5163,7 +5163,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_28APR1948_mosaic"
+        NAME "Wellington - KapitiMid_28APR1948_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_28APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5174,7 +5174,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_29NOV1956_mosaic"
+        NAME "Wellington - KapitiMid_29NOV1956_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_29NOV1956_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5185,7 +5185,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiMid - KapitiMid_29OCT1973_mosaic"
+        NAME "Wellington - KapitiMid_29OCT1973_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiMid/KapitiMid_29OCT1973_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5196,7 +5196,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_06OCT1980_mosaic"
+        NAME "Wellington - NorthKapiti_06OCT1980_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_06OCT1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5207,7 +5207,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_11DEC1964_mosaic"
+        NAME "Wellington - NorthKapiti_11DEC1964_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_11DEC1964_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5218,7 +5218,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_15APR1966_mosaic"
+        NAME "Wellington - NorthKapiti_15APR1966_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_15APR1966_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5229,7 +5229,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_15JAN1957_mosaic"
+        NAME "Wellington - NorthKapiti_15JAN1957_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_15JAN1957_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5240,7 +5240,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_17APR1952_mosaic"
+        NAME "Wellington - NorthKapiti_17APR1952_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_17APR1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5251,7 +5251,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_17MAR1983_mosaic"
+        NAME "Wellington - NorthKapiti_17MAR1983_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_17MAR1983_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5262,7 +5262,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_20NOV1987_mosaic"
+        NAME "Wellington - NorthKapiti_20NOV1987_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_20NOV1987_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5273,7 +5273,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_23MAY1968_mosaic"
+        NAME "Wellington - NorthKapiti_23MAY1968_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_23MAY1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5284,7 +5284,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_24MAR1970_mosaic"
+        NAME "Wellington - NorthKapiti_24MAR1970_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_24MAR1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5295,7 +5295,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_28APR1948_mosaic"
+        NAME "Wellington - NorthKapiti_28APR1948_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_28APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5306,7 +5306,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_30JAN2003_mosaic"
+        NAME "Wellington - NorthKapiti_30JAN2003_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_30JAN2003_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5317,7 +5317,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiNorth - NorthKapiti_30NOV1978_mosaic"
+        NAME "Wellington - NorthKapiti_30NOV1978_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiNorth/NorthKapiti_30NOV1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5328,7 +5328,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_01AUG1942_mosaic"
+        NAME "Wellington - KapitiSouth_01AUG1942_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_01AUG1942_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5339,7 +5339,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_02JAN1988_mosaic"
+        NAME "Wellington - KapitiSouth_02JAN1988_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_02JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5350,7 +5350,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_05FEB1977_mosaic"
+        NAME "Wellington - KapitiSouth_05FEB1977_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_05FEB1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5361,7 +5361,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_06OCT1980_mosaic"
+        NAME "Wellington - KapitiSouth_06OCT1980_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_06OCT1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5372,7 +5372,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_07APR1986_mosaic"
+        NAME "Wellington - KapitiSouth_07APR1986_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_07APR1986_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5383,7 +5383,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_09DEC1948_mosaic"
+        NAME "Wellington - KapitiSouth_09DEC1948_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_09DEC1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5394,7 +5394,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_12DEC1964_mosaic"
+        NAME "Wellington - KapitiSouth_12DEC1964_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_12DEC1964_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5405,7 +5405,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_15APR1966_mosaic"
+        NAME "Wellington - KapitiSouth_15APR1966_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_15APR1966_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5416,7 +5416,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_17APR1952_mosaic"
+        NAME "Wellington - KapitiSouth_17APR1952_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_17APR1952_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5427,7 +5427,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_22AUG1961_mosaic"
+        NAME "Wellington - KapitiSouth_22AUG1961_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_22AUG1961_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5438,7 +5438,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_29NOV1956_mosaic"
+        NAME "Wellington - KapitiSouth_29NOV1956_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_29NOV1956_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5449,7 +5449,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - KapitiSouth - KapitiSouth_29OCT1973_mosaic"
+        NAME "Wellington - KapitiSouth_29OCT1973_mosaic"
         DATA "/mnt/coastal/Wellington/KapitiSouth/KapitiSouth_29OCT1973_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5460,7 +5460,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - Otaki - Otaki_04OCT1939_mosaic"
+        NAME "Wellington - Otaki_04OCT1939_mosaic"
         DATA "/mnt/coastal/Wellington/Otaki/Otaki_04OCT1939_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5471,7 +5471,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - Otaki - Otaki_06OCT1980_mosaic"
+        NAME "Wellington - Otaki_06OCT1980_mosaic"
         DATA "/mnt/coastal/Wellington/Otaki/Otaki_06OCT1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5482,7 +5482,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - Otaki - Otaki_15APR1966_mosaic"
+        NAME "Wellington - Otaki_15APR1966_mosaic"
         DATA "/mnt/coastal/Wellington/Otaki/Otaki_15APR1966_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5493,7 +5493,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - Otaki - Otaki_15JAN1957_mosaic"
+        NAME "Wellington - Otaki_15JAN1957_mosaic"
         DATA "/mnt/coastal/Wellington/Otaki/Otaki_15JAN1957_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5504,7 +5504,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - Otaki - Otaki_17MAR1983_mosaic"
+        NAME "Wellington - Otaki_17MAR1983_mosaic"
         DATA "/mnt/coastal/Wellington/Otaki/Otaki_17MAR1983_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5515,7 +5515,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - Otaki - Otaki_23MAY1968_mosaic"
+        NAME "Wellington - Otaki_23MAY1968_mosaic"
         DATA "/mnt/coastal/Wellington/Otaki/Otaki_23MAY1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5526,7 +5526,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - Otaki - Otaki_28APR1948_mosaic"
+        NAME "Wellington - Otaki_28APR1948_mosaic"
         DATA "/mnt/coastal/Wellington/Otaki/Otaki_28APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5537,7 +5537,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - Otaki - Otaki_30NOV1978_mosaic"
+        NAME "Wellington - Otaki_30NOV1978_mosaic"
         DATA "/mnt/coastal/Wellington/Otaki/Otaki_30NOV1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5548,7 +5548,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - PukeruaBay - PukeruaBay_01AUG1942_mosaic"
+        NAME "Wellington - PukeruaBay_01AUG1942_mosaic"
         DATA "/mnt/coastal/Wellington/PukeruaBay/PukeruaBay_01AUG1942_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5559,7 +5559,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - PukeruaBay - PukeruaBay_02JAN1988_mosaic"
+        NAME "Wellington - PukeruaBay_02JAN1988_mosaic"
         DATA "/mnt/coastal/Wellington/PukeruaBay/PukeruaBay_02JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5570,7 +5570,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - PukeruaBay - PukeruaBay_04APR1986_mosaic"
+        NAME "Wellington - PukeruaBay_04APR1986_mosaic"
         DATA "/mnt/coastal/Wellington/PukeruaBay/PukeruaBay_04APR1986_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5581,7 +5581,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - PukeruaBay - PukeruaBay_10NOV1977_mosaic"
+        NAME "Wellington - PukeruaBay_10NOV1977_mosaic"
         DATA "/mnt/coastal/Wellington/PukeruaBay/PukeruaBay_10NOV1977_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5592,7 +5592,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - PukeruaBay - PukeruaBay_19NOV1972_mosaic"
+        NAME "Wellington - PukeruaBay_19NOV1972_mosaic"
         DATA "/mnt/coastal/Wellington/PukeruaBay/PukeruaBay_19NOV1972_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5603,7 +5603,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - PukeruaBay - PukeruaBay_20SEP1980_mosaic"
+        NAME "Wellington - PukeruaBay_20SEP1980_mosaic"
         DATA "/mnt/coastal/Wellington/PukeruaBay/PukeruaBay_20SEP1980_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5614,7 +5614,7 @@ MAP
     END
 
     LAYER
-        NAME "Wellington - PukeruaBay - PukeruaBay_22AUG1961_mosaic"
+        NAME "Wellington - PukeruaBay_22AUG1961_mosaic"
         DATA "/mnt/coastal/Wellington/PukeruaBay/PukeruaBay_22AUG1961_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5625,7 +5625,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - CartersBeach - CartersBeach_04NOV1960_mosaic"
+        NAME "WestCoast - CartersBeach_04NOV1960_mosaic"
         DATA "/mnt/coastal/WestCoast/CartersBeach/CartersBeach_04NOV1960_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5636,7 +5636,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - CartersBeach - CartersBeach_12APR1955_mosaic"
+        NAME "WestCoast - CartersBeach_12APR1955_mosaic"
         DATA "/mnt/coastal/WestCoast/CartersBeach/CartersBeach_12APR1955_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5647,7 +5647,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - CartersBeach - CartersBeach_13MAR1951_mosaic"
+        NAME "WestCoast - CartersBeach_13MAR1951_mosaic"
         DATA "/mnt/coastal/WestCoast/CartersBeach/CartersBeach_13MAR1951_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5658,7 +5658,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - CartersBeach - CartersBeach_15JAN1988_mosaic"
+        NAME "WestCoast - CartersBeach_15JAN1988_mosaic"
         DATA "/mnt/coastal/WestCoast/CartersBeach/CartersBeach_15JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5669,7 +5669,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - CartersBeach - CartersBeach_25NOV1974_mosaic"
+        NAME "WestCoast - CartersBeach_25NOV1974_mosaic"
         DATA "/mnt/coastal/WestCoast/CartersBeach/CartersBeach_25NOV1974_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5680,7 +5680,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - GreymouthNorth - GreymouthNorth_01APR1948_mosaic"
+        NAME "WestCoast - GreymouthNorth_01APR1948_mosaic"
         DATA "/mnt/coastal/WestCoast/GreymouthNorth/GreymouthNorth_01APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5691,7 +5691,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - GreymouthNorth - GreymouthNorth_18FEB1988_mosaic"
+        NAME "WestCoast - GreymouthNorth_18FEB1988_mosaic"
         DATA "/mnt/coastal/WestCoast/GreymouthNorth/GreymouthNorth_18FEB1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5702,7 +5702,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - GreymouthNorth - GreymouthNorth_19MAR1970_mosaic"
+        NAME "WestCoast - GreymouthNorth_19MAR1970_mosaic"
         DATA "/mnt/coastal/WestCoast/GreymouthNorth/GreymouthNorth_19MAR1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5713,7 +5713,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - GreymouthNorth - GreymouthNorth_21MAY1945_mosaic"
+        NAME "WestCoast - GreymouthNorth_21MAY1945_mosaic"
         DATA "/mnt/coastal/WestCoast/GreymouthNorth/GreymouthNorth_21MAY1945_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5724,7 +5724,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - GreymouthSouth - GreymouthSouth_01NOV1969_mosaic"
+        NAME "WestCoast - GreymouthSouth_01NOV1969_mosaic"
         DATA "/mnt/coastal/WestCoast/GreymouthSouth/GreymouthSouth_01NOV1969_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5735,7 +5735,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - GreymouthSouth - GreymouthSouth_11NOV1963_mosaic"
+        NAME "WestCoast - GreymouthSouth_11NOV1963_mosaic"
         DATA "/mnt/coastal/WestCoast/GreymouthSouth/GreymouthSouth_11NOV1963_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5746,7 +5746,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - GreymouthSouth - GreymouthSouth_18FEB1988_mosaic"
+        NAME "WestCoast - GreymouthSouth_18FEB1988_mosaic"
         DATA "/mnt/coastal/WestCoast/GreymouthSouth/GreymouthSouth_18FEB1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5757,7 +5757,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - GreymouthSouth - GreymouthSouth_21MAY1945_mosaic"
+        NAME "WestCoast - GreymouthSouth_21MAY1945_mosaic"
         DATA "/mnt/coastal/WestCoast/GreymouthSouth/GreymouthSouth_21MAY1945_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5768,7 +5768,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - HaastBeach - HaastBeach_04MAR1986_mosaic"
+        NAME "WestCoast - HaastBeach_04MAR1986_mosaic"
         DATA "/mnt/coastal/WestCoast/HaastBeach/HaastBeach_04MAR1986_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5779,7 +5779,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - HaastBeach - HaastBeach_18FEB1988_mosaic"
+        NAME "WestCoast - HaastBeach_18FEB1988_mosaic"
         DATA "/mnt/coastal/WestCoast/HaastBeach/HaastBeach_18FEB1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5790,7 +5790,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - HaastBeach - HaastBeach_21FEB1967_mosaic"
+        NAME "WestCoast - HaastBeach_21FEB1967_mosaic"
         DATA "/mnt/coastal/WestCoast/HaastBeach/HaastBeach_21FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5801,7 +5801,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - HaastBeach - HaastBeach_26FEB1965_mosaic"
+        NAME "WestCoast - HaastBeach_26FEB1965_mosaic"
         DATA "/mnt/coastal/WestCoast/HaastBeach/HaastBeach_26FEB1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5812,7 +5812,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_North - Hokitika_North_11NOV1963_mosaic"
+        NAME "WestCoast - Hokitika_North_11NOV1963_mosaic"
         DATA "/mnt/coastal/WestCoast/Hokitika_North/Hokitika_North_11NOV1963_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5823,7 +5823,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_North - Hokitika_North_13MAR1951_mosaic"
+        NAME "WestCoast - Hokitika_North_13MAR1951_mosaic"
         DATA "/mnt/coastal/WestCoast/Hokitika_North/Hokitika_North_13MAR1951_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5834,7 +5834,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_North - Hokitika_North_15JAN1988_mosaic"
+        NAME "WestCoast - Hokitika_North_15JAN1988_mosaic"
         DATA "/mnt/coastal/WestCoast/Hokitika_North/Hokitika_North_15JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5845,7 +5845,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_North - Hokitika_North_21NOV1970_mosaic"
+        NAME "WestCoast - Hokitika_North_21NOV1970_mosaic"
         DATA "/mnt/coastal/WestCoast/Hokitika_North/Hokitika_North_21NOV1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5856,7 +5856,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_North - Hokitika_North_24MAR1984_mosaic"
+        NAME "WestCoast - Hokitika_North_24MAR1984_mosaic"
         DATA "/mnt/coastal/WestCoast/Hokitika_North/Hokitika_North_24MAR1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5867,7 +5867,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_South - Hokitika_South_04MAY1943_mosaic"
+        NAME "WestCoast - Hokitika_South_04MAY1943_mosaic"
         DATA "/mnt/coastal/WestCoast/Hokitika_South/Hokitika_South_04MAY1943_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5878,7 +5878,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_South - Hokitika_South_13MAR1951_mosaic"
+        NAME "WestCoast - Hokitika_South_13MAR1951_mosaic"
         DATA "/mnt/coastal/WestCoast/Hokitika_South/Hokitika_South_13MAR1951_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5889,7 +5889,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_South - Hokitika_South_15JAN1988_mosaic"
+        NAME "WestCoast - Hokitika_South_15JAN1988_mosaic"
         DATA "/mnt/coastal/WestCoast/Hokitika_South/Hokitika_South_15JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5900,7 +5900,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_South - Hokitika_South_1984"
+        NAME "WestCoast - Hokitika_South_1984"
         DATA "/mnt/coastal/WestCoast/Hokitika_South/Hokitika_South_1984.tif"
         TYPE RASTER
         PROJECTION
@@ -5911,7 +5911,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_South - Hokitika_South_21NOV1970_mosaic"
+        NAME "WestCoast - Hokitika_South_21NOV1970_mosaic"
         DATA "/mnt/coastal/WestCoast/Hokitika_South/Hokitika_South_21NOV1970_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5922,7 +5922,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_South - Hokitika_South_24MAR1984_mosaic"
+        NAME "WestCoast - Hokitika_South_24MAR1984_mosaic"
         DATA "/mnt/coastal/WestCoast/Hokitika_South/Hokitika_South_24MAR1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5933,7 +5933,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Hokitika_South - Hokitika_South_27OCT1981_mosaic"
+        NAME "WestCoast - Hokitika_South_27OCT1981_mosaic"
         DATA "/mnt/coastal/WestCoast/Hokitika_South/Hokitika_South_27OCT1981_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5944,7 +5944,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Karamea_South_AOI - Karamea_South_12APR1955_mosaic"
+        NAME "WestCoast - Karamea_South_12APR1955_mosaic"
         DATA "/mnt/coastal/WestCoast/Karamea_South_AOI/Karamea_South_12APR1955_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5955,7 +5955,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Karamea_South_AOI - Karamea_South_15JAN1988_mosaic"
+        NAME "WestCoast - Karamea_South_15JAN1988_mosaic"
         DATA "/mnt/coastal/WestCoast/Karamea_South_AOI/Karamea_South_15JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5966,7 +5966,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Karamea_South_AOI - Karamea_South_25JAN1968_mosaic"
+        NAME "WestCoast - Karamea_South_25JAN1968_mosaic"
         DATA "/mnt/coastal/WestCoast/Karamea_South_AOI/Karamea_South_25JAN1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5977,7 +5977,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Karamea_South_AOI - Karamea_South_25NOV1974_mosaic"
+        NAME "WestCoast - Karamea_South_25NOV1974_mosaic"
         DATA "/mnt/coastal/WestCoast/Karamea_South_AOI/Karamea_South_25NOV1974_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5988,7 +5988,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - MikonuiRiver - MikonuiRiver_12APR1948_mosaic"
+        NAME "WestCoast - MikonuiRiver_12APR1948_mosaic"
         DATA "/mnt/coastal/WestCoast/MikonuiRiver/MikonuiRiver_12APR1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -5999,7 +5999,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - MikonuiRiver - MikonuiRiver_15JAN1988_mosaic"
+        NAME "WestCoast - MikonuiRiver_15JAN1988_mosaic"
         DATA "/mnt/coastal/WestCoast/MikonuiRiver/MikonuiRiver_15JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6010,7 +6010,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - MikonuiRiver - MikonuiRiver_18OCT1981_mosaic"
+        NAME "WestCoast - MikonuiRiver_18OCT1981_mosaic"
         DATA "/mnt/coastal/WestCoast/MikonuiRiver/MikonuiRiver_18OCT1981_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6021,7 +6021,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - MikonuiRiver - MikonuiRiver_21APR1966_mosaic"
+        NAME "WestCoast - MikonuiRiver_21APR1966_mosaic"
         DATA "/mnt/coastal/WestCoast/MikonuiRiver/MikonuiRiver_21APR1966_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6032,7 +6032,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - MikonuiRiver - MikonuiRiver_24MAR1984_mosaic"
+        NAME "WestCoast - MikonuiRiver_24MAR1984_mosaic"
         DATA "/mnt/coastal/WestCoast/MikonuiRiver/MikonuiRiver_24MAR1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6043,7 +6043,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Mokihinui_Ngakawau - Mokihinui_Ngakawau_06FEB1967_mosaic"
+        NAME "WestCoast - Mokihinui_Ngakawau_06FEB1967_mosaic"
         DATA "/mnt/coastal/WestCoast/Mokihinui_Ngakawau/Mokihinui_Ngakawau_06FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6054,7 +6054,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Mokihinui_Ngakawau - Mokihinui_Ngakawau_15JAN1988_mosaic"
+        NAME "WestCoast - Mokihinui_Ngakawau_15JAN1988_mosaic"
         DATA "/mnt/coastal/WestCoast/Mokihinui_Ngakawau/Mokihinui_Ngakawau_15JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6065,7 +6065,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Mokihinui_Ngakawau - Mokihinui_Ngakawau_25FEB1946_mosaic"
+        NAME "WestCoast - Mokihinui_Ngakawau_25FEB1946_mosaic"
         DATA "/mnt/coastal/WestCoast/Mokihinui_Ngakawau/Mokihinui_Ngakawau_25FEB1946_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6076,7 +6076,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Mokihinui_Ngakawau - Mokihinui_Ngakawau_25JAN1968_mosaic"
+        NAME "WestCoast - Mokihinui_Ngakawau_25JAN1968_mosaic"
         DATA "/mnt/coastal/WestCoast/Mokihinui_Ngakawau/Mokihinui_Ngakawau_25JAN1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6087,7 +6087,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Mokihinui_Ngakawau - Mokihinui_Ngakawau_25MAY1943_mosaic"
+        NAME "WestCoast - Mokihinui_Ngakawau_25MAY1943_mosaic"
         DATA "/mnt/coastal/WestCoast/Mokihinui_Ngakawau/Mokihinui_Ngakawau_25MAY1943_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6098,7 +6098,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Mokihinui_Ngakawau - Mokihinui_Ngakawau_25NOV1974_mosaic"
+        NAME "WestCoast - Mokihinui_Ngakawau_25NOV1974_mosaic"
         DATA "/mnt/coastal/WestCoast/Mokihinui_Ngakawau/Mokihinui_Ngakawau_25NOV1974_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6109,7 +6109,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ngakawau_WaimangaroaRiver - Ngakawau_WaimangaroaRiver_06FEB1967_mosaic"
+        NAME "WestCoast - Ngakawau_WaimangaroaRiver_06FEB1967_mosaic"
         DATA "/mnt/coastal/WestCoast/Ngakawau_WaimangaroaRiver/Ngakawau_WaimangaroaRiver_06FEB1967_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6120,7 +6120,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ngakawau_WaimangaroaRiver - Ngakawau_WaimangaroaRiver_12APR1955_mosaic"
+        NAME "WestCoast - Ngakawau_WaimangaroaRiver_12APR1955_mosaic"
         DATA "/mnt/coastal/WestCoast/Ngakawau_WaimangaroaRiver/Ngakawau_WaimangaroaRiver_12APR1955_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6131,7 +6131,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ngakawau_WaimangaroaRiver - Ngakawau_WaimangaroaRiver_15JAN1988_mosaic"
+        NAME "WestCoast - Ngakawau_WaimangaroaRiver_15JAN1988_mosaic"
         DATA "/mnt/coastal/WestCoast/Ngakawau_WaimangaroaRiver/Ngakawau_WaimangaroaRiver_15JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6142,7 +6142,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ngakawau_WaimangaroaRiver - Ngakawau_WaimangaroaRiver_17FEB1968_mosaic"
+        NAME "WestCoast - Ngakawau_WaimangaroaRiver_17FEB1968_mosaic"
         DATA "/mnt/coastal/WestCoast/Ngakawau_WaimangaroaRiver/Ngakawau_WaimangaroaRiver_17FEB1968_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6153,7 +6153,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ngakawau_WaimangaroaRiver - Ngakawau_WaimangaroaRiver_25FEB1946_mosaic"
+        NAME "WestCoast - Ngakawau_WaimangaroaRiver_25FEB1946_mosaic"
         DATA "/mnt/coastal/WestCoast/Ngakawau_WaimangaroaRiver/Ngakawau_WaimangaroaRiver_25FEB1946_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6164,7 +6164,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ngakawau_WaimangaroaRiver - Ngakawau_WaimangaroaRiver_25MAY1943_mosaic"
+        NAME "WestCoast - Ngakawau_WaimangaroaRiver_25MAY1943_mosaic"
         DATA "/mnt/coastal/WestCoast/Ngakawau_WaimangaroaRiver/Ngakawau_WaimangaroaRiver_25MAY1943_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6175,7 +6175,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ngakawau_WaimangaroaRiver - Ngakawau_WaimangaroaRiver_25NOV1974_mosaic"
+        NAME "WestCoast - Ngakawau_WaimangaroaRiver_25NOV1974_mosaic"
         DATA "/mnt/coastal/WestCoast/Ngakawau_WaimangaroaRiver/Ngakawau_WaimangaroaRiver_25NOV1974_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6186,7 +6186,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ohinemaka - Ohinemaka_01FEB1986_mosaic"
+        NAME "WestCoast - Ohinemaka_01FEB1986_mosaic"
         DATA "/mnt/coastal/WestCoast/Ohinemaka/Ohinemaka_01FEB1986_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6197,7 +6197,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ohinemaka - Ohinemaka_12FEB1984_mosaic"
+        NAME "WestCoast - Ohinemaka_12FEB1984_mosaic"
         DATA "/mnt/coastal/WestCoast/Ohinemaka/Ohinemaka_12FEB1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6208,7 +6208,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ohinemaka - Ohinemaka_15FEB1987_mosaic"
+        NAME "WestCoast - Ohinemaka_15FEB1987_mosaic"
         DATA "/mnt/coastal/WestCoast/Ohinemaka/Ohinemaka_15FEB1987_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6219,7 +6219,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ohinemaka - Ohinemaka_18FEB1988_mosaic"
+        NAME "WestCoast - Ohinemaka_18FEB1988_mosaic"
         DATA "/mnt/coastal/WestCoast/Ohinemaka/Ohinemaka_18FEB1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6230,7 +6230,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Ohinemaka - Ohinemaka_26FEB1965_mosaic"
+        NAME "WestCoast - Ohinemaka_26FEB1965_mosaic"
         DATA "/mnt/coastal/WestCoast/Ohinemaka/Ohinemaka_26FEB1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6241,7 +6241,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Punakaiki - Punakaiki_08MAY1964_mosaic"
+        NAME "WestCoast - Punakaiki_08MAY1964_mosaic"
         DATA "/mnt/coastal/WestCoast/Punakaiki/Punakaiki_08MAY1964_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6252,7 +6252,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Punakaiki - Punakaiki_13MAR1951_mosaic"
+        NAME "WestCoast - Punakaiki_13MAR1951_mosaic"
         DATA "/mnt/coastal/WestCoast/Punakaiki/Punakaiki_13MAR1951_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6263,7 +6263,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Punakaiki - Punakaiki_17MAR1976_mosaic"
+        NAME "WestCoast - Punakaiki_17MAR1976_mosaic"
         DATA "/mnt/coastal/WestCoast/Punakaiki/Punakaiki_17MAR1976_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6274,7 +6274,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Punakaiki - Punakaiki_18FEB1988_mosaic"
+        NAME "WestCoast - Punakaiki_18FEB1988_mosaic"
         DATA "/mnt/coastal/WestCoast/Punakaiki/Punakaiki_18FEB1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6285,7 +6285,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - SaltwaterBeach - SaltwaterBeach_03APR1953_mosaic"
+        NAME "WestCoast - SaltwaterBeach_03APR1953_mosaic"
         DATA "/mnt/coastal/WestCoast/SaltwaterBeach/SaltwaterBeach_03APR1953_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6296,7 +6296,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - SaltwaterBeach - SaltwaterBeach_10JAN1978_mosaic"
+        NAME "WestCoast - SaltwaterBeach_10JAN1978_mosaic"
         DATA "/mnt/coastal/WestCoast/SaltwaterBeach/SaltwaterBeach_10JAN1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6307,7 +6307,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - SaltwaterBeach - SaltwaterBeach_15JAN1988_mosaic"
+        NAME "WestCoast - SaltwaterBeach_15JAN1988_mosaic"
         DATA "/mnt/coastal/WestCoast/SaltwaterBeach/SaltwaterBeach_15JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6318,7 +6318,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - SaltwaterBeach - SaltwaterBeach_18MAR1965_mosaic"
+        NAME "WestCoast - SaltwaterBeach_18MAR1965_mosaic"
         DATA "/mnt/coastal/WestCoast/SaltwaterBeach/SaltwaterBeach_18MAR1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6329,7 +6329,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Sandy_MaoriBeach - Sandy_MaoriBeach_01FEB1986_mosaic"
+        NAME "WestCoast - Sandy_MaoriBeach_01FEB1986_mosaic"
         DATA "/mnt/coastal/WestCoast/Sandy_MaoriBeach/Sandy_MaoriBeach_01FEB1986_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6340,7 +6340,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Sandy_MaoriBeach - Sandy_MaoriBeach_10JAN1978_mosaic"
+        NAME "WestCoast - Sandy_MaoriBeach_10JAN1978_mosaic"
         DATA "/mnt/coastal/WestCoast/Sandy_MaoriBeach/Sandy_MaoriBeach_10JAN1978_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6351,7 +6351,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Sandy_MaoriBeach - Sandy_MaoriBeach_12FEB1984_mosaic"
+        NAME "WestCoast - Sandy_MaoriBeach_12FEB1984_mosaic"
         DATA "/mnt/coastal/WestCoast/Sandy_MaoriBeach/Sandy_MaoriBeach_12FEB1984_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6362,7 +6362,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Sandy_MaoriBeach - Sandy_MaoriBeach_14OCT1942_mosaic"
+        NAME "WestCoast - Sandy_MaoriBeach_14OCT1942_mosaic"
         DATA "/mnt/coastal/WestCoast/Sandy_MaoriBeach/Sandy_MaoriBeach_14OCT1942_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6373,7 +6373,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Sandy_MaoriBeach - Sandy_MaoriBeach_15JAN1988_mosaic"
+        NAME "WestCoast - Sandy_MaoriBeach_15JAN1988_mosaic"
         DATA "/mnt/coastal/WestCoast/Sandy_MaoriBeach/Sandy_MaoriBeach_15JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6384,7 +6384,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Sandy_MaoriBeach - Sandy_MaoriBeach_18APR1965_mosaic"
+        NAME "WestCoast - Sandy_MaoriBeach_18APR1965_mosaic"
         DATA "/mnt/coastal/WestCoast/Sandy_MaoriBeach/Sandy_MaoriBeach_18APR1965_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6395,7 +6395,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Westport - Westport_04NOV1960_mosaic"
+        NAME "WestCoast - Westport_04NOV1960_mosaic"
         DATA "/mnt/coastal/WestCoast/Westport/Westport_04NOV1960_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6406,7 +6406,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Westport - Westport_12APR1955_mosaic"
+        NAME "WestCoast - Westport_12APR1955_mosaic"
         DATA "/mnt/coastal/WestCoast/Westport/Westport_12APR1955_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6417,7 +6417,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Westport - Westport_13MAR1951_mosaic"
+        NAME "WestCoast - Westport_13MAR1951_mosaic"
         DATA "/mnt/coastal/WestCoast/Westport/Westport_13MAR1951_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6428,7 +6428,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Westport - Westport_15JAN1988_mosaic"
+        NAME "WestCoast - Westport_15JAN1988_mosaic"
         DATA "/mnt/coastal/WestCoast/Westport/Westport_15JAN1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6439,7 +6439,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Westport - Westport_25MAY1943_mosaic"
+        NAME "WestCoast - Westport_25MAY1943_mosaic"
         DATA "/mnt/coastal/WestCoast/Westport/Westport_25MAY1943_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6450,7 +6450,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - Westport - Westport_25NOV1974_mosaic"
+        NAME "WestCoast - Westport_25NOV1974_mosaic"
         DATA "/mnt/coastal/WestCoast/Westport/Westport_25NOV1974_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6461,7 +6461,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - WoodpeckerBay - WoodpeckerBay_17APR1976_mosaic"
+        NAME "WestCoast - WoodpeckerBay_17APR1976_mosaic"
         DATA "/mnt/coastal/WestCoast/WoodpeckerBay/WoodpeckerBay_17APR1976_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6472,7 +6472,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - WoodpeckerBay - WoodpeckerBay_18FEB1988_mosaic"
+        NAME "WestCoast - WoodpeckerBay_18FEB1988_mosaic"
         DATA "/mnt/coastal/WestCoast/WoodpeckerBay/WoodpeckerBay_18FEB1988_mosaic.tif"
         TYPE RASTER
         PROJECTION
@@ -6483,7 +6483,7 @@ MAP
     END
 
     LAYER
-        NAME "WestCoast - WoodpeckerBay - WoodpeckerBay_18NOV1948_mosaic"
+        NAME "WestCoast - WoodpeckerBay_18NOV1948_mosaic"
         DATA "/mnt/coastal/WestCoast/WoodpeckerBay/WoodpeckerBay_18NOV1948_mosaic.tif"
         TYPE RASTER
         PROJECTION
