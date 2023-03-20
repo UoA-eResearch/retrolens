@@ -14,8 +14,15 @@ def fix_row(row):
         row.Site = bits[1]
     if not row.Date or row.Date < "1900-01-01":
         bits = bits[3].split("_")
-        if len(bits) > 1 and len(bits[1]) == len("14MAR1948"):
-            row.Date = str(pd.to_datetime(bits[1]).date())
+        last_fragment = bits[-1].replace(".shp", "")
+        if len(bits) > 1 and len(last_fragment) == len("14MAR1948"):
+            row.Date = last_fragment
+        elif row.Date_:
+            row.Date = row.Date_
+        elif row.DSASDate:
+            row.Date = row.DSASDate
+    if row.Date:
+        row.Date = str(pd.to_datetime(row.Date).date())
     return row
 df = df.apply(fix_row, axis=1)
 print(df)
