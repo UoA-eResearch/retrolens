@@ -7,12 +7,11 @@ from tqdm import tqdm
 import shutil
 import rasterio as rio
 
-for filename in tqdm(glob("/mnt/coastal_raw/**/*.jp2", recursive=True)):
+for filename in tqdm(glob("/mnt/coastal_raw/**/*.jp?", recursive=True)):
     f = filename.replace("1TorrentBay", "TorrentBay").replace("TaieriBech_Mouth", "TaieriBeach_Mouth").replace("/Stack", "").replace("coastal_raw", "coastal")
-    site = re.search('(\w+?)_(\d|LDS)', f).group(1)
     dirname = os.path.dirname(f)
     os.makedirs(dirname, exist_ok=True)
-    f = os.path.basename(f).replace(".jp2", "")
+    f = os.path.splitext(os.path.basename(f))[0]
     outfile = f"{dirname}/{f}.tif"
     print(f"{filename} -> {outfile}")
     if os.path.isfile(outfile):
