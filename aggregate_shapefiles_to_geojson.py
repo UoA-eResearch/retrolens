@@ -5,11 +5,11 @@ import pandas as pd
 import glob
 from tqdm import tqdm
 import os
+import re
 
 def check_filename(filename):
     filename = os.path.splitext(os.path.basename(filename))[0]
-    bits = filename.split("_")
-    return len(bits) > 1 and len(bits[1]) == len("14MAR1948")
+    return re.match(r'\d\w+\d{4}', filename)
 
 files = []
 for file in glob.iglob("/mnt/research/ressci201900060-RNC2-Coastal/Retrolens/**/Shorelines/*.shp", recursive=True):
