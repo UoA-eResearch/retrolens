@@ -13,7 +13,7 @@ def fix_row(row):
     if not row.Site:
         row.Site = bits[1]
     if not row.Date or row.Date < "1900-01-01":
-        bits = bits[3].split("_")
+        bits = bits[-1].split("_")
         last_fragment = bits[-1].replace(".shp", "")
         if len(bits) > 1 and len(last_fragment) == len("14MAR1948"):
             row.Date = last_fragment

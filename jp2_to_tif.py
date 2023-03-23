@@ -20,8 +20,11 @@ for filename in tqdm(glob("/mnt/coastal_raw/**/*.jp2", recursive=True)):
         continue
     src = rio.open(filename)
     kwargs = {**src.profile, **{"driver": "GTiff", "compress": "LZW", "tiled": True}}
-    with rio.open(outfile, "w", **kwargs) as dst:
-        dst.write(src.read())
+    try:
+        with rio.open(outfile, "w", **kwargs) as dst:
+            dst.write(src.read())
+    except Exception as e:
+        print(e)
 
 for filename in tqdm(glob("/mnt/coastal_raw/**/*.tif", recursive=True)):
     outfile = filename.replace("/Stack", "").replace("coastal_raw", "coastal")
