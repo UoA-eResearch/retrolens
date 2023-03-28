@@ -31,7 +31,7 @@ def match_to_tiles(match):
         match_gdf = gpd.read_file(match.filename)
         if not len(match_gdf):
             return
-        split_bboxes = match_gdf.geometry.explode().apply(line_to_split_bbox).explode(index_parts=True).reset_index()
+        split_bboxes = match_gdf.geometry.explode(index_parts=True).apply(line_to_split_bbox).explode(index_parts=True).reset_index()
         split_bboxes["area"] = split_bboxes.area
         split_bboxes = split_bboxes[split_bboxes.area > 1e5]
         if not len(split_bboxes):
