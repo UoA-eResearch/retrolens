@@ -1,0 +1,9 @@
+MaxarImagery
+Retrolens
+*.json
+*.zip
+*.csv
+*.txt
+temp
+training_files
+polygon_annotations
