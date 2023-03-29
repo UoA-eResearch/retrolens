@@ -10,6 +10,9 @@ import solaris.tile as tile # Tile splitting
 import solaris.data.coco as coco
 import contextlib
 import io
+import traceback
+from termcolor import cprint
+from tqdm.contrib.concurrent import thread_map, process_map
 tqdm.pandas()
 
 def line_to_split_bbox(geo):
@@ -25,7 +28,7 @@ def match_to_tiles(match):
         image_filename = match.matched_image
         folder = "training_tiles/" + os.path.splitext(image_filename)[0]
         if os.path.exists(folder):
-            print(f"{folder} already exists, skipping")
+            cprint(f"{folder} already exists, skipping", "green")
             return
         
         match_gdf = gpd.read_file(match.filename)
@@ -53,7 +56,7 @@ def match_to_tiles(match):
                 dst.write(image.read())
                 dst.transform = rio.transform.from_gcps(image.gcps[0])
                 dst.crs = image.gcps[1]
-                print(f"Wrote to {image_filename} with corrected CRS")
+                cprint(f"Wrote to {image_filename} with corrected CRS", "magenta")
 
         for bounding_box in tqdm(split_bboxes.envelope):
             with contextlib.redirect_stdout(io.StringIO()):
@@ -80,13 +83,16 @@ def match_to_tiles(match):
                     dest_fname_base=name,
                 )
     except Exception as e:
-        print(f"ERROR: {e} for {image_filename}")
+        cprint(f"ERROR: {e} for {image_filename}", "red", attrs=["blink"])
+        cprint(traceback.format_exc(), "red")
 
 coastline = gpd.read_file("lds-nz-coastlines-and-islands-polygons-topo-150k-FGDB.zip!nz-coastlines-and-islands-polygons-topo-150k.gdb")
 
 df = pd.read_csv("shoreline_image_matching.csv")
 df = df[df.match_score == 100]
 df.progress_apply(match_to_tiles, axis=1)
+# Process things in parallel
+#process_map(match_to_tiles, df.itertuples(), max_workers=4, total=len(df))
 
 coco_geojson = coco.geojson2coco(
     "training_tiles",
