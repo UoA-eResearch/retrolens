@@ -7,6 +7,8 @@ import pandas as pd
 with open("coco.json") as f:
     data = json.load(f)
 
+maxar_ids = [d["id"] for d in data["images"] if "MaxarImagery" in d["file_name"]]
+
 df = pd.DataFrame(data["annotations"])
 meta = pd.DataFrame()
 meta["annotation_categories"] = df.groupby("image_id")["category_id"].apply(list)
@@ -15,7 +17,7 @@ meta["n_categories"] = meta.annotation_categories.apply(lambda c: len(set(c)))
 meta = meta[meta.n_categories == 2]
 #print(meta.n_annotations.value_counts())
 
-good_images = meta.index
+good_images = [i for i in meta.index if i in maxar_ids]
 
 new_data = {
     "annotations": [d for d in data["annotations"] if d["image_id"] in good_images],
