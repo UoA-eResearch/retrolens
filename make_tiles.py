@@ -26,7 +26,7 @@ def match_to_tiles(match):
     try:
         name = os.path.splitext(os.path.basename(match.filename))[0]
         image_filename = match.matched_image
-        folder = "training_tiles/" + os.path.splitext(image_filename)[0]
+        folder = "training_tiles/" + os.path.splitext(match.filename)[0].replace("Retrolens", "LDS").replace("Shorelines/", "")
         
         match_gdf = gpd.read_file(match.filename)
         if not len(match_gdf):
@@ -83,26 +83,16 @@ def match_to_tiles(match):
         cprint(f"ERROR: {e} for {image_filename}", "red", attrs=["blink"])
         cprint(traceback.format_exc(), "red")
 
-def check_folder(image_filename):
-    folder = "training_tiles/" + os.path.splitext(image_filename)[0]
+def check_folder(filename):
+    folder = "training_tiles/" + os.path.splitext(filename)[0].replace("Retrolens", "LDS").replace("Shorelines/", "")
+    print(folder)
     return os.path.isdir(folder) and len(os.listdir(folder)) > 0
 
 coastline = gpd.read_file("lds-nz-coastlines-and-islands-polygons-topo-150k-FGDB.zip!nz-coastlines-and-islands-polygons-topo-150k.gdb")
 
-df = pd.read_csv("shoreline_image_matching.csv")
-df = df[df.match_score == 100]
-df = df[~df.matched_image.apply(check_folder)]
+df = pd.read_csv("LDS_matches.csv")
+#df = df[df.match_score == 100]
+df = df[~df.filename.apply(check_folder)]
 df.progress_apply(match_to_tiles, axis=1)
 # Process things in parallel
 #process_map(match_to_tiles, df.itertuples(), max_workers=4, total=len(df))
-
-coco_geojson = coco.geojson2coco(
-    "training_tiles",
-    "training_tiles",
-    recursive=True,
-    output_path=f"coco.json",
-    matching_re=r"(\d{7}_\d{7})",
-    category_attribute="class",
-    explode_all_multipolygons=True,
-    verbose=True,
-)

@@ -2,12 +2,15 @@ MaxarImagery
 Retrolens
 Mosaics
 MarsdenPoint_03MAY2021.*
+LDS
 *.tif
 *.jp2
 *.json
 *.zip
 *.csv
 *.txt
+*.log
 temp
 training_files
+training_tiles
 polygon_annotations
