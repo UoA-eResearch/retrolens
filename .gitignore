@@ -14,3 +14,5 @@ temp
 training_files
 training_tiles
 polygon_annotations
+DigitalJPGs
+tilelist.parquet
