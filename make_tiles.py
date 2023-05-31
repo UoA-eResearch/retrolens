@@ -48,6 +48,7 @@ def match_to_tiles(match):
         # Fix for files missing CRS (instead using GCP CRS)
         # See https://github.com/rasterio/rasterio/issues/1916
         if not image.crs and image.gcps:
+            print(image_filename)
             image_filename = "temp/" + os.path.basename(image_filename)
             with rio.open(image_filename, "w", **image.profile) as dst:
                 dst.write(image.read())
