@@ -1,3 +1,8 @@
 pandas
 requests
 tqdm
+geopandas
+rasterio
+pyarrow
+rapidfuzz
+matplotlib
