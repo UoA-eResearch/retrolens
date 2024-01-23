@@ -1,0 +1,169 @@
+filename,matched_tile_root,matched_filename,match_score,matched_image,n_lines,driver,dtype,nodata,width,height,count,crs,transform,blockysize,tiled,compress,interleave,GCPs,res,CPS
+Retrolens/Nelson/BoulderBank/Shorelines/BoulderBank_16JAN2019_NEL18R.shp,DigitalJPGs/Nelson/NEL18R,Retrolens/Nelson/BoulderBank/Shorelines/BoulderBank_16JAN2019_NEL18R.shp,100.0,Retrolens/Nelson/BoulderBank/Shorelines/BoulderBank_16JAN2019_NEL18R.tif,1,GTiff,uint8,,24000,24000,3,EPSG:2193,"| 0.30, 0.00, 1621600.00|
+| 0.00,-0.30, 5438400.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",False
+MaxarImagery/HighFreq/Auckland/Whatipu/Shorelines/Whatipu_07APR2010.shp,DigitalJPGs/Auckland/Auckland 2010R,MaxarImagery/HighFreq/Auckland/Whatipu/Shorelines/Whatipu_07APR2010.shp,100.0,MaxarImagery/HighFreq/Auckland/Whatipu/Shorelines/Whatipu_07APR2010.tif,1,GTiff,uint8,,19200,14400,3,EPSG:2193,"| 0.50, 0.00, 1727200.00|
+| 0.00,-0.50, 5902800.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.5, 0.5)",False
+Retrolens/Auckland/Omaha/Shorelines/Omaha_04DEC2012.shp,DigitalJPGs/Auckland/RNC2 Auckland/2012,Retrolens/Auckland/Omaha/Shorelines/Omaha_04DEC2012.shp,100.0,Retrolens/Auckland/Omaha/Shorelines/Omaha_04DEC2012.tif,1,GTiff,uint8,,19200,14400,3,EPSG:2193,"| 0.50, 0.00, 1756000.00|
+| 0.00,-0.50, 5982000.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.5, 0.5)",True
+Retrolens/Auckland/PakiriBeach_North/Shorelines/PakiriBeach_North_06NOV2015.shp,DigitalJPGs/Northland/Northland 0.40m Rural Aerial Photos 2014-16,Retrolens/Auckland/PakiriBeach_North/Shorelines/PakiriBeach_North_06NOV2015.shp,100.0,Retrolens/Auckland/PakiriBeach_North/Shorelines/PakiriBeach_North_06NOV2015.tif,7,GTiff,uint8,,18000,27000,3,EPSG:2193,"| 0.40, 0.00, 1746400.00|
+| 0.00,-0.40, 6000000.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.4, 0.4)",True
+Retrolens/Auckland/TeArai/Shorelines/TeArai_06NOV2015.shp,DigitalJPGs/Northland/Northland 0.40m Rural Aerial Photos 2014-16,Retrolens/Auckland/TeArai/Shorelines/TeArai_06NOV2015.shp,100.0,Retrolens/Auckland/TeArai/Shorelines/TeArai_06NOV2015.tif,5,GTiff,uint8,,12000,18000,3,EPSG:2193,"| 0.40, 0.00, 1744000.00|
+| 0.00,-0.40, 6003600.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.4, 0.4)",True
+Retrolens/Auckland/Orewa/Shorelines/Orewa_08MAR2011.shp,DigitalJPGs/Auckland/RNC2 Auckland/2011,Retrolens/Auckland/Orewa/Shorelines/Orewa_08MAR2011.shp,100.0,Retrolens/Auckland/Orewa/Shorelines/Orewa_08MAR2011.tif,11,GTiff,uint8,,9600,14400,3,EPSG:2193,"| 0.50, 0.00, 1751200.00|
+| 0.00,-0.50, 5953200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.5, 0.5)",False
+Retrolens/Auckland/PakiriBeach/Shorelines/PakiriBeach_04MAR2012.shp,DigitalJPGs/Auckland/RNC2 Auckland/2012,Retrolens/Auckland/PakiriBeach/Shorelines/PakiriBeach_04MAR2012.shp,100.0,Retrolens/Auckland/PakiriBeach/Shorelines/PakiriBeach_04MAR2012.tif,6,GTiff,uint8,,19200,28800,3,EPSG:2193,"| 0.50, 0.00, 1751200.00|
+| 0.00,-0.50, 5996400.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.5, 0.5)",True
+Retrolens/Auckland/KawakawaBay/Shorelines/KawakawaBay_03JAN2011.shp,DigitalJPGs/Auckland/RNC2 Auckland/2011,Retrolens/Auckland/KawakawaBay/Shorelines/KawakawaBay_03JAN2011.shp,100.0,Retrolens/Auckland/KawakawaBay/Shorelines/KawakawaBay_03JAN2011.tif,8,GTiff,uint8,,19200,28800,3,EPSG:2193,"| 0.50, 0.00, 1789600.00|
+| 0.00,-0.50, 5917200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.5, 0.5)",True
+Retrolens/Otago/Ryans_Pipikaretu_Penguin_TeRauoneBeach/Shorelines/Ryans_Pipikaretu_Penguin_TeRauoneBeach_29JAN2019.shp,DigitalJPGs/Otago/otago-03m-rural-aerial-photos-2017-2019,Retrolens/Otago/Ryans_Pipikaretu_Penguin_TeRauoneBeach/Shorelines/Ryans_Pipikaretu_Penguin_TeRauoneBeach_29JAN2019.shp,100.0,Retrolens/Otago/Ryans_Pipikaretu_Penguin_TeRauoneBeach/Shorelines/Ryans_Pipikaretu_Penguin_TeRauoneBeach_29JAN2019.tif,8,GTiff,uint8,,16000,12000,3,EPSG:2193,"| 0.30, 0.00, 1422400.00|
+| 0.00,-0.30, 4927200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+MaxarImagery/HighFreq/Otago/Tautuku/Shorelines/Tautuku_02May2013.shp,DigitalJPGs/Southland/STH13R,MaxarImagery/HighFreq/Otago/Tautuku/Shorelines/Tautuku_02May2013.shp,100.0,MaxarImagery/HighFreq/Otago/Tautuku/Shorelines/Tautuku_02May2013.tif,2,GTiff,uint8,,12000,18000,3,EPSG:2193,"| 0.40, 0.00, 1324000.00|
+| 0.00,-0.40, 4837200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.4, 0.4)",True
+MaxarImagery/HighFreq/Otago/Aramoana/Shorelines/Aramoana_08JULY2019.shp,DigitalJPGs/Otago/otago-03m-rural-aerial-photos-2017-2019,MaxarImagery/HighFreq/Otago/Aramoana/Shorelines/Aramoana_08JULY2019.shp,100.0,MaxarImagery/HighFreq/Otago/Aramoana/Shorelines/Aramoana_08JULY2019.tif,9,GTiff,uint8,,24000,24000,3,EPSG:2193,"| 0.30, 0.00, 1417600.00|
+| 0.00,-0.30, 4930800.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",False
+Retrolens/Otago/PleasantRiver/Shorelines/PleasantRiver_29JAN2019.shp,DigitalJPGs/Otago/otago-03m-rural-aerial-photos-2017-2019,Retrolens/Otago/PleasantRiver/Shorelines/PleasantRiver_29JAN2019.shp,100.0,Retrolens/Otago/PleasantRiver/Shorelines/PleasantRiver_29JAN2019.tif,6,GTiff,uint8,,16000,24000,3,EPSG:2193,"| 0.30, 0.00, 1422400.00|
+| 0.00,-0.30, 4956000.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+MaxarImagery/HighFreq/Otago/StKilda_Tomahawk_SmaillsBeach/Shorelines/StKilda_Tomahawk_SmaillsBeach_31JAN2017.shp,DigitalJPGs/Otago/otago-03m-rural-aerial-photos-2017-2019,MaxarImagery/HighFreq/Otago/StKilda_Tomahawk_SmaillsBeach/Shorelines/StKilda_Tomahawk_SmaillsBeach_31JAN2017.shp,100.0,MaxarImagery/HighFreq/Otago/StKilda_Tomahawk_SmaillsBeach/Shorelines/StKilda_Tomahawk_SmaillsBeach_31JAN2017.tif,8,GTiff,uint8,,32000,24000,3,EPSG:2193,"| 0.30, 0.00, 1403200.00|
+| 0.00,-0.30, 4916400.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",False
+Retrolens/Otago/BoulderBeach_SandflyBay/Shorelines/BoulderBeach_SandflyBay_29JAN2019.shp,DigitalJPGs/Otago/otago-03m-rural-aerial-photos-2017-2019,Retrolens/Otago/BoulderBeach_SandflyBay/Shorelines/BoulderBeach_SandflyBay_29JAN2019.shp,100.0,Retrolens/Otago/BoulderBeach_SandflyBay/Shorelines/BoulderBeach_SandflyBay_29JAN2019.tif,2,GTiff,uint8,,24000,12000,3,EPSG:2193,"| 0.30, 0.00, 1412800.00|
+| 0.00,-0.30, 4916400.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/Otago/PapanuiBeach_WickliffeBay/Shorelines/PapanuiBeach_WickliffeBay_29JAN2019.shp,DigitalJPGs/Otago/otago-03m-rural-aerial-photos-2017-2019,Retrolens/Otago/PapanuiBeach_WickliffeBay/Shorelines/PapanuiBeach_WickliffeBay_29JAN2019.shp,100.0,Retrolens/Otago/PapanuiBeach_WickliffeBay/Shorelines/PapanuiBeach_WickliffeBay_29JAN2019.tif,8,GTiff,uint8,,16000,36000,3,EPSG:2193,"| 0.30, 0.00, 1422400.00|
+| 0.00,-0.30, 4927200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/Northland/Mangawhai/Shorelines/Mangawhai_09NOV2015.shp,DigitalJPGs/Northland/Northland 0.40m Rural Aerial Photos 2014-16,Retrolens/Northland/Mangawhai/Shorelines/Mangawhai_09NOV2015.shp,100.0,Retrolens/Northland/Mangawhai/Shorelines/Mangawhai_09NOV2015.tif,3,GTiff,uint8,,6000,18000,3,EPSG:2193,"| 0.40, 0.00, 1741600.00|
+| 0.00,-0.40, 6010800.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.4, 0.4)",False
+Retrolens/WestCoast/Chesterfield/Shorelines/Chesterfield_27FEB2017.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/Chesterfield/Shorelines/Chesterfield_27FEB2017.shp,100.0,Retrolens/WestCoast/Chesterfield/Shorelines/Chesterfield_27FEB2017.tif,15,GTiff,uint8,,40000,48000,3,EPSG:2193,"| 0.30, 0.00, 1436800.00|
+| 0.00,-0.30, 5287200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/GreymouthSouth/Shorelines/GreymouthSouth_02FEB2016.shp,DigitalJPGs/WestCoast/WST15R,Retrolens/WestCoast/GreymouthSouth/Shorelines/GreymouthSouth_02FEB2016.shp,100.0,Retrolens/WestCoast/GreymouthSouth/Shorelines/GreymouthSouth_02FEB2016.tif,6,GTiff,uint8,,16000,36000,3,EPSG:2193,"| 0.30, 0.00, 1448800.00|
+| 0.00,-0.30, 5301600.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/Mokihinui_Ngakawau/Shorelines/Mokihinui_Ngakawau_05APRIL2016.shp,DigitalJPGs/WestCoast/WST15R,Retrolens/WestCoast/Mokihinui_Ngakawau/Shorelines/Mokihinui_Ngakawau_05APRIL2016.shp,100.0,Retrolens/WestCoast/Mokihinui_Ngakawau/Shorelines/Mokihinui_Ngakawau_05APRIL2016.tif,3,GTiff,uint8,,32000,48000,3,EPSG:2193,"| 0.30, 0.00, 1504000.00|
+| 0.00,-0.30, 5406000.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/KongahuPoint/Shorelines/KongahuPoint_29DEC2015.shp,DigitalJPGs/WestCoast/WST15R,Retrolens/WestCoast/KongahuPoint/Shorelines/KongahuPoint_29DEC2015.shp,100.0,Retrolens/WestCoast/KongahuPoint/Shorelines/KongahuPoint_29DEC2015.tif,6,GTiff,uint8,,16000,36000,3,EPSG:2193,"| 0.30, 0.00, 1511200.00|
+| 0.00,-0.30, 5413200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/HuntBeach/Shorelines/HuntBeach_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/HuntBeach/Shorelines/HuntBeach_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/HuntBeach/Shorelines/HuntBeach_27FEB2017_WST16R.tif,6,GTiff,uint8,,24000,36000,3,EPSG:2193,"| 0.30, 0.00, 1328800.00|
+| 0.00,-0.30, 5179200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/Ohinemaka/Shorelines/Ohinemaka_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/Ohinemaka/Shorelines/Ohinemaka_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/Ohinemaka/Shorelines/Ohinemaka_27FEB2017_WST16R.tif,6,GTiff,uint8,,24000,24000,3,EPSG:2193,"| 0.30, 0.00, 1316800.00|
+| 0.00,-0.30, 5168400.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/Karamea_South_AOI/Shorelines/Karamea_South_29DEC2015.shp,DigitalJPGs/WestCoast/WST15R,Retrolens/WestCoast/Karamea_South_AOI/Shorelines/Karamea_South_29DEC2015.shp,100.0,Retrolens/WestCoast/Karamea_South_AOI/Shorelines/Karamea_South_29DEC2015.tif,1,GTiff,uint8,,16000,48000,3,EPSG:2193,"| 0.30, 0.00, 1520800.00|
+| 0.00,-0.30, 5431200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/Sandy_MaoriBeach/Shorelines/Sandy_MaoriBeach_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/Sandy_MaoriBeach/Shorelines/Sandy_MaoriBeach_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/Sandy_MaoriBeach/Shorelines/Sandy_MaoriBeach_27FEB2017_WST16R.tif,6,GTiff,uint8,,32000,36000,3,EPSG:2193,"| 0.30, 0.00, 1321600.00|
+| 0.00,-0.30, 5175600.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/Ngakawau_WaimangaroaRiver/Shorelines/Ngakawau_WaimangaroaRiver_11FEB2016.shp,DigitalJPGs/WestCoast/WST15R,Retrolens/WestCoast/Ngakawau_WaimangaroaRiver/Shorelines/Ngakawau_WaimangaroaRiver_11FEB2016.shp,100.0,Retrolens/WestCoast/Ngakawau_WaimangaroaRiver/Shorelines/Ngakawau_WaimangaroaRiver_11FEB2016.tif,12,GTiff,uint8,,48000,48000,3,EPSG:2193,"| 0.30, 0.00, 1494400.00|
+| 0.00,-0.30, 5395200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/WhareateaRiver/Shorelines/WhareateaRiver_11FEB2016.shp,DigitalJPGs/WestCoast/WST15R,Retrolens/WestCoast/WhareateaRiver/Shorelines/WhareateaRiver_11FEB2016.shp,100.0,Retrolens/WestCoast/WhareateaRiver/Shorelines/WhareateaRiver_11FEB2016.tif,3,GTiff,uint8,,24000,24000,3,EPSG:2193,"| 0.30, 0.00, 1489600.00|
+| 0.00,-0.30, 5384400.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/Punakaiki/Shorelines/Punakaiki_11FEB2016.shp,DigitalJPGs/WestCoast/WST15R,Retrolens/WestCoast/Punakaiki/Shorelines/Punakaiki_11FEB2016.shp,100.0,Retrolens/WestCoast/Punakaiki/Shorelines/Punakaiki_11FEB2016.tif,7,GTiff,uint8,,16000,24000,3,EPSG:2193,"| 0.30, 0.00, 1460800.00|
+| 0.00,-0.30, 5341200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/CartersBeach/Shorelines/CartersBeach_11FEB2016.shp,DigitalJPGs/WestCoast/WST15R,Retrolens/WestCoast/CartersBeach/Shorelines/CartersBeach_11FEB2016.shp,100.0,Retrolens/WestCoast/CartersBeach/Shorelines/CartersBeach_11FEB2016.tif,7,GTiff,uint8,,40000,24000,3,EPSG:2193,"| 0.30, 0.00, 1472800.00|
+| 0.00,-0.30, 5380800.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/GillespiesBeach/Shorelines/GillespiesBeach_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/GillespiesBeach/Shorelines/GillespiesBeach_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/GillespiesBeach/Shorelines/GillespiesBeach_27FEB2017_WST16R.tif,1,GTiff,uint8,,24000,24000,3,EPSG:2193,"| 0.30, 0.00, 1338400.00|
+| 0.00,-0.30, 5193600.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/JacksonBay_East/Shorelines/JacksonBay_East_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/JacksonBay_East/Shorelines/JacksonBay_East_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/JacksonBay_East/Shorelines/JacksonBay_East_27FEB2017_WST16R.tif,3,GTiff,uint8,,24000,36000,3,EPSG:2193,"| 0.30, 0.00, 1264000.00|
+| 0.00,-0.30, 5132400.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/Hokitika_North/Shorelines/Hokitika_North_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/Hokitika_North/Shorelines/Hokitika_North_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/Hokitika_North/Shorelines/Hokitika_North_27FEB2017_WST16R.tif,6,GTiff,uint8,,24000,36000,3,EPSG:2193,"| 0.30, 0.00, 1432000.00|
+| 0.00,-0.30, 5276400.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/MikonuiRiver/Shorelines/MikonuiRiver_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/MikonuiRiver/Shorelines/MikonuiRiver_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/MikonuiRiver/Shorelines/MikonuiRiver_27FEB2017_WST16R.tif,9,GTiff,uint8,,48000,60000,3,EPSG:2193,"| 0.30, 0.00, 1415200.00|
+| 0.00,-0.30, 5265600.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/TaramakauRiver_North/Shorelines/TaramakauRiver_02FEB2016.shp,DigitalJPGs/WestCoast/WST15R,Retrolens/WestCoast/TaramakauRiver_North/Shorelines/TaramakauRiver_02FEB2016.shp,100.0,Retrolens/WestCoast/TaramakauRiver_North/Shorelines/TaramakauRiver_02FEB2016.tif,5,GTiff,uint8,,24000,36000,3,EPSG:2193,"| 0.30, 0.00, 1444000.00|
+| 0.00,-0.30, 5294400.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/Hokitika_South/Shorelines/Hokitika_South_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/Hokitika_South/Shorelines/Hokitika_South_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/Hokitika_South/Shorelines/Hokitika_South_27FEB2017_WST16R.tif,2,GTiff,uint8,,24000,36000,3,EPSG:2193,"| 0.30, 0.00, 1424800.00|
+| 0.00,-0.30, 5269200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/GreymouthNorth/Shorelines/GreymouthNorth_06FEB2016.shp,DigitalJPGs/WestCoast/WST15R,Retrolens/WestCoast/GreymouthNorth/Shorelines/GreymouthNorth_06FEB2016.shp,100.0,Retrolens/WestCoast/GreymouthNorth/Shorelines/GreymouthNorth_06FEB2016.tif,4,GTiff,uint8,,8000,24000,3,EPSG:2193,"| 0.30, 0.00, 1451200.00|
+| 0.00,-0.30, 5305200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/SaltwaterBeach/Shorelines/SaltwaterBeach_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/SaltwaterBeach/Shorelines/SaltwaterBeach_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/SaltwaterBeach/Shorelines/SaltwaterBeach_27FEB2017_WST16R.tif,5,GTiff,uint8,,24000,36000,3,EPSG:2193,"| 0.30, 0.00, 1336000.00|
+| 0.00,-0.30, 5190000.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/KarangaruaRiver/Shorelines/KarangaruaRiver_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/KarangaruaRiver/Shorelines/KarangaruaRiver_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/KarangaruaRiver/Shorelines/KarangaruaRiver_27FEB2017_WST16R.tif,2,GTiff,uint8,,8000,12000,3,EPSG:2193,"| 0.30, 0.00, 1336000.00|
+| 0.00,-0.30, 5182800.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/Westport/Shorelines/Westport_11FEB2016.shp,DigitalJPGs/WestCoast/WST15R,Retrolens/WestCoast/Westport/Shorelines/Westport_11FEB2016.shp,100.0,Retrolens/WestCoast/Westport/Shorelines/Westport_11FEB2016.tif,2,GTiff,uint8,,24000,12000,3,EPSG:2193,"| 0.30, 0.00, 1482400.00|
+| 0.00,-0.30, 5380800.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/JacksonBay/Shorelines/JacksonBay_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/JacksonBay/Shorelines/JacksonBay_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/JacksonBay/Shorelines/JacksonBay_27FEB2017_WST16R.tif,10,GTiff,uint8,,32000,24000,3,EPSG:2193,"| 0.30, 0.00, 1256800.00|
+| 0.00,-0.30, 5125200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/HaastBeach/Shorelines/HaastBeach_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/HaastBeach/Shorelines/HaastBeach_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/HaastBeach/Shorelines/HaastBeach_27FEB2017_WST16R.tif,2,GTiff,uint8,,32000,36000,3,EPSG:2193,"| 0.30, 0.00, 1271200.00|
+| 0.00,-0.30, 5139600.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/WestCoast/JacksonBay_West/Shorelines/JacksonBay_West_27FEB2017_WST16R.shp,DigitalJPGs/WestCoast/WST16R,Retrolens/WestCoast/JacksonBay_West/Shorelines/JacksonBay_West_27FEB2017_WST16R.shp,100.0,Retrolens/WestCoast/JacksonBay_West/Shorelines/JacksonBay_West_27FEB2017_WST16R.tif,18,GTiff,uint8,,40000,24000,3,EPSG:2193,"| 0.30, 0.00, 1247200.00|
+| 0.00,-0.30, 5125200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/Gisborne/AnauraBay/Shorelines/AnauraBay_15FEB2018.shp,DigitalJPGs/Gisborne/GIS17R,Retrolens/Gisborne/AnauraBay/Shorelines/AnauraBay_15FEB2018.shp,100.0,Retrolens/Gisborne/AnauraBay/Shorelines/AnauraBay_15FEB2018.tif,5,GTiff,uint8,,16000,24000,3,EPSG:2193,"| 0.30, 0.00, 2063200.00|
+| 0.00,-0.30, 5758800.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/Gisborne/WaipiroBay/Shorelines/WaipiroBay_12DEC2017.shp,DigitalJPGs/Gisborne/GIS17R,Retrolens/Gisborne/WaipiroBay/Shorelines/WaipiroBay_12DEC2017.shp,100.0,Retrolens/Gisborne/WaipiroBay/Shorelines/WaipiroBay_12DEC2017.tif,3,GTiff,uint8,,16000,36000,3,EPSG:2193,"| 0.30, 0.00, 2068000.00|
+| 0.00,-0.30, 5784000.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/Gisborne/Gisborne/Shorelines/Gisborne_16FEB2018.shp,DigitalJPGs/Gisborne/GIS17R,Retrolens/Gisborne/Gisborne/Shorelines/Gisborne_16FEB2018.shp,100.0,Retrolens/Gisborne/Gisborne/Shorelines/Gisborne_16FEB2018.tif,4,GTiff,uint8,,40000,36000,3,EPSG:2193,"| 0.30, 0.00, 2027200.00|
+| 0.00,-0.30, 5708400.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
+Retrolens/Bay of Plenty/MountMaunganui_South/Shorelines/MountMaunganui_South_03DEC2014.shp,DigitalJPGs/BayOfPlenty/BOP14U,Retrolens/Bay of Plenty/MountMaunganui_South/Shorelines/MountMaunganui_South_03DEC2014.shp,100.0,Retrolens/Bay of Plenty/MountMaunganui_South/Shorelines/MountMaunganui_South_03DEC2014.tif,3,GTiff,uint8,,96000,46080,3,EPSG:2193,"| 0.12, 0.00, 1893280.00|
+| 0.00,-0.12, 5821440.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.125, 0.125)",True
+Retrolens/Bay of Plenty/Whakatane/Shorelines/Whakatane_3DEC2014.shp,DigitalJPGs/BayOfPlenty/BOP14U,Retrolens/Bay of Plenty/Whakatane/Shorelines/Whakatane_3DEC2014.shp,100.0,Retrolens/Bay of Plenty/Whakatane/Shorelines/Whakatane_3DEC2014.tif,4,GTiff,uint8,,61440,34560,3,EPSG:2193,"| 0.12, 0.00, 1945120.00|
+| 0.00,-0.12, 5796240.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.125, 0.125)",True
+Retrolens/Bay of Plenty/WaiotaheBeach/Shorelines/WaiotaheBeach03DEC2014.shp,DigitalJPGs/BayOfPlenty/BOP14U,Retrolens/Bay of Plenty/WaiotaheBeach/Shorelines/WaiotaheBeach03DEC2014.shp,100.0,Retrolens/Bay of Plenty/WaiotaheBeach/Shorelines/WaiotaheBeach03DEC2014.tif,2,GTiff,uint8,,46080,11520,3,EPSG:2193,"| 0.12, 0.00, 1969120.00|
+| 0.00,-0.12, 5786880.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.125, 0.125)",True
+Retrolens/Bay of Plenty/PukehinaBeach/Shorelines/PukehinaBeach_03DEC2014.shp,DigitalJPGs/BayOfPlenty/BOP14U,Retrolens/Bay of Plenty/PukehinaBeach/Shorelines/PukehinaBeach_03DEC2014.shp,100.0,Retrolens/Bay of Plenty/PukehinaBeach/Shorelines/PukehinaBeach_03DEC2014.tif,4,GTiff,uint8,,99840,86400,3,EPSG:2193,"| 0.12, 0.00, 1905280.00|
+| 0.00,-0.12, 5817120.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.125, 0.125)",True
+Retrolens/Bay of Plenty/HikuwaiBeach/Shorelines/HikuwaiBeach_3DEC2014.shp,DigitalJPGs/BayOfPlenty/BOP14U,Retrolens/Bay of Plenty/HikuwaiBeach/Shorelines/HikuwaiBeach_3DEC2014.shp,100.0,Retrolens/Bay of Plenty/HikuwaiBeach/Shorelines/HikuwaiBeach_3DEC2014.tif,7,GTiff,uint8,,111360,17280,3,EPSG:2193,"| 0.12, 0.00, 1974880.00|
+| 0.00,-0.12, 5788320.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.125, 0.125)",True
+Retrolens/Bay of Plenty/MountMaunganui/Shorelines/MountManganui_03DEC2014.shp,DigitalJPGs/BayOfPlenty/BOP14U,Retrolens/Bay of Plenty/MountMaunganui/Shorelines/MountManganui_03DEC2014.shp,100.0,Retrolens/Bay of Plenty/MountMaunganui/Shorelines/MountManganui_03DEC2014.tif,8,GTiff,uint8,,111360,80640,3,EPSG:2193,"| 0.12, 0.00, 1879840.00|
+| 0.00,-0.12, 5830800.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.125, 0.125)",True
+Retrolens/Bay of Plenty/KohioawaBeach/Shorelines/KohioawaBeach_03DEC2014.shp,DigitalJPGs/BayOfPlenty/BOP14U,Retrolens/Bay of Plenty/KohioawaBeach/Shorelines/KohioawaBeach_03DEC2014.shp,100.0,Retrolens/Bay of Plenty/KohioawaBeach/Shorelines/KohioawaBeach_03DEC2014.tif,8,GTiff,uint8,,92160,51840,3,EPSG:2193,"| 0.12, 0.00, 1916800.00|
+| 0.00,-0.12, 5807040.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.125, 0.125)",True
+Retrolens/Bay of Plenty/WaihiBeach/Shorelines/WaihiBeach_3DEC2014.shp,DigitalJPGs/BayOfPlenty/BOP14U,Retrolens/Bay of Plenty/WaihiBeach/Shorelines/WaihiBeach_3DEC2014.shp,100.0,Retrolens/Bay of Plenty/WaihiBeach/Shorelines/WaihiBeach_3DEC2014.tif,7,GTiff,uint8,,38400,63360,3,EPSG:2193,"| 0.12, 0.00, 1859680.00|
+| 0.00,-0.12, 5857440.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.125, 0.125)",True
+Retrolens/Bay of Plenty/PortOhope/Shorelines/OhopeBeach_3DEC2014.shp,DigitalJPGs/BayOfPlenty/BOP14U,Retrolens/Bay of Plenty/PortOhope/Shorelines/OhopeBeach_3DEC2014.shp,100.0,Retrolens/Bay of Plenty/PortOhope/Shorelines/OhopeBeach_3DEC2014.tif,5,GTiff,uint8,,88320,40320,3,EPSG:2193,"| 0.12, 0.00, 1953280.00|
+| 0.00,-0.12, 5791920.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.125, 0.125)",True
+Retrolens/Bay of Plenty/Ohiwa/Shorelines/Ohiwa_3DEC2014.shp,DigitalJPGs/BayOfPlenty/BOP14U,Retrolens/Bay of Plenty/Ohiwa/Shorelines/Ohiwa_3DEC2014.shp,100.0,Retrolens/Bay of Plenty/Ohiwa/Shorelines/Ohiwa_3DEC2014.tif,1,GTiff,uint8,,38400,11520,3,EPSG:2193,"| 0.12, 0.00, 1964800.00|
+| 0.00,-0.12, 5787600.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.125, 0.125)",True
+Retrolens/Bay of Plenty/PortOhope/Shorelines/OhopeBeach_3DEC2014.shp,DigitalJPGs/BayOfPlenty/BOP14U,Retrolens/Bay of Plenty/PortOhope/Shorelines/OhopeBeach_3DEC2014.shp,100.0,Retrolens/Bay of Plenty/PortOhope/Shorelines/OhopeBeach_3DEC2014.tif,5,GTiff,uint8,,88320,40320,3,EPSG:2193,"| 0.12, 0.00, 1953280.00|
+| 0.00,-0.12, 5791920.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.125, 0.125)",True
+MaxarImagery/HighFreq/Wellington/KapitiNorth/Shorelines/NorthKapiti_15MAR2017.shp,DigitalJPGs/Wellington/Wellington Rural 2016-17,MaxarImagery/HighFreq/Wellington/KapitiNorth/Shorelines/NorthKapiti_15MAR2017.shp,100.0,MaxarImagery/HighFreq/Wellington/KapitiNorth/Shorelines/NorthKapiti_15MAR2017.tif,6,GTiff,uint8,,24000,36000,3,EPSG:2193,"| 0.30, 0.00, 1770400.00|
+| 0.00,-0.30, 5485200.00|
+| 0.00, 0.00, 1.00|",1,False,lzw,pixel,0,"(0.3, 0.3)",True
