@@ -10,7 +10,7 @@ from tqdm.contrib.concurrent import thread_map, process_map
 
 def check_filename(filename):
     # This regex only matches shapefiles that contain something date-like in their names
-    match = re.search(r'/Shorelines/\w+\d\w+\d{4}\w*.shp$', filename)
+    match = re.search(r'/Shorelines/.+\d{4}.shp$', filename)
     return bool(match)
 
 import platform
@@ -21,7 +21,7 @@ else:
 
 # A complete filelist of the MaxarImagery & Retrolens folders, generated with the unix command:
 # find MaxarImagery/ Retrolens/ > ressci201900060-RNC2-Coastal_MaxarImagery_Retrolens_filelist.txt
-filelist = pd.read_csv(prefix + "/Nick/ressci201900060-RNC2-Coastal_MaxarImagery_Retrolens_filelist.txt", header=None).iloc[:,0]
+filelist = pd.read_csv(prefix + "Nick/filelist.txt", header=None).iloc[:,0]
 df = filelist[filelist.apply(check_filename)].to_frame(name="filename")
 
 def read(filename):
