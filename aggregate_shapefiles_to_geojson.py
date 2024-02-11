@@ -20,7 +20,7 @@ else:
   prefix = "ressci201900060-RNC2-Coastal/"
 
 # A complete filelist of the MaxarImagery & Retrolens folders, generated with the unix command:
-# find MaxarImagery/ Retrolens/ > ressci201900060-RNC2-Coastal_MaxarImagery_Retrolens_filelist.txt
+# time find MaxarImagery/ Retrolens/ > Nick/filelist.txt
 filelist = pd.read_csv(prefix + "Nick/filelist.txt", header=None).iloc[:,0]
 df = filelist[filelist.apply(check_filename)].to_frame(name="filename")
 
