@@ -1,226 +1,4 @@
 filename,matched_image,match_score,n_lines,driver,dtype,nodata,width,height,count,crs,transform,blockxsize,blockysize,tiled,interleave,GCPs,res,CPS,compress,photometric
-Gabrielle/Shorelines/Merged/Auckland/Whangapoua_19FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/Whangapoua/Whangapoua_19FEB2023.tif,100.0,3,GTiff,uint32,65536.0,2804,6572,1,,"| 0.60, 0.00, 1817329.44|
-| 0.00,-0.60, 6001088.43|
-| 0.00, 0.00, 1.00|",128.0,128,True,band,5,"(0.5999999999999668, 0.6000000000000283)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Oneroa_27DEC2022.shp,Gabrielle/Imagery/pre-storm/Auckland/Waiheke/Oneroa_27DEC2022.tif,100.0,3,GTiff,uint8,,4482,3815,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""Degree"",0.0174532925199433]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.30, 0.00, 1779029.72|
-| 0.00,-0.30, 5928138.71|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.3000000000000208, 0.3)",True,,
-Gabrielle/Shorelines/Merged/Auckland/PakiriNorth_14OCT2021.shp,Gabrielle/Imagery/pre-storm/Auckland/Pakiri/PakiriNorth_14OCT2021.tif,100.0,14,GTiff,uint8,,16238,19418,4,,"| 0.50, 0.00, 1747718.26|
-| 0.00,-0.50, 5996962.31|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Tawharanui_23DEC2021.shp,Gabrielle/Imagery/pre-storm/Auckland/Tawharanui/Tawharanui_23DEC2021.tif,100.0,8,GTiff,uint8,,7201,4822,4,,"| 0.50, 0.00, 1762106.90|
-| 0.00,-0.50, 5975556.64|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Tawharanui_01MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/Tawharanui/Tawharanui_01MAR2023.tif,100.0,8,GTiff,uint8,,12351,8084,3,,"| 0.30, 0.00, 1761979.71|
-| 0.00,-0.30, 5975633.36|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.30000000000000376, 0.300000000000023)",True,,
-Gabrielle/Shorelines/Merged/Auckland/PalmBeach_18JAN2023.shp,Gabrielle/Imagery/pre-storm/Auckland/Waiheke/PalmBeach_18JAN2023.tif,100.0,3,GTiff,uint8,,2072,1084,3,,"| 0.55, 0.00, 1781741.22|
-| 0.00,-0.55, 5928002.28|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5500000000000449, 0.5500000000001718)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Omaha_28FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/Omaha/Omaha_28FEB2023.tif,100.0,5,GTiff,uint16,256.0,5368,8268,3,,"| 0.50, 0.00, 1758548.06|
-| 0.00,-0.50, 5979432.91|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,12,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Mangawhai_11DEC2022.shp,Gabrielle/Imagery/pre-storm/Northland/Mangawhai/Mangawhai11DEC2022.tif,100.0,6,GTiff,uint16,0.0,4050,6577,4,EPSG:32760,"| 0.75, 0.00, 282786.08|
-| 0.00,-0.75, 6005029.45|
-| 0.00, 0.00, 1.00|",256.0,256,True,pixel,0,"(0.75, 0.75)",True,lzw,
-Gabrielle/Shorelines/Merged/Auckland/PakiriSouth23DEC2021.shp,Gabrielle/Imagery/pre-storm/Auckland/Pakiri/PakiriSouth_23DEC2021.tif,100.0,4,GTiff,uint8,,7710,5676,4,,"| 0.50, 0.00, 1754175.18|
-| 0.00,-0.50, 5988344.28|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,6,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Waiheke_16MAY2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/Waiheke/Waiheke_16MAY2023.tif,100.0,14,GTiff,uint8,,26345,5138,3,,"| 0.35, 0.00, 1779011.87|
-| 0.00,-0.35, 5928175.62|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,12,"(0.35, 0.34999999999996373)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Omaha_13MAR2022.shp,Gabrielle/Imagery/pre-storm/Auckland/Omaha/Omaha_13MAR2022.tif,100.0,9,GTiff,float32,0.0,4049,8051,3,,"| 0.50, 0.00, 1759172.96|
-| 0.00,-0.50, 5979432.00|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Mangawhai_28FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/Mangawhai/Mangawhai_28FEB2023.tif,100.0,9,GTiff,uint16,65535.0,12881,18709,4,,"| 0.50, 0.00, 1742522.22|
-| 0.00,-0.50, 6006008.05|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,21,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Omaha_21MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/Omaha/Omaha_21MAR2023.tif,100.0,8,GTiff,uint16,256.0,5368,8268,3,,"| 0.50, 0.00, 1758548.09|
-| 0.00,-0.50, 5979432.88|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,10,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Omaha_Pakiri_04APR2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/Omaha/PNEO/OmahaPakiri_04APR2023.tif,100.0,48,GTiff,uint16,256.0,54556,71240,3,EPSG:32760,"| 0.30, 0.00, 288258.00|
-| 0.00,-0.30, 5995710.00|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.29999999999999977, 0.3)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Orewa_16MAR2022.shp,Gabrielle/Imagery/pre-storm/Auckland/Orewa/Orewa_16MAR2022.tif,100.0,23,GTiff,uint8,,13855,39213,4,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.07, 0.00, 1751205.10|
-| 0.00,-0.07, 5951085.21|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.07464553542384418, 0.07464553542376554)",True,lzw,
-Gabrielle/Shorelines/Merged/Auckland/Medlands_14FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/Medlands/Medlands_14FEB2023.tif,100.0,7,GTiff,uint8,,9441,13059,4,,"| 0.50, 0.00, 1821514.12|
-| 0.00,-0.50, 5989308.84|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,lzw,
-Gabrielle/Shorelines/Merged/Auckland/MangawhaiNorth_28JUN2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/Mangawhai/MangawhaiNorth_28JUN2023.tif,100.0,4,GTiff,uint8,,2265,4025,3,,"| 0.50, 0.00, 1743197.31|
-| 0.00,-0.50, 6007540.81|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,9,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Auckland/LongBay_11JAN2023.shp,Gabrielle/Imagery/pre-storm/Auckland/Long Bay/LongBay_11JAN2023.tif,100.0,1,GTiff,uint16,,2440,2938,4,,"| 0.50, 0.00, 1755807.67|
-| 0.00,-0.50, 5939370.96|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5, 0.5)",True,lzw,
-Gabrielle/Shorelines/Merged/Auckland/LongBay_28DEC2022.shp,Gabrielle/Imagery/pre-storm/Auckland/Long Bay/LongBay_28DEC2022.tif,100.0,1,GTiff,uint16,256.0,2440,2938,4,,"| 0.50, 0.00, 1755807.67|
-| 0.00,-0.50, 5939370.96|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Auckland/LongBay_25FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/LongBay/LongBay_25FEB2023.tif,100.0,1,GTiff,uint16,256.0,2440,2938,4,,"| 0.50, 0.00, 1755807.67|
-| 0.00,-0.50, 5939370.96|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Medlands_06FEB2023.shp,Gabrielle/Imagery/pre-storm/Auckland/Medlands/Medlands_06FEB2023.tif,100.0,9,GTiff,uint8,,7876,11023,4,,"| 0.50, 0.00, 1821756.35|
-| 0.00,-0.50, 5988513.56|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,lzw,
-Gabrielle/Shorelines/Merged/Auckland/OrewaRedBeach_11MAY2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/Orewa/OrewaRedBeach_11MAY2023.tif,100.0,24,GTiff,uint16,256.0,26548,25792,3,,"| 0.30, 0.00, 292860.00|
-| 0.00,-0.30, 5951650.80|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.3000000000000009, 0.29999999999998556)",True,,
-Gabrielle/Shorelines/Merged/Auckland/SnellsBeach_28FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/SnellsBeach/SnellsBeach_28FEB2023.tif,100.0,9,GTiff,uint16,256.0,10674,13431,3,,"| 0.50, 0.00, 1754649.12|
-| 0.00,-0.50, 5970197.32|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Auckland/PieMelonBay_27DEC2022.shp,Gabrielle/Imagery/pre-storm/Auckland/Waiheke/PieMelonBay_27DEC2022.tif,100.0,2,GTiff,uint8,,4080,3270,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.30, 0.00, 1786976.08|
-| 0.00,-0.30, 5927550.94|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.3, 0.3)",True,,
-Gabrielle/Shorelines/Merged/Auckland/Onetangi_21DEC2022.shp,Gabrielle/Imagery/pre-storm/Auckland/Waiheke/Onetangi_21DEC2022.tif,100.0,4,GTiff,uint8,,7323,2145,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.30, 0.00, 1784198.83|
-| 0.00,-0.30, 5927131.21|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.2999999999999873, 0.3)",True,,
-Gabrielle/Shorelines/Merged/Northland/KarikariBeach_30AUG2022.shp,Gabrielle/Imagery/pre-storm/Northland/KarikariBeach/KarikariBeach_30AUG2022.tif,100.0,12,GTiff,uint16,256.0,21313,24234,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.30, 0.00, 1630186.38|
-| 0.00,-0.30, 6149735.50|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.2999999999999956, 0.3000000000000077)",True,,
-Gabrielle/Shorelines/Merged/Northland/Whananaki_14FEB2023.shp,Gabrielle/Imagery/Whananaki_copy/Whananaki_14FEB2023.tif,100.0,2,GTiff,uint8,,3443,5122,4,,"| 0.50, 0.00, 1731516.03|
-| 0.00,-0.50, 6069484.78|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,6,"(0.5, 0.5)",True,lzw,
-Gabrielle/Shorelines/Merged/Northland/MataiBay_30AUG2022.shp,Gabrielle/Imagery/pre-storm/Northland/MataiBay/MataiBay_30AUG2022.tif,100.0,11,GTiff,uint16,256.0,8232,7084,3,,"| 0.30, 0.00, 1636815.34|
-| 0.00,-0.30, 6147028.07|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,16,"(0.3000000000000113, 0.3000000000000263)",True,,
-Gabrielle/Shorelines/Merged/Northland/HelenaBay_27DEC2022.shp,Gabrielle/Imagery/pre-storm/Northland/HelenaBay/HelenaBay_27DEC2022.tif,100.0,32,GTiff,uint16,256.0,30868,33253,3,,"| 0.30, 0.00, 1720461.96|
-| 0.00,-0.30, 6086404.48|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.299999999999997, 0.3000000000000112)",True,,
-Gabrielle/Shorelines/Merged/Northland/CableBay_13MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/CableBay/CableBay_13MAR2023.tif,100.0,11,GTiff,uint16,256.0,17326,9997,3,,"| 0.40, 0.00, 1642435.09|
-| 0.00,-0.40, 6130849.00|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.39999999999999464, 0.39999999999998137)",True,,
-Gabrielle/Shorelines/Merged/Northland/MataiBay_23MAY2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/MataiBay/MataiBay_23MAY2023.tif,100.0,4,GTiff,uint16,0.0,3167,3280,4,,"| 0.75, 0.00, 1637018.81|
-| 0.00,-0.75, 6147250.38|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.75, 0.75)",True,,
-Gabrielle/Shorelines/Merged/Northland/NorthCape_14APR2022.shp,Gabrielle/Imagery/pre-storm/Northland/NorthCape/Northcape_14APR2022.tif,100.0,14,GTiff,uint16,256.0,9634,34265,3,,"| 0.30, 0.00, 1599455.32|
-| 0.00,-0.30, 6191309.03|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,6,"(0.29999999999999516, 0.3)",True,,
-Gabrielle/Shorelines/Merged/Northland/GreatExhibitionBay_20MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/GreatExhibitionBay/GreatExhibitionBay_20MAR2023.tif,100.0,17,GTiff,uint8,,32442,84990,3,,"| 0.30, 0.00, 1596959.34|
-| 0.00,-0.30, 6184169.67|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.3000000000000029, 0.3)",True,,
-Gabrielle/Shorelines/Merged/Northland/Pataua_07APR2022.shp,Gabrielle/Imagery/pre-storm/Northland/Pataua North/Pataua_07APR2022.tif,100.0,3,GTiff,uint8,255.0,6986,9932,3,,"| 0.30, 0.00, 1736532.09|
-| 0.00,-0.30, 6049110.58|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.30000000000000665, 0.2999999999999625)",True,,
-Gabrielle/Shorelines/Merged/Northland/LangsBeach_17FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/LangsBeach/LangsBeach_17FEB2023.tif,100.0,5,GTiff,uint8,,9462,3927,4,,"| 0.50, 0.00, 1737274.22|
-| 0.00,-0.50, 6011030.24|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,9,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/BlandBay_24MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/BlandBay/BlandBay_24MAR2023.tif,100.0,8,GTiff,uint16,256.0,6997,7578,3,,"| 0.45, 0.00, 1721794.45|
-| 0.00,-0.45, 6089478.28|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,10,"(0.4499999999999867, 0.44999999999995083)",True,,
-Gabrielle/Shorelines/Merged/Northland/Ruakaka_27DEC2022.shp,Gabrielle/Imagery/pre-storm/Northland/Ruakaka/Ruakaka_27DEC2022.tif,100.0,28,GTiff,uint16,256.0,21444,61817,3,,"| 0.30, 0.00, 1730710.63|
-| 0.00,-0.30, 6033769.29|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.2999999999999978, 0.299999999999994)",True,,
-Gabrielle/Shorelines/Merged/Northland/Ngunguru_25MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/Ngururu/Ngunguru_25MAR2023.tif,100.0,3,GTiff,uint16,256.0,7627,5795,4,,"| 0.50, 0.00, 1735149.11|
-| 0.00,-0.50, 6056345.52|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,10,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/TaranuiBay_27FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/TaranuiBay/TaranuiBay_27FEB2023.tif,100.0,5,GTiff,uint16,256.0,7399,4000,3,,"| 0.40, 0.00, 1687592.11|
-| 0.00,-0.40, 6113947.13|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.40000000000001257, 0.4)",False,,
-Gabrielle/Shorelines/Merged/Northland/Mimiwhangata_27DEC2022.shp,Gabrielle/Imagery/pre-storm/Northland/Mimiwhangata/Mimiwhangata_27DEC2022.tif,100.0,10,GTiff,uint16,256.0,6070,13981,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.30, 0.00, 1728973.79|
-| 0.00,-0.30, 6078826.54|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.3, 0.29999999999998667)",True,,
-Gabrielle/Shorelines/Merged/Northland/SandyBay_25MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/SandyBay/SandyBay_25MAR2023.tif,100.0,24,GTiff,uint16,256.0,11177,16531,4,,"| 0.50, 0.00, 1731922.11|
-| 0.00,-0.50, 6071001.73|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/OceanBeach_25MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/OceanBeach/OceanBeach_25MAR2023.tif,100.0,4,GTiff,uint16,256.0,4849,11103,4,,"| 0.50, 0.00, 1739587.72|
-| 0.00,-0.50, 6039368.53|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,6,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/ElliotBay_24MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/ElliotBay/ElliotBay_24MAR2023.tif,100.0,14,GTiff,uint16,256.0,5955,13428,3,,"| 0.50, 0.00, 1716784.09|
-| 0.00,-0.50, 6098720.58|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/Ruakaka_17AUG2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/Ruakaka/Ruakaka_17AUG2023.tif,100.0,14,GTiff,uint16,0.0,5847,10067,4,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""Degree"",0.0174532925199433]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.75, 0.00, 1731509.88|
-| 0.00,-0.75, 6033410.04|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.75, 0.75)",True,,
-Gabrielle/Shorelines/Merged/Northland/HendersonBay_28AUG2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/HendersonBay/HendersonBay_28AUG2023.tif,100.0,19,GTiff,uint16,0.0,6157,8479,4,,"| 0.75, 0.00, 1610291.52|
-| 0.00,-0.75, 6156330.82|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.75, 0.75)",True,,
-Gabrielle/Shorelines/Merged/Northland/Whananaki_10JAN2022.shp,Gabrielle/Imagery/pre-storm/Northland/Whananaki/Whananaki_10JAN2022.tif,100.0,2,GTiff,uint8,,3015,4402,4,,"| 0.50, 0.00, 1732099.65|
-| 0.00,-0.50, 6069315.62|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5, 0.5)",True,lzw,
-Gabrielle/Shorelines/Merged/Northland/BlandBay_27DEC2022.shp,Gabrielle/Imagery/pre-storm/Northland/BlandBay/BlandBay_27DEC2022.tif,100.0,5,GTiff,uint16,256.0,10784,11142,3,,"| 0.30, 0.00, 1721774.69|
-| 0.00,-0.30, 6089683.51|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.29999999999999566, 0.29999999999996657)",True,,
-Gabrielle/Shorelines/Merged/Northland/Mimiwhangata_18FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/Mimiwhangata/Mimiwhangata_18FEB2023.tif,100.0,8,GTiff,uint8,,6124,9099,4,,"| 0.50, 0.00, 1727910.97|
-| 0.00,-0.50, 6078627.01|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,lzw,
-Gabrielle/Shorelines/Merged/Northland/TakouBay_17SEP2021.shp,Gabrielle/Imagery/pre-storm/Northland/Takou Bay/TakouBay_17SEP2021.tif,100.0,5,GTiff,uint8,,4139,6582,4,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.50, 0.00, 1685052.98|
-| 0.00,-0.50, 6117669.99|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/Matapouri_10JAN2022.shp,Gabrielle/Imagery/pre-storm/Northland/Matapouri/Matapouri_10JAN2022.tif,100.0,3,GTiff,uint8,,2072,3383,4,,"| 0.50, 0.00, 1736339.82|
-| 0.00,-0.50, 6064206.24|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.5, 0.5)",True,lzw,
-Gabrielle/Shorelines/Merged/Northland/CoopersBeach_10MAY2022.shp,Gabrielle/Imagery/pre-storm/Northland/CoopersBeach/CoopersBeach_10MAY2022.tif,100.0,14,GTiff,uint8,,17493,8197,3,,"| 0.50, 0.00, 1640666.02|
-| 0.00,-0.50, 6130874.41|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/Mimiwhangata_10JAN2022.shp,Gabrielle/Imagery/pre-storm/Northland/Mimiwhangata/Mimiwhangata_10JAN2022.tif,100.0,8,GTiff,uint8,,6112,8998,4,,"| 0.50, 0.00, 1727932.27|
-| 0.00,-0.50, 6078658.24|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5, 0.5)",True,lzw,
-Gabrielle/Shorelines/Merged/Northland/Rarawa_14MAR2022.shp,Gabrielle/Imagery/pre-storm/Northland/Rawara/Rarawa_14MAR2022.tif,100.0,20,GTiff,uint16,256.0,26619,54604,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.35, 0.00, 1597037.55|
-| 0.00,-0.35, 6179691.26|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.3499999999999965, 0.3500000000000068)",True,,
-Gabrielle/Shorelines/Merged/Northland/Ruakaka_18FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/Ruakaka/Ruakaka_18FEB2023.tif,100.0,6,GTiff,uint8,,18431,54295,4,,"| 0.50, 0.00, 1728920.75|
-| 0.00,-0.50, 6036670.56|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,9,"(0.5, 0.5)",True,lzw,
-Gabrielle/Shorelines/Merged/Northland/ElliotBay_27DEC2022.shp,Gabrielle/Imagery/pre-storm/Northland/ElliotBay/ElliotBay_27DEC2022.tif,100.0,13,GTiff,uint16,256.0,7761,16823,3,,"| 0.30, 0.00, 1716794.83|
-| 0.00,-0.30, 6098763.06|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.300000000000006, 0.30000000000002214)",True,,
-Gabrielle/Shorelines/Merged/Northland/MarangaiBeach_10MAY2022.shp,Gabrielle/Imagery/pre-storm/Northland/Marangai/MarangaiBeach_10MAY2022.tif,100.0,4,GTiff,uint8,,25910,22453,3,,"| 0.50, 0.00, 1613132.83|
-| 0.00,-0.50, 6146763.96|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/HendersonBay_19FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/HendersonBay/Maxar/HendersonBay_19FEB2023.tif,100.0,22,GTiff,uint16,256.0,25961,31219,3,,"| 0.50, 0.00, 1601855.19|
-| 0.00,-0.50, 6165542.44|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,3,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/Ngunguru_27DEC2022.shp,Gabrielle/Imagery/pre-storm/Northland/Ngunguru/Ngunguru_27DEC2022.tif,100.0,2,GTiff,uint16,256.0,9601,12596,3,,"| 0.30, 0.00, 1735209.10|
-| 0.00,-0.30, 6056818.45|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.3000000000000049, 0.2999999999999852)",True,,
-Gabrielle/Shorelines/Merged/Northland/Matapouri_18FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/Matapouri/Matapouri_18FEB2023.tif,100.0,3,GTiff,uint16,65535.0,2943,3618,4,,"| 0.50, 0.00, 1735991.71|
-| 0.00,-0.50, 6064356.28|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.5, 0.5)",True,lzw,
-Gabrielle/Shorelines/Merged/Northland/TaronuiBay_11JAN2022.shp,Gabrielle/Imagery/pre-storm/Northland/Taronui Bay/TaronuiBay_11JAN2022.tif,100.0,7,GTiff,uint8,,6182,2517,4,,"| 0.50, 0.00, 1687485.06|
-| 0.00,-0.50, 6113834.58|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/WhananakiNorth_10JAN2022.shp,Gabrielle/Imagery/pre-storm/Northland/Whananaki North/WhananakiNorth_10JAN2022.tif,100.0,14,GTiff,uint8,,9026,11897,4,,"| 0.50, 0.00, 1730212.91|
-| 0.00,-0.50, 6074720.17|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,10,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/MatauriBay_17SEP2022.shp,Gabrielle/Imagery/pre-storm/Northland/MatauriBay/MatauriBay_17SEP2022.tif,100.0,31,GTiff,uint8,,20078,11679,3,,"| 0.50, 0.00, 1673923.55|
-| 0.00,-0.50, 6127849.29|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,13,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/TaemaroBay_10MAY2022.shp,Gabrielle/Imagery/pre-storm/Northland/Taemaro/TaemaroBay_10MAY2022.tif,100.0,4,GTiff,uint8,,10464,4109,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.50, 0.00, 1652027.37|
-| 0.00,-0.50, 6133781.22|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/OceanBeach_07APR2022.shp,Gabrielle/Imagery/pre-storm/Northland/OceanBeach/OceanBeach_07APR2022_mosaic.tif,100.0,10,GTiff,uint8,,11567,22826,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.30, 0.00, 1739781.40|
-| 0.00,-0.30, 6039134.03|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.29999999999998794, 0.29999999999999183)",True,lzw,
-Gabrielle/Shorelines/Merged/Northland/MarangaiBeach_15MAY2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/MarangaiBeach/MarangaiBeach_15MAY2023.tif,100.0,7,GTiff,uint16,256.0,31103,27552,3,,"| 0.45, 0.00, 1612200.48|
-| 0.00,-0.45, 6147342.99|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.450000000000003, 0.4500000000000135)",True,,
-Gabrielle/Shorelines/Merged/Northland/HelenaBay_24MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/HelenaBay/HelenaBay_24MAR2023.tif,100.0,22,GTiff,uint16,256.0,17399,18633,3,,"| 0.50, 0.00, 1721014.44|
-| 0.00,-0.50, 6085767.79|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/DoubtlessBay_25MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/DoubtlessBay/DoubtlessBay_25MAR2023.tif,100.0,41,GTiff,uint16,256.0,44152,77756,3,,"| 0.30, 0.00, 1630080.42|
-| 0.00,-0.30, 6149881.21|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,6,"(0.3000000000000021, 0.2999999999999976)",True,,
-Gabrielle/Shorelines/Merged/Northland/Pataua_25MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/Pataua/Pataua_25MAR2023.tif,100.0,16,GTiff,uint16,256.0,13614,23318,4,,"| 0.50, 0.00, 1735115.02|
-| 0.00,-0.50, 6054201.64|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/HendersonBay_10MAY2022.shp,Gabrielle/Imagery/pre-storm/Northland/HendersonBay/HendersonBay_10MAY2022.tif,100.0,11,GTiff,uint16,256.0,13084,19214,3,,"| 0.50, 0.00, 1609725.37|
-| 0.00,-0.50, 6156766.14|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.5, 0.5)",True,,
-Gabrielle/Shorelines/Merged/Northland/PuwhekeBeach_15MAY2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/PuwhekeBeach/PuwhekeBeach_15MAY2023.tif,100.0,8,GTiff,uint16,0.0,6484,1680,4,,"| 0.75, 0.00, 1625936.23|
-| 0.00,-0.75, 6143122.52|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.75, 0.75)",True,,
-Gabrielle/Shorelines/Merged/Northland/Mahinepua_25MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/MahinepuaBay/Mahinepua_25MAR2023.tif,100.0,9,GTiff,uint16,0.0,4304,4958,4,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.75, 0.00, 1676752.56|
-| 0.00,-0.75, 6127348.63|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.75, 0.75)",True,,
-Gabrielle/Shorelines/Merged/Northland/DoubtlessBay_30AUG2022.shp,Gabrielle/Imagery/pre-storm/Northland/DoubtlessBay/DoubtlessBay_30AUG2022.tif,100.0,6,GTiff,uint8,,28152,43264,3,,"| 0.30, 0.00, 1633098.16|
-| 0.00,-0.30, 6141013.74|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,3,"(0.3000000000000033, 0.3000000000000043)",True,,
-Gabrielle/Shorelines/Merged/Northland/NorthCape_15MAY2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/Northcape/Northcape_15MAY2023.tif,100.0,17,GTiff,uint8,,4805,16541,3,,"| 0.60, 0.00, 1599455.22|
-| 0.00,-0.60, 6191308.71|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.6, 0.5999999999999774)",True,,
-Gabrielle/Shorelines/Merged/Northland/OceanBeach_17FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/OceanBeach/OceanBeach_17FEB2023.tif,100.0,3,GTiff,uint16,256.0,3985,4594,4,,"| 0.50, 0.00, 1741146.81|
-| 0.00,-0.50, 6034471.91|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,3,"(0.5, 0.5)",True,,
 Gabrielle/Shorelines/Waikato/Matarangi and surrounds/Matarangi_24DEC2022.shp,Gabrielle/Imagery/pre-storm/Waikato/Matarangi/Matarangi_24DEC2022.tif,100.0,1,GTiff,uint16,65535.0,13788,15017,4,,"| 0.50, 0.00, 1832772.89|
 | 0.00,-0.50, 5936498.44|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,,
@@ -311,6 +89,9 @@ Gabrielle/Shorelines/Waikato/PauanuiTairua/PauanuiTairua_28FEB2023.shp,Gabrielle
 Gabrielle/Shorelines/Waikato/PauanuiTairua/TeKaroBay_03JAN2022.shp,Gabrielle/Imagery/pre-storm/Waikato/TeKaroBay/TeKaroBay_03JAN2022.tif,100.0,7,GTiff,uint16,256.0,8000,11267,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.30, 0.00, 1852000.00|
 | 0.00,-0.30, 5907366.90|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.3, 0.29999999999996696)",True,,
+Gabrielle/Shorelines/BayofPlenty/Waihi/WaihiBeach_20FEB2023.shp,Gabrielle/Imagery/post_storm/Region/BayofPlenty/Waihi/WaihiBeach_20FEB2023.tif,100.0,4,GTiff,uint16,65535.0,15524,21378,4,,"| 0.50, 0.00, 1857781.64|
+| 0.00,-0.50, 5858414.13|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.5, 0.5)",True,lzw,
 Gabrielle/Shorelines/BayofPlenty/Matakana Island/MatakanaIsland_15MAY2023.shp,Gabrielle/Imagery/post_storm/Region/BayofPlenty/Matakana Island/MatakanaIsland_15MAY2023.tif,100.0,1,GTiff,uint8,,17266,16116,3,,"| 0.30, 0.00, 1863366.06|
 | 0.00,-0.30, 5848592.42|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.3000000000000027, 0.29999999999998844)",True,,
@@ -347,12 +128,21 @@ Gabrielle/Shorelines/BayofPlenty/Whakatane/Whakatane_14AUG2023.shp,Gabrielle/Ima
 Gabrielle/Shorelines/BayofPlenty/Whakatane/Whakatane_16FEB2023.shp,Gabrielle/Imagery/post_storm/Region/BayofPlenty/Whakatane/Whakatane_16FEB2023.tif,100.0,6,GTiff,uint8,,39250,18291,3,,"| 0.35, 0.00, 1939623.83|
 | 0.00,-0.35, 5798322.41|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.35, 0.34999999999997966)",True,,
+Gabrielle/Shorelines/BayofPlenty/Ohope/OhopeBeach_16FEB2023.shp,Gabrielle/Imagery/post_storm/Region/BayofPlenty/Ohope/OhopeBeach_16FEB2023.tif,100.0,6,GTiff,uint16,65535.0,24906,12710,4,,"| 0.50, 0.00, 1952160.93|
+| 0.00,-0.50, 5792314.71|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.5, 0.5)",True,lzw,
+Gabrielle/Shorelines/BayofPlenty/Ohope/OhopeBeach_30MAR2022.shp,Gabrielle/Imagery/pre-storm/Bay of Plenty/Ohope/OhopeBeach_30MAR2022.tif,100.0,3,GTiff,uint16,65535.0,32142,17748,4,,"| 0.40, 0.00, 1952098.20|
+| 0.00,-0.40, 5791967.61|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.40000000000000147, 0.4000000000000105)",True,,
 Gabrielle/Shorelines/BayofPlenty/Pukehina/Matata_03AUG2022.shp,Gabrielle/Imagery/pre-storm/Bay of Plenty/Matata/Matata_03AUG2022.tif,100.0,4,GTiff,uint8,,27243,9081,3,,"| 0.60, 0.00, 1925258.34|
 | 0.00,-0.60, 5802527.22|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.6000000000000018, 0.599999999999959)",True,,
 Gabrielle/Shorelines/BayofPlenty/Pukehina/Pukehina_20JAN2023.shp,Gabrielle/Imagery/pre-storm/Bay of Plenty/Pukehina/Pukehina_20JAN2023.tif,100.0,39,GTiff,uint16,256.0,59313,36204,3,,"| 0.30, 0.00, 1910152.47|
 | 0.00,-0.30, 5811819.91|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,11,"(0.29999999999999843, 0.30000000000000515)",True,,
+Gabrielle/Shorelines/BayofPlenty/Pukehina/Matata_Pukehina_03MAR2023.shp,Gabrielle/Imagery/post_storm/Region/BayofPlenty/Matata/Matata_Pukehina__03MAR2023.tif,100.0,25,GTiff,uint8,,26853,15743,3,,"| 0.55, 0.00, 1916273.56|
+| 0.00,-0.55, 5807886.62|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,12,"(0.5499999999999965, 0.5500000000000237)",True,,
 Gabrielle/Shorelines/BayofPlenty/Ohiwa/Ohiwa_28FEB2023.shp,Gabrielle/Imagery/post_storm/Region/BayofPlenty/Ohiwa/Ohiwa_28FEB2023.tif,100.0,10,GTiff,uint16,65535.0,29937,5186,4,,"| 0.30, 0.00, 1964675.24|
 | 0.00,-0.30, 5787741.97|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.3000000000000031, 0.2999999999999641)",True,,
@@ -377,18 +167,6 @@ Gabrielle/Shorelines/BayofPlenty/EasternBoP/Opape_28FEB2023.shp,Gabrielle/Imager
 Gabrielle/Shorelines/BayofPlenty/EasternBoP/WaihauBay_27MAY2023.shp,Gabrielle/Imagery/post_storm/Region/BayofPlenty/Torere/WaihauBay_27MAY2023.tif,100.0,12,GTiff,uint8,,18279,21484,3,,"| 0.30, 0.00, 2035979.73|
 | 0.00,-0.30, 5830955.68|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.29999999999999744, 0.30000000000000865)",True,,
-Gabrielle/Shorelines/Delivery/temp/Medlands_14FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/Medlands/Medlands_14FEB2023.tif,100.0,1,GTiff,uint8,,9441,13059,4,,"| 0.50, 0.00, 1821514.12|
-| 0.00,-0.50, 5989308.84|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",False,lzw,
-Gabrielle/Shorelines/Delivery/temp/LongBay_11JAN2023.shp,Gabrielle/Imagery/pre-storm/Auckland/Long Bay/LongBay_11JAN2023.tif,100.0,1,GTiff,uint16,,2440,2938,4,,"| 0.50, 0.00, 1755807.67|
-| 0.00,-0.50, 5939370.96|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5, 0.5)",False,lzw,
-Gabrielle/Shorelines/Delivery/temp/LongBay_25FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/LongBay/LongBay_25FEB2023.tif,100.0,1,GTiff,uint16,256.0,2440,2938,4,,"| 0.50, 0.00, 1755807.67|
-| 0.00,-0.50, 5939370.96|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.5, 0.5)",False,,
-Gabrielle/Shorelines/Delivery/temp/Medlands_06FEB2023.shp,Gabrielle/Imagery/pre-storm/Auckland/Medlands/Medlands_06FEB2023.tif,100.0,2,GTiff,uint8,,7876,11023,4,,"| 0.50, 0.00, 1821756.35|
-| 0.00,-0.50, 5988513.56|
-| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",False,lzw,
 Gabrielle/Shorelines/Auckland/Omaha_Pakiri/PakiriNorth_14OCT2021.shp,Gabrielle/Imagery/pre-storm/Auckland/Pakiri/PakiriNorth_14OCT2021.tif,100.0,14,GTiff,uint8,,16238,19418,4,,"| 0.50, 0.00, 1747718.26|
 | 0.00,-0.50, 5996962.31|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5, 0.5)",True,,
@@ -437,6 +215,9 @@ Gabrielle/Shorelines/Auckland/WaihekeIsland/PieMelonBay_27DEC2022.shp,Gabrielle/
 Gabrielle/Shorelines/Auckland/WaihekeIsland/Onetangi_21DEC2022.shp,Gabrielle/Imagery/pre-storm/Auckland/Waiheke/Onetangi_21DEC2022.tif,100.0,4,GTiff,uint8,,7323,2145,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.30, 0.00, 1784198.83|
 | 0.00,-0.30, 5927131.21|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.2999999999999873, 0.3)",True,,
+Gabrielle/Shorelines/Auckland/Managawhai/Mangawhai_29JUN2021.shp,Gabrielle/Imagery/pre-storm/Northland/Mangawhai/Mangawhai_29JUN2021.tif,100.0,12,GTiff,uint8,,11963,20967,3,,"| 0.50, 0.00, 1742872.24|
+| 0.00,-0.50, 6007451.33|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5, 0.5)",True,,
 Gabrielle/Shorelines/Auckland/Managawhai/Mangawhai_11DEC2022.shp,Gabrielle/Imagery/pre-storm/Northland/Mangawhai/Mangawhai11DEC2022.tif,100.0,6,GTiff,uint16,0.0,4050,6577,4,EPSG:32760,"| 0.75, 0.00, 282786.08|
 | 0.00,-0.75, 6005029.45|
 | 0.00, 0.00, 1.00|",256.0,256,True,pixel,0,"(0.75, 0.75)",True,lzw,
@@ -464,6 +245,9 @@ Gabrielle/Shorelines/Auckland/Medlands/Medlands_06FEB2023.shp,Gabrielle/Imagery/
 Gabrielle/Shorelines/Auckland/Whangapoua/Whangapoua_19FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Auckland/Whangapoua/Whangapoua_19FEB2023.tif,100.0,3,GTiff,uint32,65536.0,2804,6572,1,,"| 0.60, 0.00, 1817329.44|
 | 0.00,-0.60, 6001088.43|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,5,"(0.5999999999999668, 0.6000000000000283)",True,,
+Gabrielle/Shorelines/Auckland/Whangapoua/Whangapoua_09FEB2023.shp,Gabrielle/Imagery/pre-storm/Auckland/Whangapoua/Whangapoua_09FEB2023.tif,100.0,3,GTiff,uint16,65535.0,3676,11032,4,,"| 0.35, 0.00, 1817631.59|
+| 0.00,-0.35, 6001022.39|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,10,"(0.35000000000002535, 0.3500000000000169)",True,,
 Gabrielle/Shorelines/Hawkes Bay/Mahanga/Mahia_25JAN2023.shp,Gabrielle/Imagery/pre-storm/Hawkes Bay/Mahia/Mahia_25JAN2023.tif,100.0,33,GTiff,uint8,,57932,96830,3,,"| 0.30, 0.00, 2016415.21|
 | 0.00,-0.30, 5670713.56|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,19,"(0.3000000000000016, 0.3)",True,,
@@ -536,6 +320,9 @@ Gabrielle/Shorelines/Northland/TaranuiBay/TaranuiBay_27FEB2023.shp,Gabrielle/Ima
 Gabrielle/Shorelines/Northland/LangsBeach/LangsBeach_17FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/LangsBeach/LangsBeach_17FEB2023.tif,100.0,5,GTiff,uint8,,9462,3927,4,,"| 0.50, 0.00, 1737274.22|
 | 0.00,-0.50, 6011030.24|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,9,"(0.5, 0.5)",True,,
+Gabrielle/Shorelines/Northland/LangsBeach/LangsBeach_29JUN2021.shp,Gabrielle/Imagery/pre-storm/Northland/LangsBeach/LangsBeach_29JUN2021.tif,100.0,3,GTiff,uint8,,8175,2935,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""Degree"",0.0174532925199433]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.55, 0.00, 1737310.31|
+| 0.00,-0.55, 6010824.91|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.55, 0.55)",True,,
 Gabrielle/Shorelines/Northland/Whananaki/Whananaki_14FEB2023.shp,Gabrielle/Imagery/Whananaki_copy/Whananaki_14FEB2023.tif,100.0,2,GTiff,uint8,,3443,5122,4,,"| 0.50, 0.00, 1731516.03|
 | 0.00,-0.50, 6069484.78|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,6,"(0.5, 0.5)",True,lzw,
@@ -635,6 +422,9 @@ Gabrielle/Shorelines/Northland/NorthCape/NorthCape_14APR2022.shp,Gabrielle/Image
 Gabrielle/Shorelines/Northland/NorthCape/NorthCape_15MAY2023.shp,Gabrielle/Imagery/post_storm/Region/Northland/Northcape/Northcape_15MAY2023.tif,100.0,17,GTiff,uint8,,4805,16541,3,,"| 0.60, 0.00, 1599455.22|
 | 0.00,-0.60, 6191308.71|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.6, 0.5999999999999774)",True,,
+Gabrielle/Shorelines/Gisborne/TeAraroa/TeAraroa_01MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Gisborne/TeAraroaHicksBay/TeAraroa_01MAR2023.tif,100.0,7,GTiff,uint16,65535.0,19848,21995,4,,"| 0.50, 0.00, 2065832.38|
+| 0.00,-0.50, 5830119.61|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,6,"(0.5, 0.5)",True,,
 Gabrielle/Shorelines/Gisborne/TeAraroa/TeAraroa_08FEB2023.shp,Gabrielle/Imagery/pre-storm/Gisborne/TeAraroa/TeAraroa_08FEB2023.tif,100.0,6,GTiff,uint16,,20192,24787,4,,"| 0.40, 0.00, 2067657.52|
 | 0.00,-0.40, 5828946.97|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.39999999999993313, 0.39999999999991737)",True,lzw,
@@ -644,6 +434,9 @@ Gabrielle/Shorelines/Gisborne/Wainui/Wainui_21FEB2023.shp,Gabrielle/Imagery/post
 Gabrielle/Shorelines/Gisborne/TokomaruBay/TokomaruBay_21FEB2023.shp,Gabrielle/Imagery/post_storm/Region/Gisborne/TokomaruBay/TokomaruBay_21FEB2023.tif,100.0,15,GTiff,uint16,256.0,13916,19009,4,,"| 0.50, 0.00, 2065021.55|
 | 0.00,-0.50, 5769896.99|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,14,"(0.5, 0.5)",True,,
+Gabrielle/Shorelines/Gisborne/HicksBay/HicksBay_01MAR2023.shp,Gabrielle/Imagery/post_storm/Region/Gisborne/TeAraroaHicksBay/HicksBay_01MAR2023.tif,100.0,28,GTiff,uint16,65535.0,19848,21995,4,,"| 0.50, 0.00, 2065832.38|
+| 0.00,-0.50, 5830119.61|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,6,"(0.5, 0.5)",True,,
 Gabrielle/Shorelines/Gisborne/HicksBay/HicksBay_08FEB2023.shp,Gabrielle/Imagery/pre-storm/Gisborne/HicksBay/HicksBay_08FEB2023.tif,100.0,10,GTiff,uint16,65535.0,9454,15905,4,,"| 0.40, 0.00, 2065338.77|
 | 0.00,-0.40, 5829129.18|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.40000000000000985, 0.4)",True,,
@@ -1829,25 +1622,25 @@ MaxarImagery/HighFreq/Northland/TokerauBeach/Shorelines/TokerauBeach_13FEB2019.s
 MaxarImagery/HighFreq/Northland/TokerauBeach/Shorelines/TokerauBeach_19DEC2020.shp,MaxarImagery/HighFreq/Northland/TokerauBeach/Imagery/Stack/TokerauBeach_19DEC2020.tif,100.0,14,GTiff,uint8,,13274,25284,3,,"| 0.50, 0.00, 1633578.04|
 | 0.00,-0.50, 6140916.91|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.5, 0.5)",True,lzw,
-MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_02NOV2015.shp,MaxarImagery/HighFreq/Northland/Omapere/Imagery/Stack/Omapere_02NOV2015.tif,100.0,13,GTiff,uint8,,5989,7892,3,,"| 0.50, 0.00, 1633271.55|
+MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_02NOV2015.shp,MaxarImagery/HighFreq/Northland/Omapere/Stack/Omapere_02NOV2015.tif,100.0,13,GTiff,uint8,,5989,7892,3,,"| 0.50, 0.00, 1633271.55|
 | 0.00,-0.50, 6071246.63|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,9,"(0.5, 0.5)",True,lzw,
-MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_01JAN2010.shp,MaxarImagery/HighFreq/Northland/Omapere/Imagery/Stack/Omapere_01JAN2010.tif,100.0,20,GTiff,uint8,,5989,7892,3,,"| 0.50, 0.00, 1633271.55|
+MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_01JAN2010.shp,MaxarImagery/HighFreq/Northland/Omapere/Stack/Omapere_01JAN2010.tif,100.0,20,GTiff,uint8,,5989,7892,3,,"| 0.50, 0.00, 1633271.55|
 | 0.00,-0.50, 6071246.63|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",False,lzw,
-MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_14JUN2018.shp,MaxarImagery/HighFreq/Northland/Omapere/Imagery/Stack/Omapere_14JUN2018.tif,100.0,14,GTiff,uint8,,5989,7892,3,,"| 0.50, 0.00, 1633271.55|
+MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_14JUN2018.shp,MaxarImagery/HighFreq/Northland/Omapere/Stack/Omapere_14JUN2018.tif,100.0,14,GTiff,uint8,,5989,7892,3,,"| 0.50, 0.00, 1633271.55|
 | 0.00,-0.50, 6071246.63|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,lzw,
-MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_15JUL2006.shp,MaxarImagery/HighFreq/Northland/Omapere/Imagery/Stack/Omapere_15JUL2006.tif,100.0,19,GTiff,uint8,,4990,6577,3,,"| 0.60, 0.00, 1633271.64|
+MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_15JUL2006.shp,MaxarImagery/HighFreq/Northland/Omapere/Stack/Omapere_15JUL2006.tif,100.0,19,GTiff,uint8,,4990,6577,3,,"| 0.60, 0.00, 1633271.64|
 | 0.00,-0.60, 6071246.72|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,8,"(0.6, 0.6000000000000283)",True,lzw,
-MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_11JAN2004.shp,MaxarImagery/HighFreq/Northland/Omapere/Imagery/Stack/Omapere_11JAN2004.tif,100.0,13,GTiff,uint8,,4990,6577,3,,"| 0.60, 0.00, 1633271.64|
+MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_11JAN2004.shp,MaxarImagery/HighFreq/Northland/Omapere/Stack/Omapere_11JAN2004.tif,100.0,13,GTiff,uint8,,4990,6577,3,,"| 0.60, 0.00, 1633271.64|
 | 0.00,-0.60, 6071246.72|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.6, 0.6000000000000283)",True,lzw,
-MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_09FEB2012.shp,MaxarImagery/HighFreq/Northland/Omapere/Imagery/Stack/Omapere_09FEB2012.tif,100.0,16,GTiff,uint8,,5989,7892,3,,"| 0.50, 0.00, 1633271.55|
+MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_09FEB2012.shp,MaxarImagery/HighFreq/Northland/Omapere/Stack/Omapere_09FEB2012.tif,100.0,16,GTiff,uint8,,5989,7892,3,,"| 0.50, 0.00, 1633271.55|
 | 0.00,-0.50, 6071246.63|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,lzw,
-MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_30MAR2020.shp,MaxarImagery/HighFreq/Northland/Omapere/Imagery/Stack/Omapere_30MAR2020.tif,100.0,16,GTiff,uint8,,5989,7892,3,,"| 0.50, 0.00, 1633271.55|
+MaxarImagery/HighFreq/Northland/Omapere/Shorelines/Omapere_30MAR2020.shp,MaxarImagery/HighFreq/Northland/Omapere/Stack/Omapere_30MAR2020.tif,100.0,16,GTiff,uint8,,5989,7892,3,,"| 0.50, 0.00, 1633271.55|
 | 0.00,-0.50, 6071246.63|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,lzw,
 MaxarImagery/HighFreq/Northland/Aranga/Shorelines/Aranga_03DEC2017.shp,MaxarImagery/HighFreq/Northland/Aranga/Stack/Aranga_03DEC2017.tif,100.0,6,GTiff,uint8,,5932,7389,3,,"| 0.47, 0.00, 1651491.89|
@@ -1982,22 +1775,22 @@ MaxarImagery/HighFreq/WestCoast/Ohinemaka/Shorelines/Ohinemaka_14MAR2015.shp,Max
 MaxarImagery/HighFreq/WestCoast/Ohinemaka/Shorelines/Ohinemaka_25MAR2010.shp,MaxarImagery/HighFreq/WestCoast/Ohinemaka/Imagery/Stack/Ohinemaka_25MAR2010.tif,100.0,6,GTiff,uint8,,9997,10174,3,,"| 0.50, 0.00, 1316943.66|
 | 0.00,-0.50, 5168421.84|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,3,"(0.5, 0.5)",True,lzw,
-MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_02MAR2019.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Imagery/Stack/CartersBeach_02MAR2019.tif,100.0,8,GTiff,uint8,,15190,5773,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.50, 0.00, 1475048.97|
+MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_02MAR2019.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Stack/CartersBeach_02MAR2019.tif,100.0,8,GTiff,uint8,,15190,5773,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.50, 0.00, 1475048.97|
 | 0.00,-0.50, 5379424.15|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.5, 0.5)",True,lzw,
-MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_14JUNE2010.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Imagery/Stack/CartersBeach_14JUNE2010.tif,100.0,3,GTiff,uint8,,15190,5773,3,,"| 0.50, 0.00, 1475048.97|
+MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_14JUNE2010.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Stack/CartersBeach_14JUNE2010.tif,100.0,3,GTiff,uint8,,15190,5773,3,,"| 0.50, 0.00, 1475048.97|
 | 0.00,-0.50, 5379424.15|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.5, 0.5)",True,lzw,
-MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_28MAR2012.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Imagery/Stack/CartersBeach_28MAR2012.tif,100.0,3,GTiff,uint8,,15943,6058,3,,"| 0.48, 0.00, 1475049.01|
+MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_28MAR2012.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Stack/CartersBeach_28MAR2012.tif,100.0,3,GTiff,uint8,,15943,6058,3,,"| 0.48, 0.00, 1475049.01|
 | 0.00,-0.48, 5379424.02|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.4763697385787964, 0.4763697385787964)",True,lzw,
-MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_07MAR2017.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Imagery/Stack/CartersBeach_07MAR2017.tif,100.0,7,GTiff,uint8,,15503,5891,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.49, 0.00, 1475049.17|
+MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_07MAR2017.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Stack/CartersBeach_07MAR2017.tif,100.0,7,GTiff,uint8,,15503,5891,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.49, 0.00, 1475049.17|
 | 0.00,-0.49, 5379424.00|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.4898717999458313, 0.4898717999458313)",True,lzw,
-MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_30MAR2020.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Imagery/Stack/CartersBeach_30MAR2020.tif,100.0,7,GTiff,uint8,,15190,5773,3,,"| 0.50, 0.00, 1475048.97|
+MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_30MAR2020.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Stack/CartersBeach_30MAR2020.tif,100.0,7,GTiff,uint8,,15190,5773,3,,"| 0.50, 0.00, 1475048.97|
 | 0.00,-0.50, 5379424.15|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,lzw,
-MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_24JUNE2005.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Imagery/Stack/CartersBeach_24JUNE2005_3.tif,100.0,4,GTiff,uint8,,16711,14502,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.60, 0.00, 1474914.35|
+MaxarImagery/HighFreq/WestCoast/CartersBeach/Shorelines/CartersBeach_24JUNE2005.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Stack/CartersBeach_24JUNE2005_3.tif,100.0,4,GTiff,uint8,,16711,14502,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.60, 0.00, 1474914.35|
 | 0.00,-0.60, 5373818.15|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.6000000000000055, 0.6000000000000129)",True,lzw,
 MaxarImagery/HighFreq/WestCoast/Ngakawau/Shorelines/Ngakawau_14Feb2011.shp,MaxarImagery/HighFreq/WestCoast/Ngakawau/Imagery/Stack/Ngakawau_14Feb2011.tif,100.0,13,GTiff,uint8,,23088,21891,4,,"| 0.62, 0.00, 1493619.38|
@@ -2633,9 +2426,21 @@ Retrolens/Southland/CosyNook/Shorelines/CosyNook_10MAR1963.shp,Retrolens/Southla
 Retrolens/Southland/CosyNook/Shorelines/CosyNook_08OCT1985.shp,Retrolens/Southland/CosyNook/Stack/CosyNook_08OCT1985_mosaic.jp2,100.0,3,JP2OpenJPEG,uint16,256.0,5113,4087,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.75, 0.00, 1191268.56|
 | 0.00,-0.75, 4856173.81|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.75, 0.75)",True,,
+Retrolens/Southland/ToetoeBay_west/Shorelines/ToetoesBay_west_17OCT1985.shp,Retrolens/Southland/ToetoeBay_west/Stack/ToetoesBay_west_17OCT1985_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,13966,4824,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.74, 0.00, 1250390.11|
+| 0.00,-0.74, 4831017.25|
+| 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.7351010418126425, 0.735101041812635)",True,,
 Retrolens/Southland/ToetoeBay_west/Shorelines/ToetoesBay_west_15MAR1951.shp,Retrolens/Southland/ToetoeBay_west/Stack/ToetoesBay_west_15MAR1951_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,19812,6060,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.50, 0.00, 1250684.30|
 | 0.00,-0.51, 4831124.46|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.5, 0.5103491172506459)",True,,
+Retrolens/Southland/ToetoeBay_west/Shorelines/ToetoesBay_west_28NOV1998.shp,Retrolens/Southland/ToetoeBay_west/Stack/ToetoesBay_west_28NOV1998_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,8673,3549,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 1.35, 0.00, 1249129.18|
+| 0.00,-1.35, 4831416.85|
+| 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(1.3508843970339262, 1.350884397033939)",True,,
+Retrolens/Southland/ToetoeBay_west/Shorelines/ToetoesBay_west_25FEB1978.shp,Retrolens/Southland/ToetoeBay_west/Stack/ToetoesBay_west_25FEB1978_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,8033,3447,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 1.35, 0.00, 1250577.75|
+| 0.00,-1.35, 4831732.63|
+| 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(1.3546277552153965, 1.3546277552155206)",True,,
+Retrolens/Southland/ToetoeBay_west/Shorelines/ToetoesBay_west_03JAN1962.shp,Retrolens/Southland/ToetoeBay_west/Stack/ToetoesBay_west_03JAN1962_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,23611,7538,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.43, 0.00, 1250629.79|
+| 0.00,-0.43, 4831018.23|
+| 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.4319346659296786, 0.43193466592969015)",True,,
 Retrolens/Southland/BigBay/Shorelines/BigBay_17FEB1975.shp,Retrolens/Southland/BigBay/Stack/BigBay_17FEB1975_mosaic.jp2,100.0,3,JP2OpenJPEG,uint16,256.0,3990,7820,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.77, 0.00, 1208067.13|
 | 0.00,-0.77, 5085088.86|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.7710307651679067, 0.7710307651679353)",True,,
@@ -2915,6 +2720,9 @@ Retrolens/Taranaki/KaupokonuiBeach/Shorelines/KaupokonuiBeach_07MAR2022.shp,Maxa
 Retrolens/Taranaki/KaupokonuiBeach/Shorelines/KaupokonuiBeach_28AUG1972.shp,Retrolens/Taranaki/KaupokonuiBeach/Stack/KaupokonuiBeach_28AUG1972_mosaic.jp2,100.0,7,JP2OpenJPEG,uint16,256.0,10782,5240,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.71, 0.00, 1688104.85|
 | 0.00,-0.71, 5621495.22|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.7120729920210652, 0.7120729920210829)",True,,
+Retrolens/Taranaki/KaupokonuiBeach/Shorelines/KaupokonuiBeach_08MAY1951.shp,Retrolens/Taranaki/KaupokonuiBeach/Stack/KaupokonuiBeach_08MAY1951_mosaic.jp2,100.0,7,JP2OpenJPEG,uint16,256.0,15328,10420,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.49, 0.00, 1687995.77|
+| 0.00,-0.49, 5622272.30|
+| 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.48622968690037255, 0.48622968690040846)",True,,
 Retrolens/Taranaki/New Plymouth District Council/TongaporutuRiver/Shorelines/TongaporutuRiver_07NOV1970.shp,Retrolens/Taranaki/New Plymouth District Council/TongaporutuRiver/Stack/TongaporutuRiver_7NOV1970_mosaic.jp2,100.0,15,JP2OpenJPEG,uint16,256.0,10876,18134,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.40, 0.00, 1734561.79|
 | 0.00,-0.40, 5704476.23|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.3999999999999914, 0.3999999999999795)",True,,
@@ -3275,6 +3083,9 @@ Retrolens/Taranaki/NewPlymouth_Airport/Shorelines/NewPlymouth Airport_14AUG1950.
 Retrolens/Taranaki/NewPlymouth_Airport/Shorelines/NewPlymouth Airport_08NOV1970.shp,Retrolens/Taranaki/NewPlymouth_Airport/Stack/NewPlymouth_Airport_8NOV1970_mosaic.jp2,100.0,5,JP2OpenJPEG,uint16,256.0,14636,10931,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.70, 0.00, 1694925.28|
 | 0.00,-0.70, 5685148.13|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.7034588427042722, 0.7034588427042691)",True,,
+Retrolens/Taranaki/NewPlymouth_Airport/Shorelines/NewPlymouth Airport_09FEB1982.shp,Retrolens/Taranaki/NewPlymouth_Airport/Stack/NewPlymouth_Airport_09FEB1982_mosaic.jp2,100.0,5,JP2OpenJPEG,uint8,255.0,6070,3471,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 1.52, 0.00, 1694104.81|
+| 0.00,-1.52, 5682775.90|
+| 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(1.5188368611022771, 1.5188368611022705)",True,,
 Retrolens/Taranaki/Oeo/Shorelines/Oeo_8MAY1951.shp,Retrolens/Taranaki/Oeo/Stack/Oeo_8MAY1951_mosaic.jp2,100.0,7,JP2OpenJPEG,uint16,256.0,13539,9020,3,,"| 0.50, 0.00, 1681142.06|
 | 0.00,-0.50, 5624633.67|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,5,"(0.5026243792007962, 0.5026243792008402)",True,,
@@ -3494,6 +3305,9 @@ Retrolens/Auckland/TeArai/Shorelines/TeArai_07FEB1982.shp,Retrolens/Auckland/TeA
 Retrolens/Auckland/TeArai/Shorelines/TeArai_05FEB1996.shp,Retrolens/Auckland/TeArai/Stack/TeArai_05FEB1996_mosaic.jp2,100.0,3,JP2OpenJPEG,uint8,,6275,8611,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.73, 0.00, 1744436.86|
 | 0.00,-0.73, 6002601.46|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,,0,"(0.7319246845999993, 0.7319246846000378)",True,,
+Retrolens/Auckland/TeArai/Shorelines/TeArai_06NOV2015.shp,Retrolens/Auckland/TeArai/Stack/TeArai_06NOV2015.tif,100.0,5,GTiff,uint8,,12000,18000,3,EPSG:2193,"| 0.40, 0.00, 1744000.00|
+| 0.00,-0.40, 6003600.00|
+| 0.00, 0.00, 1.00|",,1,False,pixel,0,"(0.4, 0.4)",True,lzw,
 Retrolens/Auckland/Orewa/Shorelines/Orewa_25AUG1970.shp,Retrolens/Auckland/Orewa/Stack/Orewa_25AUG1970.jp2,100.0,9,JP2OpenJPEG,uint8,,4908,17780,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.27, 0.00, 1751022.37|
 | 0.00,-0.27, 5952799.92|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.26823333074059225, 0.26823333074056926)",True,,
@@ -3668,9 +3482,15 @@ Retrolens/Manawatu/HokioBeach/Shorelines/HokioBeach_21FEB2001.shp,Retrolens/Mana
 Retrolens/Manawatu/HimatangiBeach_South/Shorelines/HimatangiBeach_South_21FEB2001.shp,Retrolens/Manawatu/HimatangiBeach_South/Stack/HimatangiBeach_South_21FEB2001_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,1866,7968,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 1.40, 0.00, 1787059.07|
 | 0.00,-1.40, 5528144.54|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(1.3999999999999502, 1.4000000000000234)",True,,
+Retrolens/Manawatu/HimatangiBeach_South/Shorelines/HimatangiBeach_South_15APR1953.shp,Retrolens/Manawatu/HimatangiBeach_South/Stack/HimatangiBeach_South_15APR1953_mosaic.jp2,100.0,3,JP2OpenJPEG,uint16,256.0,6253,31260,4,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.30, 0.00, 1787639.52|
+| 0.00,-0.30, 5528161.93|
+| 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.2999999999999851, 0.3)",True,,
 Retrolens/Manawatu/HimatangiBeach_South/Shorelines/HimatangiBeach_South_15MAR1939.shp,Retrolens/Manawatu/HimatangiBeach_South/Stack/HimatangiBeach_South_15MAR1939_mosaic.jp2,100.0,4,JP2OpenJPEG,uint16,256.0,1374,6274,4,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 1.70, 0.00, 1787377.67|
 | 0.00,-1.70, 5528136.86|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(1.700000000000034, 1.6999999999999702)",True,,
+Retrolens/Manawatu/WhangaehuRiver/Shorelines/WhangaehuRiver_10JUN1942.shp,Retrolens/Manawatu/WhangaehuRiver/Stack/WhangaehuRiver_10JUN1942_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,5152,6939,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.50, 0.00, 1777344.63|
+| 0.00,-0.50, 5567945.88|
+| 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.5, 0.5)",True,,
 Retrolens/Manawatu/WhangaehuRiver/Shorelines/WhangaehuRiver_7SEP1967.shp,Retrolens/Manawatu/WhangaehuRiver/Stack/WhangaehuRiver_7SEP1967_mosaic.jp2,100.0,4,JP2OpenJPEG,uint16,256.0,9633,12124,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.80, 0.00, 1775233.63|
 | 0.00,-0.80, 5571016.11|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.7999999999999904, 0.8000000000000154)",True,,
@@ -3680,6 +3500,9 @@ Retrolens/Manawatu/WhangaehuRiver/Shorelines/WhangaehuRiver_4FEB1982.shp,Retrole
 Retrolens/Manawatu/WhangaehuRiver/Shorelines/WhangaehuRiver_30AUG1942.shp,Retrolens/Manawatu/WhangaehuRiver/Stack/WhangaehuRiver_30AUG1942_mosaic.jp2,100.0,2,JP2OpenJPEG,uint16,256.0,15536,19362,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.50, 0.00, 1775206.09|
 | 0.00,-0.50, 5571000.70|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.5, 0.5)",True,,
+Retrolens/Manawatu/WhanganuiSouth/Shorelines/WhanganuiSouth_10JUN1942.shp,Retrolens/Manawatu/WhanganuiSouth/Stack/WhanganuiSouth_10JUN1942.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,7040,5396,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.58, 0.00, 1769005.54|
+| 0.00,-0.58, 5576228.60|
+| 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.5842123851088465, 0.5842123851088601)",True,,
 Retrolens/Manawatu/WhanganuiSouth/Shorelines/WhanganuiSouth_08MAR1986.shp,Retrolens/Manawatu/WhanganuiSouth/Stack/WhanganuiSouth_08MAR1986.tif,100.0,1,GTiff,uint16,256.0,7767,6391,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.73, 0.00, 1768890.66|
 | 0.00,-0.73, 5576844.08|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.7271235023251204, 0.7271235023251121)",True,,
@@ -4628,6 +4451,9 @@ Retrolens/Northland/NinetyMile3/Shorelines/NinetyMile3_09OCT1962.shp,Retrolens/N
 Retrolens/Northland/NinetyMile3/Shorelines/NinetyMile3_18NOV1977.shp,Retrolens/Northland/NinetyMile3/Stack/NinetyMile3_18NOV1977.tif,100.0,5,GTiff,uint16,65535.0,15196,29596,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.90, 0.00, 1603908.27|
 | 0.00,-0.90, 6142855.64|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.9000671198000014, 0.9000671198000014)",True,lzw,
+Retrolens/Northland/NinetyMile3/Shorelines/NinetyMile3_22OCT2023.shp,MaxarImagery/HighFreq/Northland/NinetyMile3/Stack/NinetyMile3_22OCT2023.tif,100.0,41,GTiff,uint16,256.0,40488,93744,3,,"| 0.30, 0.00, 1604151.57|
+| 0.00,-0.30, 6143400.77|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,9,"(0.2999999999999977, 0.300000000000002)",True,,
 Retrolens/Northland/NinetyMile3/Shorelines/NinetyMile3_21NOV1986.shp,Retrolens/Northland/NinetyMile3/Stack/NinetyMile3_21NOV1986.tif,100.0,1,GTiff,uint16,65535.0,8577,8953,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 1.02, 0.00, 1608822.36|
 | 0.00,-1.02, 6125365.33|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(1.0217402221999987, 1.0217402221999987)",True,lzw,
@@ -4655,6 +4481,12 @@ Retrolens/Northland/NinetyMile2/Shorelines/NinetyMile2_31AUG1985.shp,Retrolens/N
 Retrolens/Northland/NinetyMile2/Shorelines/NinetyMile2_19JAN1957.shp,Retrolens/Northland/NinetyMile2/Stack/NinetyMile2_19JAN1957.tif,100.0,1,GTiff,uint16,65535.0,26079,14431,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.63, 0.00, 1589340.88|
 | 0.00,-0.63, 6162679.80|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.6291090783999693, 0.6291090783999693)",True,lzw,
+Retrolens/Northland/NinetyMile2/Shorelines/NinetyMile2_21JAN2024.shp,MaxarImagery/HighFreq/Northland/NinetyMile2/Stack/NinetyMile2_21JAN2024.tif,100.0,7,GTiff,uint16,256.0,13592,14145,3,,"| 0.30, 0.00, 1589451.51|
+| 0.00,-0.30, 6162740.50|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.3000000000000069, 0.3)",True,,
+Retrolens/Northland/NinetyMile2/Shorelines/NinetyMile2_11JAN2024.shp,MaxarImagery/HighFreq/Northland/NinetyMile2/Stack/NinetyMile2_11JAN2024.tif,100.0,45,GTiff,uint16,256.0,50286,68536,3,,"| 0.30, 0.00, 1591448.74|
+| 0.00,-0.30, 6160921.52|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,6,"(0.30000000000000093, 0.29999999999999727)",True,,
 Retrolens/Northland/NinetyMile2/Shorelines/NinetyMile2_24NOV1979.shp,Retrolens/Northland/NinetyMile2/Stack/NinetyMile2_24NOV1979.tif,100.0,7,GTiff,uint16,65535.0,36912,48001,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.44, 0.00, 1589340.94|
 | 0.00,-0.44, 6162679.95|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.4444769628999989, 0.4444769628999989)",True,lzw,
@@ -4724,6 +4556,9 @@ Retrolens/Northland/MarsdenPoint/Shorelines/MarsdenPoint_28MAY1942.shp,Retrolens
 Retrolens/Northland/MarsdenPoint/Shorelines/MarsdenPoint_20FEB1984.shp,Retrolens/Northland/MarsdenPoint/Stack/MarsdenPoint_20FEB1984_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,10897,14126,1,,"| 0.69, 0.00, 1728417.80|
 | 0.00,-0.69, 6035144.28|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,,6,"(0.688356488100021, 0.6883564880999913)",False,,
+Retrolens/Northland/MarsdenPoint/Shorelines/MarsdenPoint_17JUN1966.shp,Retrolens/Northland/MarsdenPoint/Stack/MarsdenPoint_17JUN1966_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,8139,9884,1,,"| 0.94, 0.00, 1728337.99|
+| 0.00,-0.94, 6034417.23|
+| 0.00, 0.00, 1.00|",1024.0,1024,True,,7,"(0.9372020210000138, 0.9372020210000942)",False,,
 Retrolens/Northland/TaupiriBay/Shorelines/TaupiriBay_06MAY1972.shp,Retrolens/Northland/TaupiriBay/Stack/TaupiriBay_06MAY1972.tif,100.0,11,GTiff,uint16,65535.0,23602,30569,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.22, 0.00, 1716929.38|
 | 0.00,-0.22, 6100626.16|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.22190759970000618, 0.22190759970000618)",True,lzw,
@@ -4766,12 +4601,18 @@ Retrolens/Northland/TauroaPoint/Shorelines/TauroaPoint_11JUN1972.shp,Retrolens/N
 Retrolens/Northland/TauroaPoint/Shorelines/TauroaPoint_08FEB1982.shp,Retrolens/Northland/TauroaPoint/Stack/TauroaPoint_08FEB1982.tif,100.0,4,GTiff,uint16,65535.0,18079,17071,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.38, 0.00, 1604180.15|
 | 0.00,-0.38, 6108920.74|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.3777231947999949, 0.3777231947999949)",True,lzw,
+Retrolens/Northland/TauroaPoint/Shorelines/TauroaPoint_11NOV2023.shp,MaxarImagery/HighFreq/Northland/TauroaPoint/Stack/TauroaPoint_11NOV2023.tif,100.0,3,GTiff,uint16,256.0,10047,4003,3,,"| 0.45, 0.00, 1606882.25|
+| 0.00,-0.45, 6108695.34|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.44999999999999074, 0.4499999999999069)",True,lzw,
 Retrolens/Northland/TauroaPoint/Shorelines/TauroaPoint_02MAY1960.shp,Retrolens/Northland/TauroaPoint/Stack/TauroaPoint_02MAY1960.tif,100.0,6,GTiff,uint16,65535.0,10070,13856,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.81, 0.00, 1603821.33|
 | 0.00,-0.81, 6109761.25|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.805837175199996, 0.805837175199996)",True,lzw,
 Retrolens/Northland/TauroaPoint/Shorelines/TauroaPoint_11MAY1968.shp,Retrolens/Northland/TauroaPoint/Stack/TauroaPoint_11MAY1968.tif,100.0,19,GTiff,uint16,65535.0,8895,12238,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.91, 0.00, 1603821.18|
 | 0.00,-0.91, 6109761.85|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.9123785308999872, 0.9123785308999872)",True,lzw,
+Retrolens/Northland/TauroaPoint/Shorelines/TauroaPoint_22OCT2023.shp,MaxarImagery/HighFreq/Northland/TauroaPoint/Stack/TauroaPoint_22OCT2023.tif,100.0,0,GTiff,uint16,256.0,24489,39324,3,,"| 0.30, 0.00, 1604826.90|
+| 0.00,-0.30, 6109602.12|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.2999999999999981, 0.30000000000000476)",True,,
 Retrolens/Northland/TokerauBeach/Shorelines/TokerauBeach_18NOV1977.shp,Retrolens/Northland/TokerauBeach/Stack/TokerauBeach_18NOV1977.tif,100.0,43,GTiff,uint16,65535.0,24532,11074,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.11, 0.00, 1637644.36|
 | 0.00,-0.11, 6129269.06|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.10842357700000145, 0.10842357700000145)",True,lzw,
@@ -4841,6 +4682,9 @@ Retrolens/Northland/LangsBeach/Shorelines/LangsBeach_06JAN1978.shp,Retrolens/Nor
 Retrolens/Northland/LangsBeach/Shorelines/LangsBeach_20MAY1963.shp,Retrolens/Northland/LangsBeach/Stack/LangsBeach_20MAY1963_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,34821,17620,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.21, 0.00, 1735789.28|
 | 0.00,-0.21, 6011868.37|
 | 0.00, 0.00, 1.00|",,17620,False,,0,"(0.21412490269998524, 0.2141249026999588)",True,,
+Retrolens/Northland/WhangareiHeads/Shorelines/WhangareiHeads_11FEB1970.shp,Retrolens/Northland/WhangareiHeads/Stack/WhangareiHeads_11FEB1970_mosaic.jp2,100.0,8,JP2OpenJPEG,uint16,256.0,23565,32156,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.33, 0.00, 1737085.20|
+| 0.00,-0.33, 6039917.24|
+| 0.00, 0.00, 1.00|",1024.0,1024,True,,0,"(0.3273388013999819, 0.32733880139997157)",True,,
 Retrolens/Northland/WhangareiHeads/Shorelines/WhangareiHeads_11MAY1968.shp,Retrolens/Northland/WhangareiHeads/Stack/WhangareiHeads_11MAY1968_mosaic.jp2,100.0,6,JP2OpenJPEG,uint16,256.0,23614,32222,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.33, 0.00, 1737085.20|
 | 0.00,-0.33, 6039917.24|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,,0,"(0.32666823639999365, 0.3266682364000039)",True,,
@@ -4880,6 +4724,9 @@ Retrolens/Northland/Whananaki/Shorelines/Whananaki_29MAR1951.shp,Retrolens/North
 Retrolens/Northland/BayleysBeach/Shorelines/BayleysBeach_05FEB1996.shp,Retrolens/Northland/BayleysBeach/Stack/BayleysBeach_05FEB1996.tif,100.0,6,GTiff,uint16,65535.0,30594,44902,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.73, 0.00, 1665092.56|
 | 0.00,-0.73, 6024618.49|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.7319246846000018, 0.7319246846000018)",True,lzw,
+Retrolens/Northland/BayleysBeach/Shorelines/BayleysBeach_30SEP1952.shp,Retrolens/Northland/BayleysBeach/Stack/BayleysBeach_30SEP1952.tif,100.0,2,GTiff,uint16,65535.0,29154,23514,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.27, 0.00, 1662836.76|
+| 0.00,-0.27, 6024618.17|
+| 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.26557914299999236, 0.26557914299999236)",True,lzw,
 Retrolens/Northland/BayleysBeach/Shorelines/BayleysBeach_17JUN1966.shp,Retrolens/Northland/BayleysBeach/Stack/BayleysBeach_17JUN1966.tif,100.0,5,GTiff,uint16,65535.0,26301,15831,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.94, 0.00, 1662835.98|
 | 0.00,-0.94, 6024618.40|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.9372020210000026, 0.9372020210000026)",True,lzw,
@@ -4919,15 +4766,27 @@ Retrolens/Northland/NorthHeadKaipara/Shorelines/NorthHeadKaipara_11MAY1938.shp,R
 Retrolens/Northland/NorthHeadKaipara/Shorelines/NorthHeadKaipara_09FEB1982.shp,Retrolens/Northland/NorthHeadKaipara/Stack/NorthHeadKaipara_09FEB1982.tif,100.0,5,GTiff,uint8,255.0,62963,39175,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.36, 0.00, 1685314.48|
 | 0.00,-0.36, 5993107.46|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.35828864559998, 0.35828864559998)",True,lzw,
+Retrolens/Northland/CapeReinga/Shorelines/CapeReinga_24DEC2021.shp,MaxarImagery/HighFreq/Northland/CapeReinga/Stack/CapeReinga_24DEC2021.tif,100.0,5,GTiff,uint16,256.0,11051,3926,4,,"| 0.50, 0.00, 1593745.28|
+| 0.00,-0.50, 6192128.37|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,6,"(0.5, 0.5)",True,,
+Retrolens/Northland/CapeReinga/Shorelines/CapeReinga_12APR2023.shp,MaxarImagery/HighFreq/Northland/CapeReinga/Stack/CapeReinga_12APR2023.tif,100.0,4,GTiff,uint16,256.0,5626,3711,3,,"| 0.50, 0.00, 1571484.42|
+| 0.00,-0.50, 6190730.60|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.5, 0.5)",True,,
 Retrolens/Northland/CapeReinga/Shorelines/CapeReinga_11FEB1971.shp,Retrolens/Northland/CapeReinga/Stack/CapeReinga_11FEB1971.tif,100.0,18,GTiff,uint16,65535.0,32540,10572,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 1.16, 0.00, 1565662.93|
 | 0.00,-1.16, 6195359.35|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(1.1637708351999958, 1.1637708351999958)",True,lzw,
 Retrolens/Northland/CapeReinga/Shorelines/CapeReinga_05JAN1980.shp,Retrolens/Northland/CapeReinga/Stack/CapeReinga_05JAN1980.tif,100.0,20,GTiff,uint16,65535.0,70016,27284,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.45, 0.00, 1571959.29|
 | 0.00,-0.45, 6195359.18|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.45093247869999437, 0.45093247869999437)",True,lzw,
+Retrolens/Northland/CapeReinga/Shorelines/CapeReinga_08DEC2023.shp,MaxarImagery/HighFreq/Northland/CapeReinga/Stack/CapeReinga_08DEC2023.tif,100.0,6,GTiff,uint16,256.0,13464,21632,3,,"| 0.30, 0.00, 1567012.96|
+| 0.00,-0.30, 6191462.50|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.29999999999999655, 0.2999999999999828)",True,,
 Retrolens/Northland/CapeReinga/Shorelines/CapeReinga_19JAN1957.shp,Retrolens/Northland/CapeReinga/Stack/CapeReinga_19JAN1957.tif,100.0,19,GTiff,uint16,65535.0,60195,19557,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.63, 0.00, 1565662.47|
 | 0.00,-0.63, 6195359.50|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.6291090783999721, 0.6291090783999721)",True,lzw,
+Retrolens/Northland/CapeReinga/Shorelines/CapeReinga_10MAY2022.shp,MaxarImagery/HighFreq/Northland/CapeReinga/Stack/CapeReinga_10MAY2022.tif,100.0,4,GTiff,uint16,256.0,17147,9694,3,,"| 0.50, 0.00, 1578758.23|
+| 0.00,-0.50, 6191917.94|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.5, 0.5)",True,,
 Retrolens/Northland/CapeReinga/Shorelines/CapeReinga_26MAY1947.shp,Retrolens/Northland/CapeReinga/Stack/CapeReinga_26MAY1947.tif,100.0,21,GTiff,uint8,255.0,116645,35741,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.32, 0.00, 1565662.84|
 | 0.00,-0.32, 6194659.14|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.3246528905000027, 0.3246528905000027)",True,lzw,
@@ -4940,6 +4799,12 @@ Retrolens/Northland/NinetyMile1/Shorelines/NinetyMile1_31JAN1985.shp,Retrolens/N
 Retrolens/Northland/NinetyMile1/Shorelines/NinetyMile1_04FEB1977.shp,Retrolens/Northland/NinetyMile1/Stack/NinetyMile1_04FEB1977.tif,100.0,2,GTiff,uint16,65535.0,25523,33433,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.28, 0.00, 1584264.92|
 | 0.00,-0.28, 6170154.23|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.276861419900002, 0.276861419900002)",True,lzw,
+Retrolens/Northland/NinetyMile1/Shorelines/NinetyMile1_20MAR2023.shp,MaxarImagery/HighFreq/Northland/NinetyMile1/Stack/NinetyMile1_20MAR2023.tif,100.0,6,GTiff,uint16,256.0,30834,32211,3,,"| 0.30, 0.00, 1573670.46|
+| 0.00,-0.30, 6180626.21|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,7,"(0.2999999999999985, 0.2999999999999942)",True,,
+Retrolens/Northland/NinetyMile1/Shorelines/NinetyMile1_21JAN2024.shp,MaxarImagery/HighFreq/Northland/NinetyMile1/Stack/NinetyMile1_21JAN2024.tif,100.0,9,GTiff,uint16,256.0,32191,41165,3,,"| 0.30, 0.00, 1581673.81|
+| 0.00,-0.30, 6173332.20|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.30000000000000143, 0.3)",True,,
 Retrolens/Northland/NinetyMile1/Shorelines/NinetyMile1_19JAN1957.shp,Retrolens/Northland/NinetyMile1/Stack/NinetyMile1_19JAN1957.tif,100.0,11,GTiff,uint16,65535.0,26852,30604,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.63, 0.00, 1574438.54|
 | 0.00,-0.63, 6180150.79|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.629109078399975, 0.629109078399975)",True,lzw,
@@ -5219,6 +5084,9 @@ Retrolens/Northland/ArangaBeach/Shorelines/ArangaBeach_21FEB1984.shp,Retrolens/N
 Retrolens/Northland/ArangaBeach/Shorelines/ArangaBeach_10JAN1979.shp,Retrolens/Northland/ArangaBeach/Stack/ArangaBeach_10JAN1979.tif,100.0,20,GTiff,uint16,65535.0,52141,62929,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.34, 0.00, 1650049.60|
 | 0.00,-0.34, 6043366.39|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.343243421400003, 0.343243421400003)",True,lzw,
+Retrolens/Northland/TwilightBeach/Shorelines/TwilightBeach_20MAR2023.shp,MaxarImagery/HighFreq/Northland/TwilightBeach/Stack/TwilightBeach_20MAR2023.tif,100.0,4,GTiff,uint16,256.0,14378,17629,3,,"| 0.30, 0.00, 1570543.48|
+| 0.00,-0.30, 6183976.47|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.29999999999999355, 0.3000000000000106)",True,,
 Retrolens/Northland/TwilightBeach/Shorelines/TwilightBeach_19JAN1957.shp,Retrolens/Northland/TwilightBeach/Stack/TwilightBeach_19JAN1957.tif,100.0,1,GTiff,uint16,65535.0,9707,11121,1,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.63, 0.00, 1568580.28|
 | 0.00,-0.63, 6185305.08|
 | 0.00, 0.00, 1.00|",128.0,128,True,band,0,"(0.629109078399976, 0.629109078399976)",True,lzw,
@@ -5237,9 +5105,15 @@ Retrolens/WestCoast/Chesterfield/Shorelines/Chesterfield_02MAR1988.shp,Retrolens
 Retrolens/WestCoast/Chesterfield/Shorelines/Chesterfield_11NOV1963.shp,Retrolens/WestCoast/Chesterfield/Stack/Chesterfield_11NOV1963_mosaic.jp2,100.0,12,JP2OpenJPEG,uint16,256.0,42660,56527,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.20, 0.00, 1437536.30|
 | 0.00,-0.20, 5284731.65|
 | 0.00, 0.00, 1.00|",,56527,False,pixel,0,"(0.2, 0.2000000000000066)",True,,
+Retrolens/WestCoast/Chesterfield/Shorelines/Chesterfield_14MAR2023.shp,MaxarImagery/HighFreq/WestCoast/Chesterfield/Stack/Chesterfield_14MAR2023.tif,100.0,9,GTiff,uint16,256.0,18815,24072,4,,"| 0.50, 0.00, 1438265.10|
+| 0.00,-0.50, 5286508.88|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,3,"(0.5, 0.5)",True,,
 Retrolens/WestCoast/Chesterfield/Shorelines/Chesterfield_27MAY1943.shp,Retrolens/WestCoast/Chesterfield/Stack/Chesterfield_27MAY1943_mosaic.jp2,100.0,10,JP2OpenJPEG,uint16,256.0,11830,17172,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.50, 0.00, 1441275.87|
 | 0.00,-0.50, 5286178.83|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.5, 0.5)",True,,
+Retrolens/WestCoast/GreymouthSouth/Shorelines/GreymouthSouth_17NOV2023.shp,MaxarImagery/HighFreq/WestCoast/GreymouthSouth/Imagery/Stack/GreymouthSouth_17NOV2023.tif,100.0,8,GTiff,uint16,256.0,7447,16730,4,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""Degree"",0.0174532925199433]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.50, 0.00, 1448784.66|
+| 0.00,-0.50, 5300056.35|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,0,"(0.5, 0.5)",True,,
 Retrolens/WestCoast/GreymouthSouth/Shorelines/GreymouthSouth_21May1945.shp,Retrolens/WestCoast/GreymouthSouth/Stack/GreymouthSouth_21MAY1945_mosaic.jp2,100.0,2,JP2OpenJPEG,uint16,256.0,6274,16399,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.22, 0.00, 1450521.27|
 | 0.00,-0.22, 5299078.56|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.21857421141873973, 0.21857421141875635)",True,,
@@ -5258,12 +5132,18 @@ Retrolens/WestCoast/Mokihinui_Ngakawau/Shorelines/Mokihinui_Ngakawau_15JAN1988.s
 Retrolens/WestCoast/Mokihinui_Ngakawau/Shorelines/Mokihinui_Ngakawau_25MAY1943.shp,Retrolens/WestCoast/Mokihinui_Ngakawau/Stack/Mokihinui_Ngakawau_25MAY1943_mosaic.jp2,100.0,3,JP2OpenJPEG,uint16,256.0,7235,11148,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.49, 0.00, 1505900.61|
 | 0.00,-0.49, 5398307.40|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.49287911580303334, 0.4928791158030443)",True,,
+Retrolens/WestCoast/Mokihinui_Ngakawau/Shorelines/Mokihinui_Ngakawau_23FEB2023.shp,MaxarImagery/HighFreq/WestCoast/Mokihinui_Ngakawau/Stack/Mokihinui_Ngakawau_23FEB2023.tif,100.0,14,GTiff,uint16,256.0,13458,20708,4,,"| 0.50, 0.00, 1505454.79|
+| 0.00,-0.50, 5403043.22|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.5, 0.5)",True,,
 Retrolens/WestCoast/Mokihinui_Ngakawau/Shorelines/Mokihinui_Ngakawau_25NOV1974.shp,Retrolens/WestCoast/Mokihinui_Ngakawau/Stack/Mokihinui_Ngakawau_25NOV1974_mosaic.jp2,100.0,3,JP2OpenJPEG,uint16,256.0,2995,4625,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 2.42, 0.00, 1505084.99|
 | 0.00,-2.42, 5403427.28|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(2.4242524376459333, 2.424252437645922)",True,,
 Retrolens/WestCoast/Mokihinui_Ngakawau/Shorelines/Mokihinui_Ngakawau_06FEB1967.shp,Retrolens/WestCoast/Mokihinui_Ngakawau/Stack/Mokihinui_Ngakawau_06FEB1967_mosaic.jp2,100.0,2,JP2OpenJPEG,uint16,256.0,2294,3441,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 3.06, 0.00, 1505511.79|
 | 0.00,-3.06, 5402944.55|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(3.057986399204001, 3.057986399204035)",True,,
+Retrolens/WestCoast/KongahuPoint/Shorelines/KongahuPoint_21MAR2023.shp,MaxarImagery/HighFreq/WestCoast/KongahuPoint/Stack/KongahuPoint_21MAR2023.tif,100.0,6,GTiff,uint8,,10358,19093,4,,"| 0.50, 0.00, 1510714.04|
+| 0.00,-0.50, 5411499.75|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5, 0.5)",True,lzw,
 Retrolens/WestCoast/KongahuPoint/Shorelines/KongahuPoint_25JAN1968.shp,Retrolens/WestCoast/KongahuPoint/Stack/KongahuPoint_25JAN1968_mosaic.jp2,100.0,6,JP2OpenJPEG,uint16,256.0,2459,3622,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 3.21, 0.00, 1509862.34|
 | 0.00,-3.21, 5412537.43|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(3.209607761283945, 3.2096077612838294)",True,,
@@ -5366,6 +5246,9 @@ Retrolens/WestCoast/Punakaiki/Shorelines/Punakaiki_18FEB1988.shp,Retrolens/WestC
 Retrolens/WestCoast/Punakaiki/Shorelines/Punakaiki_13MAR1951.shp,Retrolens/WestCoast/Punakaiki/Stack/Punakaiki_13MAR1951_mosaic.jp2,100.0,7,JP2OpenJPEG,uint16,256.0,5349,10064,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.61, 0.00, 1461338.01|
 | 0.00,-0.61, 5340900.12|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.6122960754596467, 0.6122960754596541)",True,,
+Retrolens/WestCoast/CartersBeach/Shorelines/CartersBeach_18NOV2023.shp,MaxarImagery/HighFreq/WestCoast/CartersBeach/Stack/CartersBeach_18NOV2023.tif,100.0,6,GTiff,uint16,256.0,16549,6717,4,,"| 0.50, 0.00, 1474543.80|
+| 0.00,-0.50, 5379760.11|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5, 0.5)",True,,
 Retrolens/WestCoast/CartersBeach/Shorelines/CartersBeach_13MAR1951.shp,Retrolens/WestCoast/CartersBeach/Stack/CartersBeach_13MAR1951_mosaic.jp2,100.0,3,JP2OpenJPEG,uint16,256.0,31717,14083,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.25, 0.00, 1474839.71|
 | 0.00,-0.25, 5379489.38|
 | 0.00, 0.00, 1.00|",,14083,False,pixel,0,"(0.25252909527671036, 0.2525290952767135)",True,,
@@ -5396,6 +5279,9 @@ Retrolens/WestCoast/GillespiesBeach/Shorelines/GillespiesBeach_3APR1953.shp,Retr
 Retrolens/WestCoast/GillespiesBeach/Shorelines/GillespiesBeach_15JAN1988.shp,Retrolens/WestCoast/GillespiesBeach/Stack/GillespiesBeach_15JAN1988_mosaic.jp2,100.0,2,JP2OpenJPEG,uint16,256.0,10192,9754,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.57, 0.00, 1339563.44|
 | 0.00,-0.57, 5191145.48|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.5702486358810687, 0.57024863588106)",True,,
+Retrolens/WestCoast/GillespiesBeach/Shorelines/GillespiesBeach_19DEC2022.shp,MaxarImagery/HighFreq/WestCoast/GillespiesBeach/Stack/GillespiesBeach_19DEC2022.tif,100.0,3,GTiff,uint16,256.0,17009,14130,3,,"| 0.30, 0.00, 1339760.09|
+| 0.00,-0.30, 5190520.34|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.29999999999999727, 0.3)",True,,
 Retrolens/WestCoast/JacksonBay_East/Shorelines/JacksonBay_East_21FEB1967.shp,Retrolens/WestCoast/JacksonBay_East/Stack/JacksonBay_East_21FEB1967_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,2665,2868,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 3.04, 0.00, 1265165.82|
 | 0.00,-3.04, 5132581.13|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(3.039427877030917, 3.039427877031007)",True,,
@@ -5465,6 +5351,9 @@ Retrolens/WestCoast/GreymouthNorth/Shorelines/GreymouthNorth_21MAY1945.shp,Retro
 Retrolens/WestCoast/GreymouthNorth/Shorelines/GreymouthNorth_18FEB1988.shp,Retrolens/WestCoast/GreymouthNorth/Stack/GreymouthNorth_18FEB1988_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,6087,14313,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.52, 0.00, 1450799.52|
 | 0.00,-0.52, 5306662.87|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.5217158728147898, 0.521715872814793)",True,,
+Retrolens/WestCoast/GreymouthNorth/Shorelines/GreymouthNorth_27JAN2023.shp,MaxarImagery/HighFreq/WestCoast/GreymouthNorth/Stack/GreymouthNorth_27JAN2023.tif,100.0,5,GTiff,uint16,256.0,9206,23903,3,,"| 0.30, 0.00, 1450931.74|
+| 0.00,-0.30, 5306649.67|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.30000000000000504, 0.3000000000000156)",True,,
 Retrolens/WestCoast/GreymouthNorth/Shorelines/GreymouthNorth_01APR1948.shp,Retrolens/WestCoast/GreymouthNorth/Stack/GreymouthNorth_01APR1948_mosaic.jp2,100.0,1,JP2OpenJPEG,uint16,256.0,3012,6146,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.61, 0.00, 1452247.41|
 | 0.00,-0.61, 5307091.79|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.6081293375081517, 0.6081293375081914)",True,,
@@ -5495,6 +5384,9 @@ Retrolens/WestCoast/KarangaruaRiver/Shorelines/KarangaruaRiver_15JAN1988.shp,Ret
 Retrolens/WestCoast/Westport/Shorelines/Westport_15JAN1988.shp,Retrolens/WestCoast/Westport/Stack/Westport_15JAN1988_mosaic.jp2,100.0,3,JP2OpenJPEG,uint16,256.0,15458,6016,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.48, 0.00, 1482301.60|
 | 0.00,-0.48, 5380098.30|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.4826758734245864, 0.48267587342459284)",True,,
+Retrolens/WestCoast/Westport/Shorelines/Westport_18NOV2023.shp,MaxarImagery/HighFreq/WestCoast/Westport/Stack/Westport_18NOV2023.tif,100.0,4,GTiff,uint16,256.0,14860,4387,4,,"| 0.50, 0.00, 1482548.90|
+| 0.00,-0.50, 5380013.15|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,4,"(0.5, 0.5)",True,,
 Retrolens/WestCoast/Westport/Shorelines/Westport_24JUN2005.shp,MaxarImagery/HighFreq/WestCoast/Westport/Stack/Westport_24JUN2005.tif,100.0,5,GTiff,uint8,,31896,32045,3,,"| 0.60, 0.00, 1474685.88|
 | 0.00,-0.60, 5383853.19|
 | 0.00, 0.00, 1.00|",128.0,128,True,pixel,3,"(0.5999999999999956, 0.5999999999999709)",True,lzw,
@@ -5525,6 +5417,9 @@ Retrolens/WestCoast/JacksonBay/Shorelines/JacksonBay_21FEB1967.shp,Retrolens/Wes
 Retrolens/WestCoast/HaastBeach/Shorelines/HaastBeach_26FEB1965.shp,Retrolens/WestCoast/HaastBeach/Stack/HaastBeach_26FEB1965_mosaic.jp2,100.0,2,JP2OpenJPEG,uint16,256.0,3555,2576,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 2.59, 0.00, 1270857.92|
 | 0.00,-2.59, 5137090.51|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(2.5908818402633456, 2.590881840263346)",True,,
+Retrolens/WestCoast/HaastBeach/Shorelines/HaastBeach_23FEB2023.shp,MaxarImagery/HighFreq/WestCoast/HaastBeach/Stack/HaastBeach_23FEB2023.tif,100.0,3,GTiff,uint16,256.0,30591,20311,3,,"| 0.30, 0.00, 1270605.39|
+| 0.00,-0.30, 5136679.77|
+| 0.00, 0.00, 1.00|",128.0,128,True,pixel,5,"(0.30000000000000154, 0.29999999999999083)",True,,
 Retrolens/WestCoast/HaastBeach/Shorelines/HaastBeach_18FEB1988.shp,Retrolens/WestCoast/HaastBeach/Stack/HaastBeach_18FEB1988_mosaic.jp2,100.0,3,JP2OpenJPEG,uint16,256.0,15056,10702,3,"PROJCS[""NZGD2000 / New Zealand Transverse Mercator 2000"",GEOGCS[""NZGD2000"",DATUM[""New_Zealand_Geodetic_Datum_2000"",SPHEROID[""GRS 1980"",6378137,298.257222101004,AUTHORITY[""EPSG"",""7019""]],AUTHORITY[""EPSG"",""6167""]],PRIMEM[""Greenwich"",0],UNIT[""degree"",0.0174532925199433,AUTHORITY[""EPSG"",""9122""]],AUTHORITY[""EPSG"",""4167""]],PROJECTION[""Transverse_Mercator""],PARAMETER[""latitude_of_origin"",0],PARAMETER[""central_meridian"",173],PARAMETER[""scale_factor"",0.9996],PARAMETER[""false_easting"",1600000],PARAMETER[""false_northing"",10000000],UNIT[""metre"",1,AUTHORITY[""EPSG"",""9001""]],AXIS[""Easting"",EAST],AXIS[""Northing"",NORTH],AUTHORITY[""EPSG"",""2193""]]","| 0.58, 0.00, 1271187.08|
 | 0.00,-0.58, 5136971.81|
 | 0.00, 0.00, 1.00|",1024.0,1024,True,pixel,0,"(0.5825796869138241, 0.5825796869138391)",True,,
