@@ -6,3 +6,4 @@ rasterio
 pyarrow
 rapidfuzz
 matplotlib
+jupyter-autotime
