@@ -25,9 +25,13 @@ filelist = pd.read_csv(prefix + "Nick/filelist.txt", header=None).iloc[:,0]
 df = filelist[filelist.apply(check_filename)].to_frame(name="filename")
 
 def read(filename):
-    df = gpd.read_file(prefix + filename)
-    df["filename"] = filename
-    return df
+    try:
+      df = gpd.read_file(prefix + filename)
+      df["filename"] = filename
+      return df
+    except:
+       print(f"Can't read {filename}")
+       return pd.DataFrame()
 
-df = gpd.GeoDataFrame(pd.concat(thread_map(read, df.filename))).to_crs(epsg=4326)
+df = gpd.GeoDataFrame(pd.concat(process_map(read, df.filename))).to_crs(epsg=4326)
 df.to_file("shorelines.geojson")
