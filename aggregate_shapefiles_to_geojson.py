@@ -10,7 +10,7 @@ from tqdm.contrib.concurrent import thread_map, process_map
 
 def check_filename(filename):
     # This regex only matches shapefiles that contain something date-like in their names
-    match = re.search(r'/Shorelines/.+\d{4}\w*.shp$', filename)
+    match = re.search(r'/Shorelines/.+\d{4}.*.shp$', filename)
     return bool(match)
 
 import platform
