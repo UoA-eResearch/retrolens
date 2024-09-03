@@ -6,7 +6,7 @@ LDS
 *.tif
 *.jp2
 *.json
-*.zip
+#*.zip
 #*.csv
 shorelines
 *.txt

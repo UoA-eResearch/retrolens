@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <script type="module">
+      const parquet = await import("https://unpkg.com/@dsnp/parquetjs@1.7.0/dist/browser/parquet.esm.js");
+      const buffer_library = await import("https://esm.sh/buffer");
+      const URL = "rates.parquet";
+      let resp = await fetch(URL)
+      let buffer = await resp.arrayBuffer()
+      buffer = buffer_library.Buffer.from(buffer);
+      const reader = await parquet.ParquetReader.openBuffer(buffer);
+      //const reader = await parquet.ParquetReader.openUrl(URL);
+      var startTime = performance.now()
+      let cursor = reader.getCursor();
+      let record = null;
+      var results = []
+      while (record = await cursor.next()) {
+        results.push(record)
+      }
+      await reader.close();
+      var endTime = performance.now()
+      console.log(`Took ${(endTime - startTime)/1000}s to read ${results.length} rows from ${URL}`)
+      console.log(results)
+    </script>
+  </head>
+</html>
