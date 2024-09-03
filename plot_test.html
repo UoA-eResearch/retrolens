@@ -1,0 +1,175 @@
+<html>
+  <head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+      body,
+      html,
+      #plot {
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="plot"></div>
+    <script>
+      var r = {
+          "UniqueID": 200234358143,
+          "Region": "Canterbury",
+          "Start_date": "1943-05-06",
+          "End_date": "2019-02-09",
+          "Duration": "76",
+          "ShrCount": "9",
+          "NSM": "32.4",
+          "SCE": "32.4",
+          "EPR": "0.43",
+          "EPRunc": "0.13",
+          "LRR": -0.46,
+          "LRI": "485.56",
+          "LCI": "0.08",
+          "LSE": "3.2",
+          "LR2": 0.94,
+          "WLR": "-0.44",
+          "WLI": "484.52",
+          "WCI": "0.07",
+          "WSE": "0.43",
+          "WR2": "0.96",
+          "Dates": {
+              "list": [
+                  {
+                      "element": "1943-05-06"
+                  },
+                  {
+                      "element": "1952-05-20"
+                  },
+                  {
+                      "element": "1966-10-02"
+                  },
+                  {
+                      "element": "1975-09-17"
+                  },
+                  {
+                      "element": "1984-10-28"
+                  },
+                  {
+                      "element": "1994-11-26"
+                  },
+                  {
+                      "element": "2000-12-05"
+                  },
+                  {
+                      "element": "2015-11-25"
+                  },
+                  {
+                      "element": "2019-02-09"
+                  }
+              ]
+          },
+          "Distances": {
+              "list": [
+                  {
+                      "element": "484.14"
+                  },
+                  {
+                      "element": "479.86"
+                  },
+                  {
+                      "element": "475.35"
+                  },
+                  {
+                      "element": "476.04"
+                  },
+                  {
+                      "element": "469.17"
+                  },
+                  {
+                      "element": "458.7"
+                  },
+                  {
+                      "element": "454.61"
+                  },
+                  {
+                      "element": "452.45"
+                  },
+                  {
+                      "element": "451.74"
+                  }
+              ]
+          },
+          "lat": -43.85494719787396,
+          "lon": 172.3872328291673
+      }
+      console.log(r);
+
+      var dates = r.Dates.list.map(d => d.element)
+      var values = r.Distances.list.map(d => d.element)
+      var mean = Plotly.d3.mean(values)
+      r.LRI = parseFloat(r.LRI) - mean
+      r.WLI = parseFloat(r.WLI) - mean
+      r.WLR = parseFloat(r.WLR)
+      r.WCI = parseFloat(r.WCI)
+      r.LCI = parseFloat(r.LCI)
+      values = values.map(v => v ? v - mean : v)
+      console.log(dates,values)
+      var min_date = new Date(dates[0])
+      var max_date = new Date(dates[dates.length - 1])
+      var datediff = (max_date - min_date) / 1000 / 60 / 60 / 24 / 365.25
+      var data = [{
+          type: "scatter",
+          mode: "lines+markers",
+          name: "chainage",
+          x: dates,
+          y: values,
+          //line: {color: '#17BECF'}
+      }, {
+        type: "line",
+        x: [min_date, max_date],
+        y: [r.LRI, r.LRR * datediff + r.LRI],
+        name: "Rate of change",
+        hoverinfo: "none",
+        legendgroup: "LRR"
+      }, {
+        x: [min_date, min_date, max_date, max_date],
+        y: [r.LRI + r.LCI, r.LRI - r.LCI, r.LRR * datediff + r.LRI - r.LCI, r.LRR * datediff + r.LRI + r.LCI],
+        name: "Rate of change",
+        fill: 'toself',
+        type: 'scatter',
+        mode: 'none',
+        hoverinfo: "none",
+        legendgroup: "LRR"
+      }, {
+        type: "line",
+        x: [min_date, max_date],
+        y: [r.WLI, r.WLR * datediff + r.WLI],
+        name: "Weighted rate of change",
+        hoverinfo: "none",
+        visible: "legendonly",
+        legendgroup: "WRR"
+      }, {
+        x: [min_date, min_date, max_date, max_date],
+        y: [r.WLI + r.WCI, r.WLI - r.WCI, r.WLR * datediff + r.WLI - r.WCI, r.WLR * datediff + r.WLI + r.WCI],
+        name: "Weighted rate of change",
+        fill: 'toself',
+        type: 'scatter',
+        mode: 'none',
+        hoverinfo: "none",
+        visible: "legendonly",
+        legendgroup: "WRR"
+      }];
+      console.log(data)
+      var layout = {
+          title: `Time series for ${r.UniqueID}`,
+          xaxis: {
+              title: "Date/Time"
+          },
+          yaxis: {
+              title: "cross-shore change [m]",
+              hoverformat: '.1f'
+          }
+      };
+      Plotly.newPlot("plot", data, layout, {responsive: true});
+    </script>
+  </body>
+</html>

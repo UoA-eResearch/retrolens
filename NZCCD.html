@@ -163,6 +163,11 @@
           var dates = r.Dates.list.map(d => d.element)
           var values = r.Distances.list.map(d => d.element)
           var mean = Plotly.d3.mean(values)
+          r.LRI = parseFloat(r.LRI) - mean
+          r.WLI = parseFloat(r.WLI) - mean
+          r.WLR = parseFloat(r.WLR)
+          r.WCI = parseFloat(r.WCI)
+          r.LCI = parseFloat(r.LCI)
           values = values.map(v => v ? v - mean : v)
           console.log(dates,values)
           var min_date = new Date(dates[0])
@@ -175,12 +180,42 @@
               x: dates,
               y: values,
               //line: {color: '#17BECF'}
-          }/*, {
+          }, {
             type: "line",
             x: [min_date, max_date],
-            y: [p.intercept - mean, p.trend * datediff + p.intercept - mean],
-            name: "trendline"
-          }*/];
+            y: [r.LRI, r.LRR * datediff + r.LRI],
+            name: "Rate of change",
+            hoverinfo: "none",
+            legendgroup: "LRR"
+          }, {
+            x: [min_date, min_date, max_date, max_date],
+            y: [r.LRI + r.LCI, r.LRI - r.LCI, r.LRR * datediff + r.LRI - r.LCI, r.LRR * datediff + r.LRI + r.LCI],
+            name: "Rate of change",
+            fill: 'toself',
+            type: 'scatter',
+            mode: 'none',
+            hoverinfo: "none",
+            legendgroup: "LRR"
+          }, {
+            type: "line",
+            x: [min_date, max_date],
+            y: [r.WLI, r.WLR * datediff + r.WLI],
+            name: "Weighted rate of change",
+            hoverinfo: "none",
+            visible: "legendonly",
+            legendgroup: "WRR"
+          }, {
+            x: [min_date, min_date, max_date, max_date],
+            y: [r.WLI + r.WCI, r.WLI - r.WCI, r.WLR * datediff + r.WLI - r.WCI, r.WLR * datediff + r.WLI + r.WCI],
+            name: "Weighted rate of change",
+            fill: 'toself',
+            type: 'scatter',
+            mode: 'none',
+            hoverinfo: "none",
+            visible: "legendonly",
+            legendgroup: "WRR"
+          }];
+          console.log(data)
           var layout = {
               title: `Time series for ${r.UniqueID}`,
               xaxis: {
@@ -191,7 +226,7 @@
                   hoverformat: '.1f'
               }
           };
-          Plotly.newPlot("plot", data, layout);
+          Plotly.newPlot("plot", data, layout, {responsive: true});
           var px = map.project(e.latlng);
           console.log(px)
           px.y -= 400;
