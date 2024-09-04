@@ -106,8 +106,8 @@
       var dates = r.Dates.list.map(d => d.element)
       var values = r.Distances.list.map(d => d.element)
       var mean = Plotly.d3.mean(values)
-      r.LRI = parseFloat(r.LRI) - mean
-      r.WLI = parseFloat(r.WLI) - mean
+      var LRI = parseFloat(r.LRI) - mean
+      var WLI = parseFloat(r.WLI) - mean
       r.WLR = parseFloat(r.WLR)
       r.WCI = parseFloat(r.WCI)
       r.LCI = parseFloat(r.LCI)
@@ -126,13 +126,13 @@
       }, {
         type: "line",
         x: [min_date, max_date],
-        y: [r.LRI, r.LRR * datediff + r.LRI],
+        y: [LRI, r.LRR * datediff + LRI],
         name: "Rate of change",
         hoverinfo: "none",
         legendgroup: "LRR"
       }, {
         x: [min_date, min_date, max_date, max_date],
-        y: [r.LRI + r.LCI, r.LRI - r.LCI, r.LRR * datediff + r.LRI - r.LCI, r.LRR * datediff + r.LRI + r.LCI],
+        y: [LRI + r.LCI, LRI - r.LCI, r.LRR * datediff + LRI - r.LCI, r.LRR * datediff + LRI + r.LCI],
         name: "Rate of change",
         fill: 'toself',
         type: 'scatter',
@@ -142,14 +142,14 @@
       }, {
         type: "line",
         x: [min_date, max_date],
-        y: [r.WLI, r.WLR * datediff + r.WLI],
+        y: [WLI, r.WLR * datediff + WLI],
         name: "Weighted rate of change",
         hoverinfo: "none",
         visible: "legendonly",
         legendgroup: "WRR"
       }, {
         x: [min_date, min_date, max_date, max_date],
-        y: [r.WLI + r.WCI, r.WLI - r.WCI, r.WLR * datediff + r.WLI - r.WCI, r.WLR * datediff + r.WLI + r.WCI],
+        y: [WLI + r.WCI, WLI - r.WCI, r.WLR * datediff + WLI - r.WCI, r.WLR * datediff + WLI + r.WCI],
         name: "Weighted rate of change",
         fill: 'toself',
         type: 'scatter',
