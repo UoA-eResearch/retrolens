@@ -156,8 +156,7 @@
         const urlParams = new URLSearchParams(window.location.search);
         const debug = urlParams.has('debug') && p.site_id.startsWith("nzd");
 
-        window.popup = L.popup({minWidth: 800})
-          .setContent(`<b>${p.id}</b><br>
+        var popupHTML = `<b>${p.id}</b><br>
             <div class="row">
               <div class="column">
                 CoastSat results:<br>
@@ -177,7 +176,9 @@
                 site: ${p.site_id}<br>
                 <a href="${url}" target="_blank" class="link">Download time series for ${p.site_id}</a><br>
                 ${debug ? `<img id="img" style='height: 100%; width: 100%; object-fit: contain'>` : ""}
-              </div>
+              </div>`;
+        if (r) {
+          popupHTML += `
               <div class="column">
                 NZCCD results:<br>
                 Region: ${r.Region}<br>
@@ -195,9 +196,22 @@
                 End date: ${r.Dates.list[r.Dates.list.length - 1].element}<br>
                 Duration (yrs): ${r.Duration}<br>
               </div>
+              `
+        } else {
+          popupHTML += `
+              <div class="column">
+                NZCCD results:<br>
+                No NZCCD results found for this transect
+              </div>
+              `
+        }
+        popupHTML += `
             </div>
             <div id="plot"></div>
-          `)
+            `
+
+        window.popup = L.popup({minWidth: 800})
+          .setContent(popupHTML)
           .setLatLng(e.latlng)
           .addTo(map);
         Papa.parse(url, {
@@ -217,19 +231,7 @@
             var min_date = new Date(results.data[0].dates)
             var max_date = new Date(results.data[results.data.length - 1].dates)
             var datediff = (max_date - min_date) / 1000 / 60 / 60 / 24 / 365.25
-            
-            var NZCCD_dates = r.Dates.list.map(d => d.element)
-            var NZCCD_values = r.Distances.list.map(d => d.element)
-            var LRI = parseFloat(r.LRI) - mean
-            var WLI = parseFloat(r.WLI) - mean
-            r.WLR = parseFloat(r.WLR)
-            r.WCI = parseFloat(r.WCI)
-            r.LCI = parseFloat(r.LCI)
-            NZCCD_values = NZCCD_values.map(v => v ? v - mean : v)
-            console.log(dates,values)
-            var NZCCD_min_date = new Date(NZCCD_dates[0])
-            var NZCCD_max_date = new Date(NZCCD_dates[NZCCD_dates.length - 1])
-            var NZCCD_datediff = (NZCCD_max_date - NZCCD_min_date) / 1000 / 60 / 60 / 24 / 365.25
+
             var data = [{
               type: "scatter",
               mode: "lines+markers",
@@ -249,41 +251,58 @@
               x: NZCCD_dates,
               y: NZCCD_values,
               //line: {color: '#17BECF'}
-            }, {
-              type: "line",
-              x: [NZCCD_min_date, NZCCD_max_date],
-              y: [LRI, r.LRR * NZCCD_datediff + LRI],
-              name: "EOV Rate of change",
-              hoverinfo: "none",
-              legendgroup: "LRR"
-            }, {
-              x: [NZCCD_min_date, NZCCD_min_date, NZCCD_max_date, NZCCD_max_date],
-              y: [LRI + r.LCI, LRI - r.LCI, r.LRR * NZCCD_datediff + LRI - r.LCI, r.LRR * NZCCD_datediff + LRI + r.LCI],
-              name: "EOV Rate of change",
-              fill: 'toself',
-              type: 'scatter',
-              mode: 'none',
-              hoverinfo: "none",
-              legendgroup: "LRR"
-            }, {
-              type: "line",
-              x: [min_date, max_date],
-              y: [WLI, r.WLR * NZCCD_datediff + WLI],
-              name: "EOV Weighted rate of change",
-              hoverinfo: "none",
-              visible: "legendonly",
-              legendgroup: "WRR"
-            }, {
-              x: [NZCCD_min_date, NZCCD_min_date, NZCCD_max_date, NZCCD_max_date],
-              y: [WLI + r.WCI, WLI - r.WCI, r.WLR * NZCCD_datediff + WLI - r.WCI, r.WLR * NZCCD_datediff + WLI + r.WCI],
-              name: "EOV Weighted rate of change",
-              fill: 'toself',
-              type: 'scatter',
-              mode: 'none',
-              hoverinfo: "none",
-              visible: "legendonly",
-              legendgroup: "WRR"
             }];
+            
+            if (r) {
+              var NZCCD_dates = r.Dates.list.map(d => d.element)
+              var NZCCD_values = r.Distances.list.map(d => d.element)
+              var LRI = parseFloat(r.LRI) - mean
+              var WLI = parseFloat(r.WLI) - mean
+              r.WLR = parseFloat(r.WLR)
+              r.WCI = parseFloat(r.WCI)
+              r.LCI = parseFloat(r.LCI)
+              NZCCD_values = NZCCD_values.map(v => v ? v - mean : v)
+              console.log(dates,values)
+              var NZCCD_min_date = new Date(NZCCD_dates[0])
+              var NZCCD_max_date = new Date(NZCCD_dates[NZCCD_dates.length - 1])
+              var NZCCD_datediff = (NZCCD_max_date - NZCCD_min_date) / 1000 / 60 / 60 / 24 / 365.25
+              data = data.concat([{
+                  type: "line",
+                  x: [NZCCD_min_date, NZCCD_max_date],
+                  y: [LRI, r.LRR * NZCCD_datediff + LRI],
+                  name: "EOV Rate of change",
+                  hoverinfo: "none",
+                  legendgroup: "LRR"
+                }, {
+                  x: [NZCCD_min_date, NZCCD_min_date, NZCCD_max_date, NZCCD_max_date],
+                  y: [LRI + r.LCI, LRI - r.LCI, r.LRR * NZCCD_datediff + LRI - r.LCI, r.LRR * NZCCD_datediff + LRI + r.LCI],
+                  name: "EOV Rate of change",
+                  fill: 'toself',
+                  type: 'scatter',
+                  mode: 'none',
+                  hoverinfo: "none",
+                  legendgroup: "LRR"
+                }, {
+                  type: "line",
+                  x: [min_date, max_date],
+                  y: [WLI, r.WLR * NZCCD_datediff + WLI],
+                  name: "EOV Weighted rate of change",
+                  hoverinfo: "none",
+                  visible: "legendonly",
+                  legendgroup: "WRR"
+                }, {
+                  x: [NZCCD_min_date, NZCCD_min_date, NZCCD_max_date, NZCCD_max_date],
+                  y: [WLI + r.WCI, WLI - r.WCI, r.WLR * NZCCD_datediff + WLI - r.WCI, r.WLR * NZCCD_datediff + WLI + r.WCI],
+                  name: "EOV Weighted rate of change",
+                  fill: 'toself',
+                  type: 'scatter',
+                  mode: 'none',
+                  hoverinfo: "none",
+                  visible: "legendonly",
+                  legendgroup: "WRR"
+                }]
+              )
+            }
             var layout = {
                 title: `Time series for ${p.id}`,
                 xaxis: {
