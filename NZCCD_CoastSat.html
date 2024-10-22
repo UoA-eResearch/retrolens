@@ -2,14 +2,12 @@
 
 <head>
   <title>NZCCD vs CoastSat</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-  crossorigin=""/>
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-  crossorigin=""></script>
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="https://unpkg.com/leaflet.glify@3.3.0/dist/glify-browser.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/spin.js/2.3.2/spin.min.js"></script>
   <script src="https://unpkg.com/leaflet-spin@1.1.0/leaflet.spin.min.js"></script>
@@ -24,49 +22,50 @@
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 
-  
+
   <style>
-      body,
-      html,
-      #map {
-          width: 100%;
-          height: 100%;
-          margin: 0;
-          padding: 0;
-      }
+    body,
+    html,
+    #map {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
 
-      .legend {
-          color: white;
-          padding: 10px;
-          background-color: rgba(0, 0, 0, 0.8);
-          border-radius: 5px;
-          max-width: 500px;
-      }
+    .legend {
+      color: white;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.8);
+      border-radius: 5px;
+      max-width: 500px;
+    }
 
-      .legend i {
-          width: 18px;
-          height: 18px;
-          float: left;
-          margin-right: 8px;
-          opacity: 0.7;
-          clear: left;
-      }
+    .legend i {
+      width: 18px;
+      height: 18px;
+      float: left;
+      margin-right: 8px;
+      opacity: 0.7;
+      clear: left;
+    }
 
-      .legend h4 {
-        margin-top: 0px;
-      }
+    .legend h4 {
+      margin-top: 0px;
+    }
 
-      .link {
-          text-decoration: underline;
-          cursor: pointer;
-      }
-      .row {
-        display: flex;
-      }
+    .link {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 
-      .column {
-        flex: 50%;
-      }
+    .row {
+      display: flex;
+    }
+
+    .column {
+      flex: 50%;
+    }
   </style>
 </head>
 
@@ -99,7 +98,7 @@
 
     map.spin(true);
 
-    
+
     const parquet = await import("https://unpkg.com/@dsnp/parquetjs@1.7.0/dist/browser/parquet.esm.js");
     const buffer_library = await import("https://esm.sh/buffer");
     const URL = "rates_with_timeseries_CoastSat_intersects.parquet";
@@ -117,7 +116,7 @@
     }
     await reader.close();
     var endTime = performance.now()
-    console.log(`Took ${(endTime - startTime)/1000}s to read ${results.length} rows from ${URL}`)
+    console.log(`Took ${(endTime - startTime) / 1000}s to read ${results.length} rows from ${URL}`)
     console.log(results)
 
     var resp = await fetch("https://uoa-eresearch.github.io/CoastSat/transects_extended.geojson")
@@ -129,14 +128,14 @@
       r.LR2 = parseFloat(r.LR2)
     }
 
-    
+
     L.glify.longitudeFirst()
     L.glify.lines({
       map: map,
       data: transects,
-      color: function(index, feature) {
+      color: function (index, feature) {
         if (feature.properties.n_points_nonan < 10) {
-          return {r:0, g:0, b:0}
+          return { r: 0, g: 0, b: 0 }
         }
         var c = cmap(feature.properties.trend).gl()
         return { r: c[0], g: c[1], b: c[2] };
@@ -210,7 +209,7 @@
             <div id="plot"></div>
             `
 
-        window.popup = L.popup({minWidth: 800})
+        window.popup = L.popup({ minWidth: 800 })
           .setContent(popupHTML)
           .setLatLng(e.latlng)
           .addTo(map);
@@ -219,7 +218,7 @@
           header: true,
           dynamicTyping: true,
           skipEmptyLines: true,
-          complete: function(results) {
+          complete: function (results) {
             console.log(results)
             var filtered_data = results.data.filter(d => d[p.id])
             var dates = filtered_data.map(d => d.dates)
@@ -227,7 +226,7 @@
             var satname = filtered_data.map(d => d.satname)
             var mean = Plotly.d3.mean(values)
             values = values.map(v => v ? v - mean : v)
-            console.log(dates,values)
+            console.log(dates, values)
             var min_date = new Date(results.data[0].dates)
             var max_date = new Date(results.data[results.data.length - 1].dates)
             var datediff = (max_date - min_date) / 1000 / 60 / 60 / 24 / 365.25
@@ -244,15 +243,8 @@
               x: [min_date, max_date],
               y: [p.intercept - mean, p.trend * datediff + p.intercept - mean],
               name: "CoastSat trendline"
-            }, {
-              type: "scatter",
-              mode: "lines+markers",
-              name: "EOV chainage",
-              x: NZCCD_dates,
-              y: NZCCD_values,
-              //line: {color: '#17BECF'}
             }];
-            
+
             if (r) {
               var NZCCD_dates = r.Dates.list.map(d => d.element)
               var NZCCD_values = r.Distances.list.map(d => d.element)
@@ -262,11 +254,19 @@
               r.WCI = parseFloat(r.WCI)
               r.LCI = parseFloat(r.LCI)
               NZCCD_values = NZCCD_values.map(v => v ? v - mean : v)
-              console.log(dates,values)
+              console.log(dates, values)
               var NZCCD_min_date = new Date(NZCCD_dates[0])
               var NZCCD_max_date = new Date(NZCCD_dates[NZCCD_dates.length - 1])
               var NZCCD_datediff = (NZCCD_max_date - NZCCD_min_date) / 1000 / 60 / 60 / 24 / 365.25
-              data = data.concat([{
+              data = data.concat([
+                {
+                  type: "scatter",
+                  mode: "lines+markers",
+                  name: "EOV chainage",
+                  x: NZCCD_dates,
+                  y: NZCCD_values,
+                  //line: {color: '#17BECF'}
+                }, {
                   type: "line",
                   x: [NZCCD_min_date, NZCCD_max_date],
                   y: [LRI, r.LRR * NZCCD_datediff + LRI],
@@ -304,30 +304,30 @@
               )
             }
             var layout = {
-                title: `Time series for ${p.id}`,
-                xaxis: {
-                    title: "Date/Time"
-                },
-                yaxis: {
-                    title: "cross-shore change [m]",
-                    hoverformat: '.1f'
-                }
+              title: `Time series for ${p.id}`,
+              xaxis: {
+                title: "Date/Time"
+              },
+              yaxis: {
+                title: "cross-shore change [m]",
+                hoverformat: '.1f'
+              }
             };
             Plotly.newPlot("plot", data, layout);
             var px = map.project(e.latlng);
             console.log(px)
             px.y -= 400;
-            map.panTo(map.unproject(px),{animate: true});
+            map.panTo(map.unproject(px), { animate: true });
             if (debug) {
-              $("#plot").on('plotly_hover plotly_click', function(event, data){
-                  console.log(data)
-                  var d = data.points[0].x;
-                  console.log(`Hovered on ${d}`)
-                  var dt = dates[data.points[0].pointIndex].replace("+00:00", "").replace(/[ :]/g,"-");
-                  var sat = satname[data.points[0].pointIndex]
-                  var plot_url = `https://wave.storm-surge.cloud.edu.au/CoastSat_data/${p.site_id}/jpg_files/detection/${dt}_${sat}.jpg`
-                  console.log(plot_url)
-                  $("#img").attr("src", plot_url);
+              $("#plot").on('plotly_hover plotly_click', function (event, data) {
+                console.log(data)
+                var d = data.points[0].x;
+                console.log(`Hovered on ${d}`)
+                var dt = dates[data.points[0].pointIndex].replace("+00:00", "").replace(/[ :]/g, "-");
+                var sat = satname[data.points[0].pointIndex]
+                var plot_url = `https://wave.storm-surge.cloud.edu.au/CoastSat_data/${p.site_id}/jpg_files/detection/${dt}_${sat}.jpg`
+                console.log(plot_url)
+                $("#img").attr("src", plot_url);
               })
             }
           }
@@ -335,123 +335,123 @@
       },
       sensitivity: .0001
     })
-/*
-    L.glify.points({
-      map: map,
-      data: points,
-      size: 10,
-      fragmentShaderSource: L.glify.shader.fragment.simpleCircle,
-      sensitivity: 5,
-      sensitivityHover: 5,
-      color: function(index, point) {
-        var r = results[index]
-        if (r.LR2 < .1) {
-          return {r:0, g:0, b:0}
-        }
-        var c = cmap(r.LRR).gl()
-        return { r: c[0], g: c[1], b: c[2] };
-      },
-      click: function (e, point, xy) {
-        var i = points.indexOf(point);
-        var r = results[i];
-        console.log(r);
-        $("#plot").remove()
-        if (window.popup) map.closePopup(window.popup)
-
-        window.popup = L.popup({minWidth: 800})
-          .setContent(`Region: ${r.Region}<br>
-            Net shoreline movement: ${r.NSM}m<br>
-            Shoreline change envelope: ${r.SCE}m<br>
-            End point rate: ${r.EPR}m ± ${r.EPRunc}m<br>
-            Rate of change: ${r.LRR} m/yr ± ${r.LCI} m/yr<br>
-            R² score: ${r.LR2}<br>
-            Standard error: ${r.LSE}<br>
-            Weighted rate of change: ${r.WLR} m/yr ± ${r.WCI} m/yr<br>
-            Weighted R² score: ${r.WR2}<br>
-            Weighted standard error: ${r.WSE}<br>
-            Shoreline count: ${r.ShrCount}<br>
-            Start date: ${r.Dates.list[0].element}<br>
-            End date: ${r.Dates.list[r.Dates.list.length - 1].element}<br>
-            Duration (yrs): ${r.Duration}<br>
-            UniqueID: ${r.UniqueID}<br>
-            <div id="plot"></div>
-          `)
-          .setLatLng(point)
-          .addTo(map);
-          var dates = r.Dates.list.map(d => d.element)
-          var values = r.Distances.list.map(d => d.element)
-          var mean = Plotly.d3.mean(values)
-          var LRI = parseFloat(r.LRI) - mean
-          var WLI = parseFloat(r.WLI) - mean
-          r.WLR = parseFloat(r.WLR)
-          r.WCI = parseFloat(r.WCI)
-          r.LCI = parseFloat(r.LCI)
-          values = values.map(v => v ? v - mean : v)
-          console.log(dates,values)
-          var min_date = new Date(dates[0])
-          var max_date = new Date(dates[dates.length - 1])
-          var datediff = (max_date - min_date) / 1000 / 60 / 60 / 24 / 365.25
-          var data = [{
-              type: "scatter",
-              mode: "lines+markers",
-              name: "chainage",
-              x: dates,
-              y: values,
-              //line: {color: '#17BECF'}
-          }, {
-            type: "line",
-            x: [min_date, max_date],
-            y: [LRI, r.LRR * datediff + LRI],
-            name: "Rate of change",
-            hoverinfo: "none",
-            legendgroup: "LRR"
-          }, {
-            x: [min_date, min_date, max_date, max_date],
-            y: [LRI + r.LCI, LRI - r.LCI, r.LRR * datediff + LRI - r.LCI, r.LRR * datediff + LRI + r.LCI],
-            name: "Rate of change",
-            fill: 'toself',
-            type: 'scatter',
-            mode: 'none',
-            hoverinfo: "none",
-            legendgroup: "LRR"
-          }, {
-            type: "line",
-            x: [min_date, max_date],
-            y: [WLI, r.WLR * datediff + WLI],
-            name: "Weighted rate of change",
-            hoverinfo: "none",
-            visible: "legendonly",
-            legendgroup: "WRR"
-          }, {
-            x: [min_date, min_date, max_date, max_date],
-            y: [WLI + r.WCI, WLI - r.WCI, r.WLR * datediff + WLI - r.WCI, r.WLR * datediff + WLI + r.WCI],
-            name: "Weighted rate of change",
-            fill: 'toself',
-            type: 'scatter',
-            mode: 'none',
-            hoverinfo: "none",
-            visible: "legendonly",
-            legendgroup: "WRR"
-          }];
-          console.log(data)
-          var layout = {
-              title: `Time series for ${r.UniqueID}`,
-              xaxis: {
-                  title: "Date/Time"
-              },
-              yaxis: {
-                  title: "cross-shore change [m]",
-                  hoverformat: '.1f'
-              }
-          };
-          Plotly.newPlot("plot", data, layout, {responsive: true});
-          var px = map.project(e.latlng);
-          console.log(px)
-          px.y -= 400;
-          map.panTo(map.unproject(px),{animate: true});
-      },
-    });
-    */
+    /*
+        L.glify.points({
+          map: map,
+          data: points,
+          size: 10,
+          fragmentShaderSource: L.glify.shader.fragment.simpleCircle,
+          sensitivity: 5,
+          sensitivityHover: 5,
+          color: function(index, point) {
+            var r = results[index]
+            if (r.LR2 < .1) {
+              return {r:0, g:0, b:0}
+            }
+            var c = cmap(r.LRR).gl()
+            return { r: c[0], g: c[1], b: c[2] };
+          },
+          click: function (e, point, xy) {
+            var i = points.indexOf(point);
+            var r = results[i];
+            console.log(r);
+            $("#plot").remove()
+            if (window.popup) map.closePopup(window.popup)
+    
+            window.popup = L.popup({minWidth: 800})
+              .setContent(`Region: ${r.Region}<br>
+                Net shoreline movement: ${r.NSM}m<br>
+                Shoreline change envelope: ${r.SCE}m<br>
+                End point rate: ${r.EPR}m ± ${r.EPRunc}m<br>
+                Rate of change: ${r.LRR} m/yr ± ${r.LCI} m/yr<br>
+                R² score: ${r.LR2}<br>
+                Standard error: ${r.LSE}<br>
+                Weighted rate of change: ${r.WLR} m/yr ± ${r.WCI} m/yr<br>
+                Weighted R² score: ${r.WR2}<br>
+                Weighted standard error: ${r.WSE}<br>
+                Shoreline count: ${r.ShrCount}<br>
+                Start date: ${r.Dates.list[0].element}<br>
+                End date: ${r.Dates.list[r.Dates.list.length - 1].element}<br>
+                Duration (yrs): ${r.Duration}<br>
+                UniqueID: ${r.UniqueID}<br>
+                <div id="plot"></div>
+              `)
+              .setLatLng(point)
+              .addTo(map);
+              var dates = r.Dates.list.map(d => d.element)
+              var values = r.Distances.list.map(d => d.element)
+              var mean = Plotly.d3.mean(values)
+              var LRI = parseFloat(r.LRI) - mean
+              var WLI = parseFloat(r.WLI) - mean
+              r.WLR = parseFloat(r.WLR)
+              r.WCI = parseFloat(r.WCI)
+              r.LCI = parseFloat(r.LCI)
+              values = values.map(v => v ? v - mean : v)
+              console.log(dates,values)
+              var min_date = new Date(dates[0])
+              var max_date = new Date(dates[dates.length - 1])
+              var datediff = (max_date - min_date) / 1000 / 60 / 60 / 24 / 365.25
+              var data = [{
+                  type: "scatter",
+                  mode: "lines+markers",
+                  name: "chainage",
+                  x: dates,
+                  y: values,
+                  //line: {color: '#17BECF'}
+              }, {
+                type: "line",
+                x: [min_date, max_date],
+                y: [LRI, r.LRR * datediff + LRI],
+                name: "Rate of change",
+                hoverinfo: "none",
+                legendgroup: "LRR"
+              }, {
+                x: [min_date, min_date, max_date, max_date],
+                y: [LRI + r.LCI, LRI - r.LCI, r.LRR * datediff + LRI - r.LCI, r.LRR * datediff + LRI + r.LCI],
+                name: "Rate of change",
+                fill: 'toself',
+                type: 'scatter',
+                mode: 'none',
+                hoverinfo: "none",
+                legendgroup: "LRR"
+              }, {
+                type: "line",
+                x: [min_date, max_date],
+                y: [WLI, r.WLR * datediff + WLI],
+                name: "Weighted rate of change",
+                hoverinfo: "none",
+                visible: "legendonly",
+                legendgroup: "WRR"
+              }, {
+                x: [min_date, min_date, max_date, max_date],
+                y: [WLI + r.WCI, WLI - r.WCI, r.WLR * datediff + WLI - r.WCI, r.WLR * datediff + WLI + r.WCI],
+                name: "Weighted rate of change",
+                fill: 'toself',
+                type: 'scatter',
+                mode: 'none',
+                hoverinfo: "none",
+                visible: "legendonly",
+                legendgroup: "WRR"
+              }];
+              console.log(data)
+              var layout = {
+                  title: `Time series for ${r.UniqueID}`,
+                  xaxis: {
+                      title: "Date/Time"
+                  },
+                  yaxis: {
+                      title: "cross-shore change [m]",
+                      hoverformat: '.1f'
+                  }
+              };
+              Plotly.newPlot("plot", data, layout, {responsive: true});
+              var px = map.project(e.latlng);
+              console.log(px)
+              px.y -= 400;
+              map.panTo(map.unproject(px),{animate: true});
+          },
+        });
+        */
     map.spin(false);
 
     var geoSearch = new GeoSearch.GeoSearchControl({
