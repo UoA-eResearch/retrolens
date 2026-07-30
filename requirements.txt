@@ -7,3 +7,5 @@ pyarrow
 rapidfuzz
 matplotlib
 jupyter-autotime
+folium
+statsmodels
