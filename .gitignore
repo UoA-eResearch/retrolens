@@ -6,6 +6,7 @@ LDS
 *.tif
 *.jp2
 *.json
+!.vscode/settings.json
 #*.zip
 #*.csv
 shorelines
