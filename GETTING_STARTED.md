@@ -303,6 +303,8 @@ Keep the quote marks, and use your real name and the email attached to your GitH
 
 8. In VS Code, go to **File > Open Folder** and select `C:\Users\yourname\repos\retrolens`. The project's files now appear in the sidebar on the left. (This is what people mean by "opening the workspace".)
 
+The sidebar deliberately shows only the files this workflow uses. The project contains a lot of other code for unrelated mapping work, and it's hidden so it can't confuse you. Nothing has been deleted — if you ever want to see it all, open **File > Preferences > Settings**, search for `files.exclude`, and clear the entries.
+
 ### How Git knows which project you mean
 
 This trips up almost everyone, so it's worth a moment.
