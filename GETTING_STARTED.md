@@ -469,12 +469,15 @@ search_roots = [Path(r"Z:\MaxarImagery\HighFreq"), Path(r"Z:\Retrolens")]
 search_mode = "date"
 target_aoi = "BrownsBay"
 target_region = "Auckland"
+
+RUN_OWNER = "yourname"
 ```
 
 Each line sets one value: the name on the left, an `=` sign, then the value. The `#` lines above them are comments — notes for humans that the computer ignores.
 
 What each one does:
 
+- **`RUN_OWNER`** — your name, lowercase, no spaces. This creates your own output folder, `DataUpdatev2/yourname/`, so that if you and someone else both process the same AOI, neither of you overwrites the other. **Set this first, and use the identical value in all three notebooks** — the later notebooks read the earlier ones' files out of this folder, so a mismatch means "file not found".
 - **`search_mode`** — how shoreline files get chosen. Pick exactly one of:
   - `"date"` — everything modified after `cutoff_date` (the usual choice for routine updates)
   - `"aoi"` — one specific AOI, any date
@@ -496,7 +499,7 @@ What each one does:
 
 Unused settings are harmless — if `search_mode` is `"date"`, then `target_aoi` is simply ignored, so you can leave it as it is.
 
-Now make the same changes in the matching cell of [new_uncy.ipynb](new_uncy.ipynb) and [new_DSAS.ipynb](new_DSAS.ipynb).
+Now make the same changes in the matching cell of [new_uncy.ipynb](new_uncy.ipynb) and [new_DSAS.ipynb](new_DSAS.ipynb). `RUN_OWNER` especially must be identical in all three.
 
 ---
 
@@ -565,19 +568,19 @@ If you're stuck, copy the last few lines of the error and send them to whoever m
 
 ## Part 8: Where the outputs go
 
-Everything is written to a folder called `DataUpdatev2` inside your local repo folder:
+Everything is written to your own folder inside the repo: `DataUpdatev2/yourname/`, where `yourname` is whatever you set `RUN_OWNER` to.
 
 | File | What it contains |
 | --- | --- |
-| `DataUpdatev2/new_transects.shp` | the transect lines, with `Unique_ID`, `MEAS`, `DIST`, region and AOI |
-| `DataUpdatev2/new_uncy_summary.csv` | the uncertainty value calculated for each shoreline |
-| `DataUpdatev2/new_uncy_missing.csv` | shorelines where uncertainty inputs couldn't be resolved |
-| `DataUpdatev2/NZCCDv2_<tag>.shp` | the shoreline dataset **for your area only** (the NZCCDv1 rows for your AOIs, plus the new shorelines) |
-| `DataUpdatev2/intersectsv2_<tag>.shp` | the points where each shoreline crosses each transect |
-| `DataUpdatev2/ratesv2_<tag>.shp` | the shoreline change rates attached to each transect |
-| `DataUpdatev2/ratesv2_<tag>.csv` | the same rates as a spreadsheet, without the map geometry |
-| `DataUpdatev2/intersectsv2_<tag>.csv` | the same intersection points as a spreadsheet, without the map geometry |
-| `DataUpdatev2/new_dsas_exclusions_<tag>.csv` | shoreline files left out of the results, and why |
+| `new_transects.shp` | the transect lines, with `Unique_ID`, `MEAS`, `DIST`, region and AOI |
+| `new_uncy_summary.csv` | the uncertainty value calculated for each shoreline |
+| `new_uncy_missing.csv` | shorelines where uncertainty inputs couldn't be resolved |
+| `NZCCDv2_<tag>.shp` | the shoreline dataset **for your area only** (the NZCCDv1 rows for your AOIs, plus the new shorelines) |
+| `intersectsv2_<tag>.shp` | the points where each shoreline crosses each transect |
+| `ratesv2_<tag>.shp` | the shoreline change rates attached to each transect |
+| `ratesv2_<tag>.csv` | the same rates as a spreadsheet, without the map geometry |
+| `intersectsv2_<tag>.csv` | the same intersection points as a spreadsheet, without the map geometry |
+| `new_dsas_exclusions_<tag>.csv` | shoreline files left out of the results, and why |
 
 ### What `<tag>` means
 
@@ -586,7 +589,9 @@ The DSAS notebook puts your selection into the filename, so nobody overwrites an
 Two consequences worth understanding:
 
 - **Your NZCCDv2 is a slice, not the whole country.** Coastline outside the AOIs you ran is dropped on purpose. That is what makes it possible to combine your work with someone else's later.
-- **You never merge your slice into the national dataset yourself.** The project maintainer does that with `NZCCDv2_merge.ipynb`, which reads everyone's tagged files and stitches them back together.
+- **You never merge your slice into the national dataset yourself.** The project maintainer does that with `NZCCDv2_merge.ipynb`, which reads everyone's folders and stitches them back together.
+
+Between `RUN_OWNER` and the tag, nothing you produce can be overwritten by anyone else — and the only way to overwrite your *own* work is to re-run the same area yourself, which is usually what you want.
 
 You can open the `.shp` files in QGIS or ArcGIS to look at them on a map, and the `.csv` files in Excel.
 
@@ -646,7 +651,7 @@ If a browser window opens asking you to sign in to GitHub, do so. This normally 
 
 The reason is worth knowing. Shapefiles are binary files, so Git can't merge them the way it merges code. If two people both committed their own `NZCCDv2`, Git would hit a conflict it cannot resolve, and one person's work would be thrown away. Every commit of a shapefile also stores a complete fresh copy — a single NZCCDv2 is roughly 65 MB, so the repository would grow by that much every run, permanently, for everybody.
 
-So: **code goes in Git, data does not.** To hand over your results, copy your `DataUpdatev2` folder to the `Z:` drive (or wherever the maintainer asks) and tell them the tag you used. They run `NZCCDv2_merge.ipynb` to combine it with everyone else's.
+So: **code goes in Git, data does not.** To hand over your results, copy your `DataUpdatev2/yourname` folder to the `Z:` drive (or wherever the maintainer asks). They run `NZCCDv2_merge.ipynb` to combine it with everyone else's.
 
 What you *do* commit is any change you made to the notebooks or settings.
 

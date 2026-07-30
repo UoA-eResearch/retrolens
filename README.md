@@ -13,7 +13,7 @@ To add newly detected shorelines into the NZCCD workflow:
 2. Open [new_uncy.ipynb](new_uncy.ipynb) and run it with the same shoreline selection settings to calculate uncertainty values.
 3. Open [new_DSAS.ipynb](new_DSAS.ipynb) and run it to build the updated NZCCD dataset and produce DSAS outputs.
 
-Expected outputs are written to the DataUpdatev2 folder, including transects, an uncertainty summary, and DSAS result layers. Output filenames are tagged with the area/date you selected, and are **not** committed to Git. The maintainer combines everyone's outputs with [NZCCDv2_merge.ipynb](NZCCDv2_merge.ipynb).
+Expected outputs are written to `DataUpdatev2/<RUN_OWNER>/`, including transects, an uncertainty summary, and DSAS result layers. Set `RUN_OWNER` to your own name in all three notebooks so that runs of the same area by different people can't overwrite each other. Output filenames are also tagged with the area/date you selected, and are **not** committed to Git. The maintainer combines everyone's folders with [NZCCDv2_merge.ipynb](NZCCDv2_merge.ipynb).
 
 ## New shoreline update workflow
 
@@ -71,11 +71,11 @@ Use the same values across the notebooks so the set of selected shoreline files 
    - The notebook cuts NZCCDv1 down to the AOIs matched by the current selection, dropping everything outside the run.
    - It adds the newly selected shoreline features.
    - It uses the generated transects and the uncertainty summary to run DSAS calculations.
-   - Outputs are tagged with the selection that produced them, so two people working on different areas never write to the same file:
-     - `DataUpdatev2/NZCCDv2_<tag>.shp`
-     - `DataUpdatev2/ratesv2_<tag>.shp`
-     - `DataUpdatev2/intersectsv2_<tag>.shp`
-     - `DataUpdatev2/new_dsas_exclusions_<tag>.csv`
+   - Outputs are written to `DataUpdatev2/<RUN_OWNER>/` and tagged with the selection that produced them, so neither two people nor two areas ever write to the same file:
+     - `NZCCDv2_<tag>.shp`
+     - `ratesv2_<tag>.shp`
+     - `intersectsv2_<tag>.shp`
+     - `new_dsas_exclusions_<tag>.csv`
 
 ### Output naming
 
