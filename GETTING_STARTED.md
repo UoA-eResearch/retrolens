@@ -190,10 +190,12 @@ Install them in this order. If your computer is university-managed and blocks in
 ### 1.1 Install Python
 
 1. Go to https://www.python.org/downloads/
-2. Click the big yellow "Download Python" button.
+2. Click the "get the standalone installer for Python" button.
 3. Run the downloaded installer (double-click it in your Downloads folder).
 4. **Important:** on the very first screen, tick the box that says **"Add python.exe to PATH"** before clicking anything else. This tells Windows where to find Python. It's easy to miss, and skipping it causes confusing errors later.
 5. Click "Install Now" and wait.
+
+If Python is installed but the terminal still says `python is not recognized`, Windows usually did not add Python to the PATH. The usual fix is to run the installer again, choose **Modify** or **Repair**, and make sure **"Add python.exe to PATH"** is enabled. If you want to test without reinstalling, try `py -3 -m venv .venv` in the terminal instead of `python -m venv .venv`.
 
 ### 1.2 Install Git
 
