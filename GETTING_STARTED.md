@@ -15,6 +15,31 @@ You are not going to be writing code. The code is already written. Your job is t
 
 Most of this guide is the one-time setup. Once that's done, a normal session is about five commands and pressing Run.
 
+### Quick workflow: first time vs continuing
+
+Use this as your simple decision tree:
+
+```text
+Start here
+│
+├─ First time on this computer?
+│  ├─ Yes → do Parts 1-5 first
+│  └─ No  → go straight to the checklist below
+│
+└─ Continuing from a previous session?
+   ├─ Open the repo in VS Code
+   ├─ Activate the environment (.venv)
+   ├─ Pull the latest shared updates: git pull origin nzccdv2
+   ├─ Push your own branch when you are ready: git push origin yourname
+   └─ If Git reports a merge conflict, stop and ask before continuing
+```
+
+For day-to-day work, the rule is simple:
+
+- **First time on a machine**: complete Parts 1-5.
+- **Returning to the same project**: activate the environment, pull the latest shared updates, then start your run.
+- **Only change the search settings and naming values** in the notebooks. Leave the workflow code alone unless someone specifically tells you to change it.
+
 ### How to read the instructions
 
 When you see a grey box like this:
@@ -454,6 +479,25 @@ At the start of each working session, collect any updates the maintainer has mad
 ```powershell
 git pull origin nzccdv2
 ```
+
+When you finish work and want to save it online, push your own branch:
+
+```powershell
+git push origin yourname
+```
+
+If Git says there is a merge conflict, do not guess. Stop and ask the project lead or the maintainer to help you resolve it.
+
+### Before you begin each run: pre-flight checklist
+
+Before you run the notebooks, check these four things first:
+
+- The shoreline files you want to use have already been drawn and saved in the expected shoreline folder on the `Z:` drive.
+- The baselines have already been drawn and merged into the regional baseline in the expected baseline folder on the `Z:` drive.
+- The AOI polygons for your AOI extent already exist and are stored in the expected AOI folder on the `Z:` drive.
+- Your notebook settings still match across all three notebooks: `RUN_OWNER`, `search_mode`, `cutoff_date`, `target_aoi`, `target_region`, and `search_roots`.
+
+If one of these is missing, do not start the notebook workflow yet. Fix the missing data or the missing files first.
 
 ---
 
