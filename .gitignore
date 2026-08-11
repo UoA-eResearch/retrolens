@@ -24,5 +24,7 @@ new_*
 # the workflow notebooks are code, not generated data
 !new_*.ipynb
 
-# per-person workflow outputs stay out of git (shapefiles are binary and cannot be merged)
-DataUpdatev2/
+# per-person workflow outputs stay out of git by default, but explicitly tracked outputs remain visible
+DataUpdatev2/*
+!DataUpdatev2/catriona/
+!DataUpdatev2/catriona/**
