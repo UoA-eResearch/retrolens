@@ -1,0 +1,17 @@
+Region,n,slope_face_pct,coastsat_slope_pct,tanbeta_pct
+Marlborough,5083,99.37,99.88,79.21
+Bay of Plenty,13902,98.91,97.55,96.55
+Canterbury,21875,94.66,97.39,71.35
+Manawatu,10441,93.02,87.77,97.47
+West Coast,20987,88.27,88.38,81.84
+Hawkes Bay,13494,87.97,86.1,82.69
+Gisborne,8313,84.92,83.05,97.64
+Otago,15424,81.31,83.87,82.14
+Northland,37267,78.64,76.52,88.35
+Southland,12380,74.6,90.43,62.72
+Auckland,11488,69.07,70.29,89.01
+Waikato,16587,66.56,66.93,83.11
+Wellington,11113,49.07,52.3,93.75
+Taranaki,17047,10.03,9.34,94.43
+Nelson,3036,0.0,14.76,39.72
+Tasman,10101,0.0,20.35,55.44

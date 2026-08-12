@@ -1,0 +1,43 @@
+rockgroup,rockclass,n_transects
+sandstone,clastic sediment,98179
+sand,clastic sediment,56003
+gravel,clastic sediment,32782
+conglomerate,clastic sediment,10405
+mudstone,clastic sediment,9517
+breccia,clastic sediment,6589
+greywacke,clastic sediment,2928
+basalt,mafic extrusive,2364
+granite,felsic intrusive,1923
+siltstone,clastic sediment,854
+till,clastic sediment,694
+agglomerate,clastic sediment,692
+fill,anthropic,572
+andesite,intermediate extrusive,526
+alternating sandstone/mudstone,clastic sediment,472
+melange,tectonic,453
+gabbro,mafic intrusive,427
+granodiorite,felsic intrusive,405
+silt,clastic sediment,345
+loess,clastic sediment,309
+peat,clastic sediment,280
+monzonite,felsic intrusive,224
+alternating sandstone/siltstone,clastic sediment,214
+paragneiss,gneiss,173
+limestone,chemical sediment,150
+schist,schist,147
+mud,clastic sediment,140
+breccia,mafic extrusive,114
+rhyolite,felsic extrusive,100
+diorite,intermediate intrusive,88
+limestone,clastic sediment,72
+chert,clastic sediment,72
+dacite,felsic extrusive,56
+ignimbrite,felsic extrusive,54
+andesite,intermediate intrusive,46
+gneiss,gneiss,44
+sandstone,sediment,40
+semischist,schist,31
+metavolcanic,mafic extrusive,27
+trachyte,mafic extrusive,14
+monzodiorite,felsic intrusive,11
+metasediment,clastic sediment,2

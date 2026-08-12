@@ -19,3 +19,11 @@ DigitalJPGs
 ressci201900060-RNC2-Coastal
 venv
 new_*
+# drivers pipeline: heavy intermediates stay local; qa/ + stats/ are small and shareable
+driver_data/*.parquet
+driver_data/stats/*.parquet
+# ...but the web map needs its slim export served alongside drivers.html
+!driver_data/drivers_map.parquet
+driver_data/qmap
+driver_data/geonet_quakes_M4.csv
+__pycache__

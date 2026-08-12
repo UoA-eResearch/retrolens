@@ -1,0 +1,3 @@
+subset,n,rate_eq_wlr_pct,pearson_corr_rate_wlr
+src EPR == base EPR (same DSAS vintage),218872,94.42687963741365,0.9940367411095111
+src EPR != base EPR (older vintage),5637,21.820117083555083,0.8208547890345192
