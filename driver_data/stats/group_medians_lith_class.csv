@@ -1,0 +1,8 @@
+group,n,median,lo,hi
+alluvium_gravel,65619,-0.04,-0.07,-0.02
+soft_sedimentary,15195,-0.04,-0.07,-0.02
+hard_sedimentary,5218,-0.01,-0.02,0.0
+metamorphic,422,0.01,-0.012624999999999992,0.22762499999999988
+plutonic,3078,0.01,0.0,0.02
+volcanic_hard,3106,0.01,-0.01,0.03
+unconsolidated_sand,135732,0.04,0.02,0.07

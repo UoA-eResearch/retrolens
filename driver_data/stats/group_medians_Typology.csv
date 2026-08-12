@@ -1,0 +1,7 @@
+group,n,median,lo,hi
+Erosion_HC,55084,-0.4,-0.44,-0.37
+Erosion_LC,36801,-0.15,-0.16,-0.15
+Stable,1424,-0.04,-0.04,-0.03
+Unresolved,34837,-0.01,-0.01,-0.01
+Accretion_LC,36090,0.2,0.18,0.22
+Accretion_HC,60273,0.59,0.54,0.64
