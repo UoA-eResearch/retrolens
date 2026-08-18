@@ -368,3 +368,123 @@ def run():
 
 if __name__ == "__main__":
     run()
+
+
+# ---------------------------------------------------------------- CoastSat
+def f8_coastsat(cs, cc, comp):
+    fig = plt.figure(figsize=(14, 9), constrained_layout=True)
+    gs = fig.add_gridspec(2, 3, width_ratios=[1.1, 1, 1.3])
+
+    ax1 = fig.add_subplot(gs[:, 0])
+    lim = np.nanpercentile(np.abs(cs.cs_trend), 95)
+    sc = ax1.scatter(cs.x2193, cs.y2193, c=cs.cs_trend, s=1.2, cmap=DIV,
+                     norm=TwoSlopeNorm(vmin=-lim, vcenter=0, vmax=lim),
+                     rasterized=True, linewidths=0)
+    _map_axes(ax1, cs)
+    ax1.set_title(f"CoastSat shoreline trend 1999-2026\n"
+                  f"({len(cs):,} transects, {cs.site_id.nunique()} sites)",
+                  fontsize=9.5)
+    cb = fig.colorbar(sc, ax=ax1, fraction=0.05, pad=0.02, shrink=0.6,
+                      format="%.1f")
+    cb.set_label("trend (m/yr)", color=INK2, fontsize=8)
+    cb.outline.set_visible(False)
+
+    def hexpanel(ax, x, y, xl, yl, title):
+        d = pd.DataFrame({"x": x, "y": y}).dropna()
+        L = np.nanpercentile(np.abs(np.r_[d.x, d.y]), 98)
+        ax.hexbin(d.x, d.y, gridsize=50, bins="log", cmap=SEQC,
+                  extent=(-L, L, -L, L), linewidths=0)
+        ax.plot([-L, L], [-L, L], color=RED, lw=0.9, ls="--")
+        rho = d.x.corr(d.y, method="spearman")
+        agree = (np.sign(d.x) == np.sign(d.y)).mean()
+        ax.set_title(f"{title}\n" + rf"$\rho$={rho:.2f}, sign agreement "
+                     f"{agree*100:.0f}%, n={len(d):,}", fontsize=8.5)
+        ax.set_xlabel(xl, fontsize=8)
+        ax.set_ylabel(yl, fontsize=8)
+        ax.set_aspect("equal")
+
+    hexpanel(fig.add_subplot(gs[0, 1]), cs.nzst_WLR, cs.cs_trend,
+             "NZCCD WLR 1938-2024 (m/yr)", "CoastSat trend (m/yr)",
+             "Same transect, different periods")
+    ok = cs.nzst_n_post1999 >= 3
+    hexpanel(fig.add_subplot(gs[1, 1]), cs.nzst_LRR_post1999[ok], cs.cs_trend[ok],
+             "NZCCD LRR post-1999 (m/yr)", "CoastSat trend (m/yr)",
+             "Same transect, same period")
+
+    ax4 = fig.add_subplot(gs[:, 2])
+    c = cc.set_index("driver")
+    c = c.loc[c.rho_nzccd_same_transect.abs().sort_values(ascending=False)
+              .head(12).index[::-1]]
+    y = np.arange(len(c))
+    h = 0.27
+    ax4.barh(y + h, c.rho_nzccd_same_transect, height=h, color=BLUE,
+             label="NZCCD 1938-2024")
+    ax4.barh(y, c.rho_nzccd_post1999, height=h, color="#eb6834",
+             label="NZCCD post-1999 only")
+    ax4.barh(y - h, c.rho_coastsat_on_post1999_rows, height=h, color="#1baf7a",
+             label="CoastSat 1999-2026")
+    ax4.axvline(0, color=BASE, lw=0.8)
+    ax4.set_yticks(y, [DRIVER_LABELS.get(i, i) for i in c.index], fontsize=8)
+    ax4.set_xlabel(r"Spearman $\rho$ with shoreline change rate")
+    ax4.set_title("Driver correlations depend on record length,\n"
+                  "not method (same transects, site-block bootstrap)",
+                  fontsize=9)
+    ax4.legend(fontsize=7.5, loc="lower right")
+    save(fig, "F8_coastsat")
+
+
+def f9_opencoast(oc, lengths):
+    fig = plt.figure(figsize=(14, 8.5), constrained_layout=True)
+    gs = fig.add_gridspec(2, 2, width_ratios=[1.15, 1])
+    ax1 = fig.add_subplot(gs[:, 0])
+    s = oc.sample(min(150_000, len(oc)), random_state=0)
+    enc = s[~s.open_coast]
+    op = s[s.open_coast]
+    ax1.scatter(enc.x, enc.y, c=MUTED, s=0.35, linewidths=0, rasterized=True,
+                label=f"enclosed / sheltered ({lengths.loc[0, 'total_km'] - lengths.loc[0, 'open_km']:,.0f} km)")
+    ax1.scatter(op.x, op.y, c=BLUE, s=0.6, linewidths=0, rasterized=True,
+                label=f"open coast ({lengths.loc[0, 'open_km']:,.0f} km)")
+    _map_axes(ax1, s.rename(columns={"x": "x2193", "y": "y2193"}))
+    ax1.legend(loc="lower right", fontsize=8, markerscale=12)
+    ax1.set_title("Open coast: entrance >= 2 km (R = 1 km closing) and mean Hs >= 0.75 m\n"
+                  f"LINZ 1:50k MHW coastline, {lengths.loc[0, 'total_km']:,.0f} km total",
+                  fontsize=9.5)
+
+    ax2 = fig.add_subplot(gs[0, 1])
+    reg = lengths[lengths.scope == "region"].sort_values("open_km")
+    reg = reg[reg.name != "Offshore/other"]
+    y = np.arange(len(reg))
+    ax2.barh(y, reg.total_km, color=GRID, height=0.7, label="total MHW coastline")
+    ax2.barh(y, reg.open_km, color=BLUE, height=0.7, label="open coast")
+    ax2.barh(y, reg.open_nzccd_cov_km, color="#0d366b", height=0.35,
+             label="open coast mapped by NZCCD")
+    ax2.set_yticks(y, reg.name, fontsize=7.5)
+    ax2.set_xlabel("km")
+    ax2.legend(fontsize=7.5)
+    ax2.set_title("By region (region = nearest NZCCD transect)", fontsize=9)
+
+    ax3 = fig.add_subplot(gs[1, 1])
+    r0 = lengths.iloc[0]
+    cats = [("eroding\n(WLR < -0.1)", r0.open_eroding_km, RED),
+            ("stable", r0.open_stable_km, MUTED),
+            ("accreting\n(WLR > +0.1)", r0.open_accreting_km, BLUE),
+            ("open coast\nnot in NZCCD", r0.open_km - r0.open_nzccd_cov_km, GRID)]
+    ax3.bar([c[0] for c in cats], [c[1] for c in cats],
+            color=[c[2] for c in cats], width=0.6)
+    for i, c in enumerate(cats):
+        ax3.text(i, c[1], f"{c[1]:,.0f} km", ha="center", va="bottom",
+                 fontsize=8, color=INK2)
+    ax3.set_ylabel("km of open coast")
+    ax3.set_title(f"State of NZ's open coast (NZCCD covers "
+                  f"{100 * r0.open_nzccd_cov_km / r0.open_km:.0f}%)", fontsize=9)
+    ax3.tick_params(axis="x", labelsize=8)
+    save(fig, "F9_opencoast")
+
+
+def run_extra():
+    style()
+    cs = pd.read_parquet(DRIVER_DATA / "coastsat_master.parquet")
+    f8_coastsat(cs, pd.read_csv(STATS / "coastsat_correlations.csv"),
+                pd.read_csv(STATS / "coastsat_comparison.csv"))
+    f9_opencoast(pd.read_parquet(DRIVER_DATA / "opencoast_points.parquet"),
+                 pd.read_csv(STATS / "opencoast_lengths.csv"))
