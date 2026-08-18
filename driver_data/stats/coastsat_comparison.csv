@@ -1,0 +1,20 @@
+scope,comparison,n,spearman,pearson,sign_agreement,median_abs_diff
+all,CoastSat 1999-2026 vs NZCCD WLR full period (nearest <=100 m),23089,0.41,0.358,0.641,0.452
+all,CoastSat 1999-2026 vs NZCCD WLR full period (same transect),22509,0.405,0.343,0.64,0.465
+all,"CoastSat 1999-2026 vs NZCCD LRR post-1999 (same transect, same period)",12312,0.524,0.528,0.684,0.474
+all,"CoastSat 1999-2026 vs NZCCD EPR post-1999 (same transect, same period)",20775,0.489,0.021,0.664,0.578
+Auckland,CoastSat vs NZCCD WLR (nearest <=100 m),1089,0.494,0.164,0.712,0.478
+Bay of Plenty,CoastSat vs NZCCD WLR (nearest <=100 m),1747,0.397,0.142,0.685,0.382
+Canterbury,CoastSat vs NZCCD WLR (nearest <=100 m),3001,0.431,0.653,0.616,0.454
+Gisborne,CoastSat vs NZCCD WLR (nearest <=100 m),878,0.446,0.576,0.64,0.285
+Hawkes Bay,CoastSat vs NZCCD WLR (nearest <=100 m),1551,0.305,0.123,0.618,0.435
+Manawatu,CoastSat vs NZCCD WLR (nearest <=100 m),1312,0.572,0.409,0.738,0.615
+Marlborough,CoastSat vs NZCCD WLR (nearest <=100 m),711,0.123,0.034,0.61,0.633
+Northland,CoastSat vs NZCCD WLR (nearest <=100 m),4085,0.374,0.304,0.636,0.499
+Otago,CoastSat vs NZCCD WLR (nearest <=100 m),1849,0.354,0.615,0.597,0.468
+Southland,CoastSat vs NZCCD WLR (nearest <=100 m),1645,0.459,0.304,0.708,0.381
+Taranaki,CoastSat vs NZCCD WLR (nearest <=100 m),222,0.563,0.544,0.761,0.292
+Tasman,CoastSat vs NZCCD WLR (nearest <=100 m),223,0.321,0.416,0.511,0.222
+Waikato,CoastSat vs NZCCD WLR (nearest <=100 m),1422,0.124,-0.119,0.562,0.385
+Wellington,CoastSat vs NZCCD WLR (nearest <=100 m),777,0.585,0.444,0.753,0.222
+West Coast,CoastSat vs NZCCD WLR (nearest <=100 m),2526,0.272,0.702,0.588,0.658

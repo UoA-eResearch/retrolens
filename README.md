@@ -13,7 +13,8 @@ typology, QMAP 1:250k geology and GeoNet earthquakes — with a pre/post-1990
 epoch module.
 
 - Run order: `Drivers_00` → `01`–`09` (any order) → `20` → `30`/`31`/`40` →
-  `41`/`32`. Every notebook is cache-aware: it loads
+  `41`/`32`; then `50` (CoastSat as a second response dataset + NZCCD
+  comparison) and `60` (NZ open-coast length, calibrated definition). Every notebook is cache-aware: it loads
   `driver_data/*.parquet` when present and only recomputes when missing.
 - Heavy steps: `python3 -m drivers.whacs` (~6 min, 32 cores) and
   `python3 -m drivers.elevation` (~25 min) — both cached.
