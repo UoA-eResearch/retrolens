@@ -1,0 +1,130 @@
+cell,category,status,region,aoi,detail
+Cell 3 - AOI polygons and baselines,baseline does not overlap AOI polygon,MISSING,Auckland,ManukapuaIsland,Z:\DSAS\BaselineTemplate\Baselines\Auckland_baseline.shp
+Cell 3 - AOI polygons and baselines,baseline does not overlap AOI polygon,MISSING,Auckland,TeHakono_clarksbay,Z:\DSAS\BaselineTemplate\Baselines\Auckland_baseline.shp
+Cell 5 - transect generation,no baseline segments for AOI,MISSING,Auckland,ManukapuaIsland,
+Cell 5 - transect generation,no baseline segments for AOI,MISSING,Auckland,TeHakono_clarksbay,
+Cell 5 - transect generation,DIST nudged to keep Unique_ID unique (within AOI),ADJUSTED,Auckland,Hobsonville,transects=22; max_shift_cm=9
+Cell 5 - transect generation,DIST nudged to keep Unique_ID unique (within AOI),ADJUSTED,Auckland,Ngataringa,transects=15; max_shift_cm=8
+Cell 5 - transect generation,DIST nudged to keep Unique_ID unique (within AOI),ADJUSTED,Auckland,OmokoritoBay,transects=17; max_shift_cm=4
+Cell 5 - transect generation,DIST nudged to keep Unique_ID unique (within AOI),ADJUSTED,Auckland,OrongoPoint,transects=6; max_shift_cm=2
+Cell 5 - transect generation,DIST nudged to keep Unique_ID unique (within AOI),ADJUSTED,Auckland,PollenIsland,transects=33; max_shift_cm=9
+Cell 5 - transect generation,DIST nudged to keep Unique_ID unique (within AOI),ADJUSTED,Auckland,ShellyBeach,transects=12; max_shift_cm=3
+Cell 5 - transect generation,DIST nudged to keep Unique_ID unique (within AOI),ADJUSTED,Auckland,ShoalBay,transects=13; max_shift_cm=2
+Cell 5 - transect generation,DIST nudged to keep Unique_ID unique (within AOI),ADJUSTED,Auckland,TeAtatu,transects=15; max_shift_cm=3
+Cell 5 - transect generation,DIST nudged to keep Unique_ID unique (within AOI),ADJUSTED,Northland,Pouto,transects=161; max_shift_cm=10
+Cell 1 - shoreline search,search settings,OK,,,"AOI only (['TeAtatu', 'Hobsonville', 'PollenIsland', 'ShoalBay', 'SoldiersBay', 'Ngataringa', 'FrenchmansBay', 'ManukapuaIsland', 'OmokoritoBay', 'OrongoPoint', 'Pouto', 'ShellyBeach', 'TeHakono_clarksBay', 'Tinopai']); matches=67"
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,Hobsonville,Z:\Retrolens\Auckland\Hobsonville\Shorelines\Hobsonville_shorelines.shp (modified 2026-08-05 22:49:58.488281488)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ManukapuaIsland,Z:\Retrolens\Auckland\ManukapuaIsland\Shorelines\ManukapuaIsland_12APR1973.shp (modified 2022-01-16 02:09:57.307988882)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ManukapuaIsland,Z:\Retrolens\Auckland\ManukapuaIsland\Shorelines\ManukapuaIsland_09MAR2011.shp (modified 2025-06-16 01:42:47.641532183)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ManukapuaIsland,Z:\Retrolens\Auckland\ManukapuaIsland\Shorelines\ManukapuaIsland_07FEB1982.shp (modified 2025-10-23 23:45:07.069980383)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ManukapuaIsland,Z:\Retrolens\Auckland\ManukapuaIsland\Shorelines\ManukapuaIsland_16DEC1976.shp (modified 2025-10-23 23:45:07.408631086)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ManukapuaIsland,Z:\Retrolens\Auckland\ManukapuaIsland\Shorelines\ManukapuaIsland_02MAY1996.shp (modified 2025-10-23 23:45:07.690840006)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ManukapuaIsland,Z:\Retrolens\Auckland\ManukapuaIsland\Shorelines\ManukapuaIsland_14OCT1966.shp (modified 2025-10-23 23:45:07.957997799)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ManukapuaIsland,Z:\MaxarImagery\HighFreq\Auckland\ManukapuaIsland\Shorelines\ManukapuaIsland_20JUL2019.shp (modified 2026-08-11 03:23:19.499143600)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ManukapuaIsland,Z:\MaxarImagery\HighFreq\Auckland\ManukapuaIsland\Shorelines\ManukapuaIsland_08AUG2022.shp (modified 2026-08-11 03:23:19.871378183)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ManukapuaIsland,Z:\MaxarImagery\HighFreq\Auckland\ManukapuaIsland\Shorelines\ManukapuaIsland_09JUN2023.shp (modified 2026-08-11 03:23:20.272539377)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ManukapuaIsland,Z:\MaxarImagery\HighFreq\Auckland\ManukapuaIsland\Shorelines\ManukapuaIsland_18MAR2024.shp (modified 2026-08-11 03:23:20.693547249)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,Ngataringa,Z:\Retrolens\Auckland\Ngataringa\Shorelines\Ngataringa_shoreline.shp (modified 2026-08-05 22:46:43.055072069)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OmokoritoBay,Z:\Retrolens\Auckland\OmokoritoBay\Shorelines\OmokoritoBay_15APR1975.shp (modified 2025-10-27 23:57:04.900969744)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OmokoritoBay,Z:\Retrolens\Auckland\OmokoritoBay\Shorelines\OmokoritoBay_18MAR2024.shp (modified 2025-10-27 23:57:05.766281366)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OmokoritoBay,Z:\Retrolens\Auckland\OmokoritoBay\Shorelines\OmokoritoBay_05FEB1996.shp (modified 2025-10-27 23:57:06.558506012)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OmokoritoBay,Z:\Retrolens\Auckland\OmokoritoBay\Shorelines\OmokoritoBay_24APR1940.shp (modified 2025-10-27 23:57:07.521236897)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OmokoritoBay,Z:\Retrolens\Auckland\OmokoritoBay\Shorelines\OmokoritoBay_09FEB1982.shp (modified 2025-10-27 23:57:08.216943741)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OmokoritoBay,Z:\Retrolens\Auckland\OmokoritoBay\Shorelines\OmokoritoBay_28SEP1968.shp (modified 2025-10-27 23:57:09.000684023)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OmokoritoBay,Z:\Retrolens\Auckland\OmokoritoBay\Shorelines\OmokoritoBay_09MAR2011.shp (modified 2025-10-27 23:57:09.859635592)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OrongoPoint,Z:\Retrolens\Auckland\OrongoPoint\Shorelines\OrongoPoint_02SEP1982.shp (modified 2025-10-23 23:45:08.394480705)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OrongoPoint,Z:\Retrolens\Auckland\OrongoPoint\Shorelines\OrongoPoint_14OCT1966.shp (modified 2025-10-23 23:45:08.601433992)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OrongoPoint,Z:\Retrolens\Auckland\OrongoPoint\Shorelines\OrongoPoint_16DEC1976.shp (modified 2025-10-23 23:45:08.740656853)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OrongoPoint,Z:\Retrolens\Auckland\OrongoPoint\Shorelines\OrongoPoint_29FEB1992.shp (modified 2025-10-23 23:45:08.936321735)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OrongoPoint,Z:\Retrolens\Auckland\OrongoPoint\Shorelines\OrongoPoint_29JUN2011.shp (modified 2025-10-23 23:45:09.293786287)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OrongoPoint,Z:\Retrolens\Auckland\OrongoPoint\Shorelines\OrongoPoint_04DEC1973.shp (modified 2025-10-23 23:45:09.440534830)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,OrongoPoint,Z:\Retrolens\Auckland\OrongoPoint\Shorelines\OrongoPoint_17JAN2022.shp (modified 2025-10-28 02:49:41.779756784)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,PollenIsland,Z:\Retrolens\Auckland\PollenIsland\Shorelines\PollenIsland_shoreline.shp (modified 2026-08-05 22:51:31.150523424)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ShellyBeach,Z:\Retrolens\Auckland\ShellyBeach\Shorelines\ShellyBeach_28SEP1968.shp (modified 2025-10-23 23:45:09.707692623)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ShellyBeach,Z:\Retrolens\Auckland\ShellyBeach\Shorelines\ShellyBeach_24APR1940.shp (modified 2025-10-23 23:45:10.129124403)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ShellyBeach,Z:\Retrolens\Auckland\ShellyBeach\Shorelines\ShellyBeach_02MAY1996.shp (modified 2025-10-23 23:45:10.260821819)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ShellyBeach,Z:\Retrolens\Auckland\ShellyBeach\Shorelines\ShellyBeach_29JUN2012.shp (modified 2025-10-23 23:45:10.573132992)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ShellyBeach,Z:\Retrolens\Auckland\ShellyBeach\Shorelines\ShellyBeach_17NOV1987.shp (modified 2025-10-23 23:45:10.802662849)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ShellyBeach,Z:\Retrolens\Auckland\ShellyBeach\Shorelines\ShellyBeach_17JAN2022.shp (modified 2025-10-23 23:45:11.197755337)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ShellyBeach,Z:\Retrolens\Auckland\ShellyBeach\Shorelines\ShellyBeach_15MAY1975.shp (modified 2025-10-24 00:38:51.820083857)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ShellyBeach,Z:\Retrolens\Auckland\ShellyBeach\Shorelines\ShellyBeach_18MAR2024.shp (modified 2025-10-28 02:34:02.814155340)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,ShoalBay,Z:\Retrolens\Auckland\ShoalBay\Shorelines\ShoalBay_Shorelines_All.shp (modified 2026-08-05 22:41:06.308388948)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,SoldiersBay,Z:\Retrolens\Auckland\SoldiersBay\Shorelines\SoldiersBay_shorelines.shp (modified 2026-08-05 22:48:51.180617094)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,TeAtatu,Z:\Retrolens\Auckland\TeAtatu\Shorelines\TeAtatu_shorelines.shp (modified 2026-08-05 22:47:55.875166416)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,TeHakono_clarksbay,Z:\Retrolens\Auckland\TeHakono_clarksbay\Shorelines\TeHakono_ClarksBay_03DEC1995.shp (modified 2025-10-23 23:45:11.367080688)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,TeHakono_clarksbay,Z:\Retrolens\Auckland\TeHakono_clarksbay\Shorelines\TeHakono_ClarksBay_06NOV2015.shp (modified 2025-10-23 23:45:11.555219889)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,TeHakono_clarksbay,Z:\Retrolens\Auckland\TeHakono_clarksbay\Shorelines\TeHakono_ClarksBay_09MAR2025.shp (modified 2025-10-23 23:45:11.777256250)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,TeHakono_clarksbay,Z:\Retrolens\Auckland\TeHakono_clarksbay\Shorelines\TeHakono_ClarksBay_14OCT1966.shp (modified 2025-10-23 23:45:11.939202309)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,TeHakono_clarksbay,Z:\Retrolens\Auckland\TeHakono_clarksbay\Shorelines\TeHakono_ClarksBay_09APR1987.shp (modified 2025-10-23 23:45:12.172705889)
+Cell 1 - shoreline search,shoreline file found,OK,Auckland,TeHakono_clarksbay,Z:\Retrolens\Auckland\TeHakono_clarksbay\Shorelines\TeHakono_ClarksBay_24OCT1953.shp (modified 2025-10-23 23:45:12.876983404)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,FrenchmansBay,Z:\Retrolens\Northland\FrenchmansBay\Shorelines\FrenchmansBay_24OCT1953.shp (modified 2025-10-23 23:45:13.249835968)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,FrenchmansBay,Z:\Retrolens\Northland\FrenchmansBay\Shorelines\FrenchmansBay_17JUN1966.shp (modified 2025-10-23 23:45:13.445677757)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,FrenchmansBay,Z:\Retrolens\Northland\FrenchmansBay\Shorelines\FrenchmansBay_29FEB1992.shp (modified 2025-10-23 23:45:13.592559099)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,FrenchmansBay,Z:\Retrolens\Northland\FrenchmansBay\Shorelines\FrenchmansBay_16DEC1976.shp (modified 2025-10-23 23:45:13.762037516)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,FrenchmansBay,Z:\Retrolens\Northland\FrenchmansBay\Shorelines\FrenchmansBay_02SEP1982.shp (modified 2025-10-23 23:45:13.916451216)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Pouto,Z:\Retrolens\Northland\Pouto\Shorelines\Pouto_02MAY1996.shp (modified 2025-10-23 23:45:18.078089952)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Pouto,Z:\Retrolens\Northland\Pouto\Shorelines\Pouto_04APR2023.shp (modified 2025-10-23 23:45:18.658082962)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Pouto,Z:\Retrolens\Northland\Pouto\Shorelines\Pouto_06NOV2015.shp (modified 2025-10-23 23:45:18.857690811)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Pouto,Z:\Retrolens\Northland\Pouto\Shorelines\Pouto_18MAR2024.shp (modified 2025-10-23 23:45:19.027169466)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Pouto,Z:\Retrolens\Northland\Pouto\Shorelines\Pouto_27JUN2024.shp (modified 2025-10-23 23:45:19.204180241)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Pouto,Z:\Retrolens\Northland\Pouto\Shorelines\Pouto_19JAN1977.shp (modified 2025-10-23 23:45:19.588331461)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Pouto,Z:\Retrolens\Northland\Pouto\Shorelines\Pouto_14OCT1966.shp (modified 2025-10-23 23:45:19.806785107)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Pouto,Z:\Retrolens\Northland\Pouto\Shorelines\Pouto_02SEP1982.shp (modified 2025-10-23 23:45:19.998909235)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Pouto,Z:\Retrolens\Northland\Pouto\Shorelines\Pouto_09JUN2022.shp (modified 2025-10-23 23:45:20.160896301)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Pouto,Z:\Retrolens\Northland\Pouto\Shorelines\Pouto_12MAY1938.shp (modified 2025-10-23 23:45:20.334184647)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Tinopai,Z:\Retrolens\Northland\Tinopai\Shorelines\Tinopai_24MAR2023.shp (modified 2025-10-28 01:49:34.142325163)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Tinopai,Z:\Retrolens\Northland\Tinopai\Shorelines\Tinopai_02SEP1987.shp (modified 2025-10-28 01:49:35.394247293)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Tinopai,Z:\Retrolens\Northland\Tinopai\Shorelines\Tinopai_17JUN1966.shp (modified 2025-10-28 01:49:36.921399832)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Tinopai,Z:\Retrolens\Northland\Tinopai\Shorelines\Tinopai_20JUL2019.shp (modified 2025-10-28 01:49:38.186976433)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Tinopai,Z:\Retrolens\Northland\Tinopai\Shorelines\Tinopai_24OCT1953.shp (modified 2025-10-28 01:49:39.320811272)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Tinopai,Z:\Retrolens\Northland\Tinopai\Shorelines\Tinopai_18MAR2024.shp (modified 2025-10-28 01:49:40.151776791)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Tinopai,Z:\Retrolens\Northland\Tinopai\Shorelines\Tinopai_16DEC1976.shp (modified 2025-10-28 01:49:41.120065928)
+Cell 1 - shoreline search,shoreline file found,OK,Northland,Tinopai,Z:\Retrolens\Northland\Tinopai\Shorelines\Tinopai_03DEC1995.shp (modified 2025-10-28 01:49:42.302623987)
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Auckland,Hobsonville,Z:\MaxarImagery\HighFreq\AOI\Auckland\Hobsonville_AOI.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Auckland,ManukapuaIsland,Z:\MaxarImagery\HighFreq\AOI\Auckland\Kaipara Harbour\ManukapuaIsland_AOI.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Auckland,Ngataringa,Z:\MaxarImagery\HighFreq\AOI\Auckland\Ngataringa_AOI.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Auckland,OmokoritoBay,Z:\MaxarImagery\HighFreq\AOI\Auckland\Kaipara Harbour\OmokoritoBay.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Auckland,OrongoPoint,Z:\MaxarImagery\HighFreq\AOI\Auckland\Kaipara Harbour\OrongoPoint.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Auckland,PollenIsland,Z:\MaxarImagery\HighFreq\AOI\Auckland\PollenIsland_AOI.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Auckland,ShellyBeach,Z:\MaxarImagery\HighFreq\AOI\Auckland\Kaipara Harbour\ShellyBeach.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Auckland,ShoalBay,Z:\MaxarImagery\HighFreq\AOI\Auckland\ShoalBay_AOI.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Auckland,SoldiersBay,Z:\MaxarImagery\HighFreq\AOI\Auckland\SoldiersBay_AOI.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Auckland,TeAtatu,Z:\MaxarImagery\HighFreq\AOI\Auckland\TeAtatu_AOI.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Auckland,TeHakono_clarksbay,Z:\MaxarImagery\HighFreq\AOI\Auckland\Kaipara Harbour\TeHakono_ClarksBay.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Northland,FrenchmansBay,Z:\MaxarImagery\HighFreq\AOI\Northland\FrenchmansBay.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Northland,Pouto,Z:\MaxarImagery\HighFreq\AOI\Northland\Pouto.shp
+Cell 2 - AOI lookup,AOI polygon resolved,OK,Northland,Tinopai,Z:\MaxarImagery\HighFreq\AOI\Northland\Tinopai.shp
+Cell 5 - transect generation,transects generated,OK,Auckland,Hobsonville,route=NorthIsland (100); transects=69
+Cell 5 - transect generation,transects generated,OK,Auckland,Ngataringa,route=NorthIsland (100); transects=45
+Cell 5 - transect generation,transects generated,OK,Auckland,OmokoritoBay,route=NorthIsland (100); transects=875
+Cell 5 - transect generation,transects generated,OK,Auckland,OrongoPoint,route=NorthIsland (100); transects=205
+Cell 5 - transect generation,transects generated,OK,Auckland,PollenIsland,route=NorthIsland (100); transects=173
+Cell 5 - transect generation,transects generated,OK,Auckland,ShellyBeach,route=NorthIsland (100); transects=222
+Cell 5 - transect generation,transects generated,OK,Auckland,ShoalBay,route=NorthIsland (100); transects=119
+Cell 5 - transect generation,transects generated,OK,Auckland,SoldiersBay,route=NorthIsland (100); transects=8
+Cell 5 - transect generation,transects generated,OK,Auckland,TeAtatu,route=NorthIsland (100); transects=55
+Cell 5 - transect generation,transects generated,OK,Northland,FrenchmansBay,route=NorthIsland (100); transects=200
+Cell 5 - transect generation,transects generated,OK,Northland,Pouto,route=NorthIsland (100); transects=2041
+Cell 5 - transect generation,transects generated,OK,Northland,Tinopai,route=NorthIsland (100); transects=286
+QA 1 - transect counts,transect count,OK,Auckland,Hobsonville,69
+QA 1 - transect counts,transect count,OK,Auckland,Ngataringa,45
+QA 1 - transect counts,transect count,OK,Auckland,OmokoritoBay,875
+QA 1 - transect counts,transect count,OK,Auckland,OrongoPoint,205
+QA 1 - transect counts,transect count,OK,Auckland,PollenIsland,173
+QA 1 - transect counts,transect count,OK,Auckland,ShellyBeach,222
+QA 1 - transect counts,transect count,OK,Auckland,ShoalBay,119
+QA 1 - transect counts,transect count,OK,Auckland,SoldiersBay,8
+QA 1 - transect counts,transect count,OK,Auckland,TeAtatu,55
+QA 1 - transect counts,transect count,OK,Northland,FrenchmansBay,200
+QA 1 - transect counts,transect count,OK,Northland,Pouto,2041
+QA 1 - transect counts,transect count,OK,Northland,Tinopai,286
+QA summary,my_transects exists,PASS,,,"rows=4,298"
+QA summary,non-empty transects,PASS,,,"rows=4,298"
+QA summary,required columns present,PASS,,,all present
+QA summary,geometry non-null,PASS,,,null_geometry=0
+QA summary,no duplicate Unique_ID,PASS,,,duplicate_rows=0
+QA summary,no duplicate Unique_ID within AOI,PASS,,,max_duplicate_per_aoi=0
+QA summary,MEAS non-null,PASS,,,null_MEAS=0
+QA summary,DIST non-null,PASS,,,null_DIST=0
+QA summary,DIST integer-like,PASS,,,all integer-like
+QA summary,Unique_ID format is 12 digits,PASS,,,bad_format_rows=0

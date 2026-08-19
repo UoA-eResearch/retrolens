@@ -590,7 +590,7 @@ Skipped AOIs aren't necessarily a bug, but if an AOI you specifically wanted is 
 
 ### Step 2 — [new_uncy.ipynb](new_uncy.ipynb)
 
-Calculates the uncertainty value for each shoreline. Check the summary table, and look at any shorelines listed as missing uncertainty inputs.
+Calculates uncertainty for each shoreline row. Merged shapefiles may contain many dates and sources, so check `new_uncy_row_report.csv` and `new_uncy_row_missing.csv`, not only the legacy file-level summary. This notebook reads source shapefiles and imagery metadata but does not write to the source shoreline shapefiles.
 
 ### Step 3 — [new_DSAS.ipynb](new_DSAS.ipynb)
 
@@ -619,8 +619,10 @@ Everything is written to your own folder inside the repo: `DataUpdatev2/yourname
 | File | What it contains |
 | --- | --- |
 | `new_transects.shp` | the transect lines, with `Unique_ID`, `MEAS`, `DIST`, region and AOI |
-| `new_uncy_summary.csv` | the uncertainty value calculated for each shoreline |
-| `new_uncy_missing.csv` | shorelines where uncertainty inputs couldn't be resolved |
+| `new_uncy_row_report.csv` | one row per shoreline feature: date, source, Pixel_ER, Georef_ER, CPS, Dig_ER, Total_UNCY, provenance and status |
+| `new_uncy_row_missing.csv` | shoreline rows where an uncertainty component could not be resolved |
+| `new_uncy_summary.csv` | legacy file-level summary from older runs |
+| `new_uncy_missing.csv` | legacy file-level missing report from older runs |
 | `NZCCDv2_<tag>.shp` | the shoreline dataset **for your area only** (the NZCCDv1 rows for your AOIs, plus the new shorelines) |
 | `intersectsv2_<tag>.shp` | the points where each shoreline crosses each transect |
 | `ratesv2_<tag>.shp` | the shoreline change rates attached to each transect |
@@ -642,6 +644,47 @@ Between `RUN_OWNER` and the tag, nothing you produce can be overwritten by anyon
 You can open the `.shp` files in QGIS or ArcGIS to look at them on a map, and the `.csv` files in Excel.
 
 Note that a shapefile is really several files sharing one name (`.shp`, `.dbf`, `.prj`, `.shx` and so on). If you copy one somewhere else, copy all of them together or it will not open.
+
+### Pipeline reference: inputs and search
+
+The three notebooks share `cutoff_date`, `search_roots`, `search_mode`, `target_aoi`, `target_region`, and `RUN_OWNER`. The search roots are normally:
+
+- `Z:\MaxarImagery\HighFreq\<Region>\<AOI>\Shorelines\*.shp`
+- `Z:\Retrolens\<Region>\<AOI>\Shorelines\*.shp`
+
+Supporting inputs are read from `Z:\MaxarImagery\HighFreq\AOI\` (AOI polygons), `Z:\DSAS\BaselineTemplate\Baselines\` (regional baselines), `Z:\DSAS\BaselineTemplate\Routes\` or `Data for testing/Routes/` (routes), and `Data for testing/NZCCDv1.shp` (the starting dataset). Maxar mosaics live in the Maxar `Stack` folder; Retrolens mosaics live in the Retrolens `Stack` folder. Each mosaic may have a `.jp2.aux.xml` sidecar containing its pixel resolution.
+
+`target_aoi` and `target_region` can be strings or lists. Matching ignores case and punctuation and checks both the AOI folder and the AOI part of the shoreline filename. `cutoff_date` filters file modification time. It does not define the observation date used by uncertainty or DSAS.
+
+### Pipeline reference: transects and IDs
+
+`new_transects.ipynb` finds the selected shoreline files, resolves AOI polygons and baselines, filters each baseline to its AOI, selects the route with the greatest AOI overlap, and creates transects at 10 m spacing. Each `Unique_ID` is:
+
+```text
+3-digit route code + 9-digit rounded centimetres along route
+```
+
+`MEAS` is metres along the route and `DIST = round(MEAS * 100)` is centimetres. Route codes are `100` North Island, `101` Waiheke, `102` Matakana, `200` South Island, `201` Jackett, `202` Moturoa/Rabbit, and `203` Rakiura/Stewart. Duplicate `DIST` values are nudged by centimetres, first within an AOI and then between AOIs sharing a route. The adjustment and all skipped items are recorded in `new_transects.csv`; QA requires unique 12-digit IDs.
+
+### Pipeline reference: uncertainty
+
+`new_uncy.ipynb` evaluates every shoreline feature row and writes CSV reports only. For each row, date precedence is `DSAS_Date`, then `Date`, then filename. Source precedence is the `Source` attribute, then LDS survey-year inference when applicable, then the folder as a final fallback. `LZ`/`LINZ` becomes `LDS`, `MAXAR` becomes `MAX`, and Retrolens aliases become `RL`.
+
+`Pixel_ER` uses the row attribute first. For `MAX`, it then searches the exact-date mosaic in `Z:\MaxarImagery\HighFreq\<Region>\<AOI>\Stack\`. For `RL`, it searches the exact-date mosaic in `Z:\Retrolens\<Region>\<AOI>\Stack\`, then accepts the nearest dated Retrolens mosaic within 92 days. The `.jp2.aux.xml` sidecar supplies the pixel size, with header/rasterio fallbacks. LDS has no local mosaic: 1999/2000/2003 use `2.5 m`, 2012 uses `0.5 m`, and 2017/2020/2022/2024 use `0.075 m`; otherwise the LDS default applies.
+
+`Georef_ER` uses the row attribute first. If absent, RL reads photoscale from the AOI CSV beside the Stack/Shorelines folder and assigns `2.09`, `2.43`, or `2.90`; MAX is `1.17`; LDS/LZ is `0`. `CPS` maps to `Dig_ER` as `{1: 0.43, 2: 0.73, 3: 0.97, 4: 2.07, 5: 8.59}`. Missing or invalid CPS defaults to `1`.
+
+```text
+Total_UNCY = sqrt(Pixel_ER^2 + Georef_ER^2 + Dig_ER^2)
+```
+
+Use `new_uncy_row_report.csv` as the current report and DSAS input. It records each row's date, source, three error components, total, provenance, and status. `new_uncy_row_missing.csv` lists unresolved rows. The older `new_uncy_summary.csv` and `new_uncy_missing.csv` are legacy file-level reports.
+
+### Pipeline reference: DSAS
+
+`new_DSAS.ipynb` repeats the target search, loads `new_transects.shp`, and applies the row-level uncertainty report by source file and geometry. It keeps each row's own `DSAS_Date`/`Date`, so merged shapefiles remain multi-date observations. For every transect it intersects the dated shoreline rows, selects one point per shoreline, sorts by date, and requires at least three observations.
+
+It calculates `NSM` (first-to-last movement), `SCE` (maximum separation), `EPR` (NSM divided by elapsed years), `LRR` (ordinary least-squares rate and diagnostics), `EPRunc` (endpoint uncertainty divided by duration), and `WLR` (weighted least-squares with weights `1 / Total_UNCY^2` when all observations have uncertainty). Missing dates exclude rows. Missing uncertainty prevents weighted rates but still allows unweighted rates.
 
 ---
 
