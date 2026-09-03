@@ -690,6 +690,8 @@ It calculates `NSM` (first-to-last movement), `SCE` (maximum separation), `EPR` 
 
 Distances are measured from the transect end that the LINZ land polygons say is landward of the measured shoreline, so positive rates always mean accretion regardless of how the transect's vertices are ordered. Each rate row records the decision in `OrientFix` (`kept`, `reversed`, or a warning value `undecided`/`no_land`), and the notebook prints a per-AOI summary of reversals — check that summary after every run.
 
+**Performance and machine requirements.** The transect loop prefilters shorelines with a spatial index (only rows whose geometry actually touches the transect are processed, in stable table order so results are identical to the unfiltered loop) and fans the work across every CPU core — worker processes on Linux/macOS, threads on Windows (a smaller speed-up there, since threads share one Python interpreter). Measured on a 32-core / 62 GB Linux machine: an AOI-scale run (4,298 transects × 1,120 shoreline rows) takes ~10 s end to end with ~0.3 GB peak RAM, and a national-scale run (25,808 transects × 8,214 shoreline rows) takes ~1.7 min with ~1 GB peak in the main process plus ~0.2 GB per worker (forked workers share memory with the main process, so the total stays within a few GB). Runtime scales roughly linearly with transect count and inversely with core count — expect a national-scale run in the order of 10–15 minutes on a 4-core laptop, and any AOI-scale run in well under a minute. 8 GB of RAM is comfortable for any current run size; no GPU is used.
+
 ---
 
 ## Part 9: Save your work back to GitHub
