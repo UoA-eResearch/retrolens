@@ -656,6 +656,13 @@ Supporting inputs are read from `Z:\MaxarImagery\HighFreq\AOI\` (AOI polygons), 
 
 `target_aoi` and `target_region` can be strings or lists. Matching ignores case and punctuation and checks both the AOI folder and the AOI part of the shoreline filename. `cutoff_date` filters file modification time. It does not define the observation date used by uncertainty or DSAS.
 
+There are two ways to run an update, both through the same three notebooks — there is no separate "new AOI" workflow or switch:
+
+- **Specific AOIs**, new or existing (e.g. adding the Waitemata and Kaipara harbour AOIs): `search_mode = 'aoi'` with a list of AOI names.
+- **Whole country**: `search_mode = 'date'` with a cutoff, picking up every shoreline file digitised since that date — including files in brand-new AOIs.
+
+AOIs that exist in NZCCDv1 get their legacy shoreline history merged in; brand-new AOIs simply have none to merge (the DSAS notebook lists them when it trims NZCCDv1). DSAS rates appear wherever a transect crosses at least three dated shorelines, whether the AOI is new or old. If no transect qualifies — say a brand-new AOI with only one or two digitised dates so far — the run still writes the NZCCDv2 shorelines and the exclusions report, and prints why rates are empty.
+
 ### Pipeline reference: transects and IDs
 
 `new_transects.ipynb` finds the selected shoreline files, resolves AOI polygons and baselines, filters each baseline to its AOI, selects the route with the greatest AOI overlap, and creates transects at 10 m spacing. Each `Unique_ID` is:
