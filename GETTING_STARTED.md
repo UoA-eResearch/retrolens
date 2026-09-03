@@ -675,6 +675,8 @@ AOIs that exist in NZCCDv1 get their legacy shoreline history merged in; brand-n
 
 Each transect is also oriented against the LINZ land polygons so its last vertex sits on the land side (voted per baseline segment). Without this, a baseline digitised with the sea on its left produces transects whose rates come out sign-reversed. Reversed segments are logged in `new_transects.csv` as `ADJUSTED`.
 
+Transect casting is landward-biased: `LANDWARD_LENGTH_M` (default 300) casts from the baseline toward land and `SEAWARD_LENGTH_M` (default 100) toward the sea. Nationally, 99% of digitised shorelines sit landward of the baseline, so a symmetric cast wastes half its length offshore — `(200, 200)` reproduces the old symmetric 400 m transects if ever needed. `LENGTHS_BY_AOI` sets per-AOI `(landward, seaward)` overrides; Pouto ships with `(900, 100)` because its baseline sits a median ~440 m seaward of its digitised shorelines (with symmetric 400 m transects it produced no rates at all). Chainage (`MEAS`/`DIST`, and therefore `Unique_ID`) is measured at the baseline anchor point, so IDs do not change when the casting lengths do.
+
 ### Pipeline reference: uncertainty
 
 `new_uncy.ipynb` evaluates every shoreline feature row and writes CSV reports only. For each row, date precedence is `DSAS_Date`, then `Date`, then filename. Source precedence is the `Source` attribute, then LDS survey-year inference when applicable, then the folder as a final fallback. `LZ`/`LINZ` becomes `LDS`, `MAXAR` becomes `MAX`, and Retrolens aliases become `RL`.
