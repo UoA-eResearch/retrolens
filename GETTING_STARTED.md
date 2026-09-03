@@ -652,7 +652,7 @@ The three notebooks share `cutoff_date`, `search_roots`, `search_mode`, `target_
 - `Z:\MaxarImagery\HighFreq\<Region>\<AOI>\Shorelines\*.shp`
 - `Z:\Retrolens\<Region>\<AOI>\Shorelines\*.shp`
 
-Supporting inputs are read from `Z:\MaxarImagery\HighFreq\AOI\` (AOI polygons), `Z:\DSAS\BaselineTemplate\Baselines\` (regional baselines), `Z:\DSAS\BaselineTemplate\Routes\` or `Data for testing/Routes/` (routes), and `Data for testing/NZCCDv1.shp` (the starting dataset). Maxar mosaics live in the Maxar `Stack` folder; Retrolens mosaics live in the Retrolens `Stack` folder. Each mosaic may have a `.jp2.aux.xml` sidecar containing its pixel resolution.
+Supporting inputs are read from `Z:\MaxarImagery\HighFreq\AOI\` (AOI polygons), `Z:\DSAS\BaselineTemplate\Baselines\` (regional baselines), `Z:\DSAS\BaselineTemplate\Routes\` or `Data for testing/Routes/` (routes), and `Data for testing/NZCCDv1.shp` (the starting dataset). `new_transects.ipynb` and `new_DSAS.ipynb` also need `lds-nz-coastlines-and-islands-polygons-topo-150k-GPKG.zip` (the LINZ *NZ Coastlines and Islands Polygons (Topo 1:50k)* layer, exported as GeoPackage from the LINZ Data Service) in the repo root or in `Data for testing/` — it tells the code which end of each transect is on land, so change rates always come out with positive = accretion. Maxar mosaics live in the Maxar `Stack` folder; Retrolens mosaics live in the Retrolens `Stack` folder. Each mosaic may have a `.jp2.aux.xml` sidecar containing its pixel resolution.
 
 `target_aoi` and `target_region` can be strings or lists. Matching ignores case and punctuation and checks both the AOI folder and the AOI part of the shoreline filename. `cutoff_date` filters file modification time. It does not define the observation date used by uncertainty or DSAS.
 
@@ -665,6 +665,8 @@ Supporting inputs are read from `Z:\MaxarImagery\HighFreq\AOI\` (AOI polygons), 
 ```
 
 `MEAS` is metres along the route and `DIST = round(MEAS * 100)` is centimetres. Route codes are `100` North Island, `101` Waiheke, `102` Matakana, `200` South Island, `201` Jackett, `202` Moturoa/Rabbit, and `203` Rakiura/Stewart. Duplicate `DIST` values are nudged by centimetres, first within an AOI and then between AOIs sharing a route. The adjustment and all skipped items are recorded in `new_transects.csv`; QA requires unique 12-digit IDs.
+
+Each transect is also oriented against the LINZ land polygons so its last vertex sits on the land side (voted per baseline segment). Without this, a baseline digitised with the sea on its left produces transects whose rates come out sign-reversed. Reversed segments are logged in `new_transects.csv` as `ADJUSTED`.
 
 ### Pipeline reference: uncertainty
 
@@ -685,6 +687,8 @@ Use `new_uncy_row_report.csv` as the current report and DSAS input. It records e
 `new_DSAS.ipynb` repeats the target search, loads `new_transects.shp`, and applies the row-level uncertainty report by source file and geometry. It keeps each row's own `DSAS_Date`/`Date`, so merged shapefiles remain multi-date observations. For every transect it intersects the dated shoreline rows, selects one point per shoreline, sorts by date, and requires at least three observations.
 
 It calculates `NSM` (first-to-last movement), `SCE` (maximum separation), `EPR` (NSM divided by elapsed years), `LRR` (ordinary least-squares rate and diagnostics), `EPRunc` (endpoint uncertainty divided by duration), and `WLR` (weighted least-squares with weights `1 / Total_UNCY^2` when all observations have uncertainty). Missing dates exclude rows. Missing uncertainty prevents weighted rates but still allows unweighted rates.
+
+Distances are measured from the transect end that the LINZ land polygons say is landward of the measured shoreline, so positive rates always mean accretion regardless of how the transect's vertices are ordered. Each rate row records the decision in `OrientFix` (`kept`, `reversed`, or a warning value `undecided`/`no_land`), and the notebook prints a per-AOI summary of reversals — check that summary after every run.
 
 ---
 
